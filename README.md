@@ -1,6 +1,6 @@
 # Neon.tmTheme
 
-A cool bright-on-black theme I made for [TextMate](http://www.macromates.com) and [Sublime Text 2](http://www.sublimetext.com/2). Used mainly for [Python](http://www.python.org) and JavaScript, but lots of languages look good with it.
+A cool bright-on-black theme I made for [TextMate](http://www.macromates.com) and [Sublime Text 2](http://www.sublimetext.com/2). Used mainly for [Python](http://www.python.org) and JavaScript, but lots of languages look good with it. It's also great when using wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about.
 
 ## Installation
 In `~/Library/Application Support/` or the equivalent for your platform:
