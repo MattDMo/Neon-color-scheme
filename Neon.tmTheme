@@ -381,7 +381,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF50E8</string>
+				<string>#FFE4A6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -397,15 +397,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Support.type</string>
+			<string>Support.class-jQuery</string>
 			<key>scope</key>
-			<string>support.type</string>
+			<string>support.class.js.jquery</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#FF1190</string>
+				<string>#08D879</string>
 			</dict>
 		</dict>
 		<dict>
@@ -432,6 +430,19 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#E5A5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support.type</string>
+			<key>scope</key>
+			<string>support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF1190</string>
 			</dict>
 		</dict>
 		<dict>
@@ -489,6 +500,21 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FF9240</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>doctype</string>
+			<key>scope</key>
+			<string>entity.name.tag.doctype</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000000</string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -554,7 +580,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF4B73</string>
+				<string>#FF7F07</string>
 			</dict>
 		</dict>
 		<dict>
@@ -594,7 +620,7 @@
 			<key>name</key>
 			<string>css constructor.argument</string>
 			<key>scope</key>
-			<string>meta.constructor.argument.css</string>
+			<string>meta.constructor.argument</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
