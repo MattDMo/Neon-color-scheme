@@ -119,8 +119,10 @@
 			<string>meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#053EFF</string>
+				<string>#B6B8FE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -255,7 +257,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D30BFF</string>
+				<string>#01FF01</string>
 			</dict>
 		</dict>
 		<dict>
@@ -277,7 +279,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF3438</string>
+				<string>#FF5757</string>
 			</dict>
 		</dict>
 		<dict>
@@ -365,8 +367,6 @@
 			<string>string constant</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#000000</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
@@ -473,22 +473,22 @@
 			<key>name</key>
 			<string>C/C++ Preprocessor Line</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c</string>
+			<string>meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8996A8</string>
+				<string>#A85E3D</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>C/C++ Preprocessor Directive</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c keyword</string>
+			<string>meta.preprocessor keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AFC4DB</string>
+				<string>#CCE5FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -509,8 +509,6 @@
 			<string>entity.name.tag.doctype</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#000000</string>
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
