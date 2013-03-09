@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+*{margin:0;padding:0;}
+body {
+	font:13.34px helvetica,arial,freesans,clean,sans-serif;
+	color:black;
+	line-height:1.4em;
+	background-color: #F8F8F8;
+	padding: 0.7em;
+}
+p {
+	margin:1em 0;
+	line-height:1.5em;
+}
+table {
+	font-size:inherit;
+	font:100%;
+	margin:1em;
+}
+table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+select,option{padding:0 .25em;}
+optgroup{margin-top:.5em;}
+pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+pre {
+	margin:1em 0;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	padding:5px;
+	line-height:1.5em;
+	color:#444;
+	overflow:auto;
+	-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;border-radius:3px;
+}
+pre code {
+	padding:0;
+	font-size:12px;
+	background-color:#eee;
+	border:none;
+}
+code {
+	font-size:12px;
+	background-color:#f8f8ff;
+	color:#444;
+	padding:0 .2em;
+	border:1px solid #dedede;
+}
+img{border:0;max-width:100%;}
+abbr{border-bottom:none;}
+a{color:#4183c4;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a code,a:link code,a:visited code{color:#4183c4;}
+h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6{border:0;}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+h3{margin-top:1em;}
+hr{border:1px solid #ddd;}
+ul{margin:1em 0 1em 2em;}
+ol{margin:1em 0 1em 2em;}
+ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+dt{font-weight:bold;margin-left:1em;}
+dd{margin-left:2em;margin-bottom:1em;}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>Neon.tmTheme</title>
+
+</head>
+<body>
+<h1>Neon.tmTheme</h1>
+
+<p>A cool bright-on-black theme I made for <a href="http://www.macromates.com">TextMate</a> and <a href="http://www.sublimetext.com/2">Sublime Text 2</a>. Used mainly for <a href="http://www.python.org">Python</a>, but lots of languages look good with it, like JavaScript, XML, CSS, shell scripts, Clojure (could use some work), Fortran (really!), PHP, R, Tcl, and more. It's also great when using wuub's fantastic <a href="https://github.com/wuub/SublimeREPL">SublimeREPL</a> plugin, which I can't say enough good things about. Java and Ruby look OK, but I tend to avoid them.</p>
+
+<h1><img src="http://www.pigimal.com/img/textmate2github.png" alt="Python and CSS with Neon.tmTheme" /></h1>
+
+<p>I'm always tweaking and adding things, so the preview pix may not closely match the actual theme. YMMV.</p>
+
+<p><img src="http://www.pigimal.com/img/textmate2.png" alt="Python and CSS with Neon.tmTheme" /></p>
+
+<h2>Installation</h2>
+
+<p>In <code>~/Library/Application Support/</code> or the equivalent for your platform:</p>
+
+<ul>
+<li>TextMate:
+  <code>git clone git://github.com/MattDMo/Neon.tmTheme.git TextMate/Themes</code></li>
+<li>Sublime: <code>git clone git://github.com/MattDMo/Neon.tmTheme.git "Sublime Text 2/Packages/Color Scheme - Default"</code></li>
+<li>Or, you can just download the <a href="https://github.com/MattDMo/Neon.tmTheme/archive/master.zip">.zip file</a> and put it in the proper theme directory yourself.</li>
+</ul>
+
+
+<h2>Customization</h2>
+
+<p>While I really like the level of control I get with Sublime's system of config files, editing themes by hand (in XML) is rough. So, I keep the main copies of my themes in the TextMate folder so I can use its theme editor for tweaks. In <code>~/Library/Application Support/</code> I then run <code>ln -s TextMate/Themes/Neon.tmTheme "Sublime Text 2/Packages/Color Scheme - Default/Neon.tmTheme"</code> to symlink it to Sublime.</p>
+
+<h2>Issues</h2>
+
+<p>Sometimes the same file looks different in TextMate and Sublime Text 2. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the .tmlanguage definition files if you're interested.</p>
+
+<h2>License</h2>
+
+<p>&copy; 2012-2013 Matt Morrison <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#109;&#x61;&#x74;&#x74;&#x64;&#x6d;&#111;&#64;&#112;&#x69;&#x67;&#x69;&#x6d;&#97;&#x6c;&#x2e;&#x63;&#111;&#x6d;">&#x6d;&#97;&#x74;&#116;&#x64;&#x6d;&#x6f;&#64;&#x70;&#105;&#x67;&#x69;&#109;&#97;&#108;&#46;&#x63;&#111;&#109;</a>.</p>
+
+<p>This is free software. It is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Feel free to use this theme in your own work. However, if you modify and/or redistribute it, please attribute me in some way, and distribute your work under this or a similar license. A shout-out or a beer would be appreciated.</p>
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0;align:center" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a></p>
+</body>
+</html>
