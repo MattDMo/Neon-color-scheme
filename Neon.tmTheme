@@ -23,8 +23,10 @@
 				<string>#FFFFFF26</string>
 				<key>lineHighlight</key>
 				<string>#2D2D2D94</string>
-				<key>selection</key>
-				<string>#0F6CFF75</string>
+				<!-- <key>selection</key>
+				<string>#0F6CFF75</string> -->
+				<key>selection</key><string>#253B76</string>
+				<key>selectionBorder</key><string>#A1A1FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -37,7 +39,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFFAF8</string>
+				<string>#BBB8B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -77,13 +79,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constant</string>
+			<string>Constant.character.entity</string>
 			<key>scope</key>
-			<string>constant.character.entity, punctuation.definition.constant, variable.other.constant</string>
+			<string>constant.character.entity, punctuation.definition.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#FF07A0</string>
 			</dict>
@@ -277,7 +279,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#0AEDFF</string>
 			</dict>
@@ -312,12 +314,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0AFF05</string>
+				<string>#17FFA9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function Argument</string>
+			<string>Function Arguments</string>
 			<key>scope</key>
 			<string>meta.function-call.arguments, variable.parameter</string>
 			<key>settings</key>
@@ -499,35 +501,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold italic</string>
+				<string>bold italic underline</string>
 				<key>foreground</key>
 				<string>#E3A0FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>IPython In</string>
-			<key>scope</key>
-			<string>support.ipython.in</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#1BDB11</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>IPython Out</string>
-			<key>scope</key>
-			<string>support.ipython.out</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#E31816</string>
 			</dict>
 		</dict>
 		<dict>
@@ -595,7 +571,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold italic underline</string>
+				<string>bold italic</string>
 				<key>foreground</key>
 				<string>#FF1E00</string>
 			</dict>
