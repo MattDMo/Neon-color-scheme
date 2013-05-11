@@ -2,7 +2,10 @@
 
 A cool bright-on-black theme I made for [TextMate](http://www.macromates.com) and [Sublime Text 2](http://www.sublimetext.com/2) ([ST3](http://www.sublimetext.com/3) also works with it). Used mainly for [Python](http://www.python.org), but lots of languages look good with it, like JavaScript, XML, CSS, shell scripts, Clojure (could use some work), Fortran (really!), PHP, R, Tcl, and more. It's also great when using wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about. Java and Ruby look OK, but I tend to avoid them.
 
+There are a bunch of scopes in here that are only found in my [PythonImproved](https://github.com/MattDMo/PythonImproved) `.tmLanguage` syntax file &mdash; [IPython](http://www.ipython.org) `In`/`Out` statements, [Django](http://djangoproject.org)-specific highlighting (from [Djaniero](https://github.com/squ1b3r/Djaneiro)), and a bunch of improvements from facelessuser's [Better Python](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python), along with various enhancements, extensions, and bug fixes of my own. If you work with Python, I'd highly recommend getting it.
+
 <img src="http://www.pigimal.com/img/textmate2github.png" alt="Python and CSS with Neon.tmTheme" />
+
 =======
 I'm always tweaking and adding things, so the preview pix may not closely match the actual theme. YMMV.
 
@@ -20,8 +23,10 @@ In `~/Library/Application Support/` or the equivalent for your platform:
 
 While I really like the level of control I get with Sublime's system of config files, editing themes by hand (in XML) is rough. So, I keep the main copies of my themes in the TextMate folder so I can use its theme editor for tweaks. In `~/Library/Application Support/` I then run `ln -s TextMate/Themes/Neon.tmTheme "Sublime Text 2/Packages/Color Scheme - Default/Neon.tmTheme"` to symlink it to Sublime.
 
+I'd also recommend checking out aziz's [tmTheme-Editor](http://tmtheme-editor.herokuapp.com/), but alas it currently only works with [Google Chrome](https://www.google.com/chrome/‎) at the moment because of some the HTML5 APIs it uses. Regardless, it's a pretty neat app, and **Neon.tmTheme** should be listed on there soon!
+
 ## Issues
-Sometimes the same file looks different in TextMate and Sublime Text 2. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the .tmlanguage definition files if you're interested.
+Sometimes the same file looks different in TextMate and Sublime Text 2. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested.
 
 ## License
 
