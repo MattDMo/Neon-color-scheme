@@ -5,7 +5,11 @@
 	<key>author</key>
 	<string>Matt Morrison</string>
 	<key>comment</key>
-	<string>Created by Matt Morrison @MattDMo mattdmo@pigimal.com</string>
+	<string>Created by Matt Morrison @MattDMo mattdmo@pigimal.com
+			https://github.com/MattDMo/Neon.tmTheme
+			Check out https://github.com/MattDMo/PythonImproved for a better Python language definition
+			containing some of the scopes in this theme.
+	</string>
 	<key>name</key>
 	<string>Neon</string>
 	<key>settings</key>
