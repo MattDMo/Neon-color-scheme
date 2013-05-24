@@ -26,24 +26,11 @@
 				<key>invisibles</key>
 				<string>#FFFFFF26</string>
 				<key>lineHighlight</key>
-				<string>#2D2D2D94</string>
+				<string>#2D2D2D00</string>
 				<key>selection</key>
 				<string>#253B76</string>
 				<key>selectionBorder</key>
 				<string>#A1A1FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>guide</string>
-			<key>scope</key>
-			<string>guide</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#BBB8B6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -101,10 +88,12 @@
 			<string>meta.class.identifier, entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#084443</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B9FF03</string>
+				<string>#9EFF01</string>
 			</dict>
 		</dict>
 		<dict>
@@ -253,6 +242,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby symbol</string>
+			<key>scope</key>
+			<string>constant.other.symbol, constant.other.symbol punctuation.definition.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF9705</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
 			<string>variable, punctuation.definition.variable</string>
@@ -277,6 +277,30 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Block variable</string>
+			<key>scope</key>
+			<string>variable.other.block, punctuation.separator.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#14FF01</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Environment variable</string>
+			<key>scope</key>
+			<string>meta.environment-variable string</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFEE0C</string>
+				<key>foreground</key>
+				<string>#0613FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Lang Variable</string>
 			<key>scope</key>
 			<string>variable.language</string>
@@ -290,13 +314,26 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Global Variable read/write</string>
+			<string>Global variable</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.global</string>
+			<string>variable.other.readwrite.global, variable.other.readwrite.global punctuation.definition.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#FFACAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Instance variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance, variable.other.readwrite.instance punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#04310A</string>
+				<key>foreground</key>
+				<string>#9AA5FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -306,6 +343,8 @@
 			<string>meta.function entity.name.function</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#070E48</string>
 				<key>foreground</key>
 				<string>#0AFF04</string>
 			</dict>
@@ -318,7 +357,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#17FFA9</string>
+				<string>#10FF02</string>
 			</dict>
 		</dict>
 		<dict>
@@ -536,6 +575,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>IPython In</string>
+			<key>scope</key>
+			<string>support.ipython.in</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#17FF07</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>IPython Out</string>
+			<key>scope</key>
+			<string>support.ipython.out</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FF0704</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Django models</string>
 			<key>scope</key>
 			<string>support.type.django.model</string>
@@ -575,7 +640,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold italic</string>
+				<string>bold italic underline</string>
 				<key>foreground</key>
 				<string>#FF1E00</string>
 			</dict>
@@ -722,7 +787,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2076FF</string>
+				<string>#0196FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -941,11 +1006,37 @@
 			<key>name</key>
 			<string>Raw Markup</string>
 			<key>scope</key>
-			<string>markup.raw</string>
+			<string>markup.raw, markup.raw punctuation</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#8FDDF630</string>
+				<string>#3F403F</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Link</string>
+			<key>scope</key>
+			<string>meta.link.inline markup.underline</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF</string>
+				<key>foreground</key>
+				<string>#0823FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Link Text</string>
+			<key>scope</key>
+			<string>string.other.link.title</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#11FF09</string>
 			</dict>
 		</dict>
 		<dict>
@@ -963,11 +1054,13 @@
 			<key>name</key>
 			<string>List</string>
 			<key>scope</key>
-			<string>markup.list</string>
+			<string>markup.list punctuation.definition.list_item</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#130D26</string>
+				<string>#F90BEA</string>
+				<key>foreground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -980,7 +1073,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#C1AFFF</string>
+				<string>#FF9303</string>
 			</dict>
 		</dict>
 		<dict>
@@ -993,22 +1086,22 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#B8FFD9</string>
+				<string>#FFF103</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Heading Markup</string>
 			<key>scope</key>
-			<string>markup.heading</string>
+			<string>markup.heading, markup.heading punctuation</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#001221</string>
+				<string>#008BFE</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#C8E4FD</string>
+				<string>#FDF503</string>
 			</dict>
 		</dict>
 		<dict>
