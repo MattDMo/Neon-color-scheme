@@ -1,24 +1,33 @@
 # Neon-sublime-theme
 I renamed the package from `Neon.tmTheme` as the directory name was confusing Sublime (and I assume would TextMate as well), and Github automatically redirects from the old name, so why not? This will also make it easier for when I submit to [Package Control](http://wbond.net/sublime_packages/package_control).
 
-A cool bright-on-black theme I made for [TextMate](http://www.macromates.com) and [Sublime Text 2](http://www.sublimetext.com/2) ([ST3](http://www.sublimetext.com/3) also works with it). Used mainly for [Python](http://www.python.org), but lots of languages look good with it, like JavaScript, XML, CSS, shell scripts, Clojure (could use some work), Fortran (really!), PHP, R, Tcl, and more. It's also great when using wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about. Java and Ruby look OK, but I tend to avoid them.
+Neon is a cool bright-on-black theme for [Sublime Text 2](http://www.sublimetext.com/2)/[ST3](http://www.sublimetext.com/3) and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). Used mainly for [Python](http://www.python.org), but lots of languages look good with it, like JavaScript, XML, CSS, shell scripts, Clojure (could use some work), Fortran (really!), PHP, R, Ruby, LaTeX, Markdown/reStructuredText, and more. It's also great when using wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about. Java looks OK, but I tend to avoid it.
 
 There are a bunch of scopes in here that are only found in my [PythonImproved](https://github.com/MattDMo/PythonImproved) `.tmLanguage` syntax file &mdash; [IPython](http://www.ipython.org) `In`/`Out` statements, [Django](http://djangoproject.org)-specific highlighting (from [Djaniero](https://github.com/squ1b3r/Djaneiro)), and a bunch of improvements from facelessuser's [Better Python](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python), along with various enhancements, extensions, and bug fixes of my own. If you work with Python, I'd highly recommend getting it.
 
-<img src="http://www.pigimal.com/img/textmate2github.png" alt="Python and CSS with Neon.tmTheme" />
+<img src="http://www.pigimal.com/img/textmate2github.png" alt="Python and CSS with Neon-sublime-theme" />
 
 =======
 I'm always tweaking and adding things, so the preview pix may not closely match the actual theme. YMMV.
 
-<img src="http://www.pigimal.com/img/textmate2.png" alt="Python and CSS with Neon.tmTheme" />
+<img src="http://www.pigimal.com/img/textmate2.png" alt="Python and CSS with Neon-sublime-theme" />
 
-## Installation
-In `~/Library/Application Support/` or the equivalent for your platform:
+## Installation for Sublime Text 2
+In `~/Library/Application Support/Sublime Text 2/Packages/User` (OSX), `%APPDATA%\Roaming\Sublime Text 2\Packages\User` (Windows), or `~/.config/sublime-text-2/Packages/User` (Linux):
 
-* TextMate:
-    `git clone git://github.com/MattDMo/Neon.tmTheme.git TextMate/Themes`
-* Sublime: `git clone git://github.com/MattDMo/Neon.tmTheme.git "Sublime Text 2/Packages/Color Scheme - Default"`
-* Or, you can just download the [.zip file](https://github.com/MattDMo/Neon.tmTheme/archive/master.zip) and put it in the proper theme directory yourself.
+    git clone git://github.com/MattDMo/Neon-sublime-theme.git 
+
+This will create a menu option `Neon` under `Preferences->Color Scheme->User`. Once available through Package Control, the menu option will probably be something along the lines of `Preferences->Color Scheme->Neon Theme->Neon`. A donation might convince me to implement a Package Control version very soon! (wink wink nudge nudge)
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R97MGGYES6GAJ&lc=US&item_name=Matthew%20D%2e%20Morrison&item_number=neon%2dsublime%2dtheme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="Donate" alt="PayPal - The safer, easier way to pay online!"></a>
+
+
+
+## TextMate Installation:
+    
+    git clone git://github.com/MattDMo/Neon-sublime-theme.git ~/Library/Application Support/TextMate/Themes
+    
+Or, you can just download the [.zip file](https://github.com/MattDMo/Neon-sublime-theme/archive/master.zip) and put it in the proper theme directory yourself.
 
 ## Customization
 
@@ -37,4 +46,5 @@ This is free software. It is licensed under a <a rel="license" href="http://crea
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0;align:center" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
 
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R97MGGYES6GAJ&lc=US&item_name=Matthew%20D%2e%20Morrison&item_number=neon%2dsublime%2dtheme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="Donate" alt="PayPal - The safer, easier way to pay online!"></a>
     
