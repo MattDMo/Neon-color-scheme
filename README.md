@@ -1,5 +1,5 @@
 # Neon-sublime-theme
-I renamed the package from `Neon.tmTheme` as the directory name was confusing Sublime (and I assume would TextMate as well), and Github automatically redirects from the old name, so why not? This will also make it easier for when I submit to [Package Control](http://wbond.net/sublime_packages/package_control).
+###### I renamed the package from `Neon.tmTheme` as the directory name was confusing Sublime (and I assume would TextMate as well), and Github automatically redirects from the old name, so why not? This will also make it easier for when I submit to [Package Control](http://wbond.net/sublime_packages/package_control).
 
 Neon is a cool bright-on-black theme for [Sublime Text 2](http://www.sublimetext.com/2)/[ST3](http://www.sublimetext.com/3) and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). Used mainly for [Python](http://www.python.org), but lots of languages look good with it, like JavaScript, XML, CSS, shell scripts, Clojure (could use some work), Fortran (really!), PHP, R, Ruby, LaTeX, Markdown/reStructuredText, and more. It's also great when using wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about. Java looks OK, but I tend to avoid it.
 
