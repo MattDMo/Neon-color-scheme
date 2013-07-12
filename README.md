@@ -1,4 +1,5 @@
-# Neon.tmTheme
+# Neon-sublime-theme
+I renamed the package from `Neon.tmTheme` as the directory name was confusing Sublime (and I assume would TextMate as well), and Github automatically redirects from the old name, so why not? This will also make it easier for when I submit to [Package Control](http://wbond.net/sublime_packages/package_control).
 
 A cool bright-on-black theme I made for [TextMate](http://www.macromates.com) and [Sublime Text 2](http://www.sublimetext.com/2) ([ST3](http://www.sublimetext.com/3) also works with it). Used mainly for [Python](http://www.python.org), but lots of languages look good with it, like JavaScript, XML, CSS, shell scripts, Clojure (could use some work), Fortran (really!), PHP, R, Tcl, and more. It's also great when using wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about. Java and Ruby look OK, but I tend to avoid them.
 
