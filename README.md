@@ -28,7 +28,7 @@ This will create a menu option `Neon` under `Preferences -> Color Scheme -> User
 ## TextMate Installation:
 For right now, manual cloning is the only option. Hopefully a bundle will be available soon for TM1 and TM2.
     
-    git clone git://github.com/MattDMo/Neon-sublime-theme.git ~/Library/Application Support/TextMate/Themes
+    git clone git://github.com/MattDMo/Neon-sublime-theme.git "~/Library/Application Support/TextMate/Themes"
     
 Or, you can just download the [.zip file](https://github.com/MattDMo/Neon-sublime-theme/archive/master.zip) and put it in the proper theme directory yourself.
 
