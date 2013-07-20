@@ -37,7 +37,7 @@ Or, you can just download the [.zip file](https://github.com/MattDMo/Neon-sublim
 
 While I really like the level of control I get with Sublime's system of config files, editing themes by hand (in XML) is rough. So, I keep the main copies of my themes in the TextMate folder so I can use its theme editor for tweaks. In `~/Library/Application Support/` I then run `ln -s TextMate/Themes/Neon.tmTheme "Sublime Text 2/Packages/Color Scheme - Default/Neon.tmTheme"` to symlink it to Sublime.
 
-I'd also recommend checking out aziz's [tmTheme-Editor](http://tmtheme-editor.herokuapp.com/), but alas it currently only works with [Google Chrome](https://www.google.com/chrome/‎) because of some the HTML5 APIs it uses. Regardless, it's a pretty neat app, and **Neon.tmTheme** is on there now!
+I'd also recommend checking out aziz's [tmTheme-Editor](http://tmtheme-editor.herokuapp.com/#/Neon), but alas it currently only works with [Google Chrome](https://www.google.com/chrome/‎) because of some the HTML5 APIs it uses. Regardless, it's a pretty neat app, and **Neon** is included!
 
 
 ## Issues
