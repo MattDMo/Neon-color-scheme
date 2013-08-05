@@ -247,6 +247,8 @@
 			<string>constant.other.symbol, constant.other.symbol punctuation.definition.constant</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#FF9705</string>
 			</dict>
