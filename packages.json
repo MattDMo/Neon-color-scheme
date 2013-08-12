@@ -1,0 +1,20 @@
+{
+    "schema_version": "2.0",
+
+    // template at https://raw.github.com/wbond/sublime_package_control/master/example-repository.json
+
+    "packages": [
+
+        {
+            "name": "Neon Color Scheme",
+            "details": "https://github.com/MattDMo/Neon-sublime-theme",
+            "releases": [
+                {
+                    "details": "https://github.com/MattDMo/Neon-sublime-theme/tags"
+                }
+            ],
+            "previous_names": ["Neon Theme"],
+            "labels": ["theme", "color scheme"]
+        }
+    ]
+}
