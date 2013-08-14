@@ -1,8 +1,6 @@
 {
     "schema_version": "2.0",
 
-    // template at https://raw.github.com/wbond/sublime_package_control/master/example-repository.json
-
     "packages": [
 
         {
