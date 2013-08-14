@@ -10,6 +10,7 @@
             "details": "https://github.com/MattDMo/Neon-sublime-theme",
             "releases": [
                 {
+                    "sublime_text": "*",
                     "details": "https://github.com/MattDMo/Neon-sublime-theme/tags"
                 }
             ],
