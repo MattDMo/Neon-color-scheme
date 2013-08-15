@@ -1,5 +1,5 @@
-# Neon Theme
-###### I renamed the package from `Neon.tmTheme` as the directory name was confusing Sublime (and I assume would TextMate as well), and Github automatically redirects from the old name, so why not? 
+# Neon Color Scheme
+###### I renamed the package from `Neon Theme` as this is [really a color scheme](https://github.com/MattDMo/Neon-sublime-theme/issues/4) and I don't want to mislead/confuse anyone. However, I am working on an actual Neon-inspired **theme** for Sublime, so stay tuned... 
 
 ### Now available through [Package Control](https://sublime.wbond.net/)!
 
@@ -16,7 +16,7 @@ I'm always tweaking and adding things, so the preview pix may not closely match 
 
 
 ## Installation for Sublime Text 2/3
-The easiest method is through [Package Control](https://sublime.wbond.net/). Open the command palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type `pci` or `packconin` or whatever you like to get `Package Control: Install` showing. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Theme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Theme -> Neon` menu option.
+The easiest method is through [Package Control](https://sublime.wbond.net/). Open the command palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type `pci` or `packconin` or whatever you like to get `Package Control: Install` showing. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option.
 
 If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 2/Packages/User` (OSX), `%APPDATA%\Roaming\Sublime Text 2\Packages\User` (Windows), or `~/.config/sublime-text-2/Packages/User` (Linux):
 
