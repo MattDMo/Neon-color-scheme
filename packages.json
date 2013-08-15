@@ -4,7 +4,7 @@
     "packages": [
 
         {
-            "name": "Neon Color Scheme",
+            "name": "Neon Theme",
             "details": "https://github.com/MattDMo/Neon-sublime-theme",
             "releases": [
                 {
@@ -12,7 +12,7 @@
                     "details": "https://github.com/MattDMo/Neon-sublime-theme/tags"
                 }
             ],
-            "previous_names": ["Neon Theme"],
+            "previous_names": ["Neon Color Scheme"],
             "labels": ["theme", "color scheme"]
         }
     ]
