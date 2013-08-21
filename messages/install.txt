@@ -1,0 +1,13 @@
+
+
+Neon Color Scheme v1.1.0
+++++++++++++++++++++++++
+
+Thank you for installing my Neon Color Scheme! I hope you enjoy using it as much
+as I enjoyed creating it. If you have any questions, concerns, bugs, improvement
+suggestions, or anything else, feel free to open an issue on Github or send me a
+tweet and I'll do my best to help you out.
+
+   @MattDMo
+
+https://github.com/MattDMo/Neon-sublime-theme

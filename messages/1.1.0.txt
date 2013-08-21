@@ -1,0 +1,23 @@
+
+
+Neon Color Scheme v1.1.0
+++++++++++++++++++++++++
+
+This is a significant update from 1.0.1. I've recently started using Sass/SCSS
+as I work on the upcoming Neon Color Scheme website, and installed the Syntax
+Highlighting for Sass package (among others) for ST2. While the CSS scopes in
+Neon are fairly complete, I was missing some Sass ones, so those have now been
+added. Internally, I did a major reorganization, so related items like `keyword`
+and `keyword.other` are now grouped together. I also tweaked some (but not too
+many) of the colors - `Class` is brighter, with no background, and HTML overall
+looks better, I think.
+
+I try to make as many languages as possible look as good and balanced as
+possible, so if you have any suggestions, questions, concerns, bugs, unexpected
+behavior, or just want to say thanks, please open an issue or a pull request on
+Github, or send me a tweet. Happy coding!
+
+   Thanks,
+   @MattDMo
+
+https://github.com/MattDMo/Neon-sublime-theme
