@@ -1214,6 +1214,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS selector</string>
+			<key>scope</key>
+			<string>meta.selector.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#84f6c3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS tag-name</string>
 			<key>scope</key>
 			<string>entity.name.tag.css</string>
@@ -1382,7 +1393,7 @@
 			<key>name</key>
 			<string>SASS: RGB Color</string>
 			<key>scope</key>
-			<string>constant.other.color.rgb-value.css</string>
+			<string>constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
