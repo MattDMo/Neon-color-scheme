@@ -1,6 +1,5 @@
 
-
-Neon Color Scheme v1.1.0
+Neon Color Scheme v1.1.1
 ++++++++++++++++++++++++
 
 This is a significant update from 1.0.1. I've recently started using Sass/SCSS
