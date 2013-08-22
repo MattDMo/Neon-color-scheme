@@ -13,9 +13,11 @@ many) of the colors - `Class` is brighter, with no background, and HTML overall
 looks better, I think.
 
 I try to make as many languages as possible look as good and balanced as
-possible, so if you have any suggestions, questions, concerns, bugs, unexpected
-behavior, or just want to say thanks, please open an issue or a pull request on
-Github, or send me a tweet. Happy coding!
+possible, so if you want me to pay extra attention to your favorite language, or
+if you have any suggestions, questions, concerns, bugs, unexpected behavior, or
+just want to say thanks, please open an issue or a pull request on Github, or
+send me a tweet. If you like what you see, please consider supporting my work
+with a gittip or Paypal donation - see the README for details.
 
    Thanks,
    @MattDMo

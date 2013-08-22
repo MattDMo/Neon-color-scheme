@@ -315,6 +315,8 @@
 			<string>constant.other.symbol, constant.other.symbol punctuation.definition.constant</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#FF9705</string>
 			</dict>
@@ -389,7 +391,7 @@
 			<key>name</key>
 			<string>Class</string>
 			<key>scope</key>
-			<string>meta.class.identifier, entity.name.type.class</string>
+			<string>meta.class.identifier, entity.name.type.class, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -827,6 +829,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>HTML String Quotes</string>
+			<key>scope</key>
+			<string>string.quoted punctuation.definition.string.begin, string.quoted punctuation.definition.string.end</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ff07a2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>HTML entity</string>
 			<key>scope</key>
 			<string>constant.character.entity.html, constant.character.entity.html punctuation</string>
@@ -1102,7 +1117,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS additional-constants</string>
+			<string>CSS: additional-constants</string>
 			<key>scope</key>
 			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
 			<key>settings</key>
@@ -1115,7 +1130,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS @at-rule</string>
+			<string>CSS: @at-rule</string>
 			<key>scope</key>
 			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
 			<key>settings</key>
@@ -1126,7 +1141,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS attribute-match</string>
+			<string>CSS: attribute-match</string>
 			<key>scope</key>
 			<string>source.css meta.attribute-selector keyword.operator.comparison</string>
 			<key>settings</key>
@@ -1137,7 +1152,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS .class</string>
+			<string>CSS: .class</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.css punctuation</string>
 			<key>settings</key>
@@ -1148,7 +1163,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS constructor argument</string>
+			<string>CSS: constructor argument</string>
 			<key>scope</key>
 			<string>meta.constructor.argument</string>
 			<key>settings</key>
@@ -1159,7 +1174,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS #id</string>
+			<string>CSS: #id</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.id.css, entity.other.attribute-name.id.css punctuation</string>
 			<key>settings</key>
@@ -1170,7 +1185,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS pseudo-element</string>
+			<string>CSS: pseudo-element</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.pseudo-element</string>
 			<key>settings</key>
@@ -1181,7 +1196,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS pseudo-class</string>
+			<string>CSS: pseudo-class</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
 			<key>settings</key>
@@ -1192,7 +1207,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS property-name</string>
+			<string>CSS: property-name</string>
 			<key>scope</key>
 			<string>support.type.property-name.css, meta.property-name</string>
 			<key>settings</key>
@@ -1203,7 +1218,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS property-value</string>
+			<string>CSS: property-value</string>
 			<key>scope</key>
 			<string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
 			<key>settings</key>
@@ -1214,7 +1229,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS tag-name</string>
+			<string>CSS: selector</string>
+			<key>scope</key>
+			<string>meta.selector.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#84f6c3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: tag-name</string>
 			<key>scope</key>
 			<string>entity.name.tag.css</string>
 			<key>settings</key>
@@ -1225,7 +1251,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS tag wildcard</string>
+			<string>CSS: tag wildcard</string>
 			<key>scope</key>
 			<string>entity.name.tag.wildcard, entity.other.attribute-name.universal</string>
 			<key>settings</key>
@@ -1238,7 +1264,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS unit</string>
+			<string>CSS: units</string>
 			<key>scope</key>
 			<string>keyword.other.unit</string>
 			<key>settings</key>
@@ -1382,7 +1408,7 @@
 			<key>name</key>
 			<string>SASS: RGB Color</string>
 			<key>scope</key>
-			<string>constant.other.color.rgb-value.css</string>
+			<string>constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
