@@ -16,13 +16,13 @@ I'm always tweaking and adding things, so the preview pix may not closely match 
 
 
 ## Installation for Sublime Text 2/3
-The easiest method is through [Package Control](https://sublime.wbond.net/). Open the command palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type `pci` or `packconin` or whatever you like to get `Package Control: Install` showing. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option.
+The easiest method is through [Package Control](https://sublime.wbond.net/), which you need to [install](https://sublime.wbond.net/installation) first as it doesn't come with Sublime Text. Open the command palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type `pci` or `packconin` or whatever you like to get `Package Control: Install` showing. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option.
 
 If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 2/Packages/User` (OSX), `%APPDATA%\Roaming\Sublime Text 2\Packages\User` (Windows), or `~/.config/sublime-text-2/Packages/User` (Linux):
 
-    git clone git://github.com/MattDMo/Neon-sublime-theme.git 
+    git clone git://github.com/MattDMo/Neon-sublime-theme.git "Neon Color Scheme"
 
-This will create a menu option `Neon` under `Preferences -> Color Scheme -> User`.
+This will create a menu option `Neon` under `Preferences -> Color Scheme -> User -> Neon Color Scheme`.
 
 
 ## TextMate Installation:
