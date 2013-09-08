@@ -5,11 +5,11 @@
 
         {
             "name": "Neon Color Scheme",
-            "details": "https://github.com/MattDMo/Neon-sublime-theme",
+            "details": "https://github.com/MattDMo/Neon-color-scheme",
             "releases": [
                 {
                     "sublime_text": "*",
-                    "details": "https://github.com/MattDMo/Neon-sublime-theme/tags"
+                    "details": "https://github.com/MattDMo/Neon-color-scheme/tags"
                 }
             ],
             "previous_names": ["Neon Theme"],
