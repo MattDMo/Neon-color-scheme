@@ -6,7 +6,7 @@
 	<string>Matt Morrison</string>
 	<key>comment</key>
 	<string>Created by Matt Morrison @MattDMo mattdmo@pigimal.com
-            https://github.com/MattDMo/Neon-sublime-theme
+            https://github.com/MattDMo/Neon-color-scheme
             Check out https://github.com/MattDMo/PythonImproved for a better Python language definition
             containing some of the scopes in this color scheme.
     </string>
@@ -28,7 +28,7 @@
 				<key>lineHighlight</key>
 				<string>#2D2D2D00</string>
 				<key>selection</key>
-				<string>#253B76</string>
+				<string>#0205ff</string>
 				<key>selectionBorder</key>
 				<string>#A1A1FF</string>
 			</dict>
@@ -243,6 +243,8 @@
 			<string>storage.modifier</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#276AFF</string>
 			</dict>
@@ -395,7 +397,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfff01</string>
+				<string>#CFFF01</string>
 			</dict>
 		</dict>
 		<dict>
@@ -621,6 +623,60 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Django keyword tag name</string>
+			<key>scope</key>
+			<string>keyword.control.tag-name.django</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#C2FFBD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Django filter tag name</string>
+			<key>scope</key>
+			<string>keyword.control.filter.django</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#908A0770</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0FD0FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Django template tag braces</string>
+			<key>scope</key>
+			<string>storage.type.templatetag.django entity.tag.tagbraces.django</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#1FA919</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Django variable tag braces</string>
+			<key>scope</key>
+			<string>storage.type.variable entity.tag.tagbraces.django</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FF0D8F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>============================================================</string>
 			<key>settings</key>
 			<dict/>
@@ -809,7 +865,7 @@
 			<key>name</key>
 			<string>HTML attribute name</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html</string>
+			<string>entity.other.attribute-name.html, storage.type.attr</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -837,7 +893,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#ff07a2</string>
+				<string>#FF07A2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1235,7 +1291,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#84f6c3</string>
+				<string>#84F6C3</string>
 			</dict>
 		</dict>
 		<dict>
