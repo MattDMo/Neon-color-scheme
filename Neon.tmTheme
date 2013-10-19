@@ -24,13 +24,21 @@
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 				<key>invisibles</key>
-				<string>#FFFFFF26</string>
+				<string>#06FF05</string>
 				<key>lineHighlight</key>
 				<string>#2D2D2D00</string>
 				<key>selection</key>
 				<string>#0205ff</string>
 				<key>selectionBorder</key>
-				<string>#A1A1FF</string>
+				<string>#06FF05</string>
+				<key>inactiveSelection</key>
+				<string>#353576</string>
+				<key>findHighlight</key>
+				<string>#f2ff06</string>
+				<key>findHighlightForeground</key>
+				<string>#1515ff</string>
+				<key>activeGuide</key>
+				<string>#06FF05</string>
 			</dict>
 		</dict>
 		<dict>
