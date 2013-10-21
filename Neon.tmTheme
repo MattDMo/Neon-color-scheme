@@ -26,7 +26,7 @@
 				<key>invisibles</key>
 				<string>#06FF05</string>
 				<key>lineHighlight</key>
-				<string>#2D2D2D00</string>
+				<string>#2D2D2D</string>
 				<key>selection</key>
 				<string>#0205ff</string>
 				<key>selectionBorder</key>
@@ -1507,6 +1507,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>============================================================</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>GitGutter deleted</string>
 			<key>scope</key>
 			<string>markup.deleted.git_gutter</string>
@@ -1536,6 +1542,34 @@
 			<dict>
 				<key>foreground</key>
 				<string>#967EFB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>============================================================</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find In Files: filename</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#06FF05</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find In Files: Line Number - Match</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.match.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFF00</string>
 			</dict>
 		</dict>
 	</array>
