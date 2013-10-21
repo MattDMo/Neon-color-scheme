@@ -3,9 +3,9 @@
 
 ### Now available through [Package Control](https://sublime.wbond.net/)!
 
-Neon is a cool bright-on-black color scheme for [Sublime Text 2](http://www.sublimetext.com/2)/[ST3](http://www.sublimetext.com/3) and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. Neon was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran (really!), R, LaTeX, Markdown, reStructuredText, and more. It's also great when using @wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about. 
+Neon is a colorful bright-on-black color scheme for [Sublime Text 2](http://www.sublimetext.com/2)/[ST3](http://www.sublimetext.com/3) and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. Neon was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran (really!), R, LaTeX, Markdown, reStructuredText, and more. It's also great when using @wuub's fantastic [SublimeREPL](https://github.com/wuub/SublimeREPL) plugin, which I can't say enough good things about. 
 
-There are a bunch of scopes in here that are only found in my [PythonImproved](https://github.com/MattDMo/PythonImproved) `.tmLanguage` syntax file &mdash; [IPython](http://www.ipython.org) `In`/`Out` statements, [Django](http://djangoproject.org)-specific highlighting (from [Djaniero](https://github.com/squ1b3r/Djaneiro)), and a bunch of improvements from @facelessuser's [Better Python](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python), along with various enhancements, extensions, and bug fixes of my own. If you work with Python, I'd highly recommend getting it.
+There are a bunch of scopes in here that are only found in my [Python Improved](https://sublime.wbond.net/packages/Python%20Improved) language definition package (now available via Package Control!) &mdash; [IPython](http://www.ipython.org) `In`/`Out` statements, [Django](http://djangoproject.org)-specific highlighting (adapted from [Djaniero](https://github.com/squ1b3r/Djaneiro)), and a bunch of improvements from @facelessuser's [Better Python](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python), along with various enhancements, extensions, and bug fixes of my own. If you work with Python, I'd highly recommend getting it.
 
 You can find out more about themes in the TextMate [manual](http://manual.macromates.com/en/themes). All the information there applies to Sublime Text as well, which was heavily influenced by TextMate. Both programs can share themes and language definitions pretty much interchangeably, and snippets are usually pretty easy to port from one to the other as well. But, unfortunately for you Win/Lin people, TextMate is only available for OSX.
 
@@ -41,7 +41,7 @@ Or, you can just download the [.zip file](https://github.com/MattDMo/Neon-sublim
 
 While I really like the level of control I get with Sublime's system of config files, editing themes by hand (in XML) is rough. So, I keep the main copies of my themes in the TextMate folder so I can use its theme editor for tweaks. In `~/Library/Application Support/` I then run `ln -s TextMate/Themes/Neon.tmTheme "Sublime Text 2/Packages/Color Scheme - Default/Neon.tmTheme"` to symlink it to Sublime.
 
-I'd also recommend checking out aziz's [tmTheme-Editor](http://tmtheme-editor.herokuapp.com/#/Neon), but alas it currently only works with [Google Chrome](https://www.google.com/chrome/‎) because of some the HTML5 APIs it uses. Regardless, it's a pretty neat app, and **Neon** is included!
+I'd also recommend checking out aziz's [tmTheme-Editor](http://tmtheme-editor.herokuapp.com/#/Neon), but be warned that it currently only works with [Google Chrome](https://www.google.com/chrome/) because of some the HTML5 APIs it uses. Regardless, it's a pretty neat app, and **Neon** is included!
 
 ## Languages Supported
 
@@ -63,7 +63,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [Git Gutter](https://sublime.wbond.net/packages/GitGutter)
 * `Find In Files`
 
-For major changes, I'll test most if not all of the above languages, as well as JavaScript (use [JavaScriptNext](https://sublime.wbond.net/packages/JavaScriptNext%20-%20ES6%20Syntax), it's awesome!), R, Makefile, Lua, Clojure, Java, Perl, and `bash` shell scripts, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
+For major changes, I'll test most if not all of the above languages, as well as JavaScript (use [JavaScriptNext](https://sublime.wbond.net/packages/JavaScriptNext%20-%20ES6%20Syntax), it's awesome!), R, Makefile, Lua, Clojure, Java, Perl, Fortran (my excuse &mdash; I work with [NumPy](http://www.numpy.org)), LaTeX, and `bash` shell scripts, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
 If you have a particular language or plugin you'd like Neon to support, just [open an issue](https://github.com/MattDMo/Neon-color-scheme/issues/new) and I'll see what I can do.
 
