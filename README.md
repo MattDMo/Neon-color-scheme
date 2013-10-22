@@ -20,21 +20,27 @@ I'm always tweaking and adding things, so the preview pix may not closely match 
 ## Installation for Sublime Text 2/3
 The easiest method is through [Package Control](https://sublime.wbond.net/), which you need to [install](https://sublime.wbond.net/installation) first as it doesn't come with Sublime Text. Open the command palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type `pci` or `packconin` or whatever you like to get `Package Control: Install` showing. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
 
-    "color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme"
+```js
+"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme"
+```
 
 If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 2/Packages/User` (OSX), `%APPDATA%\Sublime Text 2\Packages\User` (Windows), or `~/.config/sublime-text-2/Packages/User` (Linux) (change the `2` to `3` for ST3...):
 
-    git clone git://github.com/MattDMo/Neon-sublime-theme.git "Neon Color Scheme"
+```bash
+git clone git://github.com/MattDMo/Neon-color-scheme.git "Neon Color Scheme"
+```
 
 This will create a menu option `Neon` under `Preferences -> Color Scheme -> User -> Neon Color Scheme`.
 
 
 ## TextMate Installation:
-For right now, manual cloning is the only option. Hopefully a bundle will be available soon for TM1 and TM2.
-    
-    git clone git://github.com/MattDMo/Neon-sublime-theme.git "~/Library/Application Support/TextMate/Themes"
-    
-Or, you can just download the [.zip file](https://github.com/MattDMo/Neon-sublime-theme/archive/master.zip) and put it in the proper theme directory yourself.
+For right now, manual cloning is the only option. Hopefully a bundle will be available soon for TM1 and TM2. From your home directory (or anywhere, really), enter:
+
+```bash    
+git clone git://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
+```
+
+Or, you can just download the [.zip file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself.
 
 
 ## Customization
