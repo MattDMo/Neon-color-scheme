@@ -6,10 +6,10 @@
 	<string>Matt Morrison</string>
 	<key>comment</key>
 	<string>Created by Matt Morrison @MattDMo mattdmo@pigimal.com
-            https://github.com/MattDMo/Neon-color-scheme
-            Check out https://github.com/MattDMo/PythonImproved for a better Python language definition
-            containing some of the scopes in this color scheme.
-    </string>
+			https://github.com/MattDMo/Neon-color-scheme
+			Check out https://github.com/MattDMo/PythonImproved for a better Python language definition
+			containing some of the scopes in this color scheme.
+	</string>
 	<key>name</key>
 	<string>Neon</string>
 	<key>settings</key>
@@ -17,27 +17,29 @@
 		<dict>
 			<key>settings</key>
 			<dict>
+				<key>activeGuide</key>
+				<string>#6F6F6F</string>
 				<key>background</key>
 				<string>#000000</string>
 				<key>caret</key>
 				<string>#FFFFFF</string>
+				<key>findHighlight</key>
+				<string>#F2FF06</string>
+				<key>findHighlightForeground</key>
+				<string>#1515FF</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
+				<key>guide</key>
+				<string>#6F6F6F</string>
+				<key>inactiveSelection</key>
+				<string>#353576</string>
 				<key>invisibles</key>
 				<string>#06FF05</string>
 				<key>lineHighlight</key>
 				<string>#2D2D2D</string>
 				<key>selection</key>
-				<string>#0205ff</string>
+				<string>#0205FF</string>
 				<key>selectionBorder</key>
-				<string>#06FF05</string>
-				<key>inactiveSelection</key>
-				<string>#353576</string>
-				<key>findHighlight</key>
-				<string>#f2ff06</string>
-				<key>findHighlightForeground</key>
-				<string>#1515ff</string>
-				<key>activeGuide</key>
 				<string>#06FF05</string>
 			</dict>
 		</dict>
@@ -259,55 +261,29 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Block variable</string>
+			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.other.block, punctuation.separator.variable</string>
+			<string>variable, punctuation.definition.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#14FF01</string>
+				<string>#FF25D9</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Environment variable</string>
+			<string>variable.other</string>
 			<key>scope</key>
-			<string>meta.environment-variable string</string>
+			<string>variable.other</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#FFEE0C</string>
 				<key>foreground</key>
-				<string>#0613FF</string>
+				<string>#D285CC</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Global variable</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.global, variable.other.readwrite.global punctuation.definition.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFACAA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Instance variable</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.instance, variable.other.readwrite.instance punctuation.definition.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#04310A</string>
-				<key>foreground</key>
-				<string>#9AA5FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Lang Variable</string>
+			<string>Language Variable</string>
 			<key>scope</key>
 			<string>variable.language</string>
 			<key>settings</key>
@@ -316,19 +292,6 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#0AEDFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby symbol</string>
-			<key>scope</key>
-			<string>constant.other.symbol, constant.other.symbol punctuation.definition.constant</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FF9705</string>
 			</dict>
 		</dict>
 		<dict>
@@ -351,28 +314,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#0A4AFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable</string>
-			<key>scope</key>
-			<string>variable, punctuation.definition.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF25D9</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>variable.other</string>
-			<key>scope</key>
-			<string>variable.other</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D285CC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -428,17 +369,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#13FFA3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Decorator</string>
-			<key>scope</key>
-			<string>meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B6B8FE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -572,6 +502,130 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>=========== Ruby ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby symbol</string>
+			<key>scope</key>
+			<string>constant.other.symbol, constant.other.symbol punctuation.definition.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF9705</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Environment variable</string>
+			<key>scope</key>
+			<string>meta.environment-variable string</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFEE0C</string>
+				<key>foreground</key>
+				<string>#0613FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Global variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.global, variable.other.readwrite.global punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFACAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Instance variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance, variable.other.readwrite.instance punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#04310A</string>
+				<key>foreground</key>
+				<string>#9AA5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby special method</string>
+			<key>scope</key>
+			<string>keyword.other.special-method.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DB1E44</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation.separator.other</string>
+			<key>scope</key>
+			<string>punctuation.separator.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#276AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Block variable</string>
+			<key>scope</key>
+			<string>variable.other.block, punctuation.separator.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#14FF01</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== Python ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Decorator</string>
+			<key>scope</key>
+			<string>meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B6B8FE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>IPython In</string>
 			<key>scope</key>
 			<string>support.ipython.in</string>
@@ -685,9 +739,66 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>Annotation separator</string>
+			<key>scope</key>
+			<string>punctuation.separator.annotation.python</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Annotation result</string>
+			<key>scope</key>
+			<string>punctuation.separator.annotation.result.python</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Annotation parameters group begin</string>
+			<key>scope</key>
+			<string>punctuation.definition.parameters-group.begin.python</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Annotation parameters group end</string>
+			<key>scope</key>
+			<string>punctuation.definition.parameters-group.end.python</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== JSON ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -757,9 +868,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== C/C++ ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -807,9 +921,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== diff ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -865,9 +982,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== HTML/XML ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -954,9 +1074,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== Markup ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1062,9 +1185,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== PHP ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1175,9 +1301,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== (S)CSS/SASS/LESS ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1339,19 +1468,15 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SASS: At-rule</string>
+			<string>CSS: Flag</string>
 			<key>scope</key>
-			<string>keyword.control.at-rule.css.sass</string>
+			<string>keyword.other.important.css</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#F6AA11</string>
+				<string>#FF0000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1365,17 +1490,6 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#208C9A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SASS: Type Selector, Ampersand</string>
-			<key>scope</key>
-			<string>entity.name.tag.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#05C2FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1415,39 +1529,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SASS: Pseudo Class, Pseudo Element</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D2C9FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SASS: Property Name</string>
-			<key>scope</key>
-			<string>support.type.property-name.css.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF9E84</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SASS: Property Value</string>
-			<key>scope</key>
-			<string>meta.property-value.css.sass, support.constant.property-value.css.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#357BF6</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>SASS: Comma</string>
 			<key>scope</key>
 			<string>comment.punctuation.comma.sass</string>
@@ -1455,17 +1536,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FCFDFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SASS: Unit</string>
-			<key>scope</key>
-			<string>keyword.other.unit.css.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#1DD292</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1483,19 +1553,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SASS: Flag</string>
-			<key>scope</key>
-			<string>keyword.other.important.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>SCSS: Semicolon</string>
 			<key>scope</key>
 			<string>comment.punctuation.semicolon.sass</string>
@@ -1507,9 +1564,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== GitGutter ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1546,9 +1606,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>============================================================</string>
+			<string>=========== Find In Files ==========</string>
+			<key>scope</key>
+			<string></string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1570,6 +1633,62 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFFF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== nginx ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>nginx IP address</string>
+			<key>scope</key>
+			<string>entity.ip-address</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#06FF05</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>punctuation</string>
+			<key>scope</key>
+			<string>punctuation.character</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF8000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>http</string>
+			<key>scope</key>
+			<string>keyword.module.http, keyword.directive.module.http</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#E020F0</string>
 			</dict>
 		</dict>
 	</array>
