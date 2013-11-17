@@ -132,19 +132,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String constant</string>
-			<key>scope</key>
-			<string>string constant</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#FF087B</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Support.constant</string>
 			<key>scope</key>
 			<string>support.constant</string>
@@ -296,28 +283,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String variable</string>
-			<key>scope</key>
-			<string>string variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#EF9975</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Support variable</string>
-			<key>scope</key>
-			<string>support.variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#0A4AFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Dict key</string>
 			<key>scope</key>
 			<string>meta.structure.dictionary.key</string>
@@ -458,6 +423,32 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>String Quotes</string>
+			<key>scope</key>
+			<string>string.quoted punctuation.definition.string.begin, string.quoted punctuation.definition.string.end</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FF07A2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String constant</string>
+			<key>scope</key>
+			<string>string constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FF087B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>String embedded-source</string>
 			<key>scope</key>
 			<string>string.quoted source</string>
@@ -480,6 +471,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>String variable</string>
+			<key>scope</key>
+			<string>string variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EF9975</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Support.type</string>
 			<key>scope</key>
 			<string>support.type</string>
@@ -487,6 +489,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FF1190</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support variable</string>
+			<key>scope</key>
+			<string>support.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0A4AFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -739,56 +752,58 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Annotation separator</string>
+			<string>Annotation separator :</string>
 			<key>scope</key>
 			<string>punctuation.separator.annotation.python</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#0205FF</string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#F6FF04</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Annotation result</string>
+			<string>Annotation result -&gt;</string>
 			<key>scope</key>
 			<string>punctuation.separator.annotation.result.python</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string></string>
+				<string>#0205FF</string>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#F6FF04</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Annotation parameters group begin</string>
+			<string>Annotation parameters group begin (</string>
 			<key>scope</key>
 			<string>punctuation.definition.parameters-group.begin.python</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#FF06A5</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Annotation parameters group end</string>
+			<string>Annotation parameters group end )</string>
 			<key>scope</key>
 			<string>punctuation.definition.parameters-group.end.python</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string></string>
+				<string>#FF06A5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -807,6 +822,10 @@
 			<string>meta meta meta meta meta meta meta.structure.dictionary.value string</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#18FFFA</string>
 			</dict>
@@ -1009,19 +1028,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#10FF07</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>HTML String Quotes</string>
-			<key>scope</key>
-			<string>string.quoted punctuation.definition.string.begin, string.quoted punctuation.definition.string.end</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#FF07A2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1301,7 +1307,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>=========== (S)CSS/SASS/LESS ==========</string>
+			<string>=========== Stylesheets ==========</string>
 			<key>scope</key>
 			<string></string>
 			<key>settings</key>
@@ -1579,7 +1585,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#F90504</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1590,7 +1596,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#21E209</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1601,7 +1607,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#967EFB</string>
+				<string>#FBF704</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1689,6 +1695,132 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#E020F0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== AAAPackageDev ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Sublime Settings Keyword</string>
+			<key>scope</key>
+			<string>keyword.other.name.sublime-settings</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#05B4FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== SublimeLinter ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Annotations</string>
+			<key>scope</key>
+			<string>sublimelinter.annotations</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFAA</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF4A52</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DF9400</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Outline</string>
+			<key>scope</key>
+			<string>sublimelinter.outline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF33</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Violation Underline</string>
+			<key>scope</key>
+			<string>sublimelinter.underline.violation</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
 			</dict>
 		</dict>
 	</array>
