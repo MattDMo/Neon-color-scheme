@@ -353,7 +353,7 @@
 			<key>name</key>
 			<string>Function call</string>
 			<key>scope</key>
-			<string>meta.function-call, support.function.name</string>
+			<string>meta.function-call, support.function.name, meta.function-call punctuation.definition.parameters</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
