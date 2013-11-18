@@ -1,0 +1,14 @@
+Neon Color Scheme v1.1.4
+========================
+
+Major changes for this version:
+- rearranged some stuff for better organization
+- added colors for Python 3 annotations
+- altered GitGutter colors from Monokai to Neon
+- added AAAPackageDev Sublime Settings keyword
+- added default SublimeLinter colors from its README - please let me know if they don't work
+
+Do you have a favorite plugin that you'd like to see themed by Neon? Open an issue
+(https://github.com/MattDMo/Neon-color-scheme/issues/new) and let me know!
+
+MattDMo
