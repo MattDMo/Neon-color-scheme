@@ -48,7 +48,9 @@ While I really like the level of control I get with Sublime's system of config f
 
 I'd also recommend checking out aziz's [tmTheme-Editor](http://tmtheme-editor.herokuapp.com/#/Neon), but be warned that it currently only works with [Google Chrome](https://www.google.com/chrome/) because of some the HTML5 APIs it uses. Regardless, it's a pretty neat app, and **Neon** is included!
 
-So, the above two options are nice if you're on a Mac, or have Chrome, or otherwise are just making a few minor tweaks, but I've recently just discovered a game-changer. @facelessuser has written [`ColorSchemeEditor`](https://github.com/facelessuser/ColorSchemeEditor), a cross-platform GUI tool (written in Python) for creating and editing `.tmTheme` color schemes, and it has very quickly become one of my favorite apps. Be aware that it's still under active development, but that also means if you have any feature requests or assistance to offer you'll be gladly welcomed. If the forum is working, check out [this post](www.sublimetext.com/forum/viewtopic.php?f=5&t=11819) in the Sublime Text forum announcing the plugin and app. The documentation is minimal, it's not available through Package Control, and you currently need to download the platform-specific compiled binaries via links from the forum post (hint, google the page's URL and view the cached version to get the links if the forum is still down) and put them in your `Packages/User` directory in order for the plugin to work, but it's so worth it if you need to tweak or completely refactor a color scheme. Keep your eyes out, Neon Light should be coming soon!
+So, the above two options are nice if you're on a Mac, or have Chrome, or otherwise are just making a few minor tweaks, but I've recently just discovered a game-changer. @facelessuser has written [`ColorSchemeEditor`](https://github.com/facelessuser/ColorSchemeEditor), a cross-platform GUI tool (written in Python) for creating and editing `.tmTheme` color schemes, and it has very quickly become one of my favorite apps. Be aware that it's still under active development, but that also means if you have any feature requests or assistance to offer you'll be gladly welcomed. If the forum is working, check out [this post](www.sublimetext.com/forum/viewtopic.php?f=5&t=11819) in the Sublime Text forum announcing the plugin and app. The documentation is minimal, it's not available through Package Control, and you currently need to download the platform-specific compiled binaries via links from the forum post (hint, google the page's URL and view the cached version to get the links if the forum is still down) and put them in your `Packages/User` directory in order for the plugin to work, but it's so worth it if you need to tweak or completely refactor a color scheme. If you want to try and build the binary yourself, read through [this issue](https://github.com/facelessuser/ColorSchemeEditor/issues/11). The directions are for Windows, but they also work on OS X, and should work for Linux as well.
+
+Keep your eyes out, Neon Light should be coming soon!
 
 ## Languages/Plugins Supported
 
@@ -57,6 +59,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * Python
     * IPython
     * Django
+    * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
 * Ruby
 * jQuery
 * JSON
