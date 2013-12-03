@@ -16,6 +16,13 @@ You can find out more about themes in the TextMate [manual](http://manual.macrom
 
 [![R with Neon](http://pigimal.com/img/github/R.png)](https://github.com/randy3k/Enhanced-R)
 
+## What Font is That?
+I discovered [Cousine](http://www.google.com/fonts/specimen/Cousine) while browsing Google Fonts one day and absolutely love it. 
+
+> Cousine was designed by [Steve Matteson](https://profiles.google.com/107777320916704234605/about) as an innovative, refreshing sans serif design that is metrically compatible with Courier New™. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms.
+
+It's one of the first things I install when setting up a new workstation or VM, and it's my go-to monospace font for web design.
+
 ## Installation for Sublime Text 2/3
 The easiest method is through [Package Control](https://sublime.wbond.net/), which you need to [install](https://sublime.wbond.net/installation) first as it doesn't come with Sublime Text. Open the command palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type `pci` or `packconin` or whatever you like to get `Package Control: Install` showing. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
 
