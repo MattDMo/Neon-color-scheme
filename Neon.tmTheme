@@ -18,7 +18,7 @@
 			<key>settings</key>
 			<dict>
 				<key>activeGuide</key>
-				<string>#6F6F6F</string>
+				<string>#FF0080</string>
 				<key>background</key>
 				<string>#000000</string>
 				<key>caret</key>
@@ -40,6 +40,8 @@
 				<key>selection</key>
 				<string>#0205FF</string>
 				<key>selectionBorder</key>
+				<string>#06FF05</string>
+				<key>stackGuide</key>
 				<string>#06FF05</string>
 			</dict>
 		</dict>
