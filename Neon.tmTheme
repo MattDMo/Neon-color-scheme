@@ -519,6 +519,93 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>=========== Clojure ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant.other</string>
+			<key>scope</key>
+			<string>constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFA325</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>support.other.keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0B93FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Namespace</string>
+			<key>scope</key>
+			<string>entity.name.namespace.clojure</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CFFF01</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#008040</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage.type.function</string>
+			<key>scope</key>
+			<string>storage.type.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#10FF02</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String Constant Symbole</string>
+			<key>scope</key>
+			<string>constant.string.symbole.clojure</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A7A3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>=========== Ruby ==========</string>
 			<key>scope</key>
 			<string></string>
