@@ -536,7 +536,7 @@
 			<key>name</key>
 			<string>Constant.other</string>
 			<key>scope</key>
-			<string>constant.other</string>
+			<string>constant.other source.clojure</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -547,43 +547,11 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Control Keyword</string>
-			<key>scope</key>
-			<string>keyword.control</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FC5A43</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Keyword.other.mark</string>
-			<key>scope</key>
-			<string>keyword.other.mark</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#FF71BB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>support.other.keyword</string>
+			<string>support.other.keyword source.clojure</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#0B93FF</string>
 			</dict>
@@ -595,15 +563,17 @@
 			<string>entity.name.namespace.clojure</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#070E48</string>
 				<key>foreground</key>
 				<string>#CFFF01</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Storage</string>
+			<string>Storage, Support functions</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>storage.clojure, support.function.clojure</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -614,7 +584,7 @@
 			<key>name</key>
 			<string>Storage.type.function</string>
 			<key>scope</key>
-			<string>storage.type.function</string>
+			<string>storage.type.function source.clojure</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -623,24 +593,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Map braces</string>
+			<string>Keyword.other.mark</string>
 			<key>scope</key>
-			<string>punctuation.definition.map</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#80FF80</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tester Function</string>
-			<key>scope</key>
-			<string>support.function.tester</string>
+			<string>keyword.other.mark source.clojure</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -651,9 +606,61 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Tester Function</string>
+			<key>scope</key>
+			<string>support.function.tester source.clojure</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FF71BB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Match Function</string>
+			<key>scope</key>
+			<string>support.function.match.clojure</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#47FFC7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Map braces</string>
+			<key>scope</key>
+			<string>punctuation.definition.map source.clojure</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#80FF80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Set braces</string>
+			<key>scope</key>
+			<string>punctuation.definition.set source.clojure</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FF3229</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Vector brackets</string>
 			<key>scope</key>
-			<string>punctuation.definition.vector</string>
+			<string>punctuation.definition.vector source.clojure</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -664,7 +671,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String Constant Symbole</string>
+			<string>String Constant Symbol</string>
 			<key>scope</key>
 			<string>constant.string.symbole.clojure</string>
 			<key>settings</key>
@@ -1838,62 +1845,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FFFF00</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>=========== nginx ==========</string>
-			<key>scope</key>
-			<string></string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>nginx IP address</string>
-			<key>scope</key>
-			<string>entity.ip-address</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#06FF05</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>punctuation</string>
-			<key>scope</key>
-			<string>punctuation.character</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FF8000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>http</string>
-			<key>scope</key>
-			<string>keyword.module.http, keyword.directive.module.http</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#E020F0</string>
 			</dict>
 		</dict>
 		<dict>
