@@ -547,6 +547,34 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Control Keyword</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FC5A43</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword.other.mark</string>
+			<key>scope</key>
+			<string>keyword.other.mark</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FF71BB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
 			<string>support.other.keyword</string>
@@ -579,7 +607,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#008040</string>
+				<string>#00BB5E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -591,6 +619,47 @@
 			<dict>
 				<key>foreground</key>
 				<string>#10FF02</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Map braces</string>
+			<key>scope</key>
+			<string>punctuation.definition.map</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#80FF80</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tester Function</string>
+			<key>scope</key>
+			<string>support.function.tester</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FF71BB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vector brackets</string>
+			<key>scope</key>
+			<string>punctuation.definition.vector</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FF00FF</string>
 			</dict>
 		</dict>
 		<dict>
