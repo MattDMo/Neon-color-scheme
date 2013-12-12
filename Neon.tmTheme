@@ -358,6 +358,8 @@
 			<string>meta.function-call, support.function.name, meta.function-call punctuation.definition.parameters</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#000000</string>
 				<key>foreground</key>
 				<string>#10FF02</string>
 			</dict>
@@ -397,19 +399,6 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#E0A1FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Magic function</string>
-			<key>scope</key>
-			<string>support.function.magic</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#E3A0FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -504,6 +493,37 @@
 			<dict>
 				<key>foreground</key>
 				<string>#0A4AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== JavaScript ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property - JavaScriptNext</string>
+			<key>scope</key>
+			<string>variable.other.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AA00AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Object - JavaScriptNext</string>
+			<key>scope</key>
+			<string>variable.other.object</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80FF00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -638,7 +658,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold italic</string>
 				<key>foreground</key>
 				<string>#80FF80</string>
 			</dict>
@@ -664,7 +684,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold italic</string>
 				<key>foreground</key>
 				<string>#FF00FF</string>
 			</dict>
@@ -791,6 +811,62 @@
 				<string></string>
 				<key>foreground</key>
 				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Annotation separator :</string>
+			<key>scope</key>
+			<string>punctuation.separator.annotation.python</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0205FF</string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#F6FF04</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Annotation result -&gt;</string>
+			<key>scope</key>
+			<string>punctuation.separator.annotation.result.python</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0205FF</string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#F6FF04</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Annotation parameters group begin (</string>
+			<key>scope</key>
+			<string>punctuation.definition.parameters-group.begin.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FF06A5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Annotation parameters group end )</string>
+			<key>scope</key>
+			<string>punctuation.definition.parameters-group.end.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FF06A5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -956,58 +1032,15 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Annotation separator :</string>
+			<string>Magic function</string>
 			<key>scope</key>
-			<string>punctuation.separator.annotation.python</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#0205FF</string>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#F6FF04</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Annotation result -&gt;</string>
-			<key>scope</key>
-			<string>punctuation.separator.annotation.result.python</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#0205FF</string>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#F6FF04</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Annotation parameters group begin (</string>
-			<key>scope</key>
-			<string>punctuation.definition.parameters-group.begin.python</string>
+			<string>support.function.magic</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#FF06A5</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Annotation parameters group end )</string>
-			<key>scope</key>
-			<string>punctuation.definition.parameters-group.end.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#FF06A5</string>
+				<string>#E3A0FF</string>
 			</dict>
 		</dict>
 		<dict>
