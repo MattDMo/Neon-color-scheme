@@ -1,0 +1,12 @@
+Neon Color Scheme v1.1.6
+========================
+
+Major changes for this version:
+* Extended support for Clojure
+* Added some new scopes for JavaScriptNext
+
+Do you have a favorite plugin or language that you'd like to see themed by Neon? 
+Open an issue (https://github.com/MattDMo/Neon-color-scheme/issues/new) 
+and let me know!
+
+MattDMo
