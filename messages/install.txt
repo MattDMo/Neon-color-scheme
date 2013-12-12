@@ -1,4 +1,4 @@
-Neon Color Scheme v1.1.4
+Neon Color Scheme v1.1.6
 ++++++++++++++++++++++++
 
 Thank you for installing my Neon Color Scheme! I hope you enjoy using it as much
