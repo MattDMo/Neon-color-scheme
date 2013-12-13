@@ -1,4 +1,4 @@
-Neon Color Scheme v1.1.6
+Neon Color Scheme v1.1.7
 ========================
 
 Major changes for this version:
