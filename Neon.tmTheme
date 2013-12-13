@@ -86,7 +86,7 @@
 			<key>name</key>
 			<string>docstring</string>
 			<key>scope</key>
-			<string>string.quoted.double.block</string>
+			<string>string.quoted.double.block, string.docstring</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -556,7 +556,7 @@
 			<key>name</key>
 			<string>Constant.other</string>
 			<key>scope</key>
-			<string>constant.other source.clojure</string>
+			<string>source.clojure constant.other</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -569,7 +569,7 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>support.other.keyword source.clojure</string>
+			<string>source.clojure support.other.keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -615,7 +615,7 @@
 			<key>name</key>
 			<string>Keyword.other.mark</string>
 			<key>scope</key>
-			<string>keyword.other.mark source.clojure</string>
+			<string>keyword.other.mark</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -628,7 +628,7 @@
 			<key>name</key>
 			<string>Tester Function</string>
 			<key>scope</key>
-			<string>support.function.tester source.clojure</string>
+			<string>support.function.tester</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -654,7 +654,7 @@
 			<key>name</key>
 			<string>Map braces</string>
 			<key>scope</key>
-			<string>punctuation.definition.map source.clojure</string>
+			<string>punctuation.definition.map</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -667,7 +667,7 @@
 			<key>name</key>
 			<string>Set braces</string>
 			<key>scope</key>
-			<string>punctuation.definition.set source.clojure</string>
+			<string>punctuation.definition.set</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -680,7 +680,7 @@
 			<key>name</key>
 			<string>Vector brackets</string>
 			<key>scope</key>
-			<string>punctuation.definition.vector source.clojure</string>
+			<string>punctuation.definition.vector</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
