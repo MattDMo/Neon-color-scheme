@@ -92,7 +92,7 @@ If you have questions, concerns, or suggested improvements, I'd love to hear fro
 
 ## License
 
-&copy; 2012-2013 Matt Morrison <mattdmo@pigimal.com>.
+&copy; 2012-2014 Matt Morrison <mattdmo@pigimal.com>.
 
 This is free software. It is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Feel free to use this theme in your own work. However, if you modify and/or redistribute it, please attribute me in some way, and distribute your work under this or a similar license. A shout-out or a beer would be greatly appreciated.
 
