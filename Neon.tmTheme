@@ -276,7 +276,7 @@
 			<key>name</key>
 			<string>Language Variable</string>
 			<key>scope</key>
-			<string>variable.language</string>
+			<string>variable.language, variable.parameter.function.language</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -302,7 +302,7 @@
 			<key>name</key>
 			<string>Dict key</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.key</string>
+			<string>meta.structure.dictionary.key, constant.other.object.key string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -324,7 +324,7 @@
 			<key>name</key>
 			<string>Class</string>
 			<key>scope</key>
-			<string>meta.class.identifier, entity.name.type.class, support.class</string>
+			<string>meta.class.identifier, entity.name.type.class, support.class, variable.other.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -361,7 +361,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#070E48</string>
+				<string>#07019A</string>
 				<key>foreground</key>
 				<string>#0AFF04</string>
 			</dict>
@@ -551,7 +551,33 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80FF00</string>
+				<string>#00A452</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant - JavaScriptNext</string>
+			<key>scope</key>
+			<string>variable.other.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFA325</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Node keyword - JavaScriptNext</string>
+			<key>scope</key>
+			<string>support.keyword.node</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93D6F7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2233,7 +2259,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A60CFF</string>
+				<string>#AF35FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2246,7 +2272,7 @@
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#0CE2FF</string>
+				<string>#05B4FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2273,6 +2299,45 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#00B000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML-tmLanguage support.type</string>
+			<key>scope</key>
+			<string>source.yaml-tmlanguage support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#F57C0E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML-tmLanguage keyword.other.match</string>
+			<key>scope</key>
+			<string>source.yaml-tmlanguage keyword.other.match</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FF00FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>YAML-tmLanguage keyword.other.name</string>
+			<key>scope</key>
+			<string>source.yaml-tmlanguage keyword.other.name</string>
+			<key>settings</key>
+			<dict>
 				<key>foreground</key>
 				<string>#0BFF02</string>
 			</dict>
@@ -2382,4 +2447,3 @@
 	<string>06CD1FB2-A00A-4F8C-97B2-60E131912345</string>
 </dict>
 </plist>
-
