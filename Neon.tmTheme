@@ -302,11 +302,24 @@
 			<key>name</key>
 			<string>Dict key</string>
 			<key>scope</key>
-			<string>meta.structure.dictionary.key, constant.other.object.key string</string>
+			<string>meta.structure.dictionary meta.structure.dictionary.key, constant.other.object.key string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#A9FF98</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dict Value</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A9FF98</string>
+				<string>#7DC5F9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1104,6 +1117,8 @@
 			<string>entity.other.jinja.delimiter</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string></string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -2433,13 +2448,94 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Violation Underline</string>
+			<string>=========== BracketHighlighter ==========</string>
 			<key>scope</key>
-			<string>sublimelinter.underline.violation</string>
+			<string></string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FF0000</string>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter unmatched</string>
+			<key>scope</key>
+			<string>brackethighlighter.unmatched</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF1E00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter curly</string>
+			<key>scope</key>
+			<string>brackethighlighter.curly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FF40</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter round</string>
+			<key>scope</key>
+			<string>brackethighlighter.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1AB5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter square</string>
+			<key>scope</key>
+			<string>brackethighlighter.square</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF8000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter angle</string>
+			<key>scope</key>
+			<string>brackethighlighter.angle</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9A35FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter tag</string>
+			<key>scope</key>
+			<string>brackethighlighter.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFF00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter quote</string>
+			<key>scope</key>
+			<string>brackethighlighter.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF07A2</string>
 			</dict>
 		</dict>
 	</array>
