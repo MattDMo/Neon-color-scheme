@@ -37,6 +37,8 @@
 				<string>#06FF05</string>
 				<key>lineHighlight</key>
 				<string>#2D2D2D</string>
+				<key>searchHighlight</key>
+				<string>#1515FF</string>
 				<key>selection</key>
 				<string>#0205FF</string>
 				<key>selectionBorder</key>
@@ -292,10 +294,10 @@
 			<string>entity.other</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#2F0004</string>
 				<key>foreground</key>
 				<string>#04FFD7</string>
+				<key>background</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -340,6 +342,8 @@
 			<string>meta.class.identifier, entity.name.type.class, support.class, variable.other.class</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#CFFF01</string>
 			</dict>
@@ -370,7 +374,7 @@
 			<key>name</key>
 			<string>Function definition</string>
 			<key>scope</key>
-			<string>meta.function entity.name.function</string>
+			<string>meta.function entity.name.function, entity.name.function.abp</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -532,6 +536,8 @@
 			<string>support.variable</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#0A4AFF</string>
 			</dict>
@@ -951,6 +957,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Constant - All Caps</string>
+			<key>scope</key>
+			<string>source.python constant.other.allcaps.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFA325</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comment - Note - Notation</string>
 			<key>scope</key>
 			<string>comment.line.note.notation.python</string>
@@ -969,6 +988,10 @@
 			<string>meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#000000</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#B6B8FE</string>
 			</dict>
@@ -2281,7 +2304,7 @@
 			<key>name</key>
 			<string>Regex Group</string>
 			<key>scope</key>
-			<string>storage.type.regexp.group</string>
+			<string>storage.type.regexp.group, string meta.group.regexp punctuation.definition.group</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -2448,6 +2471,39 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>SublimeLinter3 Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter3 Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DA2000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter3 Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDBA00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>=========== BracketHighlighter ==========</string>
 			<key>scope</key>
 			<string></string>
@@ -2543,3 +2599,4 @@
 	<string>06CD1FB2-A00A-4F8C-97B2-60E131912345</string>
 </dict>
 </plist>
+
