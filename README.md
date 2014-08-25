@@ -23,17 +23,17 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * Markdown/reStructuredText
 * PHP
 * CSS
-* SASS - specifically, the [Syntax Highlighting for SASS](https://sublime.wbond.net/packages/Syntax%20Highlighting%20for%20Sass) package
-* [Git Gutter](https://sublime.wbond.net/packages/GitGutter)
+* SASS - specifically, the [`Syntax Highlighting for SASS`](https://sublime.wbond.net/packages/Syntax%20Highlighting%20for%20Sass) package
+* [`Git Gutter`](https://sublime.wbond.net/packages/GitGutter)
 * `Find In Files`
-* [AAAPackageDev](https://sublime.wbond.net/packages/AAAPackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
-* [SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)
+* [`AAAPackageDev`](https://sublime.wbond.net/packages/AAAPackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
+* [`SublimeLinter`/`SublimeLinter3`](https://sublime.wbond.net/packages/SublimeLinter)
 
-For major changes, I'll test most if not all of the above languages, as well as JavaScript (use [JavaScriptNext](https://sublime.wbond.net/packages/JavaScriptNext%20-%20ES6%20Syntax), it's awesome!), R, Makefile, Lua, Java, Perl, Fortran (my excuse &mdash; I work with [NumPy](http://www.numpy.org)), LaTeX, and `bash` shell scripts, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
+For major changes, I'll test most if not all of the above languages, as well as JavaScript (use [`JavaScriptNext`](https://sublime.wbond.net/packages/JavaScriptNext%20-%20ES6%20Syntax), it's awesome!), R, Makefile, Lua, Java, Perl, Fortran (my excuse &mdash; I work with [`NumPy`](http://www.numpy.org)), LaTeX, and `bash` shell scripts, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
 If you have a particular language or plugin you'd like Neon to support, just [open an issue](https://github.com/MattDMo/Neon-color-scheme/issues/new) and I'll see what I can do.
 
-There are a bunch of scopes in here that are only found in my [Python Improved](https://sublime.wbond.net/packages/Python%20Improved) language definition package &mdash; [IPython](http://www.ipython.org) `In`/`Out` statements, [Django](http://djangoproject.org)-specific highlighting (adapted from [Djaniero](https://github.com/squ1b3r/Djaneiro)), and a bunch of improvements from @facelessuser's [Better Python](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python), along with various enhancements, extensions, and bug fixes of my own. If you work with Python, I'd highly recommend getting it.
+There are a bunch of scopes in here that are only found in my [`Python Improved`](https://sublime.wbond.net/packages/Python%20Improved) language definition package &mdash; [IPython](http://www.ipython.org) `In`/`Out` statements, [Django](http://djangoproject.org)-specific highlighting (adapted from [`Djaniero`](https://github.com/squ1b3r/Djaneiro)), and a bunch of improvements from @facelessuser's [`Better Python`](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python), along with various enhancements, extensions, and bug fixes of my own. If you work with Python, I'd highly recommend getting it.
 
 ![Clojure with Neon](http://pigimal.com/img/github/clojure.png)
 
