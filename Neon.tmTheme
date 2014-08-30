@@ -37,8 +37,6 @@
 				<string>#06FF05</string>
 				<key>lineHighlight</key>
 				<string>#2D2D2D</string>
-				<key>searchHighlight</key>
-				<string>#1515FF</string>
 				<key>selection</key>
 				<string>#0205FF</string>
 				<key>selectionBorder</key>
@@ -296,8 +294,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#04FFD7</string>
-				<key>background</key>
-				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -342,8 +338,6 @@
 			<string>meta.class.identifier, entity.name.type.class, support.class, variable.other.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#CFFF01</string>
 			</dict>
@@ -536,8 +530,6 @@
 			<string>support.variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
 				<string>#0A4AFF</string>
 			</dict>
@@ -862,6 +854,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Regex character class</string>
+			<key>scope</key>
+			<string>string.regexp.character-class, punctuation.definition.character-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#22FFC9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Block variable</string>
 			<key>scope</key>
 			<string>variable.other.block, punctuation.separator.variable</string>
@@ -957,19 +960,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constant - All Caps</string>
-			<key>scope</key>
-			<string>source.python constant.other.allcaps.python</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#FFA325</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Comment - Note - Notation</string>
 			<key>scope</key>
 			<string>comment.line.note.notation.python</string>
@@ -979,6 +969,21 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#FF112C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Constant - allcaps</string>
+			<key>scope</key>
+			<string>constant.other.allcaps</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFA325</string>
 			</dict>
 		</dict>
 		<dict>
@@ -994,32 +999,6 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#B6B8FE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>IPython In</string>
-			<key>scope</key>
-			<string>support.ipython.in</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#17FF07</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>IPython Out</string>
-			<key>scope</key>
-			<string>support.ipython.out</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#FF0704</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1107,6 +1086,39 @@
 				<string>bold italic</string>
 				<key>foreground</key>
 				<string>#FF0D8F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>IPython In</string>
+			<key>scope</key>
+			<string>support.ipython.in</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#17FF07</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>IPython Out</string>
+			<key>scope</key>
+			<string>support.ipython.out</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0704</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>IPython Cell Number</string>
+			<key>scope</key>
+			<string>support.ipython.cell-number</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2291,23 +2303,12 @@
 			<string>storage.type.regexp.group, string meta.group.regexp punctuation.definition.group</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#000000</string>
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
 				<string>#05B4FF</string>
-				<key>background</key>
-				<string>#000000</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex character class</string>
-			<key>scope</key>
-			<string>string.regexp.character-class, punctuation.definition.character-class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#22FFC9</string>
 			</dict>
 		</dict>
 		<dict>
