@@ -1829,6 +1829,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Image</string>
+			<key>scope</key>
+			<string>meta.image.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#E421FD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>=========== PHP ==========</string>
 			<key>scope</key>
 			<string></string>
