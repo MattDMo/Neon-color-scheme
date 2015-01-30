@@ -1738,7 +1738,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup Link</string>
+			<string>Markup Link URL</string>
 			<key>scope</key>
 			<string>meta.link.inline markup.underline, meta.image.inline markup.underline</string>
 			<key>settings</key>
@@ -1747,6 +1747,21 @@
 				<string>#212121</string>
 				<key>foreground</key>
 				<string>#8080FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup Link parens</string>
+			<key>scope</key>
+			<string>punctuation.definition.metadata</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>background</key>
+				<string>#212121</string>
+				<key>foreground</key>
+				<string>#FF07A2</string>
 			</dict>
 		</dict>
 		<dict>
