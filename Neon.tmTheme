@@ -37,6 +37,8 @@
 				<string>#06FF05</string>
 				<key>lineHighlight</key>
 				<string>#2D2D2D</string>
+				<key>searchHighlight</key>
+				<string>#0205FF</string>
 				<key>selection</key>
 				<string>#0205FF</string>
 				<key>selectionBorder</key>
@@ -53,9 +55,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#800F00</string>
+				<string>#FF1E00</string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -71,9 +75,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>INI =</string>
+			<key>scope</key>
+			<string>punctuation.definition.equals.ini</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF07A2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -153,18 +168,16 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FF1E00</string>
-				<key>fontStyle</key>
-				<string>bold italic</string>
+				<string>#800F00</string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#F8F8F8</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, storage.control.matlab</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -244,8 +257,6 @@
 			<string>storage.modifier</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#276AFF</string>
 			</dict>
@@ -265,7 +276,7 @@
 			<key>name</key>
 			<string>Other Variable</string>
 			<key>scope</key>
-			<string>variable.other</string>
+			<string>variable.other, meta.variable.other.valid</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -335,7 +346,7 @@
 			<key>name</key>
 			<string>Class</string>
 			<key>scope</key>
-			<string>meta.class.identifier, entity.name.type.class, support.class, variable.other.class</string>
+			<string>meta.class.identifier, entity.name.type.class, support.class, variable.other.class, entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -368,7 +379,7 @@
 			<key>name</key>
 			<string>Function definition</string>
 			<key>scope</key>
-			<string>meta.function entity.name.function, entity.name.function.abp</string>
+			<string>meta.function entity.name.function, entity.name.function.abp, meta.prototype.function.js, entity.name.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -381,11 +392,9 @@
 			<key>name</key>
 			<string>Function call</string>
 			<key>scope</key>
-			<string>meta.function-call, support.function.name, meta.function-call punctuation.definition.parameters</string>
+			<string>meta.function-call, support.function.name, meta.function-call punctuation.definition.parameters, meta.function-call.method.without-arguments.js -meta.group.braces.round.function.arguments.js</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#000000</string>
 				<key>foreground</key>
 				<string>#10FF02</string>
 			</dict>
@@ -545,6 +554,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>New Object - JavaScriptNext</string>
+			<key>scope</key>
+			<string>entity.name.type.new</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#FFFF03</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Property - JavaScriptNext</string>
 			<key>scope</key>
 			<string>variable.other.property</string>
@@ -567,13 +589,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Object Property - JavaScriptNext</string>
+			<key>scope</key>
+			<string>meta.property.object</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#34A7FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Constant - JavaScriptNext</string>
 			<key>scope</key>
 			<string>variable.other.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -589,6 +622,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#93D6F7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Statement Terminator - JavaScriptNext</string>
+			<key>scope</key>
+			<string>punctuation.terminator.statement</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -978,8 +1024,6 @@
 			<string>constant.other.allcaps</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -993,8 +1037,6 @@
 			<string>meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#000000</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
@@ -1021,17 +1063,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#82C537</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Django settings</string>
-			<key>scope</key>
-			<string>variable.other.django.settings</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ABFFB3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1114,11 +1145,13 @@
 			<key>name</key>
 			<string>IPython Cell Number</string>
 			<key>scope</key>
-			<string>support.ipython.cell-number</string>
+			<string>source.python support.ipython support.ipython.cell-number</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#00B1F7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1450,9 +1483,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#000E1A</string>
+				<string>#008BFE</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1463,9 +1496,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#4C0900</string>
+				<string>#BC1802</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1476,9 +1509,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#806F00</string>
+				<string>#CFB406</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1489,9 +1522,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#154F00</string>
+				<string>#277D08</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1720,7 +1753,7 @@
 			<key>name</key>
 			<string>Markup Link Text</string>
 			<key>scope</key>
-			<string>string.other.link.title</string>
+			<string>string.other.link.title, string.other.link.description</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1951,7 +1984,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#673000</string>
+				<string>#833F04</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2190,7 +2223,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F90504</string>
+				<string>#FF0000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2201,7 +2234,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#21E209</string>
+				<string>#00FF00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2212,7 +2245,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FBF704</string>
+				<string>#FFFF00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2303,8 +2336,6 @@
 			<string>storage.type.regexp.group, string meta.group.regexp punctuation.definition.group</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#000000</string>
 				<key>fontStyle</key>
 				<string>bold italic</string>
 				<key>foreground</key>
@@ -2378,7 +2409,7 @@
 			<key>name</key>
 			<string>YAML-tmLanguage folding-marker</string>
 			<key>scope</key>
-			<string>source.yaml-tmlanguge meta.folding-marker keyword.other.folding-marker</string>
+			<string>source.yaml-tmlanguage meta.folding-marker keyword.other.folding-marker</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -2524,6 +2555,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>BracketHighlighter default</string>
+			<key>scope</key>
+			<string>brackethighlighter.default</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>BracketHighlighter unmatched</string>
 			<key>scope</key>
 			<string>brackethighlighter.unmatched</string>
@@ -2597,6 +2639,54 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FF07A2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter C define</string>
+			<key>scope</key>
+			<string>brackethighlighter.c_define</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8189FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BracketHighlighter Bash</string>
+			<key>scope</key>
+			<string>brackethighlighter.bash</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0B93FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== Matlab ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword.mathematics</string>
+			<key>scope</key>
+			<string>keyword.mathematics.matlab</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D6FF1E</string>
 			</dict>
 		</dict>
 	</array>
