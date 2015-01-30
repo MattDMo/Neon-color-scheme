@@ -1,5 +1,5 @@
 {
-    "schema_version": "2.0",
+    "schema_version": "3.0.0",
 
     "packages": [
 
@@ -9,7 +9,7 @@
             "releases": [
                 {
                     "sublime_text": "*",
-                    "details": "https://github.com/MattDMo/Neon-color-scheme/tags"
+                    "tags": true
                 }
             ],
             "previous_names": ["Neon Theme"],
