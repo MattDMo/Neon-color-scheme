@@ -17,6 +17,7 @@ Major changes for this version:
     way.
   - Added IPython cell number
 * Diff colors updated
+* Tweaks to markdown
 * CSS attribute color brightened
 * GitGutter modified to primary colors
 * AAAPackageDev - fixed misspelling in YAML-tmLanguage folding marker
