@@ -53,7 +53,7 @@ It's one of the first things I install when setting up a new workstation or VM, 
 More recently, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the [Liberation](https://fedorahosted.org/liberation-fonts/) font family. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
 
 ## Installation for Sublime Text 2/3
-The easiest method is through [Package Control](https://packagecontrol.io/), which you need to [install](https://packagecontrol.io/installation) first as it doesn't come with Sublime Text. Open the command palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type ***`pci`*** to bring up `Package Control: Install`. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
+The easiest method is through [Package Control](https://packagecontrol.io/), which you need to [install](https://packagecontrol.io/installation) first as it doesn't come with Sublime Text. Open the ommand palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type ***`pci`*** to bring up `Package Control: Install`. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
 
 ```js
 "color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme"
@@ -64,7 +64,7 @@ The easiest method is through [Package Control](https://packagecontrol.io/), whi
 If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 2/Packages/User` (OSX), `%APPDATA%\Sublime Text 2\Packages\User` (Windows), or `~/.config/sublime-text-2/Packages/User` (Linux) (change the `2` to `3` for ST3...):
 
 ```bash
-git clone git://github.com/MattDMo/Neon-color-scheme.git "Neon Color Scheme"
+git clone https://github.com/MattDMo/Neon-color-scheme.git "Neon Color Scheme"
 ```
 
 This will create a menu option `Neon` under `Preferences -> Color Scheme -> User -> Neon Color Scheme`.
@@ -74,7 +74,7 @@ This will create a menu option `Neon` under `Preferences -> Color Scheme -> User
 For right now, manual cloning is the only option. Hopefully a bundle will be available soon for TM1 and TM2. From your home directory (or anywhere, really), enter:
 
 ```bash    
-git clone git://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
+git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
 ```
 
 Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself.
