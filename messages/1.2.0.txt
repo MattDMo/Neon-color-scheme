@@ -1,0 +1,33 @@
+Neon Color Scheme v1.2.0
+========================
+
+Major changes for this version:
+* Switched `invalid` and `exception` colors - invalid is now bold white on red,
+  while exceptions are now darker red.
+* Classes, support variables are no longer bold
+* Added several new settings for JavaScriptNext:
+  (https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax) -
+  - objects following `new` keyword
+  - object properties
+  - statement terminator (semi-colon at end of line)
+  - corrected a few bugs like parens after function call without arguments
+    being highlighted
+* Changes dealing with Python Improved:
+  - Removed "Django settings". All constants should now be highlighted the same
+    way.
+  - Added IPython cell number
+* Diff colors updated
+* CSS attribute color brightened
+* GitGutter modified to primary colors
+* AAAPackageDev - fixed misspelling in YAML-tmLanguage folding marker
+* Added BracketHighlighter scopes:
+  - Default color
+  - C/C++ defines
+  - Bash
+* Added new Matlab section
+
+Do you have a favorite plugin or language that you'd like to see themed by Neon?
+Open an issue (https://github.com/MattDMo/Neon-color-scheme/issues/new)
+and let me know!
+
+MattDMo
