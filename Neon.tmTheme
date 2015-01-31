@@ -737,19 +737,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tester Function</string>
-			<key>scope</key>
-			<string>support.function.tester</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#FF71BB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Match Function</string>
 			<key>scope</key>
 			<string>support.function.match.clojure</string>
