@@ -1623,7 +1623,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>=========== Android Debug Bridge ==========</string>
+			<string>=========== Logcat ==========</string>
 			<key>scope</key>
 			<string></string>
 			<key>settings</key>
@@ -1638,9 +1638,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Timestamp</string>
+			<string>logcat Timestamp</string>
 			<key>scope</key>
-			<string>constant.other.adb.timestamp</string>
+			<string>string.logcat.timestamp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1649,9 +1649,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function</string>
+			<string>logcat Tag</string>
 			<key>scope</key>
-			<string>source.adb entity.name.function</string>
+			<string>entity.name.tag.logcat.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -1664,9 +1664,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>constant.other</string>
+			<string>logcat pid</string>
 			<key>scope</key>
-			<string>constant.other.adb</string>
+			<string>constant.numeric.logcat</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1675,9 +1675,39 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Info</string>
+			<string>logcat Verbose</string>
 			<key>scope</key>
-			<string>entity.name.filename.adb</string>
+			<string>entity.name.function.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#777777</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Debug</string>
+			<key>scope</key>
+			<string>entity.name.function.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Info</string>
+			<key>scope</key>
+			<string>entity.name.class.logcat</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -1690,20 +1720,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Warning</string>
+			<string>logcat Warning</string>
 			<key>scope</key>
-			<string>keyword.adb</string>
+			<string>keyword.logcat</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#ECED6D</string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#FFFF00</string>
+				<string>#444444</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Error</string>
+			<string>logcat Error</string>
 			<key>scope</key>
-			<string>invalid.illegal.adb</string>
+			<string>invalid.illegal.logcat</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
