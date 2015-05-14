@@ -1726,11 +1726,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ECED6D</string>
+				<string>#DBBE07</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
