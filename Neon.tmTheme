@@ -2532,9 +2532,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>RAML scheme description</string>
+			<string>RAML schema description</string>
 			<key>scope</key>
-			<string>source.raml markup.raw.description.raml.schema</string>
+			<string>source.raml string.quoted.single.yaml</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
