@@ -379,7 +379,7 @@
 			<key>name</key>
 			<string>Function definition</string>
 			<key>scope</key>
-			<string>meta.function entity.name.function, entity.name.function.abp, meta.prototype.function.js, entity.name.function.js</string>
+			<string>meta.function entity.name.function, entity.name.function.abp, meta.prototype.function.js, entity.name.function.js, entity.name.function.makefile</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -1738,15 +1738,15 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup Link parens</string>
+			<string>Markup Link brackets/parens</string>
 			<key>scope</key>
-			<string>punctuation.definition.metadata</string>
+			<string>punctuation.definition.metadata, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold</string>
 				<key>background</key>
-				<string>#212121</string>
+				<string></string>
 				<key>foreground</key>
 				<string>#FF07A2</string>
 			</dict>
@@ -2348,7 +2348,7 @@
 			<key>name</key>
 			<string>Regex Group</string>
 			<key>scope</key>
-			<string>storage.type.regexp.group, string meta.group.regexp punctuation.definition.group</string>
+			<string>storage.type.regexp.group, string meta.group.regexp punctuation.definition.group, punctuation.definition.group.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -2709,4 +2709,3 @@
 	<string>06CD1FB2-A00A-4F8C-97B2-60E131912345</string>
 </dict>
 </plist>
-
