@@ -1703,6 +1703,133 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>=========== Logcat ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Timestamp</string>
+			<key>scope</key>
+			<string>string.logcat.timestamp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FE7DF5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Tag</string>
+			<key>scope</key>
+			<string>entity.name.tag.logcat.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#10FF07</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat pid</string>
+			<key>scope</key>
+			<string>constant.numeric.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF8000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Verbose</string>
+			<key>scope</key>
+			<string>entity.name.function.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#777777</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Debug</string>
+			<key>scope</key>
+			<string>entity.name.function.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#CCCCCC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Info</string>
+			<key>scope</key>
+			<string>entity.name.class.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#08F2FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Warning</string>
+			<key>scope</key>
+			<string>keyword.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DBBE07</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>logcat Error</string>
+			<key>scope</key>
+			<string>invalid.illegal.logcat</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FF0000</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>=========== Markup ==========</string>
 			<key>scope</key>
 			<string></string>
