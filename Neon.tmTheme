@@ -2433,6 +2433,131 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>=========== RAML ==========</string>
+			<key>scope</key>
+			<string>source.raml</string>
+			<key>settings</key>
+			<dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML Document control</string>
+			<key>scope</key>
+			<string>source.raml constant.language.document.yaml</string>
+			<key>settings</key>
+			<dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML Language directive</string>
+			<key>scope</key>
+			<string>source.raml constant.other.directive.yaml constant.language.directive.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c2e978</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML Method name</string>
+			<key>scope</key>
+			<string>source.raml meta.key-value entity.name.function.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#df31fc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML Resource name</string>
+			<key>scope</key>
+			<string>source.raml meta.resource entity.name.tag.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fca628</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML value</string>
+			<key>scope</key>
+			<string>source.raml meta.key-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffffff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML include statement</string>
+			<key>scope</key>
+			<string>source.raml meta.key-value.include</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#212121</string>
+				<key>foreground</key>
+				<string>#8080FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML include path/target</string>
+			<key>scope</key>
+			<string>source.raml meta.key-value.include.path</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a080FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML description</string>
+			<key>scope</key>
+			<string>source.raml markup.raw.description.raml</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1c1c1c</string>
+				<key>foreground</key>
+				<string>#c2e978</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML schema description</string>
+			<key>scope</key>
+			<string>source.raml string.quoted.single.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1c1c1c</string>
+				<key>foreground</key>
+				<string>#90f060</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>RAML HTML method</string>
+			<key>scope</key>
+			<string>source.raml meta.method constant.character.method.yaml</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#4281fb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>=========== SublimeLinter ==========</string>
 			<key>scope</key>
 			<string></string>
