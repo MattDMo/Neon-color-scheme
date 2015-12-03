@@ -1688,21 +1688,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Error</string>
-			<key>scope</key>
-			<string>invalid.illegal.adb</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF0000</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>=========== Logcat ==========</string>
 			<key>scope</key>
 			<string></string>
@@ -1815,21 +1800,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>logcat Error</string>
-			<key>scope</key>
-			<string>invalid.illegal.logcat</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF0000</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>=========== Markup ==========</string>
 			<key>scope</key>
 			<string></string>
@@ -1870,10 +1840,10 @@
 			<string>punctuation.definition.metadata, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>background</key>
 				<string></string>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#FF07A2</string>
 			</dict>
