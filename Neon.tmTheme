@@ -982,7 +982,7 @@
 			<key>name</key>
 			<string>Comment - Note</string>
 			<key>scope</key>
-			<string>comment.line.note.python</string>
+			<string>comment.line.note</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -995,7 +995,7 @@
 			<key>name</key>
 			<string>Comment - Note - Notation</string>
 			<key>scope</key>
-			<string>comment.line.note.notation.python</string>
+			<string>comment.line.note.notation</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
