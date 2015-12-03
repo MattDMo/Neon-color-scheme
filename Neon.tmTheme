@@ -1809,7 +1809,7 @@
 			<key>name</key>
 			<string>Markup Link URL</string>
 			<key>scope</key>
-			<string>meta.link.inline markup.underline, meta.image.inline markup.underline</string>
+			<string>meta.link.inline markup.underline, meta.image.inline markup.underline, markup.underline.link</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
