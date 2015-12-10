@@ -545,6 +545,109 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Table-of-Contents</string>
+			<key>scope</key>
+			<string>meta.toc-list</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#000B76</string>
+				<key>foreground</key>
+				<string>#E2FF09</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag line</string>
+			<key>scope</key>
+			<string>meta.toc-list.task-tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BA834</string>
+				<key>background</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag line - High priority</string>
+			<key>scope</key>
+			<string>meta.toc-list.task-tag.prio-high</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#36000B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag line - Normal priority</string>
+			<key>scope</key>
+			<string>meta.toc-list.task-tag.prio-normal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1D2002</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag line - Low priority</string>
+			<key>scope</key>
+			<string>meta.toc-list.task-tag.prio-low</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0E2402</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag</string>
+			<key>scope</key>
+			<string>entity.other.task-tag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag - High priority</string>
+			<key>scope</key>
+			<string>keyword.other.task-tag.prio-high storage.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF112C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag - Normal priority</string>
+			<key>scope</key>
+			<string>keyword.other.task-tag.prio-normal storage.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFEB09</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Task tag - Low priority</string>
+			<key>scope</key>
+			<string>keyword.other.task-tag.prio-low storage.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#67E607</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>=========== JavaScript ==========</string>
 			<key>scope</key>
 			<string></string>
