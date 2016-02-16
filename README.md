@@ -2,7 +2,7 @@
 
 **Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran (really!), R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. 
 
-[![PythonImproved with Neon](http://pigimal.com/img/github/python.png)](https://packagecontrol.io/packages/Python%20Improved)
+[![PythonImproved with Neon](http://pigimal.com/img/github/python_new.png)](https://packagecontrol.io/packages/Python%20Improved)
 
 
 ## Languages/Plugins Supported
