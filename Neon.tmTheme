@@ -433,7 +433,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E5A5FF</string>
+				<string>#C809FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -501,7 +501,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String.regexp</string>
+			<string>Regex String</string>
 			<key>scope</key>
 			<string>string.regexp</string>
 			<key>settings</key>
@@ -883,17 +883,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#276AFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex character class</string>
-			<key>scope</key>
-			<string>string.regexp.character-class, punctuation.definition.character-class</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#22FFC9</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1530,6 +1519,8 @@
 			<string>entity.other.attribute-name, storage.type.attr</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#FF88F9</string>
 			</dict>
@@ -1590,9 +1581,11 @@
 			<key>name</key>
 			<string>Tag</string>
 			<key>scope</key>
-			<string>meta.tag, meta.tag entity</string>
+			<string>meta.tag entity.name</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#FF6803</string>
 			</dict>
@@ -1604,6 +1597,8 @@
 			<string>punctuation.definition.tag</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#02AEFF</string>
 			</dict>
@@ -2378,17 +2373,11 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>=========== AAAPackageDev ==========</string>
+			<string>=========== PackageDev ==========</string>
 			<key>scope</key>
 			<string></string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -2400,58 +2389,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#05B4FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex Control Anchors</string>
-			<key>scope</key>
-			<string>entity.other.control</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#07019A</string>
-				<key>foreground</key>
-				<string>#A4FF5A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex Escape Character</string>
-			<key>scope</key>
-			<string>constant.character.escape</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#AF35FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex Group</string>
-			<key>scope</key>
-			<string>storage.type.regexp.group, string meta.group.regexp punctuation.definition.group, punctuation.definition.group.regexp</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-				<key>foreground</key>
-				<string>#05B4FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex Quantifier</string>
-			<key>scope</key>
-			<string>support.operator.quantifier</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#0DFF03</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2663,7 +2600,7 @@
 				<key>background</key>
 				<string>#FFFFAA</string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2911,8 +2848,164 @@
 				<string>#D6FF1E</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>=========== Regex ==========</string>
+			<key>scope</key>
+			<string></string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Assertion</string>
+			<key>scope</key>
+			<string>constant.other.assertion</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Character Class</string>
+			<key>scope</key>
+			<string>string.regexp.character-class, punctuation.definition.character-class, keyword.control.character-class</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#66CCFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Control Anchors</string>
+			<key>scope</key>
+			<string>entity.other.control, keyword.control.anchors</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#07019A</string>
+				<key>foreground</key>
+				<string>#A4FF5A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Escape Character</string>
+			<key>scope</key>
+			<string>constant.character.escape</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AF35FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Group</string>
+			<key>scope</key>
+			<string>storage.type.regexp.group, string meta.group.regexp punctuation.definition.group, punctuation.definition.group.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#00B471</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Posix Bracket</string>
+			<key>scope</key>
+			<string>constant.other.posix-bracket</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#464FFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Quantifier</string>
+			<key>scope</key>
+			<string>support.operator.quantifier</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0DFF03</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Range</string>
+			<key>scope</key>
+			<string>constant.other.range</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FF009A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex Set</string>
+			<key>scope</key>
+			<string>keyword.control.set</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#00B471</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex String Group</string>
+			<key>scope</key>
+			<string>string.regexp.group</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#DFBA00</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>06CD1FB2-A00A-4F8C-97B2-60E131912345</string>
 </dict>
 </plist>
+
