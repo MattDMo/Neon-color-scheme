@@ -19,7 +19,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [jQuery](https://packagecontrol.io/packages/jQuery)
 * [JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)
 * JSON
-* C/C++
+* C/C++, [C Improved](https://packagecontrol.io/packages/C%20Improved)
 * diff
 * HTML/XML
 * Markdown/reStructuredText
