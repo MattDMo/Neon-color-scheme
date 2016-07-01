@@ -17,9 +17,12 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * Clojure
 * Ruby
 * [jQuery](https://packagecontrol.io/packages/jQuery)
+* JavaScript
 * [JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)
 * JSON
+* JSX/[Babel](https://packagecontrol.io/packages/Babel)
 * C/C++
+* [C Improved](https://packagecontrol.io/packages/C%20Improved)
 * diff
 * HTML/XML
 * Markdown/reStructuredText
@@ -31,6 +34,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [`PackageDev`](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
 * [`SublimeLinter`/`SublimeLinter3`](https://packagecontrol.io/packages/SublimeLinter)
 * Matlab
+* Regular Expressions
 
 For major changes, I'll test most if not all of the above languages, as well as R, Makefile, Lua, Java, Perl, Fortran (my excuse &mdash; I work with [`NumPy`](http://www.numpy.org)), LaTeX, and `bash` shell scripts, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
