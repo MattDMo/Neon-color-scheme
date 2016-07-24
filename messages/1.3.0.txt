@@ -1,0 +1,14 @@
+Neon Color Scheme v1.3.0
+========================
+
+Major changes for this version:
+* Added support for logcat and RAML
+* Properly highlight `Makefile` functions
+* Tweaked highlighting of links in Markdown
+* `comment.line.note[.notation]` now generic instead of Python-specific
+
+Do you have a favorite plugin or language that you'd like to see themed by Neon?
+Open an issue (https://github.com/MattDMo/Neon-color-scheme/issues/new)
+and let me know!
+
+MattDMo

@@ -1,8 +1,8 @@
 # Neon Color Scheme
 
-**Neon** is a colorful bright-on-black color scheme for [Sublime Text 2](http://www.sublimetext.com/2)/[ST3](http://www.sublimetext.com/3 "Sublime Text 3") and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran (really!), R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. 
+**Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. 
 
-[![PythonImproved with Neon](http://pigimal.com/img/github/python.png)](https://packagecontrol.io/packages/Python%20Improved)
+[![PythonImproved with Neon](http://pigimal.com/img/github/python_new.png)](https://packagecontrol.io/packages/Python%20Improved)
 
 
 ## Languages/Plugins Supported
@@ -10,29 +10,41 @@
 Neon's main goal is to make as many languages as possible look as good as possible. That being said, there are some language/markup/framework-specific scopes and sections that you might be interested in:
 
 * Python
-    * IPython
-    * Django
+    * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org)
+    * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
     * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
     * All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
+    * The new built-in [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
 * Clojure
 * Ruby
+* Java
 * [jQuery](https://packagecontrol.io/packages/jQuery)
-* [JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)
+* JavaScript/[JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)/Node.js
 * JSON
-* C/C++
+* JSX/[Babel](https://packagecontrol.io/packages/Babel)
+* C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
 * diff
 * HTML/XML
 * Markdown/reStructuredText
 * PHP
 * CSS
-* SASS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
+* SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
 * [`Git Gutter`](https://packagecontrol.io/packages/GitGutter)
 * `Find In Files`
-* [`AAAPackageDev`](https://packagecontrol.io/packages/AAAPackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
+* [`PackageDev`](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
 * [`SublimeLinter`/`SublimeLinter3`](https://packagecontrol.io/packages/SublimeLinter)
 * Matlab
+* Regular Expressions
+* [Fortran](https://packagecontrol.io/packages/Fortran)
+* [Android Debug Bridge](https://packagecontrol.io/packages/ADBView)/[logcat](https://github.com/leesei/logcat.tmLanguage)
+* [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+* YAML
+* [RAML](https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter)
+* Rust
+* Shell Scripts/[ShellScriptImproved](https://packagecontrol.io/packages/ShellScriptImproved)
+* R/[R-Box](https://packagecontrol.io/packages/R-Box)
 
-For major changes, I'll test most if not all of the above languages, as well as R, Makefile, Lua, Java, Perl, Fortran (my excuse &mdash; I work with [`NumPy`](http://www.numpy.org)), LaTeX, and `bash` shell scripts, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
+For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, Perl, and LaTeX, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
 If you have a particular language or plugin you'd like Neon to support, just [open an issue](https://github.com/MattDMo/Neon-color-scheme/issues/new) and I'll see what I can do.
 
@@ -56,7 +68,7 @@ It's one of the first things I install when setting up a new workstation or VM, 
 More recently, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the [Liberation](https://fedorahosted.org/liberation-fonts/) font family. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
 
 
-## Installation for Sublime Text 2/3
+## Installation for Sublime Text 3
 
 The easiest method is through [Package Control](https://packagecontrol.io/), which you need to [install](https://packagecontrol.io/installation) first as it doesn't come with Sublime Text. Open the ommand palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type ***`pci`*** to bring up `Package Control: Install`. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
 
@@ -66,18 +78,18 @@ The easiest method is through [Package Control](https://packagecontrol.io/), whi
 
 ---
 
-If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 2/Packages/User` (OSX), `%APPDATA%\Sublime Text 2\Packages\User` (Windows), or `~/.config/sublime-text-2/Packages/User` (Linux) (change the `2` to `3` for ST3...):
+If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 3/Packages/User` (OSX), `%APPDATA%\Sublime Text 3\Packages\User` (Windows), or `~/.config/sublime-text-3/Packages/User` (Linux) (change the `3` to `2` if you're still using the outdated version 2 &mdash; and ***please*** upgrade!):
 
 ```
 git clone https://github.com/MattDMo/Neon-color-scheme.git "Neon Color Scheme"
 ```
 
-This will create a menu option `Neon` under `Preferences -> Color Scheme -> User -> Neon Color Scheme`.
+This will create a menu option `Neon` under `Preferences -> Color Scheme -> User -> Neon Color Scheme`. However, unless you `git pull` manually, your installation will never get upgraded with new goodies.
 
 
 ## TextMate Installation:
 
-For right now, manual cloning is the only option. Hopefully a bundle will be available soon for TM1 and TM2. From your home directory (or anywhere, really), enter:
+For right now, manual cloning is the only option. Maybe I'll make a bundle someday for TM1 and TM2. From your home directory (or anywhere, really), enter:
 
 ```    
 git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
@@ -95,7 +107,7 @@ However, for most of my editing, I use [@facelessuser](https://github.com/facele
 
 ## Issues
 
-Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`AAAPackageDev`](https://packagecontrol.io/packages/AAAPackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
+Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`PackageDev`](https://packagecontrol.io/packages/PackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
 
 ![YAML-tmLanguage syntax highlighting with Neon](http://www.pigimal.com/img/github/YAML-tmLanguage.png)
 
@@ -104,7 +116,7 @@ If you have questions, concerns, or suggested improvements, I'd love to hear fro
 
 ## License
 
-&copy; 2013-2015 Matt Morrison <mattdmo@pigimal.com>.
+&copy; 2013-2016 Matt Morrison <mattdmo@pigimal.com>.
 
 This is free software. It is licensed under the [MIT License](http://opensource.org/licenses/MIT). Feel free to use this in your own work. However, if you modify and/or redistribute it, please attribute me in some way, and it would be great if you distribute your work under this or a similar license, but it's not required. A shout-out or a beer would be appreciated.
 
