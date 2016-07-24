@@ -10,33 +10,41 @@
 Neon's main goal is to make as many languages as possible look as good as possible. That being said, there are some language/markup/framework-specific scopes and sections that you might be interested in:
 
 * Python
-    * IPython
-    * Django
+    * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org)
+    * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
     * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
     * All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
+    * The new built-in [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
 * Clojure
 * Ruby
+* Java
 * [jQuery](https://packagecontrol.io/packages/jQuery)
-* JavaScript
-* [JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)
+* JavaScript/[JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)/Node.js
 * JSON
 * JSX/[Babel](https://packagecontrol.io/packages/Babel)
-* C/C++
-* [C Improved](https://packagecontrol.io/packages/C%20Improved)
+* C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
 * diff
 * HTML/XML
 * Markdown/reStructuredText
 * PHP
 * CSS
-* SASS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
+* SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
 * [`Git Gutter`](https://packagecontrol.io/packages/GitGutter)
 * `Find In Files`
 * [`PackageDev`](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
 * [`SublimeLinter`/`SublimeLinter3`](https://packagecontrol.io/packages/SublimeLinter)
 * Matlab
 * Regular Expressions
+* [Fortran](https://packagecontrol.io/packages/Fortran)
+* [Android Debug Bridge](https://packagecontrol.io/packages/ADBView)/[logcat](https://github.com/leesei/logcat.tmLanguage)
+* [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+* YAML
+* [RAML](https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter)
+* Rust
+* Shell Scripts/[ShellScriptImproved](https://packagecontrol.io/packages/ShellScriptImproved)
+* R/[R-Box](https://packagecontrol.io/packages/R-Box)
 
-For major changes, I'll test most if not all of the above languages, as well as R, Makefile, Lua, Java, Perl, Fortran (my excuse &mdash; I work with [`NumPy`](http://www.numpy.org)), LaTeX, and `bash` shell scripts, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
+For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, Perl, and LaTeX, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
 If you have a particular language or plugin you'd like Neon to support, just [open an issue](https://github.com/MattDMo/Neon-color-scheme/issues/new) and I'll see what I can do.
 
@@ -99,7 +107,7 @@ However, for most of my editing, I use [@facelessuser](https://github.com/facele
 
 ## Issues
 
-Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`AAAPackageDev`](https://packagecontrol.io/packages/AAAPackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
+Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`PackageDev`](https://packagecontrol.io/packages/PackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
 
 ![YAML-tmLanguage syntax highlighting with Neon](http://www.pigimal.com/img/github/YAML-tmLanguage.png)
 
