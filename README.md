@@ -14,35 +14,35 @@ Neon's main goal is to make as many languages as possible look as good as possib
     * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
     * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
     * All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
-    * The new built-in [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
-* Clojure
-* Ruby
-* Java
-* [jQuery](https://packagecontrol.io/packages/jQuery)
-* JavaScript/[JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)/Node.js
-* JSON
-* JSX/[Babel](https://packagecontrol.io/packages/Babel)
-* C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
-* diff
-* HTML/XML
-* Markdown/reStructuredText
-* PHP
-* CSS
-* SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
-* [`Git Gutter`](https://packagecontrol.io/packages/GitGutter)
-* `Find In Files`
-* [`PackageDev`](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
-* [`SublimeLinter`/`SublimeLinter3`](https://packagecontrol.io/packages/SublimeLinter)
-* Matlab
-* Regular Expressions
-* [Fortran](https://packagecontrol.io/packages/Fortran)
+    * The new default [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
 * [Android Debug Bridge](https://packagecontrol.io/packages/ADBView)/[logcat](https://github.com/leesei/logcat.tmLanguage)
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
-* YAML
-* [RAML](https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter)
-* Rust
-* Shell Scripts/[ShellScriptImproved](https://packagecontrol.io/packages/ShellScriptImproved)
+* C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
+* Clojure
+* CSS
+* diff
+* `Find In Files`
+* [Fortran](https://packagecontrol.io/packages/Fortran)
+* [`Git Gutter`](https://packagecontrol.io/packages/GitGutter)
+* HTML/XML
+* Java
+* JavaScript/[JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)/Node.js
+* [jQuery](https://packagecontrol.io/packages/jQuery)
+* JSON
+* JSX/[Babel](https://packagecontrol.io/packages/Babel)
+* Markdown/reStructuredText
+* Matlab
+* [`PackageDev`](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
+* PHP
 * R/[R-Box](https://packagecontrol.io/packages/R-Box)
+* [RAML](https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter)
+* Regular Expressions
+* Ruby
+* Rust
+* SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
+* Shell Scripts/[ShellScriptImproved](https://packagecontrol.io/packages/ShellScriptImproved)
+* [`SublimeLinter`/`SublimeLinter3`](https://packagecontrol.io/packages/SublimeLinter)
+* YAML
 
 For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, Perl, and LaTeX, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
