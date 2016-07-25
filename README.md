@@ -1,20 +1,13 @@
 # Neon Color Scheme
 
-**Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com) (versions 1 and [2](https://github.com/textmate/textmate)). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. 
+**Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. 
 
-[![PythonImproved with Neon](http://pigimal.com/img/github/python_new.png)](https://packagecontrol.io/packages/Python%20Improved)
-
+[![PythonImproved with Neon](http://pigimal.com/img/github/random.png)](https://packagecontrol.io/packages/Python%20Improved)
 
 ## Languages/Plugins Supported
 
 Neon's main goal is to make as many languages as possible look as good as possible. That being said, there are some language/markup/framework-specific scopes and sections that you might be interested in:
 
-* Python
-    * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org)
-    * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
-    * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
-    * All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
-    * The new default [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
 * [Android Debug Bridge](https://packagecontrol.io/packages/ADBView)/[logcat](https://github.com/leesei/logcat.tmLanguage)
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 * C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
@@ -23,7 +16,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * diff
 * `Find In Files`
 * [Fortran](https://packagecontrol.io/packages/Fortran)
-* [`Git Gutter`](https://packagecontrol.io/packages/GitGutter)
+* [Git Gutter](https://packagecontrol.io/packages/GitGutter)
 * HTML/XML
 * Java
 * JavaScript/[JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)/Node.js
@@ -32,8 +25,14 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * JSX/[Babel](https://packagecontrol.io/packages/Babel)
 * Markdown/reStructuredText
 * Matlab
-* [`PackageDev`](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
+* [PackageDev](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
 * PHP
+* Python
+    * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org) within SublimeREPL
+    * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
+    * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
+    * All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
+    * The new default [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
 * R/[R-Box](https://packagecontrol.io/packages/R-Box)
 * [RAML](https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter)
 * Regular Expressions
@@ -41,7 +40,8 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * Rust
 * SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
 * Shell Scripts/[ShellScriptImproved](https://packagecontrol.io/packages/ShellScriptImproved)
-* [`SublimeLinter`/`SublimeLinter3`](https://packagecontrol.io/packages/SublimeLinter)
+* [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
+* [Swift](https://packagecontrol.io/packages/Swift)
 * YAML
 
 For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, Perl, and LaTeX, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
