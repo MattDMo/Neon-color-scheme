@@ -1,0 +1,92 @@
+Neon Color Scheme v2.0.0
+========================
+
+Welcome to 2.0! There have been a lot of changes and additions, hence the major
+version bump. Here's what I recorded in the commit:
+
+* Added "white" selector for things that I don't want colored but are for some reason
+* Tweaked Storage modifier
+* added scope selectors to 
+    * Dict key
+    * Function definition
+    * Function call
+    * Function arguments
+    * Function definition parameters
+    * String quotes
+* Added constant.other
+* Changed background of String embedded-source
+* Diff. color for string embedded variable
+* Added Scala section
+* Added toc-list/Task tags section, thanks to @abusalimov from PR #26
+* Added Java section
+* JavaScript/Babel/JSX/Node:
+    * Renamed and added scopes:
+        * Node module
+        * Babel - Embedded expression
+        * Babel - Embedded expression punctuation
+    * Changed variable.other.property
+    * Addressed request for better JSX coverage from @rubyruy in #17
+* Added Fortran section
+* Clojure:
+    * Removed constant.other
+    * Added global symbol
+    * Added Constant.string
+    * Removed .clojure from entity.name.namespace
+    * Added scope to String Constant Symbol
+* Ruby:
+    * Added:
+        * Class accessor notation
+        * Ruby module
+        * Ruby constant
+    * Changed colors for: 
+        * Ruby symbol
+        * Instance variable
+        * Block variable (also added to scope selectors)
+* Added Python.sublime-syntax section
+    * Generator/comprehension keys
+    * Docstring and quotes
+* Renamed PythonImproved to Python/PythonImproved
+    * Added:
+        * Comprehension keywords
+        * PI docstring
+    * Removed constant - allcaps as it's now covered by constant.other
+* Renamed section to C/C++/C Improved
+    * Added CI stuff:
+        * preprocessor #include
+        * preprocessor #define
+* diff
+    * Added a bunch of stuff to highlight:
+        * Range punctuation
+        * Range line numbers
+        * From punctuation
+        * To punctuation
+        * Header From
+        * Header To
+* Added entity.name.tag to NTML/XML Tag
+* PHP:
+    * Changed colors of double- and single-quoted strings
+    * Added PHP function
+* Stylesheets
+    * Added background to .class
+    * Changed property-name
+    * Added background to property-value
+* PackageDev:
+    * Added Sublime Keymap Modifier Key
+    * Added Sublime Keymap Key
+* Added entirely new YAML section
+* Capitalized hex colors in RAML
+* Changed BracketHighlighter default color
+* Added storage.control to Matlab
+* Added Rust section
+* Added ShellScriptImproved section (some of which works for default Shell Script (Bash))
+* Added R/R-Box section
+* Added Swift section
+* Made big plans to alphabetize all the sections. Later.
+
+That's about it for now. As always, keep those suggestions coming!
+
+Do you have a favorite plugin or language that you'd like to see themed by Neon?
+Open an issue (https://github.com/MattDMo/Neon-color-scheme/issues/new)
+and let me know!
+
+MattDMo
