@@ -54,7 +54,7 @@ There are a bunch of scopes in here that are only found in my [`Python Improved`
 
 You can find out more about themes in the TextMate [manual](http://manual.macromates.com/en/themes). All the information there applies to Sublime Text as well, which was heavily influenced by TextMate. Both programs can share themes and language definitions pretty much interchangeably, and snippets are usually pretty easy to port from one to the other as well. But, unfortunately for you Win/Lin people, TextMate is only available for OSX.
 
-[![R with Neon](http://pigimal.com/img/github/R.png)](https://packagecontrol.io/packages/R-Box)
+![Ruby with Neon](http://pigimal.com/img/github/ruby.png)
 
 
 ## What Font is That?
