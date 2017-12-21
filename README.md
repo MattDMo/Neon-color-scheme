@@ -1,3 +1,12 @@
+# ***NOTE:***
+Because of reasons, I haven't been able to devote ~~much of~~ any time to supporting and maintaining my open source projects since late 2016. I'm not dead :skull:, dying :mask:, in prison :oncoming_police_car:, in exile :no_entry:, in space :alien:, hiding under a rock :mountain:, boycotting the interwebs :no_entry_sign: :computer:, or anything like that; life has just... been very busy :weary:. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below :moneybag:
+
+All the best,
+
+Matt
+
+---
+
 # Neon Color Scheme
 
 **Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. 
@@ -111,12 +120,12 @@ Sometimes the same file looks different in TextMate and Sublime Text. It may be 
 
 ![YAML-tmLanguage syntax highlighting with Neon](http://www.pigimal.com/img/github/YAML-tmLanguage_new.png)
 
-If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also email me at <mattdmo@pigimal.com>. Find my blog on Sublime Text and other stuff at [MattDMo.com](http://mattdmo.com).
+If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also email me at <mattdmo@mattdmo.com>. Find my blog on Sublime Text and other stuff at [MattDMo.com](http://mattdmo.com).
 
 
 ## License
 
-&copy; 2013-2017 Matt Morrison <mattdmo@mattdmo.com>.
+&copy; 2013-2018 Matt Morrison <mattdmo@mattdmo.com>.
 
 This is free software. It is licensed under the [MIT License](http://opensource.org/licenses/MIT). Feel free to use this in your own work. However, if you modify and/or redistribute it, please attribute me in some way, and it would be great if you distribute your work under this or a similar license, but it's not required. A shout-out or a beer would be appreciated.
 
