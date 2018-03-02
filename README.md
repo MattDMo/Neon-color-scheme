@@ -1,9 +1,11 @@
 # ***NOTE:***
-Because of reasons, I haven't been able to devote ~~much of~~ any time to supporting and maintaining my open source projects since late 2016. I'm not dead :skull:, dying :mask:, in prison :oncoming_police_car:, in exile :no_entry:, in space :alien:, hiding under a rock :mountain:, boycotting the interwebs :no_entry_sign: :computer:, or anything like that; life has just... been very busy :weary:. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below :moneybag:
+Because of reasons, I haven't been able to devote ~~much~~ of any time to supporting and maintaining my open source projects since late 2016. I'm not dead 💀, dying 😷, in prison 🚔, in exile ⛔️, in space 👽, hiding under a rock ⛰, boycotting the interwebs 🚫💻, or anything like that; life has just... been very busy 😩. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below 💰
 
 All the best,
 
 Matt
+
+PS: Sorry, I went a little emoji-crazy there. I promise it won't happen again 😔
 
 ---
 
@@ -129,6 +131,9 @@ If you have questions, concerns, or suggested improvements, I'd love to hear fro
 
 This is free software. It is licensed under the [MIT License](http://opensource.org/licenses/MIT). Feel free to use this in your own work. However, if you modify and/or redistribute it, please attribute me in some way, and it would be great if you distribute your work under this or a similar license, but it's not required. A shout-out or a beer would be appreciated.
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R97MGGYES6GAJ&lc=US&item_name=Matthew%20D%2e%20Morrison&item_number=neon%2dsublime%2dtheme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="Donate" alt="PayPal - The safer, easier way to pay online!"></a>
-<p>
+
+## Support
+
+[![PayPal donation link](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SJY8KLDDB8DXC)
+
 You can also give on [Gratipay](https://www.gratipay.com/on/github/MattDMo/).
