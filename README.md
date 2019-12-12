@@ -1,5 +1,8 @@
 # ***NOTE:***
-Because of reasons, I haven't been able to devote ~~much~~ of any time to supporting and maintaining my open source projects since late 2016. I'm not dead 💀, dying 😷, in prison 🚔, in exile ⛔️, in space 👽, hiding under a rock ⛰, boycotting the interwebs 🚫💻, or anything like that; life has just... been very busy 😩. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below 💰
+Because of reasons, I haven't been able to devote ~~much of~~ any time to supporting and maintaining my open source projects since late 2016. I'm not dead 💀, dying 😷, in prison 🚔, in exile ⛔️, in space 👽, hiding under a rock ⛰, boycotting the interwebs 🚫💻, or anything like that; life has just... been very busy 😩. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below 💰
+
+***Update Dec 2019***
+Life has changed a bit, and while I'm not completely back in the saddle I am able to do some development work on my [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects again!
 
 All the best,
 
