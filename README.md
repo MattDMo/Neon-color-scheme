@@ -1,20 +1,8 @@
-# ***NOTE:***
-Because of reasons, I haven't been able to devote ~~much of~~ any time to supporting and maintaining my open source projects since late 2016. I'm not dead 💀, dying 😷, in prison 🚔, in exile ⛔️, in space 👽, hiding under a rock ⛰, boycotting the interwebs 🚫💻, or anything like that; life has just... been very busy 😩. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below 💰
-
-***Update Dec 2019***
-Life has changed a bit, and while I'm not completely back in the saddle I am able to do some development work on my [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects again!
-
-All the best,
-
-Matt
-
-PS: Sorry, I went a little emoji-crazy there. I promise it won't happen again 😔
-
----
-
 # Neon Color Scheme
 
-**Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. 
+**Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about.
+
+Just for clarity's sake: **Neon** is an original work and wasn't based on any other color scheme. If you search [Package Control](https://packagecontrol.io] for [`neon`](https://packagecontrol.io/search/neon) you'll find some other, similarly-named color schemes which are *not* based on this project. Use them if you want -- I particularly like the [Dark Neon Color Scheme](https://packagecontrol.io/packages/Dark%20Neon%20Color%20Scheme), and might borrow some of the colors -- and if you want to fork this project and make your own derivative, go for it! I use the [MIT License](http://opensource.org/licenses/MIT) for a reason.
 
 [![PythonImproved with Neon](http://pigimal.com/img/github/random.png)](https://packagecontrol.io/packages/Python%20Improved)
 
@@ -140,3 +128,20 @@ This is free software. It is licensed under the [MIT License](http://opensource.
 [![PayPal donation link](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SJY8KLDDB8DXC)
 
 You can also give on [Gratipay](https://www.gratipay.com/on/github/MattDMo/).
+
+---
+
+# ***NOTE:***
+Because of reasons, I haven't been able to devote ~~much of~~ any time to supporting and maintaining my open source projects since late 2016. I'm not dead 💀, dying 😷, in prison 🚔, in exile ⛔️, in space 👽, hiding under a rock ⛰, boycotting the interwebs 🚫💻, or anything like that; life has just... been very busy 😩. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below 💰
+
+***Update Dec 2019***
+Life has changed a bit, and while I'm not completely back in the saddle I am able to do some development work on my [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects again!
+
+All the best,
+
+Matt
+
+PS: Sorry, I went a little emoji-crazy there. I promise it won't happen again 😔
+
+---
+
