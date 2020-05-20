@@ -1912,7 +1912,7 @@
         },
         {
             "name": "Regex Escape Character",
-            "scope": "constant.character.escape",
+            "scope": "constant.character.escape, constant.character.escape.tex punctuation.definition.backslash.tex",
             "foreground": "#AF35FF"
         },
         {
@@ -2157,6 +2157,45 @@
             "scope": "keyword.other.create",
             "foreground": "#0048FF",
             "font_style": "bold"
+        },
+        {
+            "name": "=========== LaTeX ==========",
+            "scope": ""
+        },
+        {
+            "name": "LaTeX preamble",
+            "scope": "meta.preamble",
+            "background": "#000066",
+        },
+        {
+            "name": "LaTeX math support function",
+            "scope": "text.tex support.function.math",
+            "foreground": "#33FF33",
+        },
+        {
+            "name": "LaTeX section name",
+            "scope": "entity.name.section.latex",
+            "foreground": "#0AFF04",
+            "background": "#07019A",
+            "font_style": "bold"
+        },
+        {
+            "name": "LaTeX label name",
+            "scope": "entity.name.label",
+            "foreground": "#FF4500",
+            "background": "#0701E29F",
+        },
+        {
+            "name": "LaTeX ampersand",
+            "scope": "constant.character.ampersand",
+            "background": "#660033",
+            "foreground": "#0099FF",
+            "font_style": "bold"
+        },
+        {
+            "name": "LaTeX backslash",
+            "scope": "text.tex punctuation.definition.backslash",
+            "font_style": "bold glow"
         },
     ]
 }
