@@ -1159,6 +1159,24 @@
             "font_style": "bold"
         },
         {
+            "name": "=========== YACC/Bison ==========",
+            "scope": ""
+        },
+        {
+            "name": "class accessor notation",
+            "scope": "punctuation.accessor",
+            "foreground": "#3399FF",
+            // "background": "#45004B",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "rule name",
+            "scope": "entity.name.rule",
+            "foreground": "#3399FF",
+            "background": "#45004B",
+            "font_style": "bold"
+        },
+        {
             "name": "=========== diff ==========",
             "scope": ""
         },
