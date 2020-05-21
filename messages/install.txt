@@ -1,11 +1,14 @@
-Neon Color Scheme v2.0.0
-+++++++++++++++++++++++++
+Neon Color Scheme
++++++++++++++++++
 
 Thank you for installing my Neon Color Scheme! I hope you enjoy using it as much
-as I enjoyed creating it. If you have any questions, concerns, bugs, improvement
-suggestions, or anything else, feel free to open an issue on Github or send me a
-tweet and I'll do my best to help you out.
+as I enjoyed creating it. It looks best when used with a dark UI theme - I use
+SodaReloaded Dark, but there are many other excellent ones available on Package
+Control.
 
-   @MattDMo
+If you have any questions, concerns, bugs, improvement
+suggestions, or anything else, feel free to open an issue on Github and I'll do my best to help you out.
+
+    @MattDMo
 
 https://github.com/MattDMo/Neon-color-scheme
