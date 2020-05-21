@@ -1,0 +1,252 @@
+\documentclass[20pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=6mm]{geometry}
+\usepackage{amsmath,amsthm}
+\usepackage{hyperref}
+\usepackage[capitalise,nameinlink,noabbrev]{cleveref}
+\crefname{equation}{}{}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+
+
+\title{\LaTeX\ Mathematics Examples}
+\author{Prof Tony Roberts}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+
+
+\section{Delimiters}
+
+See how the delimiters are of reasonable size in these examples
+\[
+	\left(a+b\right)\left[1-\frac{b}{a+b}\right]=a\,,
+\]
+\[
+	\sqrt{|xy|}\leq\left|\frac{x+y}{2}\right|,
+\]
+even when there is no matching delimiter
+\[
+	\int_a^bu\frac{d^2v}{dx^2}\,dx
+	=\left.u\frac{dv}{dx}\right|_a^b
+	-\int_a^b\frac{du}{dx}\frac{dv}{dx}\,dx.
+\]
+
+
+
+
+
+
+\section{Spacing}
+
+Differentials often need a bit of help with their spacing as in
+\[
+	\iint xy^2\,dx\,dy 
+	=\frac{1}{6}x^2y^3,
+\]
+whereas vector problems often lead to statements such as
+\[
+	u=\frac{-y}{x^2+y^2}\,,\quad
+	v=\frac{x}{x^2+y^2}\,,\quad\text{and}\quad
+	w=0\,.
+\]
+Occasionally one gets horrible line breaks when using a list in mathematics such as listing the first twelve primes  \(2,3,5,7,11,13,17,19,23,29,31,37\)\,.
+In such cases, perhaps include \verb|\mathcode`\,="213B| inside the inline maths environment so that the list breaks: \(\mathcode`\,="213B 2,3,5,7,11,13,17,19,23,29,31,37\)\,.
+Be discerning about when to do this as the spacing is different.
+
+
+
+
+
+
+\section{Arrays}
+
+Arrays of mathematics are typeset using one of the matrix environments as 
+in
+\[
+	\begin{bmatrix}
+		1 & x & 0 \\
+		0 & 1 & -1
+	\end{bmatrix}\begin{bmatrix}
+		1  \\
+		y  \\
+		1
+	\end{bmatrix}
+	=\begin{bmatrix}
+		1+xy  \\
+		y-1
+	\end{bmatrix}.
+\]
+Case statements use cases:
+\[
+	|x|=\begin{cases}
+		x, & \text{if }x\geq 0\,,  \\
+		-x, & \text{if }x< 0\,.
+	\end{cases}
+\]
+Many arrays have lots of dots all over the place as in
+\[
+	\begin{matrix}
+		-2 & 1 & 0 & 0 & \cdots & 0  \\
+		1 & -2 & 1 & 0 & \cdots & 0  \\
+		0 & 1 & -2 & 1 & \cdots & 0  \\
+		0 & 0 & 1 & -2 & \ddots & \vdots \\
+		\vdots & \vdots & \vdots & \ddots & \ddots & 1  \\
+		0 & 0 & 0 & \cdots & 1 & -2
+	\end{matrix}
+\]
+
+
+
+
+
+
+\section{Equation arrays}
+
+In the flow of a fluid film we may report
+\begin{align}
+	u_\alpha & =  \epsilon^2 \kappa_{xxx} 
+	\left( y-\frac{1}{2}y^2 \right),
+	\label{equ}  \\
+	v & =  \epsilon^3 \kappa_{xxx} y\,,
+	\label{eqv}  \\
+	p & =  \epsilon \kappa_{xx}\,.
+	\label{eqp}
+\end{align}
+Alternatively, the curl of a vector field $(u,v,w)$ may be written 
+with only one equation number:
+\begin{align}
+	\omega_1 & = 
+	\frac{\partial w}{\partial y}-\frac{\partial v}{\partial z}\,,
+	\nonumber  \\
+	\omega_2 & =  
+	\frac{\partial u}{\partial z}-\frac{\partial w}{\partial x}\,,
+	\label{eqcurl}  \\
+	\omega_3 & =  
+	\frac{\partial v}{\partial x}-\frac{\partial u}{\partial y}\,.
+	\nonumber
+\end{align}
+Whereas a derivation may look like
+\begin{align*}
+	(p\wedge q)\vee(p\wedge\neg q) & =  p\wedge(q\vee\neg q)
+	\quad\text{by distributive law}  \\
+	 & =  p\wedge T \quad\text{by excluded middle}  \\
+	 & =  p \quad\text{by identity}
+\end{align*}
+
+
+
+
+
+
+\section{Functions}
+
+Observe that trigonometric and other elementary functions are typeset 
+properly, even to the extent of providing a thin space if followed by 
+a single letter argument:
+\[
+	\exp(i\theta)=\cos\theta +i\sin\theta\,,\quad
+	\sinh(\log x)=\frac{1}{2}\left( x-\frac{1}{x} \right).
+\]
+With sub- and super-scripts placed properly on more complicated 
+functions,
+\[
+	\lim_{q\to\infty}\|f(x)\|_q 
+	=\max_{x}|f(x)|,
+\]
+and large operators, such as integrals and
+\begin{align*}
+	e^x & =  \sum_{n=0}^\infty \frac{x^n}{n!}
+	\quad\text{where }n!=\prod_{i=1}^n i\,,  \\
+	\overline{U_\alpha} & =  \bigcap_\alpha U_\alpha\,.
+\end{align*}
+In inline mathematics the scripts are correctly placed to the side in 
+order to conserve vertical space, as in
+\(
+	1/(1-x)=\sum_{n=0}^\infty x^n.
+\)
+
+
+
+
+
+
+\section{Accents}
+
+Mathematical accents are performed by a short command with one 
+argument, such as
+\[
+	\tilde f(\omega)=\frac{1}{2\pi}
+	\int_{-\infty}^\infty f(x)e^{-i\omega x}\,dx\,,
+\]
+or
+\[
+	\dot{\vec \omega}=\vec r\times\vec I\,.
+\]
+
+
+
+
+
+\section{Command definition}
+
+\newcommand{\Ai}{\operatorname{Ai}} 
+The Airy function, $\Ai(x)$, may be incorrectly defined as this 
+integral
+\[
+	\Ai(x)=\int\exp(s^3+isx)\,ds\,.
+\]
+
+\newcommand{\D}[2]{\frac{\partial #2}{\partial #1}}
+\newcommand{\DD}[2]{\frac{\partial^2 #2}{\partial #1^2}}
+\renewcommand{\vec}[1]{\boldsymbol{#1}}
+
+This vector identity serves nicely to illustrate two of the new 
+commands:
+\[
+	\vec\nabla\times\vec q
+	=\vec i\left(\D yw-\D zv\right)
+	+\vec j\left(\D zu-\D xw\right)
+	+\vec k\left(\D xv-\D yu\right).
+\]
+
+Recall that typesetting multi-line mathematics is an art normally too hard for computer recipes.  Nonetheless, if you need to be automatically flexible about multi-line mathematics, and you do not mind some rough typesetting, then perhaps invoke \verb|\parbox| to help as follows: 
+% The \verb|breqn| package is not yet reliable enough for general use.
+\newcommand{\parmath}[2][0.8\linewidth]{\parbox[t]{#1}%
+    {\raggedright\linespread{1.2}\selectfont\(#2\)}}
+\[
+u_1=\parmath{ -2 \gamma  \epsilon^{2} s_{2}+\mu  \epsilon^{3} \big( \frac{3}{8} s_{2}+\frac{1}{8} s_{1} i\big)+\epsilon^{3} \big( -\frac{81}{32} s_{4} s_{2}^{2}-\frac{27}{16} s_{4} s_{2} s_{1} i+\frac{9}{32} s_{4} s_{1}^{2}+\frac{27}{32} s_{3} s_{2}^{2} i-\frac{9}{16} s_{3} s_{2} s_{1}-\frac{3}{32} s_{3} s_{1}^{2} i\big) +\int_a^b 1-2x+3x^2-4x^3\,dx }
+\]
+Also, sometimes use \verb|\parbox| to typeset multiline entries in tables.
+
+
+\section{Theorems et al.}
+
+
+\begin{definition}[right-angled triangles] \label{def:tri}
+A \emph{right-angled triangle} is a triangle whose sides of length~\(a\), \(b\) and~\(c\), in some permutation of order, satisfies \(a^2+b^2=c^2\).
+\end{definition}
+
+\begin{lemma} 
+The triangle with sides of length~\(3\), \(4\) and~\(5\) is right-angled.
+\end{lemma}
+
+This lemma follows from \cref{def:tri} since \(3^2+4^2=9+16=25=5^2\).
+
+\begin{theorem}[Pythagorean triplets] \label{thm:py}
+Triangles with sides of length \(a=p^2-q^2\), \(b=2pq\) and \(c=p^2+q^2\) are right-angled triangles.
+\end{theorem}
+
+Prove this \cref{thm:py} by the algebra \(a^2+b^2 =(p^2-q^2)^2+(2pq)^2
+=p^4-2p^2q^2+q^4+4p^2q^2
+=p^4+2p^2q^2+q^4
+=(p^2+q^2)^2 =c^2\).
+
+
+\end{document}
