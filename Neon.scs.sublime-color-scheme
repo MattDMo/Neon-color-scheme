@@ -2215,5 +2215,36 @@
             "scope": "text.tex punctuation.definition.backslash",
             "font_style": "bold glow"
         },
+        {
+            "name": "=========== TypeScript ==========",
+            "scope": ""
+        },
+        {
+            "name": "Builtin type",
+            "scope": "support.type.builtin",
+            "foreground": "#FFFF00",
+            "background": "#07019ac3",
+            "font_style": "italic"
+        },
+        {
+            "name": "Primitive",
+            "scope": "support.type.primitive",
+            "foreground": "#FFFF00",
+            "background": "#993366",
+            "font_style": "italic"
+        },
+        {
+            "name": "Type",
+            "scope": "entity.name.type",
+            "foreground": "#993366",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Type",
+            "scope": "entity.name.type.module",
+            "foreground": "#BD0F66",
+            "background": "#07019ac3",
+            "font_style": "bold italic"
+        },
     ]
 }
