@@ -1080,7 +1080,7 @@
         {
             "name": "JSON - level 3",
             "scope": "source.json meta meta meta meta.mapping.key string",
-            "foreground": "#FF8D04"
+            "foreground": "#9A00BE"
         },
         {
             "name": "JSON - level 3",
@@ -1095,7 +1095,7 @@
         {
             "name": "JSON - level 2",
             "scope": "source.json meta meta meta.mapping.value string",
-            "foreground": "#2283FF"
+            "foreground": "#FF9B22"
         },
         {
             "name": "JSON - level 1",
