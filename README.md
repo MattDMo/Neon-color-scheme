@@ -11,9 +11,10 @@ Just for clarity's sake: **Neon** is an original work and wasn't based on any ot
 Neon's main goal is to make as many languages as possible look as good as possible. That being said, there are some language/markup/framework-specific scopes and sections that you might be interested in:
 
 * [Android Debug Bridge](https://packagecontrol.io/packages/ADBView)/[logcat](https://github.com/leesei/logcat.tmLanguage)
+* Bison/YACC
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 * C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
-* Clojure
+* Clojure/EDN
 * CSS
 * diff
 * `Find In Files`
@@ -25,6 +26,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [jQuery](https://packagecontrol.io/packages/jQuery)
 * JSON
 * JSX/[Babel](https://packagecontrol.io/packages/Babel)
+* LaTeX
 * Markdown/reStructuredText
 * Matlab
 * [PackageDev](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
@@ -46,7 +48,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [Swift](https://packagecontrol.io/packages/Swift)
 * YAML
 
-For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, Perl, and LaTeX, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
+For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, and Perl, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
 If you have a particular language or plugin you'd like Neon to support, just [open an issue](https://github.com/MattDMo/Neon-color-scheme/issues/new) and I'll see what I can do.
 
