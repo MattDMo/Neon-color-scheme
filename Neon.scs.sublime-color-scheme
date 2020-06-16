@@ -6,7 +6,7 @@
     },
     "globals":
     {
-        // "something": "var(varname)"
+        "something": "var(varname)",
         "background": "#000000",
         "foreground": "#FFFFFF",
         "invisibles": "#06FF05",
@@ -17,8 +17,8 @@
         "fold_marker": "#06FF05",
         "minimap_border": "#1515FF7F",
         "accent": "#0205FF",
-        // "popup_css": "",
-        // "phantom_css": "",
+        "popup_css": "",
+        "phantom_css": "",
         "gutter": "#000000",
         "gutter_foreground": "#B0B0B0",
         "line_diff_width": "2",
@@ -26,11 +26,11 @@
         "line_diff_modified": "#CFB406",
         "line_diff_deleted": "#BC1802",
         "selection": "#0205FF",
-        // "selection_foreground": "",
+        "selection_foreground": "",
         "selection_border": "#06FF05",
         "selection_border_width": "1",
         "inactive_selection": "#353576",
-        // "inactive_selection_foreground": "",
+        "inactive_selection_foreground": "",
         "selection_corner_style": "cut",
         "selection_corner_radius": "2",
         "highlight": "#FF026A",
@@ -39,14 +39,14 @@
         "guide": "#B0B0B0",
         "active_guide": "#FF0080",
         "stack_guide": "#06FF05",
-        // "brackets_options": "",
-        // "brackets_foreground": "",
-        // "bracket_contents_options": "",
-        // "bracket_contents_foreground": "",
-        // "tags_options": "",
-        // "tags_foreground": "",
-        // "shadow": "",
-        // "shadow_width": "",
+        "brackets_options": "",
+        "brackets_foreground": "",
+        "bracket_contents_options": "",
+        "bracket_contents_foreground": "",
+        "tags_options": "",
+        "tags_foreground": "",
+        "shadow": "",
+        "shadow_width": ""
     },
     "rules":
     [
@@ -824,105 +824,6 @@
             "foreground": "#E3A0FF",
             "font_style": "bold italic"
         },
-        // {
-        //     "name": "=========== JSON (old style) ==========",
-        //     "scope": ""
-        // },
-        // {
-        //     "name": "JSON - level 18",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#F50AFF"
-        // },
-        // {
-        //     "name": "JSON - level 17",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#ACFF04"
-        // },
-        // {
-        //     "name": "JSON - level 16",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#18FFFA"
-        // },
-        // {
-        //     "name": "JSON - level 15",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#FF5A60"
-        // },
-        // {
-        //     "name": "JSON - level 14",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#1471FF"
-        // },
-        // {
-        //     "name": "JSON - level 13",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#FF8D04"
-        // },
-        // {
-        //     "name": "JSON - level 12",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#22FF31"
-        // },
-        // {
-        //     "name": "JSON - level 11",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#A9BAFF"
-        // },
-        // {
-        //     "name": "JSON - level 10",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#FF0C77"
-        // },
-        // {
-        //     "name": "JSON - level 9",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#FFFA02"
-        // },
-        // {
-        //     "name": "JSON - level 8",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#F50AFF"
-        // },
-        // {
-        //     "name": "JSON - level 7",
-        //     "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#ACFF04"
-        // },
-        // {
-        //     "name": "JSON - level 6",
-        //     "scope": "source.json meta meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#18FFFA"
-        // },
-        // {
-        //     "name": "JSON - level 5",
-        //     "scope": "source.json meta meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#FF5A60"
-        // },
-        // {
-        //     "name": "JSON - level 4",
-        //     "scope": "source.json meta meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#1471FF"
-        // },
-        // {
-        //     "name": "JSON - level 3",
-        //     "scope": "source.json meta meta meta meta.structure.dictionary string",
-        //     "foreground": "#FF8D04"
-        // },
-        // {
-        //     "name": "JSON - level 2",
-        //     "scope": "source.json meta meta meta.structure.dictionary string",
-        //     "foreground": "#22FF31"
-        // },
-        // {
-        //     "name": "JSON - level 1",
-        //     "scope": "source.json meta.mapping.key string",
-        //     "foreground": "#FF82EC"
-        // },
-        // {
-        //     "name": "JSON key",
-        //     "scope": "source.json meta.mapping.key string",
-        //     "font_style": "bold"
-        // },
         {
             "name": "=========== JSON (new) ==========",
             "scope": ""
@@ -934,7 +835,7 @@
         },
         {
             "name": "JSON - level 18",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#FFFA02"
         },
         {
@@ -944,7 +845,7 @@
         },
         {
             "name": "JSON - level 17",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#A9BAFF"
         },
         {
@@ -954,7 +855,7 @@
         },
         {
             "name": "JSON - level 16",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#FF0066"
         },
         {
@@ -964,7 +865,7 @@
         },
         {
             "name": "JSON - level 15",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#FF8D04"
         },
         {
@@ -974,7 +875,7 @@
         },
         {
             "name": "JSON - level 14",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#FF5A60"
         },
         {
@@ -984,7 +885,7 @@
         },
         {
             "name": "JSON - level 13",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#18FFFA"
         },
         {
@@ -994,7 +895,7 @@
         },
         {
             "name": "JSON - level 12",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#22FF31"
         },
         {
@@ -1004,7 +905,7 @@
         },
         {
             "name": "JSON - level 11",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#A9BAFF"
         },
         {
@@ -1014,7 +915,7 @@
         },
         {
             "name": "JSON - level 10",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta meta string",
             "foreground": "#FF0C77"
         },
         {
@@ -1024,7 +925,7 @@
         },
         {
             "name": "JSON - level 9",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta meta string",
             "foreground": "#FFFA02"
         },
         {
@@ -1034,7 +935,7 @@
         },
         {
             "name": "JSON - level 8",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta meta string",
             "foreground": "#F50AFF"
         },
         {
@@ -1044,7 +945,7 @@
         },
         {
             "name": "JSON - level 7",
-            "scope": "source.json meta meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta meta string",
             "foreground": "#ACFF04"
         },
         {
@@ -1054,7 +955,7 @@
         },
         {
             "name": "JSON - level 6",
-            "scope": "source.json meta meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta meta string",
             "foreground": "#18FFFA"
         },
         {
@@ -1064,7 +965,7 @@
         },
         {
             "name": "JSON - level 5",
-            "scope": "source.json meta meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta meta string",
             "foreground": "#FF5A60"
         },
         {
@@ -1074,7 +975,7 @@
         },
         {
             "name": "JSON - level 4",
-            "scope": "source.json meta meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta meta string",
             "foreground": "#FFE455"
         },
         {
@@ -1084,7 +985,7 @@
         },
         {
             "name": "JSON - level 3",
-            "scope": "source.json meta meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta meta string",
             "foreground": "#00D8AE"
         },
         {
@@ -1094,7 +995,7 @@
         },
         {
             "name": "JSON - level 2",
-            "scope": "source.json meta meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta meta string",
             "foreground": "#FF9B22"
         },
         {
@@ -1104,7 +1005,7 @@
         },
         {
             "name": "JSON - level 1",
-            "scope": "source.json meta meta.mapping.value string",
+            "scope": "source.json meta.mapping.value meta string",
             "foreground": "#00FF00"
         },
         {
@@ -1166,7 +1067,6 @@
             "name": "class accessor notation",
             "scope": "punctuation.accessor",
             "foreground": "#3399FF",
-            // "background": "#45004B",
             "font_style": "bold italic"
         },
         {
@@ -1683,18 +1583,18 @@
         {
             "name": "sublime-syntax match",
             "scope": "source.yaml.sublime.syntax keyword.other.match",
-            "foreground": "#0EBCF5",
+            "foreground": "#0EBCF5"
         },
         {
             "name": "sublime-syntax variable name",
             "scope": "entity.name.constant",
             "foreground": "#FFFF00",
-            "background": "#0000FF88",
+            "background": "#0000FF88"
         },
         {
             "name": "sublime-syntax meta.variable background",
             "scope": "meta.variable",
-            "background": "#2D7A3388",
+            "background": "#2D7A3388"
         },
         {
             "name": "=========== YAML ==========",
@@ -2183,12 +2083,12 @@
         {
             "name": "LaTeX preamble",
             "scope": "meta.preamble",
-            "background": "#000066",
+            "background": "#000066"
         },
         {
             "name": "LaTeX math support function",
             "scope": "text.tex support.function.math",
-            "foreground": "#33FF33",
+            "foreground": "#33FF33"
         },
         {
             "name": "LaTeX section name",
@@ -2201,7 +2101,7 @@
             "name": "LaTeX label name",
             "scope": "entity.name.label",
             "foreground": "#FF4500",
-            "background": "#0701E29F",
+            "background": "#0701E29F"
         },
         {
             "name": "LaTeX ampersand",
@@ -2245,6 +2145,6 @@
             "foreground": "#BD0F66",
             "background": "#07019ac3",
             "font_style": "bold italic"
-        },
+        }
     ]
 }
