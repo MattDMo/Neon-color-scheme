@@ -111,9 +111,9 @@ Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-colo
 
 Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`PackageDev`](https://packagecontrol.io/packages/PackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
 
-![YAML-tmLanguage syntax highlighting with Neon](http://www.pigimal.com/img/github/YAML-tmLanguage_new.png)
+![YAML-tmLanguage syntax highlighting with Neon](https://www.pigimal.com/img/github/YAML-tmLanguage_new.png)
 
-If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also email me at <mattdmo@mattdmo.com>. Find my blog on Sublime Text and other stuff at [MattDMo.com](http://mattdmo.com).
+If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also email me at <mattdmo@mattdmo.com>. Find my blog on Sublime Text and other stuff at [MattDMo.com](https://mattdmo.com).
 
 
 ## License
