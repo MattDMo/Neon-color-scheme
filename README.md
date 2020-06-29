@@ -1,10 +1,10 @@
 # Neon Color Scheme
 
-**Neon** is a colorful bright-on-black color scheme for [Sublime Text](http://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](http://docs.sublimetext.info/en/latest/extensibility/syntaxdefs.html#scopes) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about.
+**Neon** is a colorful bright-on-black color scheme for [Sublime Text](https://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](https://www.sublimetext.com/docs/scope_naming.html) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about.
 
 Just for clarity's sake: **Neon** is an original work and wasn't based on any other color scheme. If you search [Package Control](https://packagecontrol.io) for [`neon`](https://packagecontrol.io/search/neon) you'll find some other, similarly-named color schemes which are *not* based on this project. Use them if you want -- I particularly like the [Dark Neon Color Scheme](https://packagecontrol.io/packages/Dark%20Neon%20Color%20Scheme), and might borrow some of the colors -- and if you want to fork this project and make your own derivative, go for it! I use the [MIT License](http://opensource.org/licenses/MIT) for a reason.
 
-[![PythonImproved with Neon](http://pigimal.com/img/github/random.png)](https://packagecontrol.io/packages/Python%20Improved)
+[![PythonImproved with Neon](https://pigimal.com/img/github/random.png)](https://packagecontrol.io/packages/Python%20Improved)
 
 ## Languages/Plugins Supported
 
@@ -15,11 +15,12 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 * C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
 * Clojure/EDN
-* CSS
+* CSS/SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
 * diff
 * `Find In Files`
 * [Fortran](https://packagecontrol.io/packages/Fortran)
 * [Git Gutter](https://packagecontrol.io/packages/GitGutter)
+* Haskell
 * HTML/XML
 * Java
 * JavaScript/[JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)/Node.js
@@ -42,28 +43,31 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * Regular Expressions
 * Ruby
 * Rust
-* SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
+* Scala
 * Shell Scripts/[ShellScriptImproved](https://packagecontrol.io/packages/ShellScriptImproved)
+* SQL
 * [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
 * [Swift](https://packagecontrol.io/packages/Swift)
+* Table of Contents/Task Tags
+* Typescript
 * YAML
 
 For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, and Perl, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
 If you have a particular language or plugin you'd like Neon to support, just [open an issue](https://github.com/MattDMo/Neon-color-scheme/issues/new) and I'll see what I can do.
 
-There are a bunch of scopes in here that are only found in my [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) language definition package &mdash; [IPython](http://www.ipython.org) `In`/`Out` statements, [Django](http://djangoproject.org)-specific highlighting (adapted from [`Djaneiro`](https://packagecontrol.io/packages/Djaneiro)), a bunch of improvements from [@facelessuser](https://github.com/facelessuser)'s [`Better Python`](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python) and [@petervaro](https://github.com/petervaro)'s [Python 3](https://packagecontrol.io/packages/Python%203) package, along with various enhancements, extensions, and bug fixes of my own and contributed by others. If you work with Python, I'd highly recommend getting it.
+There are a bunch of scopes in here that are only found in my [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) language definition package &mdash; [IPython](https://www.ipython.org) `In`/`Out` statements, [Django](https://djangoproject.org)-specific highlighting (adapted from [`Djaneiro`](https://packagecontrol.io/packages/Djaneiro)), a bunch of improvements from [@facelessuser](https://github.com/facelessuser)'s [`Better Python`](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python) and [@petervaro](https://github.com/petervaro)'s [Python 3](https://packagecontrol.io/packages/Python%203) package, along with various enhancements, extensions, and bug fixes of my own and contributed by others. If you work with Python, I'd highly recommend getting it.
 
-![Clojure with Neon](http://pigimal.com/img/github/new_clojure.png)
+![Clojure with Neon](https://pigimal.com/img/github/new_clojure.png)
 
-You can find out more about themes in the TextMate [manual](http://manual.macromates.com/en/themes). All the information there applies to Sublime Text as well, which was heavily influenced by TextMate. Both programs can share themes and language definitions pretty much interchangeably, and snippets are usually pretty easy to port from one to the other as well. But, unfortunately for you Win/Lin people, TextMate is only available for OSX.
+You can find out more about themes in the TextMate [manual](http://manual.macromates.com/en/themes). All the information there applies to Sublime Text as well, which was heavily influenced by TextMate. Both programs can share themes and language definitions pretty much interchangeably, and snippets are usually pretty easy to port from one to the other as well. But, unfortunately for you Win/Lin people, TextMate is only available for macOS.
 
-![Ruby with Neon](http://pigimal.com/img/github/ruby.png)
+![Ruby with Neon](https://pigimal.com/img/github/ruby.png)
 
 
 ## What Font is That?
 
-I discovered [`Cousine`](http://www.google.com/fonts/specimen/Cousine) while browsing Google Fonts one day and absolutely love it. 
+I discovered [`Cousine`](https://www.google.com/fonts/specimen/Cousine) while browsing Google Fonts one day and absolutely love it.
 
 > Cousine was designed by [Steve Matteson](https://profiles.google.com/107777320916704234605/about) as an innovative, refreshing sans serif design that is metrically compatible with Courier New™. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms.
 
@@ -74,7 +78,7 @@ More recently, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/f
 
 ## Installation for Sublime Text 3
 
-The easiest method is through [Package Control](https://packagecontrol.io/), which you need to [install](https://packagecontrol.io/installation) first as it doesn't come with Sublime Text. Open the ommand palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (OSX) and type ***`pci`*** to bring up `Package Control: Install`. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
+The easiest method is through [Package Control](https://packagecontrol.io/), which you need to [install](https://packagecontrol.io/installation) first as it doesn't come with Sublime Text. (*Note*: It does now!) Open the Command Palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (macOS) and type ***`pci`*** to bring up `Package Control: Install`. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
 
 ```js
 "color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme"
@@ -82,9 +86,9 @@ The easiest method is through [Package Control](https://packagecontrol.io/), whi
 
 ---
 
-If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 3/Packages/User` (OSX), `%APPDATA%\Sublime Text 3\Packages\User` (Windows), or `~/.config/sublime-text-3/Packages/User` (Linux) (change the `3` to `2` if you're still using the outdated version 2 &mdash; and ***please*** upgrade!):
+If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 3/Packages/User` (macOS), `%APPDATA%\Sublime Text 3\Packages\User` (Windows), or `~/.config/sublime-text-3/Packages/User` (Linux) (change the `3` to `2` if you're still using the outdated version 2 &mdash; and ***please*** upgrade!):
 
-```
+```bash
 git clone https://github.com/MattDMo/Neon-color-scheme.git "Neon Color Scheme"
 ```
 
@@ -95,18 +99,12 @@ This will create a menu option `Neon` under `Preferences -> Color Scheme -> User
 
 For right now, manual cloning is the only option. Maybe I'll make a bundle someday for TM1 and TM2. From your home directory (or anywhere, really), enter:
 
-```    
+```bash
 git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
 ```
 
 Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself.
 
-
-## Customization
-
-While I really like the level of control I get with Sublime's system of config files, editing themes by hand (in XML) can be pretty rough. I recommend checking out [@aziz](https://github.com/aziz)'s [tmTheme-Editor](http://tmtheme-editor.herokuapp.com/#/Neon). It works with just about any modern browser that implements all of the HTML5 APIs. It's a pretty neat tool, and **Neon** is included!
-
-However, for most of my editing, I use [@facelessuser](https://github.com/facelessuser)'s [`ColorSchemeEditor`](https://github.com/facelessuser/ColorSchemeEditor), a cross-platform GUI tool (written in Python) for creating and editing `.tmTheme` color schemes, and it has very quickly become one of my favorite apps. If the forum is working, check out [this post](http://www.sublimetext.com/forum/viewtopic.php?f=5&t=11819) in the Sublime Text forum announcing the plugin and app. The documentation is minimal, it's not available through Package Control, and you currently need to download the platform-specific compiled binaries via links from the forum post (hint, google the page's URL and view the cached version to get the links if the forum is still down) and put them in your `Packages/User` directory in order for the plugin to work, but it's so worth it if you need to tweak or completely refactor a color scheme. If you want to try and build the binary yourself, read through [this issue](https://github.com/facelessuser/ColorSchemeEditor/issues/11). The directions are for Windows, but they also work on OS X and Linux. I also wrote [a blog post about building `ColorSchemeEditor` yourself](http://mattdmo.com/guide-to-installing-colorschemeeditor-for-sublime-text-3/) a little while back, so if you're comfortable with hacking Python, check it out!
 
 
 ## Issues
@@ -132,18 +130,3 @@ This is free software. It is licensed under the [MIT License](http://opensource.
 You can also give on [Gratipay](https://www.gratipay.com/on/github/MattDMo/).
 
 ---
-
-# ***NOTE:***
-Because of reasons, I haven't been able to devote ~~much of~~ any time to supporting and maintaining my open source projects since late 2016. I'm not dead 💀, dying 😷, in prison 🚔, in exile ⛔️, in space 👽, hiding under a rock ⛰, boycotting the interwebs 🚫💻, or anything like that; life has just... been very busy 😩. Hopefully I'll have more time for nerding in the not-too-distant future, but until then my development work will just have to remain more or less on hold, as unfortunately it doesn't pay any bills, provide any food, take care of my kids, or keep my car on the road. Of course, if anyone would like to donate to the cause, the link is below 💰
-
-***Update Dec 2019***
-Life has changed a bit, and while I'm not completely back in the saddle I am able to do some development work on my [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) projects again!
-
-All the best,
-
-Matt
-
-PS: Sorry, I went a little emoji-crazy there. I promise it won't happen again 😔
-
----
-
