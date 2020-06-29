@@ -70,11 +70,6 @@
             "foreground": "#FFFEF7"
         },
         {
-            "name": "INI =",
-            "scope": "punctuation.definition.equals.ini",
-            "foreground": "#FF07A2"
-        },
-        {
             "name": "Comment",
             "scope": "comment, punctuation.definition.comment",
             "foreground": "#7F817E",
@@ -87,12 +82,17 @@
             "font_style": "italic"
         },
         {
+            "name": "INI =",
+            "scope": "punctuation.definition.equals.ini",
+            "foreground": "#FF07A2"
+        },
+        {
             "name": "Numbers",
             "scope": "constant.numeric",
             "foreground": "#FF0604"
         },
         {
-            "name": "Language Constant",
+            "name": "Language Constant/Boolean",
             "scope": "constant.language, constant.boolean",
             "foreground": "#FF1308",
             "font_style": "bold italic"
@@ -271,11 +271,6 @@
             "scope": "string.quoted source",
             "foreground": "#EBFF59",
             "background": "#252525"
-        },
-        {
-            "name": "Regex String",
-            "scope": "string.regexp",
-            "foreground": "#FFE4A6"
         },
         {
             "name": "String variable",
@@ -1928,6 +1923,11 @@
         {
             "name": "=========== Regex ==========",
             "scope": ""
+        },
+        {
+            "name": "Regex String",
+            "scope": "string.regexp",
+            "foreground": "#FFE4A6"
         },
         {
             "name": "Regex Assertion",
