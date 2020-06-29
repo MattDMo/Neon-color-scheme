@@ -292,44 +292,554 @@
             "scope": "support.variable",
             "foreground": "#0A4AFF"
         },
-//    ____                      ___
-//   6MMMMb\                    `MM
-//  6M'    `                     MM
-//  MM         ____      ___     MM    ___
-//  YM.       6MMMMb.  6MMMMb    MM  6MMMMb
-//   YMMMMb  6M'   Mb 8M'  `Mb   MM 8M'  `Mb
-//       `Mb MM    `'     ,oMM   MM     ,oMM
-//        MM MM       ,6MM9'MM   MM ,6MM9'MM
-//        MM MM       MM'   MM   MM MM'   MM
-//  L    ,M9 YM.   d9 MM.  ,MM   MM MM.  ,MM
-//  MYMMMM9   YMMMM9  `YMMM9'Yb._MM_`YMMM9'Yb.
+//         _      ________   ________
+//        dM.     `MMMMMMMb. `MMMMMMMb.
+//       ,MMb      MM    `Mb  MM    `Mb
+//       d'YM.     MM     MM  MM     MM
+//      ,P `Mb     MM     MM  MM    .M9
+//      d'  YM.    MM     MM  MMMMMMM(
+//     ,P   `Mb    MM     MM  MM    `Mb
+//     d'    YM.   MM     MM  MM     MM
+//    ,MMMMMMMMb   MM     MM  MM     MM
+//    d'      YM.  MM    .M9  MM    .M9
+//  _dM_     _dMM__MMMMMMM9' _MMMMMMM9'
         {
-            "name": "=========== Scala ==========",
+            "name": "=========== Android Debug Bridge ==========",
             "scope": ""
         },
         {
-            "name": "Package Name",
-            "scope": "entity.name.package",
-            "foreground": "#E2FF09",
-            "background": "#000B76"
+            "name": "Timestamp",
+            "scope": "constant.other.adb.timestamp",
+            "foreground": "#FE7DF5"
         },
         {
-            "name": "Function definition",
-            "scope": "entity.name.function.scala",
-            "foreground": "#0AFF04",
-            "background": "#07019A"
+            "name": "Function",
+            "scope": "source.adb entity.name.function",
+            "foreground": "#10FF07"
         },
         {
-            "name": "Val",
-            "scope": "entity.name.val.scala",
+            "name": "constant.other",
+            "scope": "constant.other.adb",
+            "foreground": "#FF8000"
+        },
+        {
+            "name": "Info",
+            "scope": "entity.name.filename.adb",
+            "foreground": "#08F2FF"
+        },
+        {
+            "name": "Warning",
+            "scope": "keyword.adb",
+            "foreground": "#FFFF00"
+        },
+//  ________           ___               ____    ____             ___       ___
+//  `MMMMMMMb.         `MM               `MM'    `MM'68b          `MM       `MM
+//   MM    `Mb          MM         /      MM      MM Y89           MM        MM   /
+//   MM     MM ___  __  MM   __   /M      MM      MM ___   __      MM  __    MM  /M
+//   MM    .M9 `MM 6MM  MM   d'  /MMMMM   MM      MM `MM  6MMbMMM  MM 6MMb   MM /MMMMM
+//   MMMMMMM(   MM69 "  MM  d'    MM      MMMMMMMMMM  MM 6M'`Mb    MMM9 `Mb  MM  MM
+//   MM    `Mb  MM'     MM d'     MM      MM      MM  MM MM  MM    MM'   MM  MM  MM
+//   MM     MM  MM      MMdM.     MM      MM      MM  MM YM.,M9    MM    MM  MM  MM
+//   MM     MM  MM      MMPYM.    MM      MM      MM  MM  YMM9     MM    MM  MM  MM
+//   MM    .M9  MM      MM  YM.   YM.  ,  MM      MM  MM (M        MM    MM  MM  YM.  ,
+//  _MMMMMMM9' _MM_    _MM_  YM._  YMMM9 _MM_    _MM__MM_ YMMMMb. _MM_  _MM__MM_  YMMM9
+//                                                       6M    Yb
+//                                                       YM.   d9
+//                                                        YMMMM9
+        {
+            "name": "=========== BracketHighlighter ==========",
+            "scope": ""
+        },
+        {
+            "name": "BracketHighlighter default",
+            "scope": "brackethighlighter.default",
+            "foreground": "#93FFC4"
+        },
+        {
+            "name": "BracketHighlighter unmatched",
+            "scope": "brackethighlighter.unmatched",
+            "foreground": "#FF1E00"
+        },
+        {
+            "name": "BracketHighlighter curly",
+            "scope": "brackethighlighter.curly",
+            "foreground": "#00FF40"
+        },
+        {
+            "name": "BracketHighlighter round",
+            "scope": "brackethighlighter.round",
+            "foreground": "#1AB5FF"
+        },
+        {
+            "name": "BracketHighlighter square",
+            "scope": "brackethighlighter.square",
+            "foreground": "#FF8000"
+        },
+        {
+            "name": "BracketHighlighter angle",
+            "scope": "brackethighlighter.angle",
+            "foreground": "#9A35FF"
+        },
+        {
+            "name": "BracketHighlighter tag",
+            "scope": "brackethighlighter.tag",
+            "foreground": "#FFFF00"
+        },
+        {
+            "name": "BracketHighlighter quote",
+            "scope": "brackethighlighter.quote",
+            "foreground": "#FF07A2"
+        },
+        {
+            "name": "BracketHighlighter C define",
+            "scope": "brackethighlighter.c_define",
+            "foreground": "#8189FF"
+        },
+        {
+            "name": "BracketHighlighter Bash",
+            "scope": "brackethighlighter.bash",
+            "foreground": "#0B93FF"
+        },
+//     ____         ,M'   ____
+//    6MMMMb/       dP   6MMMMb/
+//   8P    YM      ,M'  8P    YM
+//  6M      Y      dP  6M      Y
+//  MM            ,M'  MM           M       M
+//  MM            dP   MM           M       M
+//  MM           ,M'   MM           M       M
+//  MM           dP    MM        MMMMMMM MMMMMMM
+//  YM      6   ,M'    YM      6    M       M
+//   8b    d9   dP      8b    d9    M       M
+//    YMMMM9   ,M'       YMMMM9     M       M
+//             dP
+//            ,M'
+//            dP
+        {
+            "name": "=========== C/C++/C Improved ==========",
+            "scope": ""
+        },
+        {
+            "name": "C/C++ Preprocessor Line",
+            "scope": "meta.preprocessor",
+            "foreground": "#A85E3D"
+        },
+        {
+            "name": "C/C++ Preprocessor Directive",
+            "scope": "meta.preprocessor keyword",
+            "foreground": "#8189FF"
+        },
+        {
+            "name": "C/C++ <include>",
+            "scope": "string.quoted.other.lt-gt.include",
+            "foreground": "#0CC4FF"
+        },
+        {
+            "name": "C/C++ \"include\"",
+            "scope": "string.quoted.double.include",
+            "foreground": "#FF65BE"
+        },
+        {
+            "name": "C Improved preprocessor #include",
+            "scope": "keyword.other.preprocessor.include",
+            "background": "#070583",
+            "font_style": "bold"
+        },
+        {
+            "name": "C Improved preprocessor #define",
+            "scope": "keyword.other.preprocessor.include",
+            "background": "#070583",
+            "font_style": "bold"
+        },
+//     ____   ___
+//    6MMMMb/ `MM               68b
+//   8P    YM  MM               Y89
+//  6M      Y  MM   _____       ___ ___   ___ ___  __   ____
+//  MM         MM  6MMMMMb      `MM `MM    MM `MM 6MM  6MMMMb
+//  MM         MM 6M'   `Mb      MM  MM    MM  MM69 " 6M'  `Mb
+//  MM         MM MM     MM      MM  MM    MM  MM'    MM    MM
+//  MM         MM MM     MM      MM  MM    MM  MM     MMMMMMMM
+//  YM      6  MM MM     MM      MM  MM    MM  MM     MM
+//   8b    d9  MM YM.   ,M9      MM  YM.   MM  MM     YM    d9
+//    YMMMM9  _MM_ YMMMMM9       MM   YMMM9MM__MM_     YMMMM9
+//                               MM
+//                           (8) M9
+//                            YMM9
+        {
+            "name": "=========== Clojure ==========",
+            "scope": ""
+        },
+        {
+            "name": "Global symbol",
+            "scope": "source.symbol.global.clojure",
+            "foreground": "#FFACAA",
+            "font_style": "italic"
+        },
+        {
+            "name": "Constant.string",
+            "scope": "source.clojure constant.string.symbol.clojure",
+            "foreground": "#A029F5",
+            "font_style": "bold"
+        },
+        {
+            "name": "Keyword",
+            "scope": "source.clojure support.other.keyword",
+            "foreground": "#0B93FF"
+        },
+        {
+            "name": "Namespace",
+            "scope": "entity.name.namespace",
+            "foreground": "#CFFF01",
+            "background": "#070E48",
+            "font_style": "bold"
+        },
+        {
+            "name": "Storage, Support functions",
+            "scope": "storage.clojure, support.function.clojure",
+            "foreground": "#00BB5E"
+        },
+        {
+            "name": "Storage.type.function",
+            "scope": "storage.type.function source.clojure",
+            "foreground": "#10FF02"
+        },
+        {
+            "name": "Keyword.other.mark",
+            "scope": "keyword.other.mark",
+            "foreground": "#FF71BB",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Match Function",
+            "scope": "support.function.match.clojure",
+            "foreground": "#47FFC7",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Map braces",
+            "scope": "punctuation.definition.map",
+            "foreground": "#80FF80",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Set braces",
+            "scope": "punctuation.definition.set",
+            "foreground": "#FF3229",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Vector brackets",
+            "scope": "punctuation.definition.vector",
+            "foreground": "#FF00FF",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "String Constant Symbol",
+            "scope": "constant.string.symbole.clojure, meta.expression.map constant.string.symbol.clojure",
+            "foreground": "#A7A3FF"
+        },
+//     ____     ____     ____
+//    6MMMMb/  6MMMMb\  6MMMMb\
+//   8P    YM 6M'    ` 6M'    `                  /
+//  6M      Y MM       MM               ____    /M       ____
+//  MM        YM.      YM.             6MMMMb  /MMMMM   6MMMMb.
+//  MM         YMMMMb   YMMMMb        6M'  `Mb  MM     6M'   Mb
+//  MM             `Mb      `Mb       MM    MM  MM     MM    `'
+//  MM              MM       MM       MMMMMMMM  MM     MM
+//  YM      6       MM       MM       MM        MM     MM
+//   8b    d9 L    ,M9 L    ,M9       YM    d9  YM.  , YM.   d9 68b
+//    YMMMM9  MYMMMM9  MYMMMM9         YMMMM9    YMMM9  YMMMM9  Y89
+        {
+            "name": "=========== Stylesheets ==========",
+            "scope": ""
+        },
+        {
+            "name": "CSS: additional-constants",
+            "scope": "meta.property-value support.constant.named-color.css, meta.property-value constant",
+            "foreground": "#FFF203",
+            "font_style": "italic"
+        },
+        {
+            "name": "CSS: @at-rule",
+            "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
+            "foreground": "#F6AA11"
+        },
+        {
+            "name": "CSS: attribute-match",
+            "scope": "source.css meta.attribute-selector keyword.operator.comparison",
+            "foreground": "#833F04"
+        },
+        {
+            "name": "CSS: .class",
+            "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.class.css punctuation",
+            "foreground": "#B2FF02",
+            "background": "#2A3C00"
+        },
+        {
+            "name": "CSS: constructor argument",
+            "scope": "meta.constructor.argument",
+            "foreground": "#0AEB77"
+        },
+        {
+            "name": "CSS: #id",
+            "scope": "entity.other.attribute-name.id.css, entity.other.attribute-name.id.css punctuation",
+            "foreground": "#FF50F0"
+        },
+        {
+            "name": "CSS: pseudo-element",
+            "scope": "entity.other.attribute-name.pseudo-element",
+            "foreground": "#AE08FF"
+        },
+        {
+            "name": "CSS: pseudo-class",
+            "scope": "entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class",
+            "foreground": "#D2C9FF"
+        },
+        {
+            "name": "CSS: property-name",
+            "scope": "support.type.property-name.css, meta.property-name",
+            "foreground": "#FFF262"
+        },
+        {
+            "name": "CSS: property-value",
+            "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
+            "foreground": "#357BF6",
+            "background": "#0D1F3F"
+        },
+        {
+            "name": "CSS: selector",
+            "scope": "meta.selector.css",
+            "foreground": "#84F6C3"
+        },
+        {
+            "name": "CSS: tag-name",
+            "scope": "entity.name.tag.css",
+            "foreground": "#05C2FF"
+        },
+        {
+            "name": "CSS: tag wildcard",
+            "scope": "entity.name.tag.wildcard, entity.other.attribute-name.universal",
+            "foreground": "#FF7900",
+            "font_style": "bold"
+        },
+        {
+            "name": "CSS: units",
+            "scope": "keyword.other.unit",
+            "foreground": "#1DD292"
+        },
+        {
+            "name": "CSS: Flag",
+            "scope": "keyword.other.important.css",
+            "foreground": "#FF0000",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "SASS: Block comment",
+            "scope": "comment.block.sass",
+            "foreground": "#208C9A",
+            "font_style": "italic"
+        },
+        {
+            "name": "SASS: Placeholder Selector",
+            "scope": "entity.other.attribute-name.placeholder-selector.sass",
+            "foreground": "#FF5699",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "SASS: Attribute Selector",
+            "scope": "entity.other.attribute-selector.sass",
+            "foreground": "#817DFF"
+        },
+        {
+            "name": "SASS: Regex",
+            "scope": "keyword.other.regex.sass",
+            "foreground": "#FFE4A6"
+        },
+        {
+            "name": "SASS: Comma",
+            "scope": "comment.punctuation.comma.sass",
+            "foreground": "#FCFDFF"
+        },
+        {
+            "name": "SASS: RGB Color",
+            "scope": "constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css",
+            "foreground": "#07FFF5"
+        },
+        {
+            "name": "SCSS: Semicolon",
+            "scope": "comment.punctuation.semicolon.sass",
+            "foreground": "#6969FA"
+        },
+//       ___        __    __
+//       `MM 68b   69MM  69MM
+//        MM Y89  6M' ` 6M' `
+//    ____MM ___ _MM__ _MM__
+//   6MMMMMM `MM MMMMM MMMMM
+//  6M'  `MM  MM  MM    MM
+//  MM    MM  MM  MM    MM
+//  MM    MM  MM  MM    MM
+//  MM    MM  MM  MM    MM
+//  YM.  ,MM  MM  MM    MM
+//   YMMMMMM__MM__MM_  _MM_
+        {
+            "name": "=========== diff ==========",
+            "scope": ""
+        },
+        {
+            "name": "diff.range Punctuation",
+            "scope": "meta.diff.range punctuation.definition.range",
+            "foreground": "#1AEFFF",
+            "font_style": "bold"
+        },
+        {
+            "name": "diff.range Line Numbers",
+            "scope": "meta.diff.range meta.toc-list.line-number",
+            "foreground": "#FF07C5",
+            "font_style": "bold"
+        },
+        {
+            "name": "diff.punctuation From",
+            "scope": "source.diff punctuation.definition.from-file",
+            "foreground": "#6CFE11",
+            "background": "#1911FF",
+            "font_style": "bold"
+        },
+        {
+            "name": "diff.punctuation To",
+            "scope": "source.diff punctuation.definition.to-file",
+            "foreground": "#1911FF",
+            "background": "#6CFE11",
+            "font_style": "bold"
+        },
+        {
+            "name": "diff.header From",
+            "scope": "meta.diff.header.from-file",
+            "foreground": "#6CFE11",
+            "background": "#1911FF"
+        },
+        {
+            "name": "diff.header To",
+            "scope": "meta.diff.header.to-file",
+            "foreground": "#1911FF",
+            "background": "#6CFE11"
+        },
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "#FFFFFF",
+            "background": "#BC1802"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "#FFFFFF",
+            "background": "#CFB406"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "#FFFFFF",
+            "background": "#277D08"
+        },
+//  ________                    ___                           ________     ___
+//  `MMMMMMM 68b                `MM       68b                 `MMMMMMM 68b `MM
+//   MM    \ Y89                 MM       Y89                  MM    \ Y89  MM
+//   MM      ___ ___  __     ____MM       ___ ___  __          MM      ___  MM   ____     ____
+//   MM   ,  `MM `MM 6MMb   6MMMMMM       `MM `MM 6MMb         MM   ,  `MM  MM  6MMMMb   6MMMMb\
+//   MMMMMM   MM  MMM9 `Mb 6M'  `MM        MM  MMM9 `Mb        MMMMMM   MM  MM 6M'  `Mb MM'    `
+//   MM   `   MM  MM'   MM MM    MM        MM  MM'   MM        MM   `   MM  MM MM    MM YM.
+//   MM       MM  MM    MM MM    MM        MM  MM    MM        MM       MM  MM MMMMMMMM  YMMMMb
+//   MM       MM  MM    MM MM    MM        MM  MM    MM        MM       MM  MM MM            `Mb
+//   MM       MM  MM    MM YM.  ,MM        MM  MM    MM        MM       MM  MM YM    d9 L    ,MM
+//  _MM_     _MM__MM_  _MM_ YMMMMMM_      _MM__MM_  _MM_      _MM_     _MM__MM_ YMMMM9  MYMMMM9
+        {
+            "name": "=========== Find In Files ==========",
+            "scope": ""
+        },
+        {
+            "name": "Find In Files: filename",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "#06FF05"
+        },
+        {
+            "name": "Find In Files: Line Number - Match",
+            "scope": "constant.numeric.line-number.match.find-in-files",
+            "foreground": "#FFFF00"
+        },
+//  ________
+//  `MMMMMMM
+//   MM    \                     /
+//   MM        _____   ___  __  /M     ___  __    ___    ___  __
+//   MM   ,   6MMMMMb  `MM 6MM /MMMMM  `MM 6MM  6MMMMb   `MM 6MMb
+//   MMMMMM  6M'   `Mb  MM69 "  MM      MM69 " 8M'  `Mb   MMM9 `Mb
+//   MM   `  MM     MM  MM'     MM      MM'        ,oMM   MM'   MM
+//   MM      MM     MM  MM      MM      MM     ,6MM9'MM   MM    MM
+//   MM      MM     MM  MM      MM      MM     MM'   MM   MM    MM
+//   MM      YM.   ,M9  MM      YM.  ,  MM     MM.  ,MM   MM    MM
+//  _MM_      YMMMMM9  _MM_      YMMM9 _MM_    `YMMM9'Yb._MM_  _MM_
+        {
+            "name": "=========== Fortran ==========",
+            "scope": ""
+        },
+        {
+            "name": "Program name",
+            "scope": "entity.name.function.program",
             "foreground": "#C4FF03",
             "background": "#3F0115",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Intent",
+            "scope": "keyword.intent.fortran",
+            "foreground": "#08D879",
             "font_style": "italic"
         },
         {
-            "name": "Import Selector",
-            "scope": "meta.import.selector.scala variable.import.scala",
-            "font_style": "italic"
+            "name": "Implicit statement",
+            "scope": "meta.implicit_statement.fortran keyword.control",
+            "foreground": "#F68EFF",
+            "background": "#48294B",
+            "font_style": "bold"
+        },
+        {
+            "name": "Data",
+            "scope": "storage.data.fortran",
+            "foreground": "#C4FF03"
+        },
+        {
+            "name": "\"use\" module name",
+            "scope": "storage.type.module",
+            "foreground": "#CFFF01",
+            "background": "#070E48"
+        },
+//     ____                  ____
+//    6MMMMb/ 68b           6MMMMb/
+//   8P    YM Y89   /      8P    YM             /       /
+//  6M      Y ___  /M     6M      Y ___   ___  /M      /M       ____   ___  __
+//  MM        `MM /MMMMM  MM        `MM    MM /MMMMM  /MMMMM   6MMMMb  `MM 6MM
+//  MM         MM  MM     MM         MM    MM  MM      MM     6M'  `Mb  MM69 "
+//  MM     ___ MM  MM     MM     ___ MM    MM  MM      MM     MM    MM  MM'
+//  MM     `M' MM  MM     MM     `M' MM    MM  MM      MM     MMMMMMMM  MM
+//  YM      M  MM  MM     YM      M  MM    MM  MM      MM     MM        MM
+//   8b    d9  MM  YM.  ,  8b    d9  YM.   MM  YM.  ,  YM.  , YM    d9  MM
+//    YMMMM9  _MM_  YMMM9   YMMMM9    YMMM9MM_  YMMM9   YMMM9  YMMMM9  _MM_
+        {
+            "name": "=========== GitGutter ==========",
+            "scope": ""
+        },
+        {
+            "name": "GitGutter deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "#FF0000"
+        },
+        {
+            "name": "GitGutter inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "#00FF00"
+        },
+        {
+            "name": "GitGutter changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "#FFFF00"
         },
 //  ____    ____                   ___                ___ ___
 //  `MM'    `MM'                   `MM                `MM `MM
@@ -363,70 +873,62 @@
             "foreground": "#FDA7FF",
             "background": "#43215B"
         },
-//  __________              ____         ,M'__________                    ___             __________
-//  MMMMMMMMMM             6MMMMb/       dP MMMMMMMMMM                    `MM             MMMMMMMMMM
-//  /   MM   \            8P    YM      ,M' /   MM   \                     MM             /   MM   \
-//      MM       _____   6M      Y      dP      MM        ___      ____    MM   __            MM        ___      __       ____
-//      MM      6MMMMMb  MM            ,M'      MM      6MMMMb    6MMMMb\  MM   d'            MM      6MMMMb    6MMbMMM  6MMMMb\
-//      MM     6M'   `Mb MM            dP       MM     8M'  `Mb  MM'    `  MM  d'             MM     8M'  `Mb  6M'`Mb   MM'    `
-//      MM     MM     MM MM           ,M'       MM         ,oMM  YM.       MM d'              MM         ,oMM  MM  MM   YM.
-//      MM     MM     MM MM           dP        MM     ,6MM9'MM   YMMMMb   MMdM.              MM     ,6MM9'MM  YM.,M9    YMMMMb
-//      MM     MM     MM YM      6   ,M'        MM     MM'   MM       `Mb  MMPYM.             MM     MM'   MM   YMM9         `Mb
-//      MM     YM.   ,M9  8b    d9   dP         MM     MM.  ,MM  L    ,MM  MM  YM.            MM     MM.  ,MM  (M       L    ,MM
-//     _MM_     YMMMMM9    YMMMM9   ,M'        _MM_    `YMMM9'Yb.MYMMMM9  _MM_  YM._         _MM_    `YMMM9'Yb. YMMMMb. MYMMMM9
-//                                  dP                                                                         6M    Yb
-//                                 ,M'                                                                         YM.   d9
-//                                 dP                                                                           YMMMM9
+//  ____    ______________ ___       _______           ,M'____      ___ ___       _______
+//  `MM'    `MM'MMMMMMMMMM `MMb     dMM'`MM'           dP `MM(      )M' `MMb     dMM'`MM'
+//   MM      MM /   MM   \  MMM.   ,PMM  MM           ,M'  `MM.     d'   MMM.   ,PMM  MM
+//   MM      MM     MM      M`Mb   d'MM  MM           dP    `MM.   d'    M`Mb   d'MM  MM
+//   MM      MM     MM      M YM. ,P MM  MM          ,M'     `MM. d'     M YM. ,P MM  MM
+//   MMMMMMMMMM     MM      M `Mb d' MM  MM          dP       `MMd       M `Mb d' MM  MM
+//   MM      MM     MM      M  YM.P  MM  MM         ,M'        dMM.      M  YM.P  MM  MM
+//   MM      MM     MM      M  `Mb'  MM  MM         dP        d'`MM.     M  `Mb'  MM  MM
+//   MM      MM     MM      M   YP   MM  MM        ,M'       d'  `MM.    M   YP   MM  MM
+//   MM      MM     MM      M   `'   MM  MM    /   dP       d'    `MM.   M   `'   MM  MM    /
+//  _MM_    _MM_   _MM_    _M_      _MM__MMMMMMM  ,M'     _M(_    _)MM_ _M_      _MM__MMMMMMM
+//                                                dP
+//                                               ,M'
+//                                               dP
         {
-            "name": "=========== Table of Contents/Task tags ==========",
+            "name": "=========== HTML/XML ==========",
             "scope": ""
         },
         {
-            "name": "Table-of-Contents",
-            "scope": "meta.toc-list",
-            "foreground": "#E2FF09",
-            "background": "#000B76"
+            "name": "Attribute name",
+            "scope": "entity.other.attribute-name, storage.type.attr",
+            "foreground": "#FF88F9",
+            "font_style": "italic"
         },
         {
-            "name": "Task tag line",
-            "scope": "meta.toc-list.task-tag",
-            "foreground": "#9BA834",
-            "background": "#000000"
+            "name": "Local name",
+            "scope": "entity.other.attribute-name.localname",
+            "foreground": "#10FF07"
         },
         {
-            "name": "Task tag line - High priority",
-            "scope": "meta.toc-list.task-tag.prio-high",
-            "background": "#36000B"
+            "name": "HTML String",
+            "scope": "string.quoted.double.html, string.quoted.single.html",
+            "foreground": "#10FF07"
         },
         {
-            "name": "Task tag line - Normal priority",
-            "scope": "meta.toc-list.task-tag.prio-normal",
-            "background": "#1D2002"
+            "name": "HTML entity",
+            "scope": "text.html constant.character.entity, text.html constant.character.entity punctuation",
+            "foreground": "#FF07A2",
+            "font_style": "italic"
         },
         {
-            "name": "Task tag line - Low priority",
-            "scope": "meta.toc-list.task-tag.prio-low",
-            "background": "#0E2402"
+            "name": "doctype",
+            "scope": "meta.tag.sgml.doctype, entity.name.tag.doctype",
+            "foreground": "#1AEFFF",
+            "font_style": "italic"
         },
         {
-            "name": "Task tag",
-            "scope": "entity.other.task-tag",
-            "font_style": "italic bold"
+            "name": "Tag",
+            "scope": "meta.tag entity.name, entity.name.tag",
+            "foreground": "#FF6803",
+            "font_style": "bold"
         },
         {
-            "name": "Task tag - High priority",
-            "scope": "keyword.other.task-tag.prio-high storage.type.class",
-            "foreground": "#FF112C"
-        },
-        {
-            "name": "Task tag - Normal priority",
-            "scope": "keyword.other.task-tag.prio-normal storage.type.class",
-            "foreground": "#FFEB09"
-        },
-        {
-            "name": "Task tag - Low priority",
-            "scope": "keyword.other.task-tag.prio-low storage.type.class",
-            "foreground": "#67E607"
+            "name": "Tag Punctuation",
+            "scope": "punctuation.definition.tag",
+            "foreground": "#02AEFF"
         },
 //       ____
 //       `MM'
@@ -563,388 +1065,6 @@
             "name": "String interpolation delimiters",
             "scope": "punctuation.section.interpolation",
             "foreground": "#0D0DFF"
-        },
-//  ________
-//  `MMMMMMM
-//   MM    \                     /
-//   MM        _____   ___  __  /M     ___  __    ___    ___  __
-//   MM   ,   6MMMMMb  `MM 6MM /MMMMM  `MM 6MM  6MMMMb   `MM 6MMb
-//   MMMMMM  6M'   `Mb  MM69 "  MM      MM69 " 8M'  `Mb   MMM9 `Mb
-//   MM   `  MM     MM  MM'     MM      MM'        ,oMM   MM'   MM
-//   MM      MM     MM  MM      MM      MM     ,6MM9'MM   MM    MM
-//   MM      MM     MM  MM      MM      MM     MM'   MM   MM    MM
-//   MM      YM.   ,M9  MM      YM.  ,  MM     MM.  ,MM   MM    MM
-//  _MM_      YMMMMM9  _MM_      YMMM9 _MM_    `YMMM9'Yb._MM_  _MM_
-        {
-            "name": "=========== Fortran ==========",
-            "scope": ""
-        },
-        {
-            "name": "Program name",
-            "scope": "entity.name.function.program",
-            "foreground": "#C4FF03",
-            "background": "#3F0115",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Intent",
-            "scope": "keyword.intent.fortran",
-            "foreground": "#08D879",
-            "font_style": "italic"
-        },
-        {
-            "name": "Implicit statement",
-            "scope": "meta.implicit_statement.fortran keyword.control",
-            "foreground": "#F68EFF",
-            "background": "#48294B",
-            "font_style": "bold"
-        },
-        {
-            "name": "Data",
-            "scope": "storage.data.fortran",
-            "foreground": "#C4FF03"
-        },
-        {
-            "name": "\"use\" module name",
-            "scope": "storage.type.module",
-            "foreground": "#CFFF01",
-            "background": "#070E48"
-        },
-//     ____   ___
-//    6MMMMb/ `MM               68b
-//   8P    YM  MM               Y89
-//  6M      Y  MM   _____       ___ ___   ___ ___  __   ____
-//  MM         MM  6MMMMMb      `MM `MM    MM `MM 6MM  6MMMMb
-//  MM         MM 6M'   `Mb      MM  MM    MM  MM69 " 6M'  `Mb
-//  MM         MM MM     MM      MM  MM    MM  MM'    MM    MM
-//  MM         MM MM     MM      MM  MM    MM  MM     MMMMMMMM
-//  YM      6  MM MM     MM      MM  MM    MM  MM     MM
-//   8b    d9  MM YM.   ,M9      MM  YM.   MM  MM     YM    d9
-//    YMMMM9  _MM_ YMMMMM9       MM   YMMM9MM__MM_     YMMMM9
-//                               MM
-//                           (8) M9
-//                            YMM9
-        {
-            "name": "=========== Clojure ==========",
-            "scope": ""
-        },
-        {
-            "name": "Global symbol",
-            "scope": "source.symbol.global.clojure",
-            "foreground": "#FFACAA",
-            "font_style": "italic"
-        },
-        {
-            "name": "Constant.string",
-            "scope": "source.clojure constant.string.symbol.clojure",
-            "foreground": "#A029F5",
-            "font_style": "bold"
-        },
-        {
-            "name": "Keyword",
-            "scope": "source.clojure support.other.keyword",
-            "foreground": "#0B93FF"
-        },
-        {
-            "name": "Namespace",
-            "scope": "entity.name.namespace",
-            "foreground": "#CFFF01",
-            "background": "#070E48",
-            "font_style": "bold"
-        },
-        {
-            "name": "Storage, Support functions",
-            "scope": "storage.clojure, support.function.clojure",
-            "foreground": "#00BB5E"
-        },
-        {
-            "name": "Storage.type.function",
-            "scope": "storage.type.function source.clojure",
-            "foreground": "#10FF02"
-        },
-        {
-            "name": "Keyword.other.mark",
-            "scope": "keyword.other.mark",
-            "foreground": "#FF71BB",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Match Function",
-            "scope": "support.function.match.clojure",
-            "foreground": "#47FFC7",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Map braces",
-            "scope": "punctuation.definition.map",
-            "foreground": "#80FF80",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Set braces",
-            "scope": "punctuation.definition.set",
-            "foreground": "#FF3229",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Vector brackets",
-            "scope": "punctuation.definition.vector",
-            "foreground": "#FF00FF",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "String Constant Symbol",
-            "scope": "constant.string.symbole.clojure, meta.expression.map constant.string.symbol.clojure",
-            "foreground": "#A7A3FF"
-        },
-//  ________              ___
-//  `MMMMMMMb.             MM
-//   MM    `Mb             MM
-//   MM     MM  ___   ___  MM____   ____    ___
-//   MM     MM  `MM    MM  MMMMMMb  `MM(    )M'
-//   MM    .M9   MM    MM  MM'  `Mb  `Mb    d'
-//   MMMMMMM9'   MM    MM  MM    MM   YM.  ,P
-//   MM  \M\     MM    MM  MM    MM    MM  M
-//   MM   \M\    MM    MM  MM    MM    `Mbd'
-//   MM    \M\   YM.   MM  MM.  ,M9     YMP
-//  _MM_    \M\_  YMMM9MM__MYMMMM9       M
-//                                      d'
-//                                  (8),P
-//                                   YMM
-        {
-            "name": "=========== Ruby ==========",
-            "scope": ""
-        },
-        {
-            "name": "Ruby class accessor notation",
-            "scope": "meta.class punctuation.accessor",
-            "foreground": "#EA03FF",
-            "background": "#45004B",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Ruby module",
-            "scope": "entity.name.module",
-            "foreground": "#E2FF09",
-            "background": "#000B76"
-        },
-        {
-            "name": "Ruby constant",
-            "scope": "meta.constant entity.name.constant",
-            "foreground": "#FFA325",
-            "font_style": "bold"
-        },
-        {
-            "name": "Ruby symbol",
-            "scope": "constant.other.symbol, constant.other.symbol punctuation.definition.constant",
-            "foreground": "#50C8FF",
-            "background": "#193F50"
-        },
-        {
-            "name": "Environment variable",
-            "scope": "meta.environment-variable string",
-            "foreground": "#0613FF",
-            "background": "#FFEE0C"
-        },
-        {
-            "name": "Global variable",
-            "scope": "variable.other.readwrite.global, variable.other.readwrite.global punctuation.definition.variable",
-            "foreground": "#FFACAA"
-        },
-        {
-            "name": "Instance variable",
-            "scope": "variable.other.readwrite.instance, variable.other.readwrite.instance punctuation.definition.variable",
-            "foreground": "#14FF33",
-            "background": "#04310A"
-        },
-        {
-            "name": "Ruby special method",
-            "scope": "keyword.other.special-method.ruby",
-            "foreground": "#DB1E44"
-        },
-        {
-            "name": "Punctuation.separator.other",
-            "scope": "punctuation.separator.other",
-            "foreground": "#276AFF"
-        },
-        {
-            "name": "Block variable",
-            "scope": "variable.other.block, punctuation.separator.variable, meta.block.parameters variable.parameter",
-            "foreground": "#06FFAC",
-            "background": "#01442E"
-        },
-        {
-            "name": "Block variable punctuation",
-            "scope": "meta.block.parameters punctuation.definition.parameters",
-            "foreground": "#FF0000"
-        },
-//  ________                       ___
-//  `MMMMMMMb.                     `MM
-//   MM    `Mb               /      MM
-//   MM     MM ____    ___  /M      MM  __     _____   ___  __
-//   MM     MM `MM(    )M' /MMMMM   MM 6MMb   6MMMMMb  `MM 6MMb
-//   MM    .M9  `Mb    d'   MM      MMM9 `Mb 6M'   `Mb  MMM9 `Mb
-//   MMMMMMM9'   YM.  ,P    MM      MM'   MM MM     MM  MM'   MM
-//   MM           MM  M     MM      MM    MM MM     MM  MM    MM
-//   MM           `Mbd'     MM      MM    MM MM     MM  MM    MM
-//   MM            YMP      YM.  ,  MM    MM YM.   ,M9  MM    MM
-//  _MM_            M        YMMM9 _MM_  _MM_ YMMMMM9  _MM_  _MM_
-//                 d'
-//             (8),P
-//              YMM
-
-        {
-            "name": "=========== Python.sublime-syntax ==========",
-            "scope": ""
-        },
-        {
-            "name": "Generator/comprehension keywords",
-            "scope": "meta.expression.generator keyword.control.flow",
-            "foreground": "#FFFF00"
-        },
-        {
-            "name": "Python docstring",
-            "scope": "comment.block.documentation.python",
-            "foreground": "#218B97",
-            "font_style": "italic"
-        },
-        {
-            "name": "Docstring quotes",
-            "scope": "punctuation.definition.comment.begin.python, punctuation.definition.comment.end.python",
-            "foreground": "#FF06A5",
-            "font_style": "italic"
-        },
-        {
-            "name": "=========== Python/PythonImproved ==========",
-            "scope": ""
-        },
-        {
-            "name": "Comprehension keywords",
-            "scope": "meta.structure.list keyword.control.flow, meta.structure.list keyword.operator.logical, meta.structure.dictionary keyword.control.flow, meta.structure.dictionary keyword.operator.logical",
-            "foreground": "#FFFF00"
-        },
-        {
-            "name": "PythonImproved docstring",
-            "scope": "comment.block.python string.quoted.single.block.python, comment.block.python string.quoted.double.block.python",
-            "foreground": "#218B97",
-            "font_style": "italic"
-        },
-        {
-            "name": "Annotation separator :",
-            "scope": "punctuation.separator.annotation.python",
-            "foreground": "#F6FF04",
-            "background": "#0205FF",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Annotation result ->",
-            "scope": "punctuation.separator.annotation.result.python",
-            "foreground": "#F6FF04",
-            "background": "#0205FF",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Annotation parameters group begin (",
-            "scope": "punctuation.definition.parameters-group.begin.python",
-            "foreground": "#FF06A5",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Annotation parameters group end )",
-            "scope": "punctuation.definition.parameters-group.end.python",
-            "foreground": "#FF06A5",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Comment - Note",
-            "scope": "comment.line.note",
-            "foreground": "#E2FF09",
-            "background": "#000B76"
-        },
-        {
-            "name": "Comment - Note - Notation",
-            "scope": "comment.line.note.notation",
-            "foreground": "#FF112C",
-            "font_style": "bold"
-        },
-        {
-            "name": "Decorator",
-            "scope": "meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator",
-            "foreground": "#B6B8FE",
-            "font_style": "bold"
-        },
-        {
-            "name": "Django models",
-            "scope": "support.type.django.model",
-            "foreground": "#588925"
-        },
-        {
-            "name": "Django modules",
-            "scope": "support.other.django.module",
-            "foreground": "#82C537"
-        },
-        {
-            "name": "Django keyword tag name",
-            "scope": "keyword.control.tag-name.django",
-            "foreground": "#C2FFBD",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Django filter tag name",
-            "scope": "keyword.control.filter.django",
-            "foreground": "#0FD0FF",
-            "background": "#908A0770"
-        },
-        {
-            "name": "Django template tag braces",
-            "scope": "storage.type.templatetag.django entity.tag.tagbraces.django",
-            "foreground": "#1FA919",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Django variable tag braces",
-            "scope": "storage.type.variable entity.tag.tagbraces.django",
-            "foreground": "#FF0D8F",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "IPython In",
-            "scope": "support.ipython.in",
-            "foreground": "#17FF07"
-        },
-        {
-            "name": "IPython Out",
-            "scope": "support.ipython.out",
-            "foreground": "#FF0704"
-        },
-        {
-            "name": "IPython Cell Number",
-            "scope": "source.python support.ipython support.ipython.cell-number",
-            "foreground": "#00B1F7",
-            "font_style": "bold"
-        },
-        {
-            "name": "Jinja filter",
-            "scope": "variable.other.jinja.filter",
-            "foreground": "#10FDFF",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Jinja Variable",
-            "scope": "variable.other.jinja",
-            "foreground": "#FF0102"
-        },
-        {
-            "name": "Jinja tag delimiter",
-            "scope": "entity.other.jinja.delimiter",
-            "foreground": "#FFF704",
-            "font_style": "bold"
-        },
-        {
-            "name": "Magic function",
-            "scope": "support.function.magic",
-            "foreground": "#E3A0FF",
-            "font_style": "bold italic"
         },
 //       ____  ____      ____    ___      ___
 //       `MM' 6MMMMb\   6MMMMb   `MM\     `M'
@@ -1156,254 +1276,55 @@
             "scope": "source.json meta.mapping.key string",
             "font_style": "bold italic"
         },
-//     ____         ,M'   ____
-//    6MMMMb/       dP   6MMMMb/
-//   8P    YM      ,M'  8P    YM
-//  6M      Y      dP  6M      Y
-//  MM            ,M'  MM           M       M
-//  MM            dP   MM           M       M
-//  MM           ,M'   MM           M       M
-//  MM           dP    MM        MMMMMMM MMMMMMM
-//  YM      6   ,M'    YM      6    M       M
-//   8b    d9   dP      8b    d9    M       M
-//    YMMMM9   ,M'       YMMMM9     M       M
-//             dP
-//            ,M'
-//            dP
+//  ____               __________          ____      ___
+//  `MM'               MMMMMMMMMM          `MM(      )M'
+//   MM                /   MM   \           `MM.     d'
+//   MM         ___        MM       ____     `MM.   d'
+//   MM       6MMMMb       MM      6MMMMb     `MM. d'
+//   MM      8M'  `Mb      MM     6M'  `Mb     `MMd
+//   MM          ,oMM      MM     MM    MM      dMM.
+//   MM      ,6MM9'MM      MM     MMMMMMMM     d'`MM.
+//   MM      MM'   MM      MM     MM          d'  `MM.
+//   MM    / MM.  ,MM      MM     YM    d9   d'    `MM.
+//  _MMMMMMM `YMMM9'Yb.   _MM_     YMMMM9  _M(_    _)MM_
         {
-            "name": "=========== C/C++/C Improved ==========",
+            "name": "=========== LaTeX ==========",
             "scope": ""
         },
         {
-            "name": "C/C++ Preprocessor Line",
-            "scope": "meta.preprocessor",
-            "foreground": "#A85E3D"
+            "name": "LaTeX preamble",
+            "scope": "meta.preamble",
+            "background": "#000066"
         },
         {
-            "name": "C/C++ Preprocessor Directive",
-            "scope": "meta.preprocessor keyword",
-            "foreground": "#8189FF"
+            "name": "LaTeX math support function",
+            "scope": "text.tex support.function.math",
+            "foreground": "#33FF33"
         },
         {
-            "name": "C/C++ <include>",
-            "scope": "string.quoted.other.lt-gt.include",
-            "foreground": "#0CC4FF"
-        },
-        {
-            "name": "C/C++ \"include\"",
-            "scope": "string.quoted.double.include",
-            "foreground": "#FF65BE"
-        },
-        {
-            "name": "C Improved preprocessor #include",
-            "scope": "keyword.other.preprocessor.include",
-            "background": "#070583",
+            "name": "LaTeX section name",
+            "scope": "entity.name.section.latex",
+            "foreground": "#0AFF04",
+            "background": "#07019A",
             "font_style": "bold"
         },
         {
-            "name": "C Improved preprocessor #define",
-            "scope": "keyword.other.preprocessor.include",
-            "background": "#070583",
-            "font_style": "bold"
-        },
-//  ____     ___        _         ____      ____         ,M'________
-//  `MM(     )M'       dM.       6MMMMb/   6MMMMb/       dP `MMMMMMMb. 68b
-//   `MM.    d'       ,MMb      8P    YM  8P    YM      ,M'  MM    `Mb Y89
-//    `MM.  d'        d'YM.    6M      Y 6M      Y      dP   MM     MM ___   ____     _____   ___  __
-//     `MM d'        ,P `Mb    MM        MM            ,M'   MM    .M9 `MM  6MMMMb\  6MMMMMb  `MM 6MMb
-//      `MM'         d'  YM.   MM        MM            dP    MMMMMMM(   MM MM'    ` 6M'   `Mb  MMM9 `Mb
-//       MM         ,P   `Mb   MM        MM           ,M'    MM    `Mb  MM YM.      MM     MM  MM'   MM
-//       MM         d'    YM.  MM        MM           dP     MM     MM  MM  YMMMMb  MM     MM  MM    MM
-//       MM        ,MMMMMMMMb  YM      6 YM      6   ,M'     MM     MM  MM      `Mb MM     MM  MM    MM
-//       MM        d'      YM.  8b    d9  8b    d9   dP      MM    .M9  MM L    ,MM YM.   ,M9  MM    MM
-//      _MM_     _dM_     _dMM_  YMMMM9    YMMMM9   ,M'     _MMMMMMM9' _MM_MYMMMM9   YMMMMM9  _MM_  _MM_
-//                                                  dP
-//                                                 ,M'
-//                                                 dP
-        {
-            "name": "=========== YACC/Bison ==========",
-            "scope": ""
+            "name": "LaTeX label name",
+            "scope": "entity.name.label",
+            "foreground": "#FF4500",
+            "background": "#0701E29F"
         },
         {
-            "name": "class accessor notation",
-            "scope": "punctuation.accessor",
-            "foreground": "#3399FF",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "rule name",
-            "scope": "entity.name.rule",
-            "foreground": "#3399FF",
-            "background": "#45004B",
-            "font_style": "bold"
-        },
-//       ___        __    __
-//       `MM 68b   69MM  69MM
-//        MM Y89  6M' ` 6M' `
-//    ____MM ___ _MM__ _MM__
-//   6MMMMMM `MM MMMMM MMMMM
-//  6M'  `MM  MM  MM    MM
-//  MM    MM  MM  MM    MM
-//  MM    MM  MM  MM    MM
-//  MM    MM  MM  MM    MM
-//  YM.  ,MM  MM  MM    MM
-//   YMMMMMM__MM__MM_  _MM_
-        {
-            "name": "=========== diff ==========",
-            "scope": ""
-        },
-        {
-            "name": "diff.range Punctuation",
-            "scope": "meta.diff.range punctuation.definition.range",
-            "foreground": "#1AEFFF",
+            "name": "LaTeX ampersand",
+            "scope": "constant.character.ampersand",
+            "background": "#660033",
+            "foreground": "#0099FF",
             "font_style": "bold"
         },
         {
-            "name": "diff.range Line Numbers",
-            "scope": "meta.diff.range meta.toc-list.line-number",
-            "foreground": "#FF07C5",
-            "font_style": "bold"
-        },
-        {
-            "name": "diff.punctuation From",
-            "scope": "source.diff punctuation.definition.from-file",
-            "foreground": "#6CFE11",
-            "background": "#1911FF",
-            "font_style": "bold"
-        },
-        {
-            "name": "diff.punctuation To",
-            "scope": "source.diff punctuation.definition.to-file",
-            "foreground": "#1911FF",
-            "background": "#6CFE11",
-            "font_style": "bold"
-        },
-        {
-            "name": "diff.header From",
-            "scope": "meta.diff.header.from-file",
-            "foreground": "#6CFE11",
-            "background": "#1911FF"
-        },
-        {
-            "name": "diff.header To",
-            "scope": "meta.diff.header.to-file",
-            "foreground": "#1911FF",
-            "background": "#6CFE11"
-        },
-        {
-            "name": "diff.deleted",
-            "scope": "markup.deleted",
-            "foreground": "#FFFFFF",
-            "background": "#BC1802"
-        },
-        {
-            "name": "diff.changed",
-            "scope": "markup.changed",
-            "foreground": "#FFFFFF",
-            "background": "#CFB406"
-        },
-        {
-            "name": "diff.inserted",
-            "scope": "markup.inserted",
-            "foreground": "#FFFFFF",
-            "background": "#277D08"
-        },
-//  ____    ______________ ___       _______           ,M'____      ___ ___       _______
-//  `MM'    `MM'MMMMMMMMMM `MMb     dMM'`MM'           dP `MM(      )M' `MMb     dMM'`MM'
-//   MM      MM /   MM   \  MMM.   ,PMM  MM           ,M'  `MM.     d'   MMM.   ,PMM  MM
-//   MM      MM     MM      M`Mb   d'MM  MM           dP    `MM.   d'    M`Mb   d'MM  MM
-//   MM      MM     MM      M YM. ,P MM  MM          ,M'     `MM. d'     M YM. ,P MM  MM
-//   MMMMMMMMMM     MM      M `Mb d' MM  MM          dP       `MMd       M `Mb d' MM  MM
-//   MM      MM     MM      M  YM.P  MM  MM         ,M'        dMM.      M  YM.P  MM  MM
-//   MM      MM     MM      M  `Mb'  MM  MM         dP        d'`MM.     M  `Mb'  MM  MM
-//   MM      MM     MM      M   YP   MM  MM        ,M'       d'  `MM.    M   YP   MM  MM
-//   MM      MM     MM      M   `'   MM  MM    /   dP       d'    `MM.   M   `'   MM  MM    /
-//  _MM_    _MM_   _MM_    _M_      _MM__MMMMMMM  ,M'     _M(_    _)MM_ _M_      _MM__MMMMMMM
-//                                                dP
-//                                               ,M'
-//                                               dP
-        {
-            "name": "=========== HTML/XML ==========",
-            "scope": ""
-        },
-        {
-            "name": "Attribute name",
-            "scope": "entity.other.attribute-name, storage.type.attr",
-            "foreground": "#FF88F9",
-            "font_style": "italic"
-        },
-        {
-            "name": "Local name",
-            "scope": "entity.other.attribute-name.localname",
-            "foreground": "#10FF07"
-        },
-        {
-            "name": "HTML String",
-            "scope": "string.quoted.double.html, string.quoted.single.html",
-            "foreground": "#10FF07"
-        },
-        {
-            "name": "HTML entity",
-            "scope": "text.html constant.character.entity, text.html constant.character.entity punctuation",
-            "foreground": "#FF07A2",
-            "font_style": "italic"
-        },
-        {
-            "name": "doctype",
-            "scope": "meta.tag.sgml.doctype, entity.name.tag.doctype",
-            "foreground": "#1AEFFF",
-            "font_style": "italic"
-        },
-        {
-            "name": "Tag",
-            "scope": "meta.tag entity.name, entity.name.tag",
-            "foreground": "#FF6803",
-            "font_style": "bold"
-        },
-        {
-            "name": "Tag Punctuation",
-            "scope": "punctuation.definition.tag",
-            "foreground": "#02AEFF"
-        },
-//         _      ________   ________
-//        dM.     `MMMMMMMb. `MMMMMMMb.
-//       ,MMb      MM    `Mb  MM    `Mb
-//       d'YM.     MM     MM  MM     MM
-//      ,P `Mb     MM     MM  MM    .M9
-//      d'  YM.    MM     MM  MMMMMMM(
-//     ,P   `Mb    MM     MM  MM    `Mb
-//     d'    YM.   MM     MM  MM     MM
-//    ,MMMMMMMMb   MM     MM  MM     MM
-//    d'      YM.  MM    .M9  MM    .M9
-//  _dM_     _dMM__MMMMMMM9' _MMMMMMM9'
-        {
-            "name": "=========== Android Debug Bridge ==========",
-            "scope": ""
-        },
-        {
-            "name": "Timestamp",
-            "scope": "constant.other.adb.timestamp",
-            "foreground": "#FE7DF5"
-        },
-        {
-            "name": "Function",
-            "scope": "source.adb entity.name.function",
-            "foreground": "#10FF07"
-        },
-        {
-            "name": "constant.other",
-            "scope": "constant.other.adb",
-            "foreground": "#FF8000"
-        },
-        {
-            "name": "Info",
-            "scope": "entity.name.filename.adb",
-            "foreground": "#08F2FF"
-        },
-        {
-            "name": "Warning",
-            "scope": "keyword.adb",
-            "foreground": "#FFFF00"
+            "name": "LaTeX backslash",
+            "scope": "text.tex punctuation.definition.backslash",
+            "font_style": "bold glow"
         },
 //  ____
 //  `MM'
@@ -1533,262 +1454,30 @@
             "foreground": "#E421FD",
             "font_style": "bold"
         },
-//  ________   ____    ____________
-//  `MMMMMMMb. `MM'    `MM'`MMMMMMMb.
-//   MM    `Mb  MM      MM  MM    `Mb
-//   MM     MM  MM      MM  MM     MM
-//   MM     MM  MM      MM  MM     MM
-//   MM    .M9  MMMMMMMMMM  MM    .M9
-//   MMMMMMM9'  MM      MM  MMMMMMM9'
-//   MM         MM      MM  MM
-//   MM         MM      MM  MM
-//   MM         MM      MM  MM
-//  _MM_       _MM_    _MM__MM_
+//  ___       ___                  ___           ___
+//  `MMb     dMM'                  `MM            MM
+//   MMM.   ,PMM             /      MM            MM
+//   M`Mb   d'MM    ___     /M      MM    ___     MM____
+//   M YM. ,P MM  6MMMMb   /MMMMM   MM  6MMMMb    MMMMMMb
+//   M `Mb d' MM 8M'  `Mb   MM      MM 8M'  `Mb   MM'  `Mb
+//   M  YM.P  MM     ,oMM   MM      MM     ,oMM   MM    MM
+//   M  `Mb'  MM ,6MM9'MM   MM      MM ,6MM9'MM   MM    MM
+//   M   YP   MM MM'   MM   MM      MM MM'   MM   MM    MM
+//   M   `'   MM MM.  ,MM   YM.  ,  MM MM.  ,MM   MM.  ,M9
+//  _M_      _MM_`YMMM9'Yb.  YMMM9 _MM_`YMMM9'Yb._MYMMMM9
         {
-            "name": "=========== PHP ==========",
+            "name": "=========== Matlab ==========",
             "scope": ""
         },
         {
-            "name": "PHP: PHPdocs",
-            "scope": "keyword.other.phpdoc.php",
-            "foreground": "#3A771F",
-            "font_style": "italic"
+            "name": "storage.control",
+            "scope": "storage.control.matlab",
+            "foreground": "#9925FF"
         },
         {
-            "name": "PHP: Constants Core Predefined",
-            "scope": "support.constant.core.php",
-            "foreground": "#FFA325",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "PHP: Constants Standard Predefined",
-            "scope": "support.constant.std.php",
-            "foreground": "#BBFD0D",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "PHP: Include() & Require()",
-            "scope": "keyword.other.include.php, meta.include.php",
-            "foreground": "#C82255"
-        },
-        {
-            "name": "PHP: Keywords Storage",
-            "scope": "keyword.storage.php",
-            "foreground": "#6969FA"
-        },
-        {
-            "name": "PHP: Strings Double-Quoted",
-            "scope": "string.quoted.double.php",
-            "foreground": "#FFDF02"
-        },
-        {
-            "name": "PHP: Strings Single-Quoted",
-            "scope": "string.quoted.single.php",
-            "foreground": "#FF6F5B"
-        },
-        {
-            "name": "PHP: Variables Globals",
-            "scope": "variable.other.global.php",
-            "foreground": "#FF4028",
-            "font_style": "italic"
-        },
-        {
-            "name": "PHP: Variables Safer Globals",
-            "scope": "variable.other.global.safer.php",
-            "foreground": "#00FF00"
-        },
-        {
-            "name": "PHP function",
-            "scope": "meta.function-call.php support.function",
-            "foreground": "#FBFF0E",
-            "background": "#05065B"
-        },
-//     ____     ____     ____
-//    6MMMMb/  6MMMMb\  6MMMMb\
-//   8P    YM 6M'    ` 6M'    `                  /
-//  6M      Y MM       MM               ____    /M       ____
-//  MM        YM.      YM.             6MMMMb  /MMMMM   6MMMMb.
-//  MM         YMMMMb   YMMMMb        6M'  `Mb  MM     6M'   Mb
-//  MM             `Mb      `Mb       MM    MM  MM     MM    `'
-//  MM              MM       MM       MMMMMMMM  MM     MM
-//  YM      6       MM       MM       MM        MM     MM
-//   8b    d9 L    ,M9 L    ,M9       YM    d9  YM.  , YM.   d9 68b
-//    YMMMM9  MYMMMM9  MYMMMM9         YMMMM9    YMMM9  YMMMM9  Y89
-        {
-            "name": "=========== Stylesheets ==========",
-            "scope": ""
-        },
-        {
-            "name": "CSS: additional-constants",
-            "scope": "meta.property-value support.constant.named-color.css, meta.property-value constant",
-            "foreground": "#FFF203",
-            "font_style": "italic"
-        },
-        {
-            "name": "CSS: @at-rule",
-            "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
-            "foreground": "#F6AA11"
-        },
-        {
-            "name": "CSS: attribute-match",
-            "scope": "source.css meta.attribute-selector keyword.operator.comparison",
-            "foreground": "#833F04"
-        },
-        {
-            "name": "CSS: .class",
-            "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.class.css punctuation",
-            "foreground": "#B2FF02",
-            "background": "#2A3C00"
-        },
-        {
-            "name": "CSS: constructor argument",
-            "scope": "meta.constructor.argument",
-            "foreground": "#0AEB77"
-        },
-        {
-            "name": "CSS: #id",
-            "scope": "entity.other.attribute-name.id.css, entity.other.attribute-name.id.css punctuation",
-            "foreground": "#FF50F0"
-        },
-        {
-            "name": "CSS: pseudo-element",
-            "scope": "entity.other.attribute-name.pseudo-element",
-            "foreground": "#AE08FF"
-        },
-        {
-            "name": "CSS: pseudo-class",
-            "scope": "entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class",
-            "foreground": "#D2C9FF"
-        },
-        {
-            "name": "CSS: property-name",
-            "scope": "support.type.property-name.css, meta.property-name",
-            "foreground": "#FFF262"
-        },
-        {
-            "name": "CSS: property-value",
-            "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
-            "foreground": "#357BF6",
-            "background": "#0D1F3F"
-        },
-        {
-            "name": "CSS: selector",
-            "scope": "meta.selector.css",
-            "foreground": "#84F6C3"
-        },
-        {
-            "name": "CSS: tag-name",
-            "scope": "entity.name.tag.css",
-            "foreground": "#05C2FF"
-        },
-        {
-            "name": "CSS: tag wildcard",
-            "scope": "entity.name.tag.wildcard, entity.other.attribute-name.universal",
-            "foreground": "#FF7900",
-            "font_style": "bold"
-        },
-        {
-            "name": "CSS: units",
-            "scope": "keyword.other.unit",
-            "foreground": "#1DD292"
-        },
-        {
-            "name": "CSS: Flag",
-            "scope": "keyword.other.important.css",
-            "foreground": "#FF0000",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "SASS: Block comment",
-            "scope": "comment.block.sass",
-            "foreground": "#208C9A",
-            "font_style": "italic"
-        },
-        {
-            "name": "SASS: Placeholder Selector",
-            "scope": "entity.other.attribute-name.placeholder-selector.sass",
-            "foreground": "#FF5699",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "SASS: Attribute Selector",
-            "scope": "entity.other.attribute-selector.sass",
-            "foreground": "#817DFF"
-        },
-        {
-            "name": "SASS: Regex",
-            "scope": "keyword.other.regex.sass",
-            "foreground": "#FFE4A6"
-        },
-        {
-            "name": "SASS: Comma",
-            "scope": "comment.punctuation.comma.sass",
-            "foreground": "#FCFDFF"
-        },
-        {
-            "name": "SASS: RGB Color",
-            "scope": "constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css",
-            "foreground": "#07FFF5"
-        },
-        {
-            "name": "SCSS: Semicolon",
-            "scope": "comment.punctuation.semicolon.sass",
-            "foreground": "#6969FA"
-        },
-//     ____                  ____
-//    6MMMMb/ 68b           6MMMMb/
-//   8P    YM Y89   /      8P    YM             /       /
-//  6M      Y ___  /M     6M      Y ___   ___  /M      /M       ____   ___  __
-//  MM        `MM /MMMMM  MM        `MM    MM /MMMMM  /MMMMM   6MMMMb  `MM 6MM
-//  MM         MM  MM     MM         MM    MM  MM      MM     6M'  `Mb  MM69 "
-//  MM     ___ MM  MM     MM     ___ MM    MM  MM      MM     MM    MM  MM'
-//  MM     `M' MM  MM     MM     `M' MM    MM  MM      MM     MMMMMMMM  MM
-//  YM      M  MM  MM     YM      M  MM    MM  MM      MM     MM        MM
-//   8b    d9  MM  YM.  ,  8b    d9  YM.   MM  YM.  ,  YM.  , YM    d9  MM
-//    YMMMM9  _MM_  YMMM9   YMMMM9    YMMM9MM_  YMMM9   YMMM9  YMMMM9  _MM_
-        {
-            "name": "=========== GitGutter ==========",
-            "scope": ""
-        },
-        {
-            "name": "GitGutter deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "#FF0000"
-        },
-        {
-            "name": "GitGutter inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "#00FF00"
-        },
-        {
-            "name": "GitGutter changed",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "#FFFF00"
-        },
-//  ________                    ___                           ________     ___
-//  `MMMMMMM 68b                `MM       68b                 `MMMMMMM 68b `MM
-//   MM    \ Y89                 MM       Y89                  MM    \ Y89  MM
-//   MM      ___ ___  __     ____MM       ___ ___  __          MM      ___  MM   ____     ____
-//   MM   ,  `MM `MM 6MMb   6MMMMMM       `MM `MM 6MMb         MM   ,  `MM  MM  6MMMMb   6MMMMb\
-//   MMMMMM   MM  MMM9 `Mb 6M'  `MM        MM  MMM9 `Mb        MMMMMM   MM  MM 6M'  `Mb MM'    `
-//   MM   `   MM  MM'   MM MM    MM        MM  MM'   MM        MM   `   MM  MM MM    MM YM.
-//   MM       MM  MM    MM MM    MM        MM  MM    MM        MM       MM  MM MMMMMMMM  YMMMMb
-//   MM       MM  MM    MM MM    MM        MM  MM    MM        MM       MM  MM MM            `Mb
-//   MM       MM  MM    MM YM.  ,MM        MM  MM    MM        MM       MM  MM YM    d9 L    ,MM
-//  _MM_     _MM__MM_  _MM_ YMMMMMM_      _MM__MM_  _MM_      _MM_     _MM__MM_ YMMMM9  MYMMMM9
-        {
-            "name": "=========== Find In Files ==========",
-            "scope": ""
-        },
-        {
-            "name": "Find In Files: filename",
-            "scope": "entity.name.filename.find-in-files",
-            "foreground": "#06FF05"
-        },
-        {
-            "name": "Find In Files: Line Number - Match",
-            "scope": "constant.numeric.line-number.match.find-in-files",
-            "foreground": "#FFFF00"
+            "name": "keyword.mathematics",
+            "scope": "keyword.mathematics.matlab",
+            "foreground": "#D6FF1E"
         },
 //  ________                      ___                                   ________
 //  `MMMMMMMb.                    `MM                                   `MMMMMMMb.
@@ -1879,48 +1568,280 @@
             "scope": "meta.variable",
             "background": "#2D7A3388"
         },
-//  ____     ___        _      ___       _______
-//  `MM(     )M'       dM.     `MMb     dMM'`MM'
-//   `MM.    d'       ,MMb      MMM.   ,PMM  MM
-//    `MM.  d'        d'YM.     M`Mb   d'MM  MM
-//     `MM d'        ,P `Mb     M YM. ,P MM  MM
-//      `MM'         d'  YM.    M `Mb d' MM  MM
-//       MM         ,P   `Mb    M  YM.P  MM  MM
-//       MM         d'    YM.   M  `Mb'  MM  MM
-//       MM        ,MMMMMMMMb   M   YP   MM  MM
-//       MM        d'      YM.  M   `'   MM  MM    /
-//      _MM_     _dM_     _dMM__M_      _MM__MMMMMMM
+//  ________   ____    ____________
+//  `MMMMMMMb. `MM'    `MM'`MMMMMMMb.
+//   MM    `Mb  MM      MM  MM    `Mb
+//   MM     MM  MM      MM  MM     MM
+//   MM     MM  MM      MM  MM     MM
+//   MM    .M9  MMMMMMMMMM  MM    .M9
+//   MMMMMMM9'  MM      MM  MMMMMMM9'
+//   MM         MM      MM  MM
+//   MM         MM      MM  MM
+//   MM         MM      MM  MM
+//  _MM_       _MM_    _MM__MM_
         {
-            "name": "=========== YAML ==========",
+            "name": "=========== PHP ==========",
             "scope": ""
         },
         {
-            "name": "YAML Timestamp",
-            "scope": "constant.other.timestamp",
-            "foreground": "#A2FF4A"
+            "name": "PHP: PHPdocs",
+            "scope": "keyword.other.phpdoc.php",
+            "foreground": "#3A771F",
+            "font_style": "italic"
         },
         {
-            "name": "YAML Other Directive",
-            "scope": "support.other.directive",
-            "foreground": "#F14FFF"
-        },
-        {
-            "name": "YAML Directive Punctuation",
-            "scope": "meta.directive.yaml punctuation",
-            "foreground": "#0777FF",
+            "name": "PHP: Constants Core Predefined",
+            "scope": "support.constant.core.php",
+            "foreground": "#FFA325",
             "font_style": "bold italic"
         },
         {
-            "name": "YAML Scalar Block Literal",
-            "scope": "punctuation.definition.block.scalar.literal, support.other.chomping-indicator",
-            "foreground": "#00FF00",
+            "name": "PHP: Constants Standard Predefined",
+            "scope": "support.constant.std.php",
+            "foreground": "#BBFD0D",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "PHP: Include() & Require()",
+            "scope": "keyword.other.include.php, meta.include.php",
+            "foreground": "#C82255"
+        },
+        {
+            "name": "PHP: Keywords Storage",
+            "scope": "keyword.storage.php",
+            "foreground": "#6969FA"
+        },
+        {
+            "name": "PHP: Strings Double-Quoted",
+            "scope": "string.quoted.double.php",
+            "foreground": "#FFDF02"
+        },
+        {
+            "name": "PHP: Strings Single-Quoted",
+            "scope": "string.quoted.single.php",
+            "foreground": "#FF6F5B"
+        },
+        {
+            "name": "PHP: Variables Globals",
+            "scope": "variable.other.global.php",
+            "foreground": "#FF4028",
             "font_style": "italic"
         },
         {
-            "name": "YAML Block Sequence Item",
-            "scope": "punctuation.definition.block.sequence.item",
-            "foreground": "#0FD7FF",
+            "name": "PHP: Variables Safer Globals",
+            "scope": "variable.other.global.safer.php",
+            "foreground": "#00FF00"
+        },
+        {
+            "name": "PHP function",
+            "scope": "meta.function-call.php support.function",
+            "foreground": "#FBFF0E",
+            "background": "#05065B"
+        },
+//  ________                       ___
+//  `MMMMMMMb.                     `MM
+//   MM    `Mb               /      MM
+//   MM     MM ____    ___  /M      MM  __     _____   ___  __
+//   MM     MM `MM(    )M' /MMMMM   MM 6MMb   6MMMMMb  `MM 6MMb
+//   MM    .M9  `Mb    d'   MM      MMM9 `Mb 6M'   `Mb  MMM9 `Mb
+//   MMMMMMM9'   YM.  ,P    MM      MM'   MM MM     MM  MM'   MM
+//   MM           MM  M     MM      MM    MM MM     MM  MM    MM
+//   MM           `Mbd'     MM      MM    MM MM     MM  MM    MM
+//   MM            YMP      YM.  ,  MM    MM YM.   ,M9  MM    MM
+//  _MM_            M        YMMM9 _MM_  _MM_ YMMMMM9  _MM_  _MM_
+//                 d'
+//             (8),P
+//              YMM
+
+        {
+            "name": "=========== Python.sublime-syntax ==========",
+            "scope": ""
+        },
+        {
+            "name": "Generator/comprehension keywords",
+            "scope": "meta.expression.generator keyword.control.flow",
+            "foreground": "#FFFF00"
+        },
+        {
+            "name": "Python docstring",
+            "scope": "comment.block.documentation.python",
+            "foreground": "#218B97",
             "font_style": "italic"
+        },
+        {
+            "name": "Docstring quotes",
+            "scope": "punctuation.definition.comment.begin.python, punctuation.definition.comment.end.python",
+            "foreground": "#FF06A5",
+            "font_style": "italic"
+        },
+        {
+            "name": "=========== Python/PythonImproved ==========",
+            "scope": ""
+        },
+        {
+            "name": "Comprehension keywords",
+            "scope": "meta.structure.list keyword.control.flow, meta.structure.list keyword.operator.logical, meta.structure.dictionary keyword.control.flow, meta.structure.dictionary keyword.operator.logical",
+            "foreground": "#FFFF00"
+        },
+        {
+            "name": "PythonImproved docstring",
+            "scope": "comment.block.python string.quoted.single.block.python, comment.block.python string.quoted.double.block.python",
+            "foreground": "#218B97",
+            "font_style": "italic"
+        },
+        {
+            "name": "Annotation separator :",
+            "scope": "punctuation.separator.annotation.python",
+            "foreground": "#F6FF04",
+            "background": "#0205FF",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Annotation result ->",
+            "scope": "punctuation.separator.annotation.result.python",
+            "foreground": "#F6FF04",
+            "background": "#0205FF",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Annotation parameters group begin (",
+            "scope": "punctuation.definition.parameters-group.begin.python",
+            "foreground": "#FF06A5",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Annotation parameters group end )",
+            "scope": "punctuation.definition.parameters-group.end.python",
+            "foreground": "#FF06A5",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Comment - Note",
+            "scope": "comment.line.note",
+            "foreground": "#E2FF09",
+            "background": "#000B76"
+        },
+        {
+            "name": "Comment - Note - Notation",
+            "scope": "comment.line.note.notation",
+            "foreground": "#FF112C",
+            "font_style": "bold"
+        },
+        {
+            "name": "Decorator",
+            "scope": "meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator",
+            "foreground": "#B6B8FE",
+            "font_style": "bold"
+        },
+        {
+            "name": "Django models",
+            "scope": "support.type.django.model",
+            "foreground": "#588925"
+        },
+        {
+            "name": "Django modules",
+            "scope": "support.other.django.module",
+            "foreground": "#82C537"
+        },
+        {
+            "name": "Django keyword tag name",
+            "scope": "keyword.control.tag-name.django",
+            "foreground": "#C2FFBD",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Django filter tag name",
+            "scope": "keyword.control.filter.django",
+            "foreground": "#0FD0FF",
+            "background": "#908A0770"
+        },
+        {
+            "name": "Django template tag braces",
+            "scope": "storage.type.templatetag.django entity.tag.tagbraces.django",
+            "foreground": "#1FA919",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Django variable tag braces",
+            "scope": "storage.type.variable entity.tag.tagbraces.django",
+            "foreground": "#FF0D8F",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "IPython In",
+            "scope": "support.ipython.in",
+            "foreground": "#17FF07"
+        },
+        {
+            "name": "IPython Out",
+            "scope": "support.ipython.out",
+            "foreground": "#FF0704"
+        },
+        {
+            "name": "IPython Cell Number",
+            "scope": "source.python support.ipython support.ipython.cell-number",
+            "foreground": "#00B1F7",
+            "font_style": "bold"
+        },
+        {
+            "name": "Jinja filter",
+            "scope": "variable.other.jinja.filter",
+            "foreground": "#10FDFF",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Jinja Variable",
+            "scope": "variable.other.jinja",
+            "foreground": "#FF0102"
+        },
+        {
+            "name": "Jinja tag delimiter",
+            "scope": "entity.other.jinja.delimiter",
+            "foreground": "#FFF704",
+            "font_style": "bold"
+        },
+        {
+            "name": "Magic function",
+            "scope": "support.function.magic",
+            "foreground": "#E3A0FF",
+            "font_style": "bold italic"
+        },
+//  ________          ,M'________            ________
+//  `MMMMMMMb.        dP `MMMMMMMb.          `MMMMMMMb.
+//   MM    `Mb       ,M'  MM    `Mb           MM    `Mb
+//   MM     MM       dP   MM     MM           MM     MM   _____   ____   ___
+//   MM     MM      ,M'   MM     MM           MM    .M9  6MMMMMb  `MM(   )P'
+//   MM    .M9      dP    MM    .M9           MMMMMMM(  6M'   `Mb  `MM` ,P
+//   MMMMMMM9'     ,M'    MMMMMMM9'           MM    `Mb MM     MM   `MM,P
+//   MM  \M\       dP     MM  \M\    MMMMMMM  MM     MM MM     MM    `MM.
+//   MM   \M\     ,M'     MM   \M\            MM     MM MM     MM    d`MM.
+//   MM    \M\    dP      MM    \M\           MM    .M9 YM.   ,M9   d' `MM.
+//  _MM_    \M\_ ,M'     _MM_    \M\_        _MMMMMMM9'  YMMMMM9  _d_  _)MM_
+//               dP
+//              ,M'
+//              dP
+        {
+            "name": "=========== R/R-Box ==========",
+            "scope": ""
+        },
+        {
+            "name": "R keyword",
+            "scope": "keyword.other.r",
+            "foreground": "#359AFF",
+            "background": "#123456",
+            "font_style": "bold"
+        },
+        {
+            "name": "R function parameters",
+            "scope": "meta.function-call meta.function-call.parameters",
+            "foreground": "#2BB71D",
+            "font_style": "italic"
+        },
+        {
+            "name": "R Roxygen keyword",
+            "scope": "comment.line.roxygen.r keyword.other.r",
+            "foreground": "#55FFFF",
+            "font_style": "bold"
         },
 //  ________           _      ___       _______
 //  `MMMMMMMb.        dM.     `MMb     dMM'`MM'
@@ -1989,163 +1910,6 @@
             "name": "RAML HTML method",
             "scope": "source.raml meta.method constant.character.method.yaml",
             "foreground": "#4281FB"
-        },
-//    ____             ___       ___                              ____
-//   6MMMMb\            MM       `MM 68b                          `MM'     68b
-//  6M'    `            MM        MM Y89                           MM      Y89             /
-//  MM       ___   ___  MM____    MM ___ ___  __    __     ____    MM      ___ ___  __    /M       ____   ___  __
-//  YM.      `MM    MM  MMMMMMb   MM `MM `MM 6MMb  6MMb   6MMMMb   MM      `MM `MM 6MMb  /MMMMM   6MMMMb  `MM 6MM
-//   YMMMMb   MM    MM  MM'  `Mb  MM  MM  MM69 `MM69 `Mb 6M'  `Mb  MM       MM  MMM9 `Mb  MM     6M'  `Mb  MM69 "
-//       `Mb  MM    MM  MM    MM  MM  MM  MM'   MM'   MM MM    MM  MM       MM  MM'   MM  MM     MM    MM  MM'
-//        MM  MM    MM  MM    MM  MM  MM  MM    MM    MM MMMMMMMM  MM       MM  MM    MM  MM     MMMMMMMM  MM
-//        MM  MM    MM  MM    MM  MM  MM  MM    MM    MM MM        MM       MM  MM    MM  MM     MM        MM
-//  L    ,M9  YM.   MM  MM.  ,M9  MM  MM  MM    MM    MM YM    d9  MM    /  MM  MM    MM  YM.  , YM    d9  MM
-//  MYMMMM9    YMMM9MM__MYMMMM9  _MM__MM__MM_  _MM_  _MM_ YMMMM9  _MMMMMMM _MM__MM_  _MM_  YMMM9  YMMMM9  _MM_
-        {
-            "name": "=========== SublimeLinter ==========",
-            "scope": ""
-        },
-        {
-            "name": "SublimeLinter Annotations",
-            "scope": "sublimelinter.annotations",
-            "foreground": "#000000",
-            "background": "#FFFFAA"
-        },
-        {
-            "name": "SublimeLinter Error Outline",
-            "scope": "sublimelinter.outline.illegal",
-            "foreground": "#FFFFFF",
-            "background": "#FF4A52"
-        },
-        {
-            "name": "SublimeLinter Error Underline",
-            "scope": "sublimelinter.underline.illegal",
-            "background": "#FF0000"
-        },
-        {
-            "name": "SublimeLinter Warning Outline",
-            "scope": "sublimelinter.outline.warning",
-            "foreground": "#FFFFFF",
-            "background": "#DF9400"
-        },
-        {
-            "name": "SublimeLinter Warning Underline",
-            "scope": "sublimelinter.underline.warning",
-            "background": "#FF0000"
-        },
-        {
-            "name": "SublimeLinter Violation Outline",
-            "scope": "sublimelinter.outline.violation",
-            "foreground": "#FFFFFF",
-            "background": "#FFFFFF33"
-        },
-        {
-            "name": "SublimeLinter3 Gutter Mark",
-            "scope": "sublimelinter.gutter-mark",
-            "foreground": "#FFFFFF"
-        },
-        {
-            "name": "SublimeLinter3 Error",
-            "scope": "sublimelinter.mark.error",
-            "foreground": "#DA2000"
-        },
-        {
-            "name": "SublimeLinter3 Warning",
-            "scope": "sublimelinter.mark.warning",
-            "foreground": "#EDBA00"
-        },
-//  ________           ___               ____    ____             ___       ___
-//  `MMMMMMMb.         `MM               `MM'    `MM'68b          `MM       `MM
-//   MM    `Mb          MM         /      MM      MM Y89           MM        MM   /
-//   MM     MM ___  __  MM   __   /M      MM      MM ___   __      MM  __    MM  /M
-//   MM    .M9 `MM 6MM  MM   d'  /MMMMM   MM      MM `MM  6MMbMMM  MM 6MMb   MM /MMMMM
-//   MMMMMMM(   MM69 "  MM  d'    MM      MMMMMMMMMM  MM 6M'`Mb    MMM9 `Mb  MM  MM
-//   MM    `Mb  MM'     MM d'     MM      MM      MM  MM MM  MM    MM'   MM  MM  MM
-//   MM     MM  MM      MMdM.     MM      MM      MM  MM YM.,M9    MM    MM  MM  MM
-//   MM     MM  MM      MMPYM.    MM      MM      MM  MM  YMM9     MM    MM  MM  MM
-//   MM    .M9  MM      MM  YM.   YM.  ,  MM      MM  MM (M        MM    MM  MM  YM.  ,
-//  _MMMMMMM9' _MM_    _MM_  YM._  YMMM9 _MM_    _MM__MM_ YMMMMb. _MM_  _MM__MM_  YMMM9
-//                                                       6M    Yb
-//                                                       YM.   d9
-//                                                        YMMMM9
-        {
-            "name": "=========== BracketHighlighter ==========",
-            "scope": ""
-        },
-        {
-            "name": "BracketHighlighter default",
-            "scope": "brackethighlighter.default",
-            "foreground": "#93FFC4"
-        },
-        {
-            "name": "BracketHighlighter unmatched",
-            "scope": "brackethighlighter.unmatched",
-            "foreground": "#FF1E00"
-        },
-        {
-            "name": "BracketHighlighter curly",
-            "scope": "brackethighlighter.curly",
-            "foreground": "#00FF40"
-        },
-        {
-            "name": "BracketHighlighter round",
-            "scope": "brackethighlighter.round",
-            "foreground": "#1AB5FF"
-        },
-        {
-            "name": "BracketHighlighter square",
-            "scope": "brackethighlighter.square",
-            "foreground": "#FF8000"
-        },
-        {
-            "name": "BracketHighlighter angle",
-            "scope": "brackethighlighter.angle",
-            "foreground": "#9A35FF"
-        },
-        {
-            "name": "BracketHighlighter tag",
-            "scope": "brackethighlighter.tag",
-            "foreground": "#FFFF00"
-        },
-        {
-            "name": "BracketHighlighter quote",
-            "scope": "brackethighlighter.quote",
-            "foreground": "#FF07A2"
-        },
-        {
-            "name": "BracketHighlighter C define",
-            "scope": "brackethighlighter.c_define",
-            "foreground": "#8189FF"
-        },
-        {
-            "name": "BracketHighlighter Bash",
-            "scope": "brackethighlighter.bash",
-            "foreground": "#0B93FF"
-        },
-//  ___       ___                  ___           ___
-//  `MMb     dMM'                  `MM            MM
-//   MMM.   ,PMM             /      MM            MM
-//   M`Mb   d'MM    ___     /M      MM    ___     MM____
-//   M YM. ,P MM  6MMMMb   /MMMMM   MM  6MMMMb    MMMMMMb
-//   M `Mb d' MM 8M'  `Mb   MM      MM 8M'  `Mb   MM'  `Mb
-//   M  YM.P  MM     ,oMM   MM      MM     ,oMM   MM    MM
-//   M  `Mb'  MM ,6MM9'MM   MM      MM ,6MM9'MM   MM    MM
-//   M   YP   MM MM'   MM   MM      MM MM'   MM   MM    MM
-//   M   `'   MM MM.  ,MM   YM.  ,  MM MM.  ,MM   MM.  ,M9
-//  _M_      _MM_`YMMM9'Yb.  YMMM9 _MM_`YMMM9'Yb._MYMMMM9
-        {
-            "name": "=========== Matlab ==========",
-            "scope": ""
-        },
-        {
-            "name": "storage.control",
-            "scope": "storage.control.matlab",
-            "foreground": "#9925FF"
-        },
-        {
-            "name": "keyword.mathematics",
-            "scope": "keyword.mathematics.matlab",
-            "foreground": "#D6FF1E"
         },
 //  ________
 //  `MMMMMMMb.
@@ -2228,6 +1992,87 @@
             "scope": "string.regexp.group",
             "foreground": "#DFBA00"
         },
+//  ________              ___
+//  `MMMMMMMb.             MM
+//   MM    `Mb             MM
+//   MM     MM  ___   ___  MM____   ____    ___
+//   MM     MM  `MM    MM  MMMMMMb  `MM(    )M'
+//   MM    .M9   MM    MM  MM'  `Mb  `Mb    d'
+//   MMMMMMM9'   MM    MM  MM    MM   YM.  ,P
+//   MM  \M\     MM    MM  MM    MM    MM  M
+//   MM   \M\    MM    MM  MM    MM    `Mbd'
+//   MM    \M\   YM.   MM  MM.  ,M9     YMP
+//  _MM_    \M\_  YMMM9MM__MYMMMM9       M
+//                                      d'
+//                                  (8),P
+//                                   YMM
+        {
+            "name": "=========== Ruby ==========",
+            "scope": ""
+        },
+        {
+            "name": "Ruby class accessor notation",
+            "scope": "meta.class punctuation.accessor",
+            "foreground": "#EA03FF",
+            "background": "#45004B",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Ruby module",
+            "scope": "entity.name.module",
+            "foreground": "#E2FF09",
+            "background": "#000B76"
+        },
+        {
+            "name": "Ruby constant",
+            "scope": "meta.constant entity.name.constant",
+            "foreground": "#FFA325",
+            "font_style": "bold"
+        },
+        {
+            "name": "Ruby symbol",
+            "scope": "constant.other.symbol, constant.other.symbol punctuation.definition.constant",
+            "foreground": "#50C8FF",
+            "background": "#193F50"
+        },
+        {
+            "name": "Environment variable",
+            "scope": "meta.environment-variable string",
+            "foreground": "#0613FF",
+            "background": "#FFEE0C"
+        },
+        {
+            "name": "Global variable",
+            "scope": "variable.other.readwrite.global, variable.other.readwrite.global punctuation.definition.variable",
+            "foreground": "#FFACAA"
+        },
+        {
+            "name": "Instance variable",
+            "scope": "variable.other.readwrite.instance, variable.other.readwrite.instance punctuation.definition.variable",
+            "foreground": "#14FF33",
+            "background": "#04310A"
+        },
+        {
+            "name": "Ruby special method",
+            "scope": "keyword.other.special-method.ruby",
+            "foreground": "#DB1E44"
+        },
+        {
+            "name": "Punctuation.separator.other",
+            "scope": "punctuation.separator.other",
+            "foreground": "#276AFF"
+        },
+        {
+            "name": "Block variable",
+            "scope": "variable.other.block, punctuation.separator.variable, meta.block.parameters variable.parameter",
+            "foreground": "#06FFAC",
+            "background": "#01442E"
+        },
+        {
+            "name": "Block variable punctuation",
+            "scope": "meta.block.parameters punctuation.definition.parameters",
+            "foreground": "#FF0000"
+        },
 //  ________
 //  `MMMMMMMb.
 //   MM    `Mb                       /
@@ -2289,42 +2134,44 @@
             "scope": "support.function.rust",
             "foreground": "#10FF02"
         },
-//  ________          ,M'________            ________
-//  `MMMMMMMb.        dP `MMMMMMMb.          `MMMMMMMb.
-//   MM    `Mb       ,M'  MM    `Mb           MM    `Mb
-//   MM     MM       dP   MM     MM           MM     MM   _____   ____   ___
-//   MM     MM      ,M'   MM     MM           MM    .M9  6MMMMMb  `MM(   )P'
-//   MM    .M9      dP    MM    .M9           MMMMMMM(  6M'   `Mb  `MM` ,P
-//   MMMMMMM9'     ,M'    MMMMMMM9'           MM    `Mb MM     MM   `MM,P
-//   MM  \M\       dP     MM  \M\    MMMMMMM  MM     MM MM     MM    `MM.
-//   MM   \M\     ,M'     MM   \M\            MM     MM MM     MM    d`MM.
-//   MM    \M\    dP      MM    \M\           MM    .M9 YM.   ,M9   d' `MM.
-//  _MM_    \M\_ ,M'     _MM_    \M\_        _MMMMMMM9'  YMMMMM9  _d_  _)MM_
-//               dP
-//              ,M'
-//              dP
+//    ____                      ___
+//   6MMMMb\                    `MM
+//  6M'    `                     MM
+//  MM         ____      ___     MM    ___
+//  YM.       6MMMMb.  6MMMMb    MM  6MMMMb
+//   YMMMMb  6M'   Mb 8M'  `Mb   MM 8M'  `Mb
+//       `Mb MM    `'     ,oMM   MM     ,oMM
+//        MM MM       ,6MM9'MM   MM ,6MM9'MM
+//        MM MM       MM'   MM   MM MM'   MM
+//  L    ,M9 YM.   d9 MM.  ,MM   MM MM.  ,MM
+//  MYMMMM9   YMMMM9  `YMMM9'Yb._MM_`YMMM9'Yb.
         {
-            "name": "=========== R/R-Box ==========",
+            "name": "=========== Scala ==========",
             "scope": ""
         },
         {
-            "name": "R keyword",
-            "scope": "keyword.other.r",
-            "foreground": "#359AFF",
-            "background": "#123456",
-            "font_style": "bold"
+            "name": "Package Name",
+            "scope": "entity.name.package",
+            "foreground": "#E2FF09",
+            "background": "#000B76"
         },
         {
-            "name": "R function parameters",
-            "scope": "meta.function-call meta.function-call.parameters",
-            "foreground": "#2BB71D",
+            "name": "Function definition",
+            "scope": "entity.name.function.scala",
+            "foreground": "#0AFF04",
+            "background": "#07019A"
+        },
+        {
+            "name": "Val",
+            "scope": "entity.name.val.scala",
+            "foreground": "#C4FF03",
+            "background": "#3F0115",
             "font_style": "italic"
         },
         {
-            "name": "R Roxygen keyword",
-            "scope": "comment.line.roxygen.r keyword.other.r",
-            "foreground": "#55FFFF",
-            "font_style": "bold"
+            "name": "Import Selector",
+            "scope": "meta.import.selector.scala variable.import.scala",
+            "font_style": "italic"
         },
 //    ____   ___                ___ ___
 //   6MMMMb\ `MM                `MM `MM
@@ -2387,6 +2234,94 @@
             "scope": "variable.other.special.shell, variable.other.special.shell punctuation.definition.variable.shell",
             "foreground": "#FD4AC8",
             "background": "#4E163E"
+        },
+//    ____      ____    ____
+//   6MMMMb\   6MMMMb   `MM'
+//  6M'    `  8P    Y8   MM
+//  MM       6M      Mb  MM
+//  YM.      MM      MM  MM
+//   YMMMMb  MM      MM  MM
+//       `Mb MM      MM  MM
+//        MM MM      MM  MM
+//        MM YM      M9  MM
+//  L    ,M9  8b    d8   MM    /
+//  MYMMMM9    YMMMM9   _MMMMMMM
+//               MM
+//               YM.
+//                `Mo
+        {
+            "name": "=========== SQL ==========",
+            "scope": ""
+        },
+        {
+            "name": "SQL keyword.other.create",
+            "scope": "keyword.other.create",
+            "foreground": "#0048FF",
+            "font_style": "bold"
+        },
+//    ____             ___       ___                              ____
+//   6MMMMb\            MM       `MM 68b                          `MM'     68b
+//  6M'    `            MM        MM Y89                           MM      Y89             /
+//  MM       ___   ___  MM____    MM ___ ___  __    __     ____    MM      ___ ___  __    /M       ____   ___  __
+//  YM.      `MM    MM  MMMMMMb   MM `MM `MM 6MMb  6MMb   6MMMMb   MM      `MM `MM 6MMb  /MMMMM   6MMMMb  `MM 6MM
+//   YMMMMb   MM    MM  MM'  `Mb  MM  MM  MM69 `MM69 `Mb 6M'  `Mb  MM       MM  MMM9 `Mb  MM     6M'  `Mb  MM69 "
+//       `Mb  MM    MM  MM    MM  MM  MM  MM'   MM'   MM MM    MM  MM       MM  MM'   MM  MM     MM    MM  MM'
+//        MM  MM    MM  MM    MM  MM  MM  MM    MM    MM MMMMMMMM  MM       MM  MM    MM  MM     MMMMMMMM  MM
+//        MM  MM    MM  MM    MM  MM  MM  MM    MM    MM MM        MM       MM  MM    MM  MM     MM        MM
+//  L    ,M9  YM.   MM  MM.  ,M9  MM  MM  MM    MM    MM YM    d9  MM    /  MM  MM    MM  YM.  , YM    d9  MM
+//  MYMMMM9    YMMM9MM__MYMMMM9  _MM__MM__MM_  _MM_  _MM_ YMMMM9  _MMMMMMM _MM__MM_  _MM_  YMMM9  YMMMM9  _MM_
+        {
+            "name": "=========== SublimeLinter ==========",
+            "scope": ""
+        },
+        {
+            "name": "SublimeLinter Annotations",
+            "scope": "sublimelinter.annotations",
+            "foreground": "#000000",
+            "background": "#FFFFAA"
+        },
+        {
+            "name": "SublimeLinter Error Outline",
+            "scope": "sublimelinter.outline.illegal",
+            "foreground": "#FFFFFF",
+            "background": "#FF4A52"
+        },
+        {
+            "name": "SublimeLinter Error Underline",
+            "scope": "sublimelinter.underline.illegal",
+            "background": "#FF0000"
+        },
+        {
+            "name": "SublimeLinter Warning Outline",
+            "scope": "sublimelinter.outline.warning",
+            "foreground": "#FFFFFF",
+            "background": "#DF9400"
+        },
+        {
+            "name": "SublimeLinter Warning Underline",
+            "scope": "sublimelinter.underline.warning",
+            "background": "#FF0000"
+        },
+        {
+            "name": "SublimeLinter Violation Outline",
+            "scope": "sublimelinter.outline.violation",
+            "foreground": "#FFFFFF",
+            "background": "#FFFFFF33"
+        },
+        {
+            "name": "SublimeLinter3 Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "#FFFFFF"
+        },
+        {
+            "name": "SublimeLinter3 Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "#DA2000"
+        },
+        {
+            "name": "SublimeLinter3 Warning",
+            "scope": "sublimelinter.mark.warning",
+            "foreground": "#EDBA00"
         },
 //    ____                           __
 //   6MMMMb\                  68b   69MM
@@ -2468,79 +2403,70 @@
             "foreground": "#E10C68",
             "font_style": "italic"
         },
-//    ____      ____    ____
-//   6MMMMb\   6MMMMb   `MM'
-//  6M'    `  8P    Y8   MM
-//  MM       6M      Mb  MM
-//  YM.      MM      MM  MM
-//   YMMMMb  MM      MM  MM
-//       `Mb MM      MM  MM
-//        MM MM      MM  MM
-//        MM YM      M9  MM
-//  L    ,M9  8b    d8   MM    /
-//  MYMMMM9    YMMMM9   _MMMMMMM
-//               MM
-//               YM.
-//                `Mo
+//  __________              ____         ,M'__________                    ___             __________
+//  MMMMMMMMMM             6MMMMb/       dP MMMMMMMMMM                    `MM             MMMMMMMMMM
+//  /   MM   \            8P    YM      ,M' /   MM   \                     MM             /   MM   \
+//      MM       _____   6M      Y      dP      MM        ___      ____    MM   __            MM        ___      __       ____
+//      MM      6MMMMMb  MM            ,M'      MM      6MMMMb    6MMMMb\  MM   d'            MM      6MMMMb    6MMbMMM  6MMMMb\
+//      MM     6M'   `Mb MM            dP       MM     8M'  `Mb  MM'    `  MM  d'             MM     8M'  `Mb  6M'`Mb   MM'    `
+//      MM     MM     MM MM           ,M'       MM         ,oMM  YM.       MM d'              MM         ,oMM  MM  MM   YM.
+//      MM     MM     MM MM           dP        MM     ,6MM9'MM   YMMMMb   MMdM.              MM     ,6MM9'MM  YM.,M9    YMMMMb
+//      MM     MM     MM YM      6   ,M'        MM     MM'   MM       `Mb  MMPYM.             MM     MM'   MM   YMM9         `Mb
+//      MM     YM.   ,M9  8b    d9   dP         MM     MM.  ,MM  L    ,MM  MM  YM.            MM     MM.  ,MM  (M       L    ,MM
+//     _MM_     YMMMMM9    YMMMM9   ,M'        _MM_    `YMMM9'Yb.MYMMMM9  _MM_  YM._         _MM_    `YMMM9'Yb. YMMMMb. MYMMMM9
+//                                  dP                                                                         6M    Yb
+//                                 ,M'                                                                         YM.   d9
+//                                 dP                                                                           YMMMM9
         {
-            "name": "=========== SQL ==========",
+            "name": "=========== Table of Contents/Task tags ==========",
             "scope": ""
         },
         {
-            "name": "SQL keyword.other.create",
-            "scope": "keyword.other.create",
-            "foreground": "#0048FF",
-            "font_style": "bold"
-        },
-//  ____               __________          ____      ___
-//  `MM'               MMMMMMMMMM          `MM(      )M'
-//   MM                /   MM   \           `MM.     d'
-//   MM         ___        MM       ____     `MM.   d'
-//   MM       6MMMMb       MM      6MMMMb     `MM. d'
-//   MM      8M'  `Mb      MM     6M'  `Mb     `MMd
-//   MM          ,oMM      MM     MM    MM      dMM.
-//   MM      ,6MM9'MM      MM     MMMMMMMM     d'`MM.
-//   MM      MM'   MM      MM     MM          d'  `MM.
-//   MM    / MM.  ,MM      MM     YM    d9   d'    `MM.
-//  _MMMMMMM `YMMM9'Yb.   _MM_     YMMMM9  _M(_    _)MM_
-        {
-            "name": "=========== LaTeX ==========",
-            "scope": ""
+            "name": "Table-of-Contents",
+            "scope": "meta.toc-list",
+            "foreground": "#E2FF09",
+            "background": "#000B76"
         },
         {
-            "name": "LaTeX preamble",
-            "scope": "meta.preamble",
-            "background": "#000066"
+            "name": "Task tag line",
+            "scope": "meta.toc-list.task-tag",
+            "foreground": "#9BA834",
+            "background": "#000000"
         },
         {
-            "name": "LaTeX math support function",
-            "scope": "text.tex support.function.math",
-            "foreground": "#33FF33"
+            "name": "Task tag line - High priority",
+            "scope": "meta.toc-list.task-tag.prio-high",
+            "background": "#36000B"
         },
         {
-            "name": "LaTeX section name",
-            "scope": "entity.name.section.latex",
-            "foreground": "#0AFF04",
-            "background": "#07019A",
-            "font_style": "bold"
+            "name": "Task tag line - Normal priority",
+            "scope": "meta.toc-list.task-tag.prio-normal",
+            "background": "#1D2002"
         },
         {
-            "name": "LaTeX label name",
-            "scope": "entity.name.label",
-            "foreground": "#FF4500",
-            "background": "#0701E29F"
+            "name": "Task tag line - Low priority",
+            "scope": "meta.toc-list.task-tag.prio-low",
+            "background": "#0E2402"
         },
         {
-            "name": "LaTeX ampersand",
-            "scope": "constant.character.ampersand",
-            "background": "#660033",
-            "foreground": "#0099FF",
-            "font_style": "bold"
+            "name": "Task tag",
+            "scope": "entity.other.task-tag",
+            "font_style": "italic bold"
         },
         {
-            "name": "LaTeX backslash",
-            "scope": "text.tex punctuation.definition.backslash",
-            "font_style": "bold glow"
+            "name": "Task tag - High priority",
+            "scope": "keyword.other.task-tag.prio-high storage.type.class",
+            "foreground": "#FF112C"
+        },
+        {
+            "name": "Task tag - Normal priority",
+            "scope": "keyword.other.task-tag.prio-normal storage.type.class",
+            "foreground": "#FFEB09"
+        },
+        {
+            "name": "Task tag - Low priority",
+            "scope": "keyword.other.task-tag.prio-low storage.type.class",
+            "foreground": "#67E607"
         },
 //  __________
 //  MMMMMMMMMM                                                          68b
@@ -2586,6 +2512,80 @@
             "foreground": "#BD0F66",
             "background": "#07019ac3",
             "font_style": "bold italic"
+        },
+//  ____     ___        _         ____      ____         ,M'________
+//  `MM(     )M'       dM.       6MMMMb/   6MMMMb/       dP `MMMMMMMb. 68b
+//   `MM.    d'       ,MMb      8P    YM  8P    YM      ,M'  MM    `Mb Y89
+//    `MM.  d'        d'YM.    6M      Y 6M      Y      dP   MM     MM ___   ____     _____   ___  __
+//     `MM d'        ,P `Mb    MM        MM            ,M'   MM    .M9 `MM  6MMMMb\  6MMMMMb  `MM 6MMb
+//      `MM'         d'  YM.   MM        MM            dP    MMMMMMM(   MM MM'    ` 6M'   `Mb  MMM9 `Mb
+//       MM         ,P   `Mb   MM        MM           ,M'    MM    `Mb  MM YM.      MM     MM  MM'   MM
+//       MM         d'    YM.  MM        MM           dP     MM     MM  MM  YMMMMb  MM     MM  MM    MM
+//       MM        ,MMMMMMMMb  YM      6 YM      6   ,M'     MM     MM  MM      `Mb MM     MM  MM    MM
+//       MM        d'      YM.  8b    d9  8b    d9   dP      MM    .M9  MM L    ,MM YM.   ,M9  MM    MM
+//      _MM_     _dM_     _dMM_  YMMMM9    YMMMM9   ,M'     _MMMMMMM9' _MM_MYMMMM9   YMMMMM9  _MM_  _MM_
+//                                                  dP
+//                                                 ,M'
+//                                                 dP
+        {
+            "name": "=========== YACC/Bison ==========",
+            "scope": ""
+        },
+        {
+            "name": "class accessor notation",
+            "scope": "punctuation.accessor",
+            "foreground": "#3399FF",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "rule name",
+            "scope": "entity.name.rule",
+            "foreground": "#3399FF",
+            "background": "#45004B",
+            "font_style": "bold"
+        },
+//  ____     ___        _      ___       _______
+//  `MM(     )M'       dM.     `MMb     dMM'`MM'
+//   `MM.    d'       ,MMb      MMM.   ,PMM  MM
+//    `MM.  d'        d'YM.     M`Mb   d'MM  MM
+//     `MM d'        ,P `Mb     M YM. ,P MM  MM
+//      `MM'         d'  YM.    M `Mb d' MM  MM
+//       MM         ,P   `Mb    M  YM.P  MM  MM
+//       MM         d'    YM.   M  `Mb'  MM  MM
+//       MM        ,MMMMMMMMb   M   YP   MM  MM
+//       MM        d'      YM.  M   `'   MM  MM    /
+//      _MM_     _dM_     _dMM__M_      _MM__MMMMMMM
+        {
+            "name": "=========== YAML ==========",
+            "scope": ""
+        },
+        {
+            "name": "YAML Timestamp",
+            "scope": "constant.other.timestamp",
+            "foreground": "#A2FF4A"
+        },
+        {
+            "name": "YAML Other Directive",
+            "scope": "support.other.directive",
+            "foreground": "#F14FFF"
+        },
+        {
+            "name": "YAML Directive Punctuation",
+            "scope": "meta.directive.yaml punctuation",
+            "foreground": "#0777FF",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "YAML Scalar Block Literal",
+            "scope": "punctuation.definition.block.scalar.literal, support.other.chomping-indicator",
+            "foreground": "#00FF00",
+            "font_style": "italic"
+        },
+        {
+            "name": "YAML Block Sequence Item",
+            "scope": "punctuation.definition.block.sequence.item",
+            "foreground": "#0FD7FF",
+            "font_style": "italic"
         }
     ]
 }
