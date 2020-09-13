@@ -65,7 +65,7 @@ You can find out more about themes in the TextMate [manual](http://manual.macrom
 
 ## What Font is That?
 
-I discovered [`Cousine`](http://www.google.com/fonts/specimen/Cousine) while browsing Google Fonts one day and absolutely love it. 
+I discovered [`Cousine`](https://www.google.com/fonts/specimen/Cousine) while browsing Google Fonts one day and absolutely love it. 
 
 > Cousine was designed by [Steve Matteson](https://profiles.google.com/107777320916704234605/about) as an innovative, refreshing sans serif design that is metrically compatible with Courier New™. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms.
 
