@@ -1,4 +1,6 @@
-<a href="https://packagecontrol.io/packages/Neon%20Color%20Scheme"><img src="https://packagecontrol.herokuapp.com/downloads/Neon%20Color%20Scheme.svg"></a>
+[![Package Control](https://packagecontrol.herokuapp.com/downloads/Neon%20Color%20Scheme.svg)](https://packagecontrol.io/packages/Neon%20Color%20Scheme)
+[![GitHub release](https://img.shields.io/github/release/mattdmo/neon-color-scheme.svg)](https://github.com/MattDMo/Neon-color-scheme/releases/latest)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-3fabd1?logo=paypal)](https://paypal.me/MattMorrison966)
 
 # Neon Color Scheme
 
@@ -120,4 +122,4 @@ This is free software. It is licensed under the [MIT License](http://opensource.
 
 ## Support
 
-[![PayPal donation link](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SJY8KLDDB8DXC)
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R97MGGYES6GAJ&lc=US&item_name=Matthew%20D%2e%20Morrison&item_number=Neon%20Color%20Scheme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="Donate" alt="PayPal - The safer, easier way to pay online!"></a>
