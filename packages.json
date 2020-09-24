@@ -8,8 +8,12 @@
             "details": "https://github.com/MattDMo/Neon-color-scheme",
             "releases": [
                 {
-                    "sublime_text": "*",
-                    "tags": true
+                    "sublime_text": "<3170",
+                    "tags": "tmTheme-"
+                },
+                {
+                    "sublime_text": ">=3170",
+                    "tags": "scs-"
                 }
             ],
             "previous_names": ["Neon Theme"],

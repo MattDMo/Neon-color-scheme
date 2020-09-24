@@ -1,3 +1,7 @@
+[![Package Control](https://packagecontrol.herokuapp.com/downloads/Neon%20Color%20Scheme.svg)](https://packagecontrol.io/packages/Neon%20Color%20Scheme)
+[![GitHub release](https://img.shields.io/github/release/mattdmo/neon-color-scheme.svg)](https://github.com/MattDMo/Neon-color-scheme/releases/latest)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-3fabd1?logo=paypal)](https://paypal.me/MattMorrison966)
+
 # Neon Color Scheme
 
 **Neon** is a colorful bright-on-black color scheme for [Sublime Text](https://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](https://www.sublimetext.com/docs/scope_naming.html) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about.
@@ -17,6 +21,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * Clojure/EDN
 * CSS/SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
 * diff
+* [Dockerfiles](https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting)
 * `Find In Files`
 * [Fortran](https://packagecontrol.io/packages/Fortran)
 * [Git Gutter](https://packagecontrol.io/packages/GitGutter)
@@ -33,7 +38,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [PackageDev](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
 * PHP
 * Python
-    * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org) within SublimeREPL
+    * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org) within [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL)
     * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
     * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
     * All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
@@ -49,7 +54,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
 * [Swift](https://packagecontrol.io/packages/Swift)
 * Table of Contents/Task Tags
-* Typescript
+* [Typescript](https://packagecontrol.io/packages/TypeScript%20Syntax)
 * YAML
 
 For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, and Perl, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
@@ -81,19 +86,10 @@ More recently, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/f
 The easiest method is through [Package Control](https://packagecontrol.io/), which you need to [install](https://packagecontrol.io/installation) first as it doesn't come with Sublime Text. (*Note*: It does now!) Open the Command Palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (macOS) and type ***`pci`*** to bring up `Package Control: Install`. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
 
 ```js
-"color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme"
+"color_scheme": "Packages/Neon Color Scheme/Neon.sublime-color-scheme"
 ```
 
----
-
-If you like to do things the old-fashioned way, in `~/Library/Application Support/Sublime Text 3/Packages/User` (macOS), `%APPDATA%\Sublime Text 3\Packages\User` (Windows), or `~/.config/sublime-text-3/Packages/User` (Linux) (change the `3` to `2` if you're still using the outdated version 2 &mdash; and ***please*** upgrade!):
-
-```bash
-git clone https://github.com/MattDMo/Neon-color-scheme.git "Neon Color Scheme"
-```
-
-This will create a menu option `Neon` under `Preferences -> Color Scheme -> User -> Neon Color Scheme`. However, unless you `git pull` manually, your installation will never get upgraded with new goodies.
-
+If you were using the old pre-3.0 version of **Neon**, the file name was `Neon.tmTheme`. If you are using **Neon** when you upgrade, a small plugin comes with the new version that will automagically change the file name to `Neon.sublime-color-scheme`. I switched formats both because JSON is far easier to work with than XML, and there are some cool new features coming in the next release of Sublime Text that don't work with `.tmTheme` files. Stay tuned!
 
 ## TextMate Installation:
 
@@ -103,7 +99,7 @@ For right now, manual cloning is the only option. Maybe I'll make a bundle somed
 git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
 ```
 
-Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself.
+Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself. TextMate only supports the `.tmTheme` format, so you won't get any new updates. Use Sublime instead!
 
 
 
@@ -111,9 +107,9 @@ Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-colo
 
 Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`PackageDev`](https://packagecontrol.io/packages/PackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
 
-![YAML-tmLanguage syntax highlighting with Neon](https://www.pigimal.com/img/github/YAML-tmLanguage_new.png)
+![YAML-tmLanguage syntax highlighting with Neon](https://pigimal.com/img/github/YAML-tmLanguage_new.png)
 
-If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also email me at <mattdmo@mattdmo.com>. Find my blog on Sublime Text and other stuff at [MattDMo.com](https://mattdmo.com).
+If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also ping me on the Twitters [@MattDMo](https://twitter.com/MattDMo), or catch me on the [Sublime Discord server](https://discord.com/channels/280102180189634562/280102180189634562).
 
 
 ## License
@@ -125,8 +121,4 @@ This is free software. It is licensed under the [MIT License](http://opensource.
 
 ## Support
 
-[![PayPal donation link](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SJY8KLDDB8DXC)
-
-You can also give on [Gratipay](https://www.gratipay.com/on/github/MattDMo/).
-
----
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=R97MGGYES6GAJ&lc=US&item_name=Matthew%20D%2e%20Morrison&item_number=Neon%20Color%20Scheme&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="Donate" alt="PayPal - The safer, easier way to pay online!"></a>

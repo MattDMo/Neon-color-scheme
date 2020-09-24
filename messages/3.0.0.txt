@@ -1,0 +1,81 @@
+Neon Color Scheme v3.0.0
+========================
+
+Welcome to an entirely new version of the Neon Color Scheme for users of Sublime
+Text v3.1 (Build 3170) and above! Lots of things have changed, most importantly
+the format - we've migrated from the old XML-based .tmTheme format to the new
+JSON-based .sublime-color-scheme format, which not only is much easier to work
+with, but is also under active development, with new features being added for
+the next public release of Sublime Text.
+
+Aside from the format change, I've rearranged the entire thing to make working
+with specific languages easier, labeled the sections with comments that are
+readable in the minimap, and, of course, added and tweaked a ton of new scopes.
+Here are the languages, plugins, and Sublime features for which we have specific
+coloring rules:
+
+* Android Debug Bridge (ADB)
+* BracketHighlighter
+* C/C++
+* Clojure
+* CSS and friends (SCSS, SASS)
+* Diff
+* Dockerfile
+* Find in Files
+* Fortran
+* Git Gutter
+* Haskell
+* HTML/XML
+* Java
+* Javascript/JSX
+* JSON
+* LaTeX
+* Logcat
+* Markup/Markdown
+* Matlab
+* PackageDev
+* PHP
+* Python/Python Improved
+* R/R-Box
+* RAML
+* Regex
+* Ruby
+* Rust
+* Scala
+* Shell scripts
+* SQL
+* SublimeLinter
+* Swift
+* Table of Contents/Task Tag
+* Typescript
+* YACC/Bison
+* YAML
+
+See the README.md file for links to the plugins mentioned
+
+Many other languages will also look nice with Neon. If you have a particular one
+you'd like me to spruce up, let me know. The next version of Sublime Text is now
+in active development, with alpha builds available for registered users of ST3.
+One nice side effect of this is that many of the language syntaxes are being
+improved, which gives me greater opportunities for making them look nicer!
+
+Since the .sublime-color-scheme format change requires a change in your
+preferences file from
+
+    "color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme"
+
+to
+
+    "color_scheme": "Packages/Neon Color Scheme/Neon.sublime-color-scheme"
+
+I've included a small plugin to make that change for you. It will ONLY run if
+you already have Neon selected as your color scheme, and will NOT overwrite any
+other one.
+
+Enjoy the new version, and please send me feedback, good and bad!
+
+
+--Matt
+
+@MattDMo
+https://github.com/MattDMo/Neon-color-scheme/issues
