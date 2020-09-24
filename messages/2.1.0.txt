@@ -1,0 +1,10 @@
+Neon Color Scheme v2.1.0-FINAL
+==============================
+
+This is the FINAL release of the Neon Color Scheme in .tmTheme format, and does
+not contain any of the improvements I've made over the past few years. You are
+seeing this message because you are either still using Sublime Text 2, or have
+not upgraded to the latest version (3.2.2) of Sublime Text 3. I STRONGLY urge
+you to upgrade, not just so you can get the latest and greatest shiny colors
+from Neon, but because of all the new features and bug fixes that you're
+currently missing out on. To upgrade, just go to https://www.sublimetext.com.
