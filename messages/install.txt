@@ -1,5 +1,5 @@
-Neon Color Scheme v2.0.0
-+++++++++++++++++++++++++
+Neon Color Scheme
++++++++++++++++++
 
 Thank you for installing my Neon Color Scheme! I hope you enjoy using it as much
 as I enjoyed creating it. If you have any questions, concerns, bugs, improvement
