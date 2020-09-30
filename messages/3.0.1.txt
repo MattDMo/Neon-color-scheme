@@ -1,4 +1,4 @@
-Neon Color Scheme v3.0.0
+Neon Color Scheme v3.0.1
 ========================
 
 Welcome to an entirely new version of the Neon Color Scheme for users of Sublime
