@@ -2085,13 +2085,6 @@
             "scope": ""
         },
         {
-            "name": "Ruby class accessor notation",
-            "scope": "meta.class punctuation.accessor",
-            "foreground": "#EA03FF",
-            "background": "#45004B",
-            "font_style": "bold italic"
-        },
-        {
             "name": "Ruby module",
             "scope": "entity.name.module",
             "foreground": "#E2FF09",
