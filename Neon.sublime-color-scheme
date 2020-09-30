@@ -140,22 +140,25 @@
             "name": "Operator",
             "scope": "keyword.operator -keyword.operator.dereference",
             "foreground": "#A7A3FF",
-            "font_style": "bold italic"
+            "font_style": "bold"
         },
         {
             "name": "Comparison operator",
             "scope": "keyword.operator.comparison",
-            "foreground": "#48FFC2"
+            "foreground": "#48FFC2",
+            "font_style": "bold"
         },
         {
             "name": "Assignment operator",
             "scope": "keyword.operator.assignment",
-            "foreground": "#FF6106"
+            "foreground": "#FF6106",
+            "font_style": "bold"
         },
         {
             "name": "Augmented assignment operator",
             "scope": "keyword.operator.assignment.augmented",
-            "foreground": "#FFBBF4"
+            "foreground": "#FFBBF4",
+            "font_style": "bold"
         },
         {
             "name": "Storage type",
