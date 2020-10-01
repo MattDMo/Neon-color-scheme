@@ -448,6 +448,12 @@
             "foreground": "#FF65BE"
         },
         {
+            "name": "union name",
+            "scope": "entity.name.union",
+            "foreground": "#FBFF0E",
+            "background": "#05065B"
+        },
+        {
             "name": "C Improved preprocessor #include",
             "scope": "keyword.other.preprocessor.include",
             "background": "#070583",
