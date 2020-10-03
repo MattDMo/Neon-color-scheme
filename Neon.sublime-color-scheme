@@ -1751,7 +1751,7 @@
             "name": "Format spec string",
             "scope": "constant.other.placeholder constant.other.format-spec.python",
             "foreground": "#CC0099",
-            "font_style": "italic",
+            "font_style": "italic"
         },
         {
             "name": "Comprehension keywords",
