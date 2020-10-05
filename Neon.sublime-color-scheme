@@ -41,7 +41,7 @@
         "guide": "#B0B0B0",
         "active_guide": "#FF0080",
         "stack_guide": "#06FF05",
-        "brackets_options": "stippled_underline bold",
+        "brackets_options": "stippled_underline",
         "brackets_foreground": "#FFFFFF",
         "bracket_contents_options": "stippled_underline",
         "bracket_contents_foreground": "#FFFFFF",
