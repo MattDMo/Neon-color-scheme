@@ -41,7 +41,7 @@
         "guide": "#B0B0B0",
         "active_guide": "#FF0080",
         "stack_guide": "#06FF05",
-        "brackets_options": "stippled_underline",
+        "brackets_options": "stippled_underline bold",
         "brackets_foreground": "#FFFFFF",
         "bracket_contents_options": "stippled_underline",
         "bracket_contents_foreground": "#FFFFFF",
@@ -446,12 +446,6 @@
             "name": "C/C++ \"include\"",
             "scope": "string.quoted.double.include",
             "foreground": "#FF65BE"
-        },
-        {
-            "name": "union name",
-            "scope": "entity.name.union",
-            "foreground": "#FBFF0E",
-            "background": "#05065B"
         },
         {
             "name": "C Improved preprocessor #include",
@@ -1751,7 +1745,7 @@
             "name": "Format spec string",
             "scope": "constant.other.placeholder constant.other.format-spec.python",
             "foreground": "#CC0099",
-            "font_style": "italic"
+            "font_style": "italic",
         },
         {
             "name": "Comprehension keywords",
@@ -1766,14 +1760,7 @@
         },
         {
             "name": "Annotation separator :",
-            "scope": "punctuation.separator.annotation.python",
-            "foreground": "#F6FF04",
-            "background": "#0205FF",
-            "font_style": "bold italic"
-        },
-        {
-            "name": "Annotation result ->",
-            "scope": "punctuation.separator.annotation.result.python",
+            "scope": "source.python punctuation.separator.annotation",
             "foreground": "#F6FF04",
             "background": "#0205FF",
             "font_style": "bold italic"
@@ -2089,6 +2076,13 @@
         {
             "name": "=========== Ruby ==========",
             "scope": ""
+        },
+        {
+            "name": "Ruby class accessor notation",
+            "scope": "meta.class punctuation.accessor",
+            "foreground": "#EA03FF",
+            "background": "#45004B",
+            "font_style": "bold italic"
         },
         {
             "name": "Ruby module",
@@ -2489,7 +2483,7 @@
 //     _MM_     YMMMMM9    YMMMM9   ,M'        _MM_    `YMMM9'Yb.MYMMMM9  _MM_  YM._   _MM_    `YMMM9'Yb. YMMMMb.
 //                                  dP                                                                   6M    Yb
 //                                 ,M'                                                                   YM.   d9
-//                                 dP                                                                     YMMMM9 
+//                                 dP                                                                     YMMMM9
         {
             "name": "=========== Table of Contents/Task tags ==========",
             "scope": ""
