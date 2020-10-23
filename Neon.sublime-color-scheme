@@ -427,6 +427,18 @@
             "name": "=========== C/C++/C Improved ==========",
             "scope": ""
         },
+        {	
+            "name": "C/C++ struct, union",	
+            "scope": "entity.name.struct, entity.name.union",	
+            "foreground": "#FBFF0E",	
+            "background": "#05065B"	
+        },	
+        {	
+            "name": "C/C++ Format string",	
+            "scope": "constant.other.placeholder.c, constant.other.placeholder.c++",	
+            "foreground": "#FF0099",	
+            "font_style": "italic",	
+        },
         {
             "name": "C/C++ Preprocessor Line",
             "scope": "meta.preprocessor",
