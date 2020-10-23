@@ -428,18 +428,6 @@
             "scope": ""
         },
         {
-            "name": "C/C++ struct, union",
-            "scope": "entity.name.struct, entity.name.union",
-            "foreground": "#FBFF0E",
-            "background": "#05065B"
-        },
-        {
-            "name": "Format string",
-            "scope": "constant.other.placeholder.c, constant.other.placeholder.c++",
-            "foreground": "#FF0099",
-            "font_style": "italic",
-        },
-        {
             "name": "C/C++ Preprocessor Line",
             "scope": "meta.preprocessor",
             "foreground": "#A85E3D"
@@ -1756,7 +1744,7 @@
         {
             "name": "Format spec string",
             "scope": "constant.other.placeholder constant.other.format-spec.python",
-            "foreground": "#FF0099",
+            "foreground": "#CC0099",
             "font_style": "italic",
         },
         {
@@ -1803,8 +1791,9 @@
         },
         {
             "name": "Decorator",
-            "scope": "meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator",
+            "scope": "meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator, meta.annotation punctuation.definition.annotation, meta.annotation.function, meta.annotation variable.annotation, meta.annotation meta.qualified-name",
             "foreground": "#B6B8FE",
+            "background": "#07019A",
             "font_style": "bold"
         },
         {
