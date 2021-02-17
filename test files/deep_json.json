@@ -10,52 +10,52 @@
             {
                 "text": "227 mi",
                 "value": 365468,
-                "moar_elements": 
+                "moar_elements":
                 {
                     "something": false,
                     "else": 42,
-                    "more_stuff":
-                    [
+                    "more_stuff": [
                         "some",
                         "more",
                         "things",
-                        "to_do":
                         {
-                            "its_like": "this",
-                            "and_like": "that",
-                            "and_like_this": "and_uh",
-                            "and": "like_that_and",
-                            "like_this": "and",
-                            "like_that": "and_uh",
-                            "so":
+                            "to_do":
                             {
-                                "lets": "chill",
-                                "til":
-                                [
-                                    "the",
-                                    "next",
-                                    "episode"
-                                ]
-                            },
-                            "switch!": true,
-                            "the_light":
-                            {
-                                "in_the": "window",
-                                "is":
+                                "its_like": "this",
+                                "and_like": "that",
+                                "and_like_this": "and_uh",
+                                "and": "like_that_and",
+                                "like_this": "and",
+                                "like_that": "and_uh",
+                                "so":
                                 {
-                                    "a_crack":
+                                    "lets": "chill",
+                                    "til": [
+                                        "the",
+                                        "next",
+                                        "episode"
+                                    ]
+                                },
+                                "switch!": true,
+                                "the_light":
+                                {
+                                    "in_the": "window",
+                                    "is":
                                     {
-                                        "in_the":
+                                        "a_crack":
                                         {
-                                            "sky": ";",
-                                            "a": "stairway",
-                                            "to": "darkness",
-                                            "in":
+                                            "in_the":
                                             {
-                                                "the": "blink",
-                                                "of":
+                                                "sky": ";",
+                                                "a": "stairway",
+                                                "to": "darkness",
+                                                "in":
                                                 {
-                                                    "an": "eye"
+                                                    "the": "blink",
+                                                    "of":
+                                                    {
+                                                        "an": "eye"
+                                                    },
                                                 },
                                             },
                                         },
@@ -70,27 +70,28 @@
             {
                 "text": "3 hours 54 mins",
                 "value": 14064,
-                "elements": 
+                "elements":
                 {
                     "something": true,
                     "else": 42,
-                    "more_stuff":
-                    [
+                    "more_stuff": [
                         "some",
                         "more",
                         "things",
-                        "to_do":
                         {
-                            "like": "this",
-                            "and_like": "that",
-                            "and_like_this": "and_uh",
-                            "and": "like_that_and",
-                            "like_this": "and",
-                            "like_that": "and_uh",
-                            "so":
+                            "to_do":
                             {
-                                "lets": "chill",
-                                "til": "the next episode"
+                                "like": "this",
+                                "and_like": "that",
+                                "and_like_this": "and_uh",
+                                "and": "like_that_and",
+                                "like_this": "and",
+                                "like_that": "and_uh",
+                                "so":
+                                {
+                                    "lets": "chill",
+                                    "til": "the next episode"
+                                }
                             }
                         }
                     ]
