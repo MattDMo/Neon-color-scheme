@@ -8,7 +8,9 @@
 
 Just for clarity's sake: **Neon** is an original work and wasn't based on any other color scheme. If you search [Package Control](https://packagecontrol.io) for [`neon`](https://packagecontrol.io/search/neon) you'll find some other, similarly-named color schemes which are *not* based on this project. Use them if you want -- I particularly like the [Dark Neon Color Scheme](https://packagecontrol.io/packages/Dark%20Neon%20Color%20Scheme), and might borrow some of the colors -- and if you want to fork this project and make your own derivative, go for it! I use the [MIT License](http://opensource.org/licenses/MIT) for a reason.
 
-[![PythonImproved with Neon](https://pigimal.com/img/github/random.png)](https://packagecontrol.io/packages/Python%20Improved)
+![Python with Neon Color Scheme](https://mattdmo.com/img/Python_win.png)
+
+![Ruby with Neon Color Scheme](https://mattdmo.com/img/Ruby_macOS.png)
 
 ## Languages/Plugins Supported
 
@@ -59,15 +61,17 @@ Neon's main goal is to make as many languages as possible look as good as possib
 
 For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, and Perl, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
+![Regex Find/Replace with Neon Color Scheme](https://mattdmo.com/img/regex_widget_win.png)
+
 If you have a particular language or plugin you'd like Neon to support, just [open an issue](https://github.com/MattDMo/Neon-color-scheme/issues/new) and I'll see what I can do.
 
 There are a bunch of scopes in here that are only found in my [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) language definition package &mdash; [IPython](https://www.ipython.org) `In`/`Out` statements, [Django](https://djangoproject.org)-specific highlighting (adapted from [`Djaneiro`](https://packagecontrol.io/packages/Djaneiro)), a bunch of improvements from [@facelessuser](https://github.com/facelessuser)'s [`Better Python`](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python) and [@petervaro](https://github.com/petervaro)'s [Python 3](https://packagecontrol.io/packages/Python%203) package, along with various enhancements, extensions, and bug fixes of my own and contributed by others. If you work with Python, I'd highly recommend getting it.
 
-![Clojure with Neon](https://pigimal.com/img/github/new_clojure.png)
+![Clojure with Neon Color Scheme](https://pigimal.com/img/github/Clojure_linux.png)
 
 You can find out more about themes in the TextMate [manual](http://manual.macromates.com/en/themes). All the information there applies to Sublime Text as well, which was heavily influenced by TextMate. Both programs can share themes and language definitions pretty much interchangeably, and snippets are usually pretty easy to port from one to the other as well. But, unfortunately for you Win/Lin people, TextMate is only available for macOS.
 
-![Ruby with Neon](https://pigimal.com/img/github/ruby.png)
+![LaTeX with Neon Color Scheme](https://pigimal.com/img/github/LaTeX_win.png)
 
 
 ## What Font is That?
@@ -79,6 +83,10 @@ I discovered [`Cousine`](https://www.google.com/fonts/specimen/Cousine) while br
 It's one of the first things I install when setting up a new workstation or VM, and it used to be my go-to monospace font for web design and programming.
 
 More recently, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the [Liberation](https://fedorahosted.org/liberation-fonts/) font family. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
+
+![Rust with Neon Color Scheme](https://mattdmo.com/img/Rust_linux.png)
+
+![XML with Neon Color Scheme](https://mattdmo.com/img/XML_macOS.png)
 
 
 ## Installation for Sublime Text 3
@@ -93,7 +101,7 @@ If you were using the old pre-3.0 version of **Neon**, the file name was `Neon.t
 
 ## TextMate Installation:
 
-For right now, manual cloning is the only option. Maybe I'll make a bundle someday for TM1 and TM2. From your home directory (or anywhere, really), enter:
+For right now, manual cloning is the only option. ~~Maybe I'll make a bundle someday for TM1 and TM2.~~ From your home directory (or anywhere, really), enter:
 
 ```bash
 git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
@@ -101,20 +109,22 @@ git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Applicatio
 
 Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself. TextMate only supports the `.tmTheme` format, so you won't get any new updates. Use Sublime instead!
 
+![Javascript with Neon Color Scheme](https://mattdmo.com/img/Javascript_linux.png)
 
+![C with Neon Color Scheme](https://mattdmo.com/img/C_macOS.png)
 
 ## Issues
 
 Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`PackageDev`](https://packagecontrol.io/packages/PackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
 
-![YAML-tmLanguage syntax highlighting with Neon](https://pigimal.com/img/github/YAML-tmLanguage_new.png)
+![JSON with Neon Color Scheme](https://mattdmo.com/img/JSON_macOS.png)
 
 If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also ping me on the Twitters [@MattDMo](https://twitter.com/MattDMo), or catch me on the [Sublime Discord server](https://discord.com/channels/280102180189634562/280102180189634562).
 
 
 ## License
 
-&copy; 2013-2020 Matt Morrison <mattdmo@mattdmo.com>.
+&copy; 2013-2021 Matt Morrison <mattdmo@mattdmo.com>.
 
 This is free software. It is licensed under the [MIT License](http://opensource.org/licenses/MIT). Feel free to use this in your own work. However, if you modify and/or redistribute it, please attribute me in some way, and it would be great if you distribute your work under this or a similar license, but it's not required. A shout-out or a beer would be appreciated.
 
