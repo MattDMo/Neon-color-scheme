@@ -68,11 +68,11 @@ If you have a particular language or plugin you'd like Neon to support, just [op
 
 There are a bunch of scopes in here that are only found in my [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) language definition package &mdash; [IPython](https://www.ipython.org) `In`/`Out` statements, [Django](https://djangoproject.org)-specific highlighting (adapted from [`Djaneiro`](https://packagecontrol.io/packages/Djaneiro)), a bunch of improvements from [@facelessuser](https://github.com/facelessuser)'s [`Better Python`](https://github.com/facelessuser/sublime-languages/tree/master/Better%20Python) and [@petervaro](https://github.com/petervaro)'s [Python 3](https://packagecontrol.io/packages/Python%203) package, along with various enhancements, extensions, and bug fixes of my own and contributed by others. If you work with Python, I'd highly recommend getting it.
 
-![Clojure with Neon Color Scheme](https://pigimal.com/img/github/Clojure_linux.png)
+![Clojure with Neon Color Scheme](https://mattdmo.com/img/Clojure_linux.png)
 
 You can find out more about themes in the TextMate [manual](http://manual.macromates.com/en/themes). All the information there applies to Sublime Text as well, which was heavily influenced by TextMate. Both programs can share themes and language definitions pretty much interchangeably, and snippets are usually pretty easy to port from one to the other as well. But, unfortunately for you Win/Lin people, TextMate is only available for macOS.
 
-![LaTeX with Neon Color Scheme](https://pigimal.com/img/github/LaTeX_win.png)
+![LaTeX with Neon Color Scheme](https://mattdmo.com/img/LaTeX_win.png)
 
 
 ## What Font is That?
