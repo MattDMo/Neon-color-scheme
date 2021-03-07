@@ -42,8 +42,8 @@
         "active_guide": "#FF0080",
         "stack_guide": "#06FF05",
         "brackets_options": "stippled_underline bold",
-        "brackets_foreground": "#FFFFFF",
-        "bracket_contents_options": "stippled_underline",
+        "brackets_foreground": "#FF0080",
+        "bracket_contents_options": "stippled_underline bold",
         "bracket_contents_foreground": "#FFFFFF",
         "tags_options": "stippled_underline bold",
         "tags_foreground": "#FFFFFF",
@@ -427,17 +427,17 @@
             "name": "=========== C/C++/C Improved ==========",
             "scope": ""
         },
-        {	
-            "name": "C/C++ struct, union",	
-            "scope": "entity.name.struct, entity.name.union",	
-            "foreground": "#FBFF0E",	
-            "background": "#05065B"	
-        },	
-        {	
-            "name": "C/C++ Format string",	
-            "scope": "constant.other.placeholder.c, constant.other.placeholder.c++",	
-            "foreground": "#FF0099",	
-            "font_style": "italic",	
+        {
+            "name": "C/C++ struct, union",
+            "scope": "entity.name.struct, entity.name.union",
+            "foreground": "#FBFF0E",
+            "background": "#05065B"
+        },
+        {
+            "name": "C/C++ Format string",
+            "scope": "constant.other.placeholder.c, constant.other.placeholder.c++",
+            "foreground": "#FF0099",
+            "font_style": "italic",
         },
         {
             "name": "C/C++ Preprocessor Line",
@@ -1487,6 +1487,12 @@
             "scope": "markup.italic",
             "foreground": "#FFF103",
             "font_style": "italic"
+        },
+        {
+            "name": "Bold Italic Markup",
+            "scope": "markup.bold markup.italic",
+            "foreground": "#FFC203",
+            "font_style": "bold italic"
         },
         {
             "name": "Heading Markup",
