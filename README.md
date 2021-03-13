@@ -110,7 +110,7 @@ git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Applicatio
 
 Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself. TextMate only supports the `.tmTheme` format, so you won't get any new updates. Use Sublime instead!
 
-![Javascript with Neon Color Scheme](https://mattdmo.com/img/Javascript_linux.png)
+![Javascript with Neon Color Scheme](https://mattdmo.com/img/JavaScript_linux.png)
 
 ![C with Neon Color Scheme](https://mattdmo.com/img/C_macOS.png)
 
