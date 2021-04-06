@@ -41,11 +41,11 @@
         "guide": "#B0B0B0",
         "active_guide": "#FF0080",
         "stack_guide": "#06FF05",
-        "brackets_options": "stippled_underline bold",
+        "brackets_options": "stippled_underline bold italic",
         "brackets_foreground": "#FF0080",
         "bracket_contents_options": "stippled_underline bold",
-        "bracket_contents_foreground": "#FFFFFF",
-        "tags_options": "stippled_underline bold",
+        "bracket_contents_foreground": "#FF0080",
+        "tags_options": "stippled_underline bold italic",
         "tags_foreground": "#FFFFFF",
         "shadow": "",
         "shadow_width": ""
@@ -2100,7 +2100,7 @@
             "name": "Ruby class accessor notation",
             "scope": "meta.class punctuation.accessor",
             "foreground": "#EA03FF",
-            "background": "#45004B",
+            // "background": "#45004B",
             "font_style": "bold italic"
         },
         {
