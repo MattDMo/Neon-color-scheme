@@ -313,10 +313,6 @@
 //    d'      YM.  MM    .M9  MM    .M9
 //  _dM_     _dMM__MMMMMMM9' _MMMMMMM9'
         {
-            "name": "=========== Android Debug Bridge ==========",
-            "scope": ""
-        },
-        {
             "name": "Timestamp",
             "scope": "constant.other.adb.timestamp",
             "foreground": "#FE7DF5"
@@ -355,10 +351,6 @@
 //                                                       6M    Yb
 //                                                       YM.   d9
 //                                                        YMMMM9
-        {
-            "name": "=========== BracketHighlighter ==========",
-            "scope": ""
-        },
         {
             "name": "BracketHighlighter default",
             "scope": "brackethighlighter.default",
@@ -424,10 +416,6 @@
 //            ,M'
 //            dP
         {
-            "name": "=========== C/C++/C Improved ==========",
-            "scope": ""
-        },
-        {
             "name": "C/C++ struct, union",
             "scope": "entity.name.struct, entity.name.union",
             "foreground": "#FBFF0E",
@@ -485,10 +473,6 @@
 //                               MM
 //                           (8) M9
 //                            YMM9
-        {
-            "name": "=========== Clojure ==========",
-            "scope": ""
-        },
         {
             "name": "Global symbol",
             "scope": "source.symbol.global.clojure",
@@ -569,10 +553,6 @@
 //  YM      6       MM       MM       MM        MM     MM
 //   8b    d9 L    ,M9 L    ,M9       YM    d9  YM.  , YM.   d9 68b
 //    YMMMM9  MYMMMM9  MYMMMM9         YMMMM9    YMMM9  YMMMM9  Y89
-        {
-            "name": "=========== Stylesheets ==========",
-            "scope": ""
-        },
         {
             "name": "CSS: additional-constants",
             "scope": "meta.property-value support.constant.named-color.css, meta.property-value constant",
@@ -707,10 +687,6 @@
 //  YM.  ,MM  MM  MM    MM
 //   YMMMMMM__MM__MM_  _MM_
         {
-            "name": "=========== diff ==========",
-            "scope": ""
-        },
-        {
             "name": "diff.range Punctuation",
             "scope": "meta.diff.range punctuation.definition.range",
             "foreground": "#1AEFFF",
@@ -778,10 +754,6 @@
 //   MM    .M9 YM.   ,M9 YM.   d9  MM  YM.  YM    d9  MM      MM    MM  MM YM    d9
 //  _MMMMMMM9'  YMMMMM9   YMMMM9  _MM_  YM._ YMMMM9  _MM_    _MM_  _MM__MM_ YMMMM9
         {
-            "name": "=========== Dockerfile ==========",
-            "scope": ""
-        },
-        {
             "name": "Dockerfile: entity.name.enum",
             "scope": "entity.name.enum",
             "foreground": "#06FF05"
@@ -798,10 +770,6 @@
 //   MM       MM  MM    MM MM    MM        MM  MM    MM        MM       MM  MM MM            `Mb
 //   MM       MM  MM    MM YM.  ,MM        MM  MM    MM        MM       MM  MM YM    d9 L    ,MM
 //  _MM_     _MM__MM_  _MM_ YMMMMMM_      _MM__MM_  _MM_      _MM_     _MM__MM_ YMMMM9  MYMMMM9
-        {
-            "name": "=========== Find In Files ==========",
-            "scope": ""
-        },
         {
             "name": "Find In Files: filename",
             "scope": "entity.name.filename.find-in-files",
@@ -823,10 +791,6 @@
 //   MM      MM     MM  MM      MM      MM     MM'   MM   MM    MM
 //   MM      YM.   ,M9  MM      YM.  ,  MM     MM.  ,MM   MM    MM
 //  _MM_      YMMMMM9  _MM_      YMMM9 _MM_    `YMMM9'Yb._MM_  _MM_
-        {
-            "name": "=========== Fortran ==========",
-            "scope": ""
-        },
         {
             "name": "Program name",
             "scope": "entity.name.function.program",
@@ -870,10 +834,6 @@
 //   8b    d9  MM  YM.  ,  8b    d9  YM.   MM  YM.  ,  YM.  , YM    d9  MM
 //    YMMMM9  _MM_  YMMM9   YMMMM9    YMMM9MM_  YMMM9   YMMM9  YMMMM9  _MM_
         {
-            "name": "=========== GitGutter ==========",
-            "scope": ""
-        },
-        {
             "name": "GitGutter deleted",
             "scope": "markup.deleted.git_gutter",
             "foreground": "#FF0000"
@@ -899,10 +859,6 @@
 //   MM      MM MM'   MM       `Mb  MMPYM.   MM        MM  MM
 //   MM      MM MM.  ,MM  L    ,MM  MM  YM.  YM    d9  MM  MM
 //  _MM_    _MM_`YMMM9'Yb.MYMMMM9  _MM_  YM._ YMMMM9  _MM__MM_
-        {
-            "name": "=========== Haskell ==========",
-            "scope": ""
-        },
         {
             "name": "Module name",
             "scope": "meta.declaration.module.haskell support.other.module.haskell",
@@ -934,10 +890,6 @@
 //                                                dP
 //                                               ,M'
 //                                               dP
-        {
-            "name": "=========== HTML/XML ==========",
-            "scope": ""
-        },
         {
             "name": "Attribute name",
             "scope": "entity.other.attribute-name, storage.type.attr",
@@ -988,10 +940,6 @@
 //  (8)   MM MM'   MM     `Mbd'    MM'   MM
 //  ((   ,M9 MM.  ,MM      YMP     MM.  ,MM
 //   YMMMM9  `YMMM9'Yb.     M      `YMMM9'Yb.
-        {
-            "name": "=========== Java ==========",
-            "scope": ""
-        },
         {
             "name": "Java method definition",
             "scope": "meta.method.identifier entity.name.function.java",
@@ -1045,7 +993,7 @@
 //                                                                          MM
 //                                                                         _MM_
         {
-            "name": "=========== JavaScript/Babel/JSX/Node ==========",
+            "name": "=========== JavaScript/Babel/JSX/Node/Vue ==========",
             "scope": ""
         },
         {
@@ -1129,10 +1077,6 @@
 //  (8)   MM       MM YM      M9  M     \MMM
 //  ((   ,M9 L    ,M9  8b    d8   M      \MM
 //   YMMMM9  MYMMMM9    YMMMM9   _M_      \M
-        {
-            "name": "=========== JSON (new) ==========",
-            "scope": ""
-        },
         {
             "name": "JSON - level 18",
             "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.mapping.key string",
@@ -1340,10 +1284,6 @@
 //   MM    / MM.  ,MM      MM     YM    d9   d'    `MM.
 //  _MMMMMMM `YMMM9'Yb.   _MM_     YMMMM9  _M(_    _)MM_
         {
-            "name": "=========== LaTeX ==========",
-            "scope": ""
-        },
-        {
             "name": "LaTeX preamble",
             "scope": "meta.preamble",
             "background": "#000066"
@@ -1393,10 +1333,6 @@
 //                     YM.   d9
 //                      YMMMM9
         {
-            "name": "=========== Logcat ==========",
-            "scope": ""
-        },
-        {
             "name": "logcat Timestamp",
             "scope": "string.logcat.timestamp",
             "foreground": "#FE7DF5"
@@ -1442,10 +1378,6 @@
 //                                                      MM
 //                                                      MM
 //                                                     _MM_
-        {
-            "name": "=========== Markup ==========",
-            "scope": ""
-        },
         {
             "name": "Raw Markup",
             "scope": "markup.raw, markup.raw punctuation",
@@ -1524,10 +1456,6 @@
 //   M   `'   MM MM.  ,MM   YM.  ,  MM MM.  ,MM   MM.  ,M9
 //  _M_      _MM_`YMMM9'Yb.  YMMM9 _MM_`YMMM9'Yb._MYMMMM9
         {
-            "name": "=========== Matlab ==========",
-            "scope": ""
-        },
-        {
             "name": "storage.control",
             "scope": "storage.control.matlab",
             "foreground": "#9925FF"
@@ -1551,10 +1479,6 @@
 //                                                    6M    Yb
 //                                                    YM.   d9
 //                                                     YMMMM9
-        {
-            "name": "=========== PackageDev ==========",
-            "scope": ""
-        },
         {
             "name": "Sublime Settings Keyword",
             "scope": "keyword.other.name.sublime-settings",
@@ -1637,10 +1561,6 @@
 //   MM         MM      MM  MM
 //   MM         MM      MM  MM
 //  _MM_       _MM_    _MM__MM_
-        {
-            "name": "=========== PHP ==========",
-            "scope": ""
-        },
         {
             "name": "PHP: PHPdocs",
             "scope": "keyword.other.phpdoc.php",
@@ -1907,10 +1827,6 @@
 //              ,M'
 //              dP
         {
-            "name": "=========== R/R-Box ==========",
-            "scope": ""
-        },
-        {
             "name": "R keyword",
             "scope": "keyword.other.r",
             "foreground": "#359AFF",
@@ -1940,10 +1856,6 @@
 //   MM   \M\     ,MMMMMMMMb   M   YP   MM  MM
 //   MM    \M\    d'      YM.  M   `'   MM  MM    /
 //  _MM_    \M\__dM_     _dMM__M_      _MM__MMMMMMM
-        {
-            "name": "=========== RAML ==========",
-            "scope": ""
-        },
         {
             "name": "RAML Document control",
             "scope": "source.raml constant.language.document.yaml",
@@ -2011,10 +1923,6 @@
 //                       6M    Yb
 //                       YM.   d9
 //                        YMMMM9
-        {
-            "name": "=========== Regex ==========",
-            "scope": ""
-        },
         {
             "name": "Regex String",
             "scope": "string.regexp",
@@ -2098,10 +2006,6 @@
 //                                  (8),P
 //                                   YMM
         {
-            "name": "=========== Ruby ==========",
-            "scope": ""
-        },
-        {
             "name": "Ruby class accessor notation",
             "scope": "meta.class punctuation.accessor",
             "foreground": "#EA03FF",
@@ -2176,10 +2080,6 @@
 //   MM    \M\   YM.   MM L    ,MM  YM.  ,
 //  _MM_    \M\_  YMMM9MM_MYMMMM9    YMMM9
         {
-            "name": "=========== Rust ==========",
-            "scope": ""
-        },
-        {
             "name": "Return type arrow",
             "scope": "meta.function.return-type punctuation.separator",
             "foreground": "#07019A",
@@ -2237,10 +2137,6 @@
 //  L    ,M9 YM.   d9 MM.  ,MM   MM MM.  ,MM
 //  MYMMMM9   YMMMM9  `YMMM9'Yb._MM_`YMMM9'Yb.
         {
-            "name": "=========== Scala ==========",
-            "scope": ""
-        },
-        {
             "name": "Package Name",
             "scope": "entity.name.package",
             "foreground": "#E2FF09",
@@ -2275,10 +2171,6 @@
 //        MM  MM    MM MM        MM  MM
 //  L    ,M9  MM    MM YM    d9  MM  MM
 //  MYMMMM9  _MM_  _MM_ YMMMM9  _MM__MM_
-        {
-            "name": "=========== ShellScript Improved ==========",
-            "scope": ""
-        },
         {
             "name": "External function",
             "scope": "support.function.external.shell",
@@ -2341,10 +2233,6 @@
 //               YM.
 //                `Mo
         {
-            "name": "=========== SQL ==========",
-            "scope": ""
-        },
-        {
             "name": "SQL keyword.other.create",
             "scope": "keyword.other.create",
             "foreground": "#0048FF",
@@ -2361,10 +2249,6 @@
 //        MM  MM    MM  MM    MM  MM  MM       MM  MM    MM  MM     MM        MM
 //  L    ,M9  YM.   MM  MM.  ,M9  MM  MM    /  MM  MM    MM  YM.  , YM    d9  MM
 //  MYMMMM9    YMMM9MM__MYMMMM9  _MM__MMMMMMM _MM__MM_  _MM_  YMMM9  YMMMM9  _MM_
-        {
-            "name": "=========== SublimeLinter ==========",
-            "scope": ""
-        },
         {
             "name": "SublimeLinter Annotations",
             "scope": "sublimelinter.annotations",
@@ -2425,10 +2309,6 @@
 //        MM    YM,P  YM,P     MM  MM    MM
 //  L    ,M9    `MM'  `MM'     MM  MM    YM.  ,
 //  MYMMMM9      YP    YP     _MM__MM_    YMMM9
-        {
-            "name": "=========== Swift ==========",
-            "scope": ""
-        },
         {
             "name": "Swift Function Definition",
             "scope": "meta.function-declaration.swift entity.type.function.swift",
@@ -2509,10 +2389,6 @@
 //                                 ,M'                                                                   YM.   d9
 //                                 dP                                                                     YMMMM9
         {
-            "name": "=========== Table of Contents/Task tags ==========",
-            "scope": ""
-        },
-        {
             "name": "Table-of-Contents",
             "scope": "meta.toc-list",
             "foreground": "#E2FF09",
@@ -2574,10 +2450,6 @@
 //             (8),P        MM                                               MM
 //              YMM        _MM_                                             _MM_
         {
-            "name": "=========== TypeScript ==========",
-            "scope": ""
-        },
-        {
             "name": "Builtin type",
             "scope": "support.type.builtin",
             "foreground": "#FFFF00",
@@ -2619,10 +2491,6 @@
 //                                                 ,M'
 //                                                 dP
         {
-            "name": "=========== YACC/Bison ==========",
-            "scope": ""
-        },
-        {
             "name": "class accessor notation",
             "scope": "punctuation.accessor",
             "foreground": "#3399FF",
@@ -2646,10 +2514,6 @@
 //       MM        ,MMMMMMMMb   M   YP   MM  MM
 //       MM        d'      YM.  M   `'   MM  MM    /
 //      _MM_     _dM_     _dMM__M_      _MM__MMMMMMM
-        {
-            "name": "=========== YAML ==========",
-            "scope": ""
-        },
         {
             "name": "YAML Timestamp",
             "scope": "constant.other.timestamp",
