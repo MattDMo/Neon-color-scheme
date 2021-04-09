@@ -40,7 +40,7 @@
         "find_highlight_foreground": "#1515FF",
         "guide": "#B0B0B0",
         "active_guide": "#FF0080",
-        "stack_guide": "#06FF05",
+        "stack_guide": "#307326",
         "brackets_options": "stippled_underline bold italic",
         "brackets_foreground": "#FF0080",
         "bracket_contents_options": "stippled_underline bold",
@@ -194,7 +194,7 @@
         },
         {
             "name": "Dict key",
-            "scope": "meta.structure.dictionary meta.structure.dictionary.key, constant.other.object.key string, meta.object-literal.key",
+            "scope": "meta.structure.dictionary meta.structure.dictionary.key, constant.other.object.key string, meta.object-literal.key, meta.mapping.key",
             "foreground": "#A9FF98",
             "font_style": "bold"
         },
@@ -1072,7 +1072,7 @@
         },
         {
             "name": "Property - JavaScriptNext",
-            "scope": "variable.other.property",
+            "scope": "variable.other.property, meta.property.object",
             "foreground": "#FF06FB",
             "background": "#3A003A"
         },
@@ -1081,11 +1081,11 @@
             "scope": "variable.other.object",
             "foreground": "#00A452"
         },
-        {
-            "name": "Object Property - JavaScriptNext",
-            "scope": "meta.property.object",
-            "foreground": "#34A7FF"
-        },
+        // {
+        //     "name": "Object Property - JavaScriptNext",
+        //     "scope": "meta.property.object",
+        //     "foreground": "#00A452" // was #34A7FF
+        // },
         {
             "name": "Constant - JavaScriptNext",
             "scope": "variable.other.constant",
@@ -1098,12 +1098,6 @@
             "foreground": "#93D6F7"
         },
         {
-            "name": "Statement Terminator - JavaScriptNext",
-            "scope": "punctuation.terminator.statement",
-            "foreground": "#FFFFFF",
-            "font_style": "bold"
-        },
-        {
             "name": "jQuery support class",
             "scope": "support.class.js.jquery",
             "foreground": "#08D879"
@@ -1112,6 +1106,17 @@
             "name": "String interpolation delimiters",
             "scope": "punctuation.section.interpolation",
             "foreground": "#0D0DFF"
+        },
+        {
+            "name": "Vue - $",
+            "scope": "punctuation.dollar",
+            "foreground": "#FF0D6C"
+        },
+        {
+            "name": "Ternary Operator",
+            "scope": "keyword.operator.ternary",
+            "foreground": "#FF0D6C",
+            "font_style": "bold italic"
         },
 //       ____  ____      ____    ___      ___
 //       `MM' 6MMMMb\   6MMMMb   `MM\     `M'
