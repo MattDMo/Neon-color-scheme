@@ -22,6 +22,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 * C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
 * Clojure/EDN
+* Coffeescript
 * CSS/SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
 * diff
 * [Dockerfiles](https://packagecontrol.io/packages/Dockerfile%20Syntax%20Highlighting)
@@ -34,12 +35,12 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * JavaScript/[JavaScriptNext](https://packagecontrol.io/packages/JavaScriptNext%20-%20ES6%20Syntax)/Node.js
 * [jQuery](https://packagecontrol.io/packages/jQuery)
 * JSON
-* JSX/[Babel](https://packagecontrol.io/packages/Babel)
+* JSX/[Babel/React](https://packagecontrol.io/packages/Babel)
 * LaTeX
 * Markdown/reStructuredText
 * Matlab
 * [PackageDev](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
-* PHP
+* PHP/[Laravel Blade](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
 * Python
     * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org) within [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL)
     * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
@@ -58,6 +59,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [Swift](https://packagecontrol.io/packages/Swift)
 * Table of Contents/Task Tags
 * [Typescript](https://packagecontrol.io/packages/TypeScript%20Syntax)
+* [Vue](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight)
 * YAML
 
 For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, and Perl, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
