@@ -93,11 +93,6 @@
             "font_style": "italic"
         },
         {
-            "name": "INI =",
-            "scope": "punctuation.definition.equals.ini",
-            "foreground": "#FF07A2"
-        },
-        {
             "name": "Numbers",
             "scope": "constant.numeric",
             "foreground": "#FF0604"
@@ -929,6 +924,43 @@
             "scope": "punctuation.definition.tag",
             "foreground": "#02AEFF"
         },
+//  _______      _______
+//  `MM'`MM\     `M'`MM'
+//   MM  MMM\     M  MM
+//   MM  M\MM\    M  MM
+//   MM  M \MM\   M  MM
+//   MM  M  \MM\  M  MM
+//   MM  M   \MM\ M  MM
+//   MM  M    \MM\M  MM
+//   MM  M     \MMM  MM
+//   MM  M      \MM  MM
+//  _MM__M_      \M _MM_
+        {
+            "name": "INI =",
+            "scope": "punctuation.separator.mapping.key-value.ini",
+            "foreground": "#FF07A2"
+        },
+        {
+            "name": "INI section brackets",
+            "scope": "punctuation.definition.section.begin.ini, punctuation.definition.section.end.ini",
+            "foreground": "#0D9EF2"
+        },
+        {
+            "name": "INI section title",
+            "scope": "entity.name.section.ini",
+            "foreground": "#FF5F00"
+        },
+        {
+            "name": "INI key",
+            "scope": "meta.mapping.key string",
+            "foreground": "#A9FF98",
+            "font_style": "bold"
+        },
+        {
+            "name": "INI Value",
+            "scope": "meta.mapping.value string",
+            "foreground": "#7DC5F9"
+        },
 //       ____
 //       `MM'
 //        MM
@@ -1659,7 +1691,7 @@
             "name": "Unpacking operators (* and **)",
             "scope": "keyword.operator.unpacking",
             "foreground": "#FF7533",
-            "font_style": ""
+            "font_style": "bold"
         },
         {
             "name": "Format string placeholder begin/end",
