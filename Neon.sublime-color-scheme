@@ -947,7 +947,7 @@
         },
         {
             "name": "INI section title",
-            "scope": "entity.name.section.ini",
+            "scope": "entity.name.section",
             "foreground": "#FF5F00"
         },
         {
@@ -2044,13 +2044,13 @@
 //                                      d'
 //                                  (8),P
 //                                   YMM
-        {
-            "name": "Ruby class accessor notation",
-            "scope": "meta.class punctuation.accessor",
-            "foreground": "#EA03FF",
-            // "background": "#45004B",
-            "font_style": "bold italic"
-        },
+        // {
+        //     "name": "Ruby class accessor notation",
+        //     "scope": "meta.class punctuation.accessor",
+        //     "foreground": "#EA03FF",
+        //     // "background": "#45004B",
+        //     "font_style": "bold italic"
+        // },
         {
             "name": "Ruby module",
             "scope": "entity.name.module",
