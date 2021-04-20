@@ -110,18 +110,6 @@
             "font_style": "italic"
         },
         {
-            "name": "Support.constant",
-            "scope": "support.constant",
-            "foreground": "#EB939A",
-            "font_style": "italic"
-        },
-        {
-            "name": "Exception",
-            "scope": "support.type.exception",
-            "foreground": "#F8F8F8",
-            "background": "#800F00"
-        },
-        {
             "name": "Keyword",
             "scope": "keyword, keyword.operator.module",
             "foreground": "#0B93FF"
@@ -188,6 +176,16 @@
             "foreground": "#04FFD7"
         },
         {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "#80FCFF"
+        },
+        {
+            "name": "Class",
+            "scope": "meta.class.identifier, entity.name.type.class, support.class, variable.other.class, entity.name.class",
+            "foreground": "#CFFF01"
+        },
+        {
             "name": "Dict key",
             "scope": "meta.structure.dictionary meta.structure.dictionary.key, constant.other.object.key string, meta.object-literal.key, meta.mapping.key",
             "foreground": "#A9FF98",
@@ -202,16 +200,6 @@
             "name": "Item-access arguments",
             "scope": "meta.item-access.arguments",
             "foreground": "#11BD7C"
-        },
-        {
-            "name": "Class",
-            "scope": "meta.class.identifier, entity.name.type.class, support.class, variable.other.class, entity.name.class",
-            "foreground": "#CFFF01"
-        },
-        {
-            "name": "Inherited class",
-            "scope": "entity.other.inherited-class",
-            "foreground": "#80FCFF"
         },
         {
             "name": "Method",
@@ -240,6 +228,18 @@
             "scope": "variable.parameter.function, meta.function.parameters variable.parameter, meta.function-call.arguments variable.parameter",
             "foreground": "#FFF57F",
             "font_style": "italic"
+        },
+        {
+            "name": "Support.constant",
+            "scope": "support.constant",
+            "foreground": "#EB939A",
+            "font_style": "italic"
+        },
+        {
+            "name": "Exception",
+            "scope": "support.type.exception",
+            "foreground": "#F8F8F8",
+            "background": "#800F00"
         },
         {
             "name": "Support function",
@@ -1008,6 +1008,13 @@
             "scope": "storage.type.annotation",
             "foreground": "#0000FF",
             "background": "#FFFCA2",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Javadoc keyword @",
+            "scope": "punctuation.definition.keyword",
+            // "foreground": "#FF06FB",
+            "foreground": "#660066",
             "font_style": "bold italic"
         },
 //       ____
