@@ -208,7 +208,7 @@
         },
         {
             "name": "Function definition",
-            "scope": "meta.function entity.name.function, entity.name.function.abp, meta.prototype.function.js, entity.name.function.makefile, entity.name.function.go, meta.class-method.js entity.name.function.js, entity.name.function.fortran, entity.name.function.sql",
+            "scope": "meta.function entity.name.function, entity.name.function.abp, meta.prototype.function.js, entity.name.function.makefile, entity.name.function.go, meta.class-method.js entity.name.function.js, entity.name.function.fortran, entity.name.function.sql, entity.name.function.template",
             "foreground": "#0AFF04",
             "background": "#07019A"
         },
@@ -921,7 +921,7 @@
         },
         {
             "name": "Tag Punctuation",
-            "scope": "punctuation.definition.tag",
+            "scope": "punctuation.definition.tag, meta.tag.validhtml",
             "foreground": "#02AEFF"
         },
 //  _______      _______
@@ -1504,6 +1504,71 @@
             "scope": "keyword.mathematics.matlab",
             "foreground": "#D6FF1E"
         },
+//  ___       ___              ___                                    ___
+//  `MMb     dMM'              `MM 68b                            68b `MM
+//   MMM.   ,PMM                MM Y89                            Y89  MM
+//   M`Mb   d'MM   ____     ____MM ___    ___    ____    _    ___ ___  MM   __    ____   ___  __
+//   M YM. ,P MM  6MMMMb   6MMMMMM `MM  6MMMMb   `MM(   ,M.   )M' `MM  MM   d'   6MMMMb  `MM 6MM
+//   M `Mb d' MM 6M'  `Mb 6M'  `MM  MM 8M'  `Mb   `Mb   dMb   d'   MM  MM  d'   6M'  `Mb  MM69 "
+//   M  YM.P  MM MM    MM MM    MM  MM     ,oMM    YM. ,PYM. ,P    MM  MM d'    MM    MM  MM'
+//   M  `Mb'  MM MMMMMMMM MM    MM  MM ,6MM9'MM    `Mb d'`Mb d'    MM  MMdM.    MMMMMMMM  MM
+//   M   YP   MM MM       MM    MM  MM MM'   MM     YM,P  YM,P     MM  MMPYM.   MM        MM
+//   M   `'   MM YM    d9 YM.  ,MM  MM MM.  ,MM     `MM'  `MM'     MM  MM  YM.  YM    d9  MM
+//  _M_      _MM_ YMMMM9   YMMMMMM__MM_`YMMM9'Yb.    YP    YP     _MM__MM_  YM._ YMMMM9  _MM_
+        {
+            "name": "inline link",
+            "scope": "meta.tag.inline.link",
+            "foreground": "#41FF25",
+            "font_style": "bold"
+        },
+        {
+            "name": "template tags",
+            "scope": "meta.tag.inline.start.template, meta.tag.inline.stop.template",
+            "foreground": "#C95C5C",
+            "font_style": "bold"
+        },
+        {
+            "name": "parameter delimiter",
+            "scope": "meta.tag.param-delimiter",
+            "foreground": "#81FF00",
+            "font_style": "bold"
+        },
+        {
+            "name": "parameters",
+            "scope": "meta.function.parameters.template",
+            "foreground": "#FFF57F",
+            "font_style": "italic"
+        },
+        {
+            "name": "table row delimiter",
+            "scope": "markup.other.special.row-delimiter",
+            "foreground": "#4EFF33",
+            "font_style": ""
+        },
+        {
+            "name": "table cell delimiter",
+            "scope": "markup.other.special.cell-delimiter",
+            "foreground": "#9866CC",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "inline tag (any)",
+            "scope": "meta.tag.inline.any",
+            "foreground": "#00FFFD",
+            "font_style": "bold"
+        },
+        {
+            "name": "internal link text",
+            "scope": "string.other.title.link.internal",
+            "foreground": "#E0FF00",
+            "font_style": ""
+        },
+        {
+            "name": "external link text",
+            "scope": "string.other.title.link.external",
+            "foreground": "#00FFFD",
+            "font_style": ""
+        },
 //  ________                      ___                                   ________
 //  `MMMMMMMb.                    `MM                                   `MMMMMMMb.
 //   MM    `Mb                     MM                                    MM    `Mb
@@ -1581,6 +1646,12 @@
         {
             "name": "sublime-syntax variable name",
             "scope": "entity.name.constant",
+            "foreground": "#FFFF00",
+            "background": "#0000FF88"
+        },
+        {
+            "name": "sublime-syntax extends keyword",
+            "scope": "storage.type.extends",
             "foreground": "#FFFF00",
             "background": "#0000FF88"
         },
@@ -1672,7 +1743,7 @@
 
         {
             "name": "Line continuation, statement terminator",
-            "scope": "punctuation.separator.continuation.line, punctuation.terminator.statement",
+            "scope": "punctuation.separator.continuation.line, punctuation.terminator",
             "foreground": "#FFFF00",
             "font_style": "bold"
         },
