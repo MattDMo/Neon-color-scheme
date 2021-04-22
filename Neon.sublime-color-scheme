@@ -1584,6 +1584,13 @@
 //                                                    YM.   d9
 //                                                     YMMMM9
         {
+            "name": "sublime-color-scheme name",
+            "scope": "meta.rule.sublime-color-scheme meta.mapping.value.json string.quoted.double.json -punctuation",
+            // "background": "#E0FF002F",
+            "foreground": "#0000FF",
+            "font_style": ""
+        },
+        {
             "name": "Sublime Settings Keyword",
             "scope": "keyword.other.name.sublime-settings",
             "foreground": "#05B4FF"
@@ -1591,13 +1598,20 @@
         {
             "name": "Sublime Keymap Modifier Key",
             "scope": "support.function.modifier.key",
-            "foreground": "#06FF05"
+            "foreground": "#06FF05",
+            "font_style": "italic"
         },
         {
             "name": "Sublime Keymap Key",
-            "scope": "string.key.literal.sublimekeymap",
-            "foreground": "#F57C0E",
+            "scope": "constant.character.key.literal",
+            "foreground": "#3D6DF5",
             "font_style": "bold"
+        },
+        {
+            "name": "Sublime Keymap Command Name",
+            "scope": "support.constant.command-name",
+            "foreground": "#E0FF00",
+            "font_style": ""
         },
         {
             "name": "YAML numeric key",
