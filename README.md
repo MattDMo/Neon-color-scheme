@@ -39,6 +39,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * LaTeX
 * Markdown/reStructuredText
 * Matlab
+* [Mediawiker](https://packagecontrol.io/packages/Mediawiker) wiki markup
 * [PackageDev](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
 * PHP/[Laravel Blade](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
 * Python
