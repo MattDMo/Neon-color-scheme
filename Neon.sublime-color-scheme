@@ -17,7 +17,7 @@
         "line_highlight": "#2D2D2D",
         "misspelling": "#EB1C02",
         "fold_marker": "#06FF05",
-        "minimap_border": "#1515FF7F",
+        "minimap_border": "#1515FFB4",
         "accent": "#0205FF",
         // "popup_css": "",  // leaving this line uncommented produces black type on near-black background for popups
         // "phantom_css": "",
@@ -1014,8 +1014,8 @@
             "name": "Javadoc keyword @",
             "scope": "punctuation.definition.keyword",
             // "foreground": "#FF06FB",
-            "foreground": "#660066",
-            "font_style": "bold italic"
+            "foreground": "#990099",
+            "font_style": "bold"
         },
 //       ____
 //       `MM'                                                          68b
@@ -2558,6 +2558,38 @@
             "name": "Task tag - Low priority",
             "scope": "keyword.other.task-tag.prio-low storage.type.class",
             "foreground": "#67E607"
+        },
+//  __________    ____    ___       _______
+//  MMMMMMMMMM   6MMMMb   `MMb     dMM'`MM'
+//  /   MM   \  8P    Y8   MMM.   ,PMM  MM
+//      MM     6M      Mb  M`Mb   d'MM  MM
+//      MM     MM      MM  M YM. ,P MM  MM
+//      MM     MM      MM  M `Mb d' MM  MM
+//      MM     MM      MM  M  YM.P  MM  MM
+//      MM     MM      MM  M  `Mb'  MM  MM
+//      MM     YM      M9  M   YP   MM  MM
+//      MM      8b    d8   M   `'   MM  MM    /
+//     _MM_      YMMMM9   _M_      _MM__MMMMMMM
+        {
+            "name": "Table name",
+            "scope": "entity.name.table",
+            "foreground": "#67E607"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag.toml",
+            "foreground": "#0096ED"
+        },
+        {
+            "name": "=",
+            "scope": "punctuation.definition.key-value.toml",
+            "foreground": "#2BF20D",
+            "font_style": "bold",
+        },
+        {
+            "name": "Datetime",
+            "scope": "constant.other.datetime.toml",
+            "font_style": "",
         },
 //  __________
 //  MMMMMMMMMM                                                          68b
