@@ -4,7 +4,19 @@
     "name": "Neon",
     "author": "Matt Morrison @MattDMo mattdmo@mattdmo.com",
     "variables": {
-        "varname": "#000000"
+        "varname": "#000000",
+        "--background": "#000000",
+        "--foreground": "#FFFFFF",
+        "--accent": "#0205FF",
+        "--redish": "#FF0105",
+        "--orangish": "#FF6001",
+        "--yellowish": "#E0FF01",
+        "--greenish": "#06FF05",
+        "--cyanish": "#01FFFD",
+        "--bluish": "#0042FF",
+        "--purplish": "#7D1AE6",
+        "--pinkish": "#FF01C3"
+
     },
     "globals":
     {
@@ -24,15 +36,16 @@
         "gutter": "#000000",
         "gutter_foreground": "#B0B0B0",
         "line_diff_width": "2",
-        "line_diff_added": "#277D08",
-        "line_diff_modified": "#CFB406",
-        "line_diff_deleted": "#BC1802",
+        "line_diff_added": "#2AB814",
+        "line_diff_modified": "#E0FF00",
+        "line_diff_deleted": "#FC2003",
         "selection": "#0205FF",
-        "selection_foreground": "",
+        "selection_foreground": "#E0FF01",
         "selection_border": "#06FF05",
         "selection_border_width": "1",
         "inactive_selection": "#353576",
-        "inactive_selection_foreground": "",
+        "inactive_selection_border": "#00FFFF",
+        "inactive_selection_foreground": "#AD891F",
         "selection_corner_style": "cut",
         "selection_corner_radius": "2",
         "highlight": "#FF026A",
