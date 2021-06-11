@@ -5,6 +5,7 @@
     "author": "Matt Morrison @MattDMo mattdmo@mattdmo.com",
     "variables": {
         "varname": "#000000",
+        // for use with minihtml CSS
         "--background": "#000000",
         "--foreground": "#FFFFFF",
         "--accent": "#0205FF",
@@ -15,7 +16,19 @@
         "--cyanish": "#01FFFD",
         "--bluish": "#0042FF",
         "--purplish": "#7D1AE6",
-        "--pinkish": "#FF01C3"
+        "--pinkish": "#FF01C3",
+        // actual variable names in case someone wants to use them or I decide
+        // to experiment with color blending some day
+        "black": "#000000",
+        "white": "#FFFFFF",
+        "red": "#FF0105",
+        "orange": "#FF6001",
+        "yellow": "#E0FF01",
+        "green": "#06FF05",
+        "cyan": "#01FFFD",
+        "blue": "#0042FF",
+        "purple": "#7D1AE6",
+        "pink": "#FF01C3",
 
     },
     "globals":
