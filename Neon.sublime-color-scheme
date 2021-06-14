@@ -1621,7 +1621,7 @@
             "name": "sublime-color-scheme name",
             "scope": "meta.rule.sublime-color-scheme meta.mapping.value.json string.quoted.double.json -punctuation",
             // "background": "#E0FF002F",
-            "foreground": "#0000FF",
+            "foreground": "#3368FF",
             "font_style": ""
         },
         {
@@ -1860,11 +1860,25 @@
             "font_style": "italic"
         },
         {
-            "name": "Annotation separator :",
+            "name": "Annotation separator parameter :, return ->",
             "scope": "source.python punctuation.separator.annotation",
             "foreground": "#F6FF04",
-            "background": "#0205FF",
-            "font_style": "bold italic"
+            "background": "#0205FF99",
+            "font_style": "bold"
+        },
+        {
+            "name": "Parameter annotation",
+            "scope": "meta.function.parameters.annotation",
+            // "foreground": "#F6FF04",
+            "background": "#0205FF99",
+            "font_style": "bold"
+        },
+        {
+            "name": "Return annotation",
+            "scope": "punctuation.separator.annotation.return, meta.function.annotation.return",
+            // "foreground": "#F6FF04",
+            "background": "#7D1AE699",
+            "font_style": "bold"
         },
         {
             "name": "Annotation parameters group begin (",
