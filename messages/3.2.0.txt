@@ -1,0 +1,29 @@
+Neon Color Scheme v3.2.0
+========================
+Changes since 3.1.0:
+
+- Internal file structure organization
+- Added support for Mediawiker (https://packagecontrol.io/packages/Mediawiker)
+- Additions and tweaks to various PackageDev syntaxes
+- Added support for TOML
+- Added CSS variables for styling popups
+- Several changes to the globals section to theming the UI itself
+- Improved highlighting for function annotations in Python
+- New YAML scopes
+- Regex tweaks
+
+Remember to change your settings from
+
+    "color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme"
+
+to
+
+    "color_scheme": "Packages/Neon Color Scheme/Neon.sublime-color-scheme"
+
+Enjoy the new version, and please send me feedback, good and bad!
+
+
+--Matt
+
+@MattDMo
+https://github.com/MattDMo/Neon-color-scheme/issues
