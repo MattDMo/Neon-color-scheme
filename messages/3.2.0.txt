@@ -1,5 +1,24 @@
 Neon Color Scheme v3.2.0
 ========================
+
+NEW FEATURE:
+I added the following files to a new folder called "widget settings":
+
+- Console Input Widget.sublime-settings
+- Regex Replace Widget.sublime-settings
+- Regex Widget.sublime-settings
+- Widget.sublime-settings
+
+These are part of the "Default" package, and set preferences for different
+widgets in the program. Each file here has just one setting:
+
+    "color_scheme": "Packages/Neon Color Scheme/Neon.sublime-color-scheme"
+
+so that the overall UI is more consistent. One major advantage is you now get
+syntax highlighting for regex search and replace, making it easier to find things
+like missing brackets.
+
+
 Changes since 3.1.0:
 
 - Internal file structure organization
