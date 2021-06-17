@@ -2741,6 +2741,18 @@
             "font_style": "italic"
         },
         {
+            "name": "YAML flow-pair braces",
+            "scope": "meta.flow-mapping punctuation.definition.key-value",
+            "foreground": "#7C00FF",
+            // "font_style": "italic"
+        },
+        {
+            "name": "YAML Anchor",
+            "scope": "entity.name.other.anchor, punctuation.definition.anchor",
+            "foreground": "#00FF00",
+            "font_style": "italic"
+        },
+        {
             "name": "YAML Block Sequence Item",
             "scope": "punctuation.definition.block.sequence.item",
             "foreground": "#0FD7FF",
