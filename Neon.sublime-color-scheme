@@ -2113,6 +2113,18 @@
             "font_style": "bold italic"
         },
         {
+            "name": "Regex Character Class Property",
+            "scope": "keyword.other.character-class.property.regexp support.type.property, keyword.other.character-class.property.regexp punctuation.definition.property, keyword.other.character-class.property.regexp",
+            "foreground": "#00AAFF",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Regex Character Class Property Name",
+            "scope": "keyword.other.character-class.property.regexp support.type.property",
+            "foreground": "#FF9F66",
+            "font_style": "bold italic"
+        },
+        {
             "name": "Regex Control Anchors",
             "scope": "entity.other.control, keyword.control.anchors",
             "foreground": "#A4FF5A",
