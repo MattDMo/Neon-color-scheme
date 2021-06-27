@@ -1382,14 +1382,38 @@
         {
             "name": "LaTeX ampersand",
             "scope": "constant.character.ampersand",
-            "background": "#660033",
             "foreground": "#0099FF",
+            "background": "#660033",
             "font_style": "bold"
         },
         {
             "name": "LaTeX backslash",
             "scope": "text.tex punctuation.definition.backslash",
             "font_style": "bold glow"
+        },
+//  ____
+//  `MM'     68b
+//   MM      Y89
+//   MM      ___   ____   __ ____
+//   MM      `MM  6MMMMb\ `M6MMMMb
+//   MM       MM MM'    `  MM'  `Mb
+//   MM       MM YM.       MM    MM
+//   MM       MM  YMMMMb   MM    MM
+//   MM       MM      `Mb  MM    MM
+//   MM    /  MM L    ,MM  MM.  ,M9
+//  _MMMMMMM _MM_MYMMMM9   MMYMMM9
+//                         MM
+//                         MM
+//                        _MM_
+        {
+            "name": "Lisp constant",
+            "scope": "constant.character.lisp",
+            "foreground": "#FF07A0"
+        },
+        {
+            "name": "Lisp global variable",
+            "scope": "variable.other.global.lisp",
+            "foreground": "#07FF43"
         },
 //  ____
 //  `MM'
@@ -1620,7 +1644,6 @@
         {
             "name": "sublime-color-scheme name",
             "scope": "meta.rule.sublime-color-scheme meta.mapping.value.json string.quoted.double.json -punctuation",
-            // "background": "#E0FF002F",
             "foreground": "#3368FF",
             "font_style": ""
         },
@@ -1804,7 +1827,7 @@
         {
             "name": "Lambda definition",
             "scope": "meta.function.inline",
-            "background": "#0000669f",
+            "background": "#0000669F",
             "font_style": ""
         },
         {
@@ -2068,13 +2091,13 @@
             "name": "RAML description",
             "scope": "source.raml markup.raw.description.raml",
             "foreground": "#C2E978",
-            "background": "#1c1c1c"
+            "background": "#1C1C1C"
         },
         {
             "name": "RAML schema description",
             "scope": "source.raml string.quoted.single.yaml",
             "foreground": "#90F060",
-            "background": "#1c1c1c"
+            "background": "#1C1C1C"
         },
         {
             "name": "RAML HTML method",
@@ -2669,7 +2692,7 @@
             "name": "Builtin type",
             "scope": "support.type.builtin",
             "foreground": "#FFFF00",
-            "background": "#07019ac3",
+            "background": "#07019AC3",
             "font_style": "italic"
         },
         {
@@ -2689,7 +2712,7 @@
             "name": "Type",
             "scope": "entity.name.type.module",
             "foreground": "#BD0F66",
-            "background": "#07019ac3",
+            "background": "#07019AC3",
             "font_style": "bold italic"
         },
 //  ____     ___        _         ____      ____         ,M'________
