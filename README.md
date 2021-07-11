@@ -4,7 +4,7 @@
 
 # Neon Color Scheme
 
-**Neon** is a colorful bright-on-black color scheme for [Sublime Text](https://www.sublimetext.com/) and [TextMate](http://www.macromates.com). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](https://www.sublimetext.com/docs/scope_naming.html) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about.
+**Neon** is a colorful bright-on-black color scheme for [Sublime Text](https://www.sublimetext.com/). In designing it, I've aimed to make as many languages as possible look as good as possible, taking advantage of as many of the available [scopes](https://www.sublimetext.com/docs/scope_naming.html) as I can. **Neon** was originally designed for [Python](http://www.python.org), which has a very detailed language definition, but lots of languages look good with it, like JavaScript, CSS, HTML, Ruby, PHP, shell scripts, XML, Clojure, Fortran, R, LaTeX, Markdown, reStructuredText, and more. It's also great when using [@wuub](https://github.com/wuub)'s fantastic [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) plugin, which I can't say enough good things about. Unfortunately it is no longer being maintained.
 
 Just for clarity's sake: **Neon** is an original work and wasn't based on any other color scheme. If you search [Package Control](https://packagecontrol.io) for [`neon`](https://packagecontrol.io/search/neon) you'll find some other, similarly-named color schemes which are *not* based on this project. Use them if you want -- I particularly like the [Dark Neon Color Scheme](https://packagecontrol.io/packages/Dark%20Neon%20Color%20Scheme), and might borrow some of the colors -- and if you want to fork this project and make your own derivative, go for it! I use the [MIT License](http://opensource.org/licenses/MIT) for a reason.
 
@@ -43,11 +43,11 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [PackageDev](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
 * PHP/[Laravel Blade](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
 * Python
-    * [IPython](http://ipython.org)/[Jupyter](http://jupyter.org) within [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL)
-    * Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
-    * [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
-    * All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
-    * The new default [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
+    - [IPython](http://ipython.org)/[Jupyter](http://jupyter.org) within [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL)
+    - Django/[Djaneiro](https://packagecontrol.io/packages/Djaneiro)
+    - [Jinja2 templates](https://github.com/mitsuhiko/jinja2-tmbundle)
+    - All the customizations in the [`Python Improved`](https://packagecontrol.io/packages/Python%20Improved) syntax definition
+    - The new default [`Python.sublime-syntax`](https://github.com/sublimehq/Packages/blob/master/Python/Python.sublime-syntax)
 * R/[R-Box](https://packagecontrol.io/packages/R-Box)
 * [RAML](https://packagecontrol.io/packages/RAML%20Syntax%20Highlighter)
 * Regular Expressions
@@ -59,6 +59,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
 * [Swift](https://packagecontrol.io/packages/Swift)
 * Table of Contents/Task Tags
+* [TOML](https://packagecontrol.io/packages/TOML)
 * [Typescript](https://packagecontrol.io/packages/TypeScript%20Syntax)
 * [Vue](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight)
 * YAML
@@ -73,8 +74,6 @@ There are a bunch of scopes in here that are only found in my [`Python Improved`
 
 ![Clojure with Neon Color Scheme](https://mattdmo.com/img/Clojure_linux.png)
 
-You can find out more about themes in the TextMate [manual](http://manual.macromates.com/en/themes). All the information there applies to Sublime Text as well, which was heavily influenced by TextMate. Both programs can share themes and language definitions pretty much interchangeably, and snippets are usually pretty easy to port from one to the other as well. But, unfortunately for you Win/Lin people, TextMate is only available for macOS.
-
 ![LaTeX with Neon Color Scheme](https://mattdmo.com/img/LaTeX_win.png)
 
 
@@ -86,32 +85,26 @@ I discovered [`Cousine`](https://www.google.com/fonts/specimen/Cousine) while br
 
 It's one of the first things I install when setting up a new workstation or VM, and it used to be my go-to monospace font for web design and programming.
 
-More recently, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the [Liberation](https://fedorahosted.org/liberation-fonts/) font family. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
+For a while now, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the [Liberation](https://fedorahosted.org/liberation-fonts/) font family. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
 
 ![Rust with Neon Color Scheme](https://mattdmo.com/img/Rust_linux.png)
 
 ![XML with Neon Color Scheme](https://mattdmo.com/img/XML_macOS.png)
 
 
-## Installation for Sublime Text 3
+## Installation for Sublime Text
 
-The easiest method is through [Package Control](https://packagecontrol.io/), which you need to [install](https://packagecontrol.io/installation) first as it doesn't come with Sublime Text. (*Note*: It does now!) Open the Command Palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (macOS) and type ***`pci`*** to bring up `Package Control: Install`. Click or hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Color Scheme -> Neon Color Scheme -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings - User`):
+The easiest method is through [Package Control](https://packagecontrol.io/), which now comes with Sublime Text. Open the Command Palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (macOS) and type ***`pci`*** to bring up `Package Control: Install`. Hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Select Color Scheme… -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings`, right-side pane):
 
 ```js
 "color_scheme": "Packages/Neon Color Scheme/Neon.sublime-color-scheme"
 ```
 
-If you were using the old pre-3.0 version of **Neon**, the file name was `Neon.tmTheme`. If you are using **Neon** when you upgrade, a small plugin comes with the new version that will automagically change the file name to `Neon.sublime-color-scheme`. I switched formats both because JSON is far easier to work with than XML, and there are some cool new features coming in the next release of Sublime Text that don't work with `.tmTheme` files. Stay tuned!
+If you were using the old pre-3.0 version of **Neon**, the file name was `Neon.tmTheme`. I switched to the `.sublime-color-scheme` format both because JSON is far easier to work with than XML, and there are some cool new features in Sublime Text 4 that don't work with `.tmTheme` files.
 
 ## TextMate Installation:
 
-For right now, manual cloning is the only option. ~~Maybe I'll make a bundle someday for TM1 and TM2.~~ From your home directory (or anywhere, really), enter:
-
-```bash
-git clone https://github.com/MattDMo/Neon-color-scheme.git "~/Library/Application Support/TextMate/Themes"
-```
-
-Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-color-scheme/archive/master.zip) and put it in the proper theme directory yourself. TextMate only supports the `.tmTheme` format, so you won't get any new updates. Use Sublime instead!
+Due to the switch to the `.sublime-color-scheme` format, TextMate is no longer supported.
 
 ![Javascript with Neon Color Scheme](https://mattdmo.com/img/JavaScript_linux.png)
 
@@ -119,12 +112,9 @@ Or, you can just download the [`.zip` file](https://github.com/MattDMo/Neon-colo
 
 ## Issues
 
-Sometimes the same file looks different in TextMate and Sublime Text. It may be that the scopes are defined somewhat differently, or that the parsers don't work in quite the same way. Hack the `.tmlanguage` definition files if you're interested, it's an exciting combination of XML and regex! To ease the pain somewhat, I definitely recommend installing [`PackageDev`](https://packagecontrol.io/packages/PackageDev) via Package Control. Among many other things, it allows you to convert XML/Plist-based `.tmLanguage` files to YAML syntax, which **Neon** conveniently supports! Everything is much more straightforward to understand and edit, and when you're done you can run a build system from the Command Palette to convert the YAML back to XML.
-
-![JSON with Neon Color Scheme](https://mattdmo.com/img/JSON_macOS.png)
-
 If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also ping me on the Twitters [@MattDMo](https://twitter.com/MattDMo), or catch me on the [Sublime Discord server](https://discord.com/channels/280102180189634562/280102180189634562).
 
+![JSON with Neon Color Scheme](https://mattdmo.com/img/JSON_macOS.png)
 
 ## License
 
