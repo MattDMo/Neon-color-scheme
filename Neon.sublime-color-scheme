@@ -1485,7 +1485,8 @@
             "name": "Markup Link URL",
             "scope": "meta.link.inline markup.underline, meta.image.inline markup.underline, markup.underline.link",
             "foreground": "#8080FF",
-            "background": "#212121"
+            "background": "#212121",
+            "font_style": "underline"
         },
         {
             "name": "Markup Link brackets/parens",
@@ -1532,7 +1533,7 @@
             "name": "Heading Markup",
             "scope": "markup.heading, markup.heading punctuation",
             "foreground": "#FDF503",
-            "background": "#008BFE",
+            "background": "#0042FE",
             "font_style": "bold"
         },
         {
@@ -2779,7 +2780,6 @@
             "name": "YAML flow-pair braces",
             "scope": "meta.flow-mapping punctuation.definition.key-value",
             "foreground": "#7C00FF",
-            // "font_style": "italic"
         },
         {
             "name": "YAML Anchor",
