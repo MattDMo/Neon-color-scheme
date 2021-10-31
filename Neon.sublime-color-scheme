@@ -1,5 +1,5 @@
 {
-// ASCII comments from http://patorjk.com/software/taag/#p=display&h=0&v=0&f=Georgi16
+// ASCII comments from http://patorjk.com/software/taag/#p=display&h=0&v=0&c=c%2B%2B&f=Georgi16&t=text
 
     "name": "Neon",
     "author": "Matt Morrison @MattDMo mattdmo@mattdmo.com",
@@ -103,10 +103,17 @@
             "foreground": "#FFFFFF"
         },
         {
-            "name": "Invalid",
-            "scope": "invalid",
+            "name": "Invalid Illegal",
+            "scope": "invalid, invalid.illegal",
             "foreground": "#FFFFFF",
-            "background": "#FF1E00",
+            "background": "#FF0000",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Invalid Deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "#FFFFFF",
+            "background": "#920808",
             "font_style": "bold italic"
         },
         {
@@ -341,6 +348,8 @@
 //    ,MMMMMMMMb   MM     MM  MM     MM
 //    d'      YM.  MM    .M9  MM    .M9
 //  _dM_     _dMM__MMMMMMM9' _MMMMMMM9'
+//
+//  Android Debug Bridge
         {
             "name": "Timestamp",
             "scope": "constant.other.adb.timestamp",
@@ -366,20 +375,61 @@
             "scope": "keyword.adb",
             "foreground": "#FFFF00"
         },
-//  ________           ___               ____    ____             ___       ___
-//  `MMMMMMMb.         `MM               `MM'    `MM'68b          `MM       `MM
-//   MM    `Mb          MM         /      MM      MM Y89           MM        MM   /
-//   MM     MM ___  __  MM   __   /M      MM      MM ___   __      MM  __    MM  /M
-//   MM    .M9 `MM 6MM  MM   d'  /MMMMM   MM      MM `MM  6MMbMMM  MM 6MMb   MM /MMMMM
-//   MMMMMMM(   MM69 "  MM  d'    MM      MMMMMMMMMM  MM 6M'`Mb    MMM9 `Mb  MM  MM
-//   MM    `Mb  MM'     MM d'     MM      MM      MM  MM MM  MM    MM'   MM  MM  MM
-//   MM     MM  MM      MMdM.     MM      MM      MM  MM YM.,M9    MM    MM  MM  MM
-//   MM     MM  MM      MMPYM.    MM      MM      MM  MM  YMM9     MM    MM  MM  MM
-//   MM    .M9  MM      MM  YM.   YM.  ,  MM      MM  MM (M        MM    MM  MM  YM.  ,
-//  _MMMMMMM9' _MM_    _MM_  YM._  YMMM9 _MM_    _MM__MM_ YMMMMb. _MM_  _MM__MM_  YMMM9
-//                                                       6M    Yb
-//                                                       YM.   d9
-//                                                        YMMMM9
+//         _      ____    _______    __
+//        dM.     `MM'    `MM'`MM    d'
+//       ,MMb      MM      MM  MM   d'
+//       d'YM.     MM      MM  MM  d'
+//      ,P `Mb     MM      MM  MM d'
+//      d'  YM.    MMMMMMMMMM  MMd'
+//     ,P   `Mb    MM      MM  MMYM.
+//     d'    YM.   MM      MM  MM YM.
+//    ,MMMMMMMMb   MM      MM  MM  YM.
+//    d'      YM.  MM      MM  MM   YM.
+//  _dM_     _dMM__MM_    _MM__MM_   YM._
+//
+//  AutoHotKey
+        {
+            "name": "AHK Function Definition",
+            "scope": "labelline.ahk entity.name.function.label.ahk",
+            "foreground": "#0AFF04",
+            "background": "#07019A"
+        },
+        {
+            "name": "AHK Hotkey Definition",
+            "scope": "hotkeyline.ahk entity.name.function.label.ahk",
+            "foreground": "#CFFF01",
+            "background": "#03003F"
+        },
+        {
+            "name": "AHK Equals",
+            "scope": "punctuation.definition.equals",
+            "foreground": "#EF11BB",
+        },
+        {
+            "name": "AHK constant.language.hotkey",
+            "scope": "constant.language.hotkey",
+            "foreground": "#FF6001",
+            "font_style": ""
+        },
+        {
+            "name": "AHK Preprocessor Directive",
+            "scope": "preprocessordirective.ahk keyword",
+            "foreground": "#9FA5FF",
+
+        },
+//  ________           ___               ____    ____    ___
+//  `MMMMMMMb.         `MM               `MM'    `MM'68b `MM
+//   MM    `Mb          MM         /      MM      MM Y89  MM   /
+//   MM     MM ___  __  MM   __   /M      MM      MM ___  MM  /M     ___  __
+//   MM    .M9 `MM 6MM  MM   d'  /MMMMM   MM      MM `MM  MM /MMMMM  `MM 6MM
+//   MMMMMMM(   MM69 "  MM  d'    MM      MMMMMMMMMM  MM  MM  MM      MM69 "
+//   MM    `Mb  MM'     MM d'     MM      MM      MM  MM  MM  MM      MM'
+//   MM     MM  MM      MMdM.     MM      MM      MM  MM  MM  MM      MM
+//   MM     MM  MM      MMPYM.    MM      MM      MM  MM  MM  MM      MM
+//   MM    .M9  MM      MM  YM.   YM.  ,  MM      MM  MM  MM  YM.  ,  MM
+//  _MMMMMMM9' _MM_    _MM_  YM._  YMMM9 _MM_    _MM__MM__MM_  YMMM9 _MM_
+//
+//  BracketHighlighter
         {
             "name": "BracketHighlighter default",
             "scope": "brackethighlighter.default",
@@ -788,17 +838,17 @@
             "foreground": "#06FF05"
         },
 
-//  ________                    ___                           ________     ___
-//  `MMMMMMM 68b                `MM       68b                 `MMMMMMM 68b `MM
-//   MM    \ Y89                 MM       Y89                  MM    \ Y89  MM
-//   MM      ___ ___  __     ____MM       ___ ___  __          MM      ___  MM   ____     ____
-//   MM   ,  `MM `MM 6MMb   6MMMMMM       `MM `MM 6MMb         MM   ,  `MM  MM  6MMMMb   6MMMMb\
-//   MMMMMM   MM  MMM9 `Mb 6M'  `MM        MM  MMM9 `Mb        MMMMMM   MM  MM 6M'  `Mb MM'    `
-//   MM   `   MM  MM'   MM MM    MM        MM  MM'   MM        MM   `   MM  MM MM    MM YM.
-//   MM       MM  MM    MM MM    MM        MM  MM    MM        MM       MM  MM MMMMMMMM  YMMMMb
-//   MM       MM  MM    MM MM    MM        MM  MM    MM        MM       MM  MM MM            `Mb
-//   MM       MM  MM    MM YM.  ,MM        MM  MM    MM        MM       MM  MM YM    d9 L    ,MM
-//  _MM_     _MM__MM_  _MM_ YMMMMMM_      _MM__MM_  _MM_      _MM_     _MM__MM_ YMMMM9  MYMMMM9
+//  ________                    ___ ____          ________     ___
+//  `MMMMMMM 68b                `MM `MM'          `MMMMMMM 68b `MM
+//   MM    \ Y89                 MM  MM            MM    \ Y89  MM
+//   MM      ___ ___  __     ____MM  MM ___  __    MM      ___  MM   ____     ____
+//   MM   ,  `MM `MM 6MMb   6MMMMMM  MM `MM 6MMb   MM   ,  `MM  MM  6MMMMb   6MMMMb\
+//   MMMMMM   MM  MMM9 `Mb 6M'  `MM  MM  MMM9 `Mb  MMMMMM   MM  MM 6M'  `Mb MM'    `
+//   MM   `   MM  MM'   MM MM    MM  MM  MM'   MM  MM   `   MM  MM MM    MM YM.
+//   MM       MM  MM    MM MM    MM  MM  MM    MM  MM       MM  MM MMMMMMMM  YMMMMb
+//   MM       MM  MM    MM MM    MM  MM  MM    MM  MM       MM  MM MM            `Mb
+//   MM       MM  MM    MM YM.  ,MM  MM  MM    MM  MM       MM  MM YM    d9 L    ,MM
+//  _MM_     _MM__MM_  _MM_ YMMMMMM__MM__MM_  _MM__MM_     _MM__MM_ YMMMM9  MYMMMM9
         {
             "name": "Find In Files: filename",
             "scope": "entity.name.filename.find-in-files",
@@ -807,7 +857,8 @@
         {
             "name": "Find In Files: Line Number - Match",
             "scope": "constant.numeric.line-number.match.find-in-files",
-            "foreground": "#FFFF00"
+            "foreground": "#FFFF00",
+            "font_style": "bold italic underline"
         },
 //  ________
 //  `MMMMMMM
@@ -905,20 +956,29 @@
             "foreground": "#FDA7FF",
             "background": "#43215B"
         },
-//  ____    ______________ ___       _______           ,M'____      ___ ___       _______
-//  `MM'    `MM'MMMMMMMMMM `MMb     dMM'`MM'           dP `MM(      )M' `MMb     dMM'`MM'
-//   MM      MM /   MM   \  MMM.   ,PMM  MM           ,M'  `MM.     d'   MMM.   ,PMM  MM
-//   MM      MM     MM      M`Mb   d'MM  MM           dP    `MM.   d'    M`Mb   d'MM  MM
-//   MM      MM     MM      M YM. ,P MM  MM          ,M'     `MM. d'     M YM. ,P MM  MM
-//   MMMMMMMMMM     MM      M `Mb d' MM  MM          dP       `MMd       M `Mb d' MM  MM
-//   MM      MM     MM      M  YM.P  MM  MM         ,M'        dMM.      M  YM.P  MM  MM
-//   MM      MM     MM      M  `Mb'  MM  MM         dP        d'`MM.     M  `Mb'  MM  MM
-//   MM      MM     MM      M   YP   MM  MM        ,M'       d'  `MM.    M   YP   MM  MM
-//   MM      MM     MM      M   `'   MM  MM    /   dP       d'    `MM.   M   `'   MM  MM    /
-//  _MM_    _MM_   _MM_    _M_      _MM__MMMMMMM  ,M'     _M(_    _)MM_ _M_      _MM__MMMMMMM
+//  ____    ______________ ___       _______           ,M'
+//  `MM'    `MM'MMMMMMMMMM `MMb     dMM'`MM'           dP
+//   MM      MM /   MM   \  MMM.   ,PMM  MM           ,M'
+//   MM      MM     MM      M`Mb   d'MM  MM           dP
+//   MM      MM     MM      M YM. ,P MM  MM          ,M'
+//   MMMMMMMMMM     MM      M `Mb d' MM  MM          dP
+//   MM      MM     MM      M  YM.P  MM  MM         ,M'
+//   MM      MM     MM      M  `Mb'  MM  MM         dP
+//   MM      MM     MM      M   YP   MM  MM        ,M'
+//   MM      MM     MM      M   `'   MM  MM    /   dP
+//  _MM_    _MM_   _MM_    _M_      _MM__MMMMMMM  ,M'
 //                                                dP
-//                                               ,M'
-//                                               dP
+//  ____      ___ ___       _______              ,M'
+//  `MM(      )M' `MMb     dMM'`MM'              dP
+//   `MM.     d'   MMM.   ,PMM  MM
+//    `MM.   d'    M`Mb   d'MM  MM
+//     `MM. d'     M YM. ,P MM  MM
+//      `MMd       M `Mb d' MM  MM
+//       dMM.      M  YM.P  MM  MM
+//      d'`MM.     M  `Mb'  MM  MM
+//     d'  `MM.    M   YP   MM  MM
+//    d'    `MM.   M   `'   MM  MM    /
+//  _M(_    _)MM_ _M_      _MM__MMMMMMM
         {
             "name": "Attribute name",
             "scope": "entity.other.attribute-name, storage.type.attr",
@@ -1052,19 +1112,29 @@
             "font_style": "bold"
         },
 //       ____
-//       `MM'                                                          68b
-//        MM                                                           Y89             /
-//        MM    ___    ____    ___    ___      ____     ____   ___  __ ___ __ ____    /M
-//        MM  6MMMMb   `MM(    )M'  6MMMMb    6MMMMb\  6MMMMb. `MM 6MM `MM `M6MMMMb  /MMMMM
-//        MM 8M'  `Mb   `Mb    d'  8M'  `Mb  MM'    ` 6M'   Mb  MM69 "  MM  MM'  `Mb  MM
-//        MM     ,oMM    YM.  ,P       ,oMM  YM.      MM    `'  MM'     MM  MM    MM  MM
-//        MM ,6MM9'MM     MM  M    ,6MM9'MM   YMMMMb  MM        MM      MM  MM    MM  MM
-//  (8)   MM MM'   MM     `Mbd'    MM'   MM       `Mb MM        MM      MM  MM    MM  MM
-//  ((   ,M9 MM.  ,MM      YMP     MM.  ,MM  L    ,MM YM.   d9  MM      MM  MM.  ,M9  YM.  ,
-//   YMMMM9  `YMMM9'Yb.     M      `YMMM9'Yb.MYMMMM9   YMMMM9  _MM_    _MM_ MMYMMM9    YMMM9
-//                                                                          MM
-//                                                                          MM
-//                                                                         _MM_
+//       `MM'
+//        MM
+//        MM    ___    ____    ___    ___
+//        MM  6MMMMb   `MM(    )M'  6MMMMb
+//        MM 8M'  `Mb   `Mb    d'  8M'  `Mb
+//        MM     ,oMM    YM.  ,P       ,oMM
+//        MM ,6MM9'MM     MM  M    ,6MM9'MM
+//  (8)   MM MM'   MM     `Mbd'    MM'   MM
+//  ((   ,M9 MM.  ,MM      YMP     MM.  ,MM
+//   YMMMM9  `YMMM9'Yb.     M      `YMMM9'Yb.
+//                            68b
+//                            Y89             /
+//    ____     ____   ___  __ ___ __ ____    /M
+//   6MMMMb\  6MMMMb. `MM 6MM `MM `M6MMMMb  /MMMMM
+//  MM'    ` 6M'   Mb  MM69 "  MM  MM'  `Mb  MM
+//  YM.      MM    `'  MM'     MM  MM    MM  MM
+//   YMMMMb  MM        MM      MM  MM    MM  MM
+//       `Mb MM        MM      MM  MM    MM  MM
+//  L    ,MM YM.   d9  MM      MM  MM.  ,M9  YM.  ,
+//  MYMMMM9   YMMMM9  _MM_    _MM_ MMYMMM9    YMMM9
+//                                 MM
+//                                 MM
+//                                _MM_
         {
             "name": "=========== JavaScript/Babel/JSX/Node/Vue ==========",
             "scope": ""
@@ -1563,17 +1633,19 @@
             "scope": "keyword.mathematics.matlab",
             "foreground": "#D6FF1E"
         },
-//  ___       ___              ___                                    ___
-//  `MMb     dMM'              `MM 68b                            68b `MM
-//   MMM.   ,PMM                MM Y89                            Y89  MM
-//   M`Mb   d'MM   ____     ____MM ___    ___    ____    _    ___ ___  MM   __    ____   ___  __
-//   M YM. ,P MM  6MMMMb   6MMMMMM `MM  6MMMMb   `MM(   ,M.   )M' `MM  MM   d'   6MMMMb  `MM 6MM
-//   M `Mb d' MM 6M'  `Mb 6M'  `MM  MM 8M'  `Mb   `Mb   dMb   d'   MM  MM  d'   6M'  `Mb  MM69 "
-//   M  YM.P  MM MM    MM MM    MM  MM     ,oMM    YM. ,PYM. ,P    MM  MM d'    MM    MM  MM'
-//   M  `Mb'  MM MMMMMMMM MM    MM  MM ,6MM9'MM    `Mb d'`Mb d'    MM  MMdM.    MMMMMMMM  MM
-//   M   YP   MM MM       MM    MM  MM MM'   MM     YM,P  YM,P     MM  MMPYM.   MM        MM
-//   M   `'   MM YM    d9 YM.  ,MM  MM MM.  ,MM     `MM'  `MM'     MM  MM  YM.  YM    d9  MM
-//  _M_      _MM_ YMMMM9   YMMMMMM__MM_`YMMM9'Yb.    YP    YP     _MM__MM_  YM._ YMMMM9  _MM_
+//  ___       ___              ___ ____              ___     ___
+//  `MMb     dMM'              `MM `Mb(      db      )d' 68b `MM
+//   MMM.   ,PMM                MM  YM.     ,PM.     ,P  Y89  MM
+//   M`Mb   d'MM   ____     ____MM  `Mb     d'Mb     d'  ___  MM   __  ___  __
+//   M YM. ,P MM  6MMMMb   6MMMMMM   YM.   ,P YM.   ,P   `MM  MM   d'  `MM 6MM
+//   M `Mb d' MM 6M'  `Mb 6M'  `MM   `Mb   d' `Mb   d'    MM  MM  d'    MM69 "
+//   M  YM.P  MM MM    MM MM    MM    YM. ,P   YM. ,P     MM  MM d'     MM'
+//   M  `Mb'  MM MMMMMMMM MM    MM    `Mb d'   `Mb d'     MM  MMdM.     MM
+//   M   YP   MM MM       MM    MM     YM,P     YM,P      MM  MMPYM.    MM
+//   M   `'   MM YM    d9 YM.  ,MM     `MM'     `MM'      MM  MM  YM.   MM
+//  _M_      _MM_ YMMMM9   YMMMMMM_     YP       YP      _MM__MM_  YM.__MM_
+//
+// MediaWiker
         {
             "name": "inline link",
             "scope": "meta.tag.inline.link",
@@ -1628,20 +1700,22 @@
             "foreground": "#00FFFD",
             "font_style": ""
         },
-//  ________                      ___                                   ________
-//  `MMMMMMMb.                    `MM                                   `MMMMMMMb.
-//   MM    `Mb                     MM                                    MM    `Mb
-//   MM     MM    ___      ____    MM   __     ___      __       ____    MM     MM   ____   ____    ___
-//   MM     MM  6MMMMb    6MMMMb.  MM   d'   6MMMMb    6MMbMMM  6MMMMb   MM     MM  6MMMMb  `MM(    )M'
-//   MM    .M9 8M'  `Mb  6M'   Mb  MM  d'   8M'  `Mb  6M'`Mb   6M'  `Mb  MM     MM 6M'  `Mb  `Mb    d'
-//   MMMMMMM9'     ,oMM  MM    `'  MM d'        ,oMM  MM  MM   MM    MM  MM     MM MM    MM   YM.  ,P
-//   MM        ,6MM9'MM  MM        MMdM.    ,6MM9'MM  YM.,M9   MMMMMMMM  MM     MM MMMMMMMM    MM  M
-//   MM        MM'   MM  MM        MMPYM.   MM'   MM   YMM9    MM        MM     MM MM          `Mbd'
-//   MM        MM.  ,MM  YM.   d9  MM  YM.  MM.  ,MM  (M       YM    d9  MM    .M9 YM    d9     YMP
-//  _MM_       `YMMM9'Yb. YMMMM9  _MM_  YM._`YMMM9'Yb. YMMMMb.  YMMMM9  _MMMMMMM9'  YMMMM9       M
-//                                                    6M    Yb
-//                                                    YM.   d9
-//                                                     YMMMM9
+//  ________   ___                ________
+//  `MMMMMMMb. `MM                `MMMMMMMb.
+//   MM    `Mb  MM                 MM    `Mb
+//   MM     MM  MM   __    __      MM     MM   ____   ____    ___
+//   MM     MM  MM   d'   6MMbMMM  MM     MM  6MMMMb  `MM(    )M'
+//   MM    .M9  MM  d'   6M'`Mb    MM     MM 6M'  `Mb  `Mb    d'
+//   MMMMMMM9'  MM d'    MM  MM    MM     MM MM    MM   YM.  ,P
+//   MM         MMdM.    YM.,M9    MM     MM MMMMMMMM    MM  M
+//   MM         MMPYM.    YMM9     MM     MM MM          `Mbd'
+//   MM         MM  YM.  (M        MM    .M9 YM    d9     YMP
+//  _MM_       _MM_  YM._ YMMMMb. _MMMMMMM9'  YMMMM9       M
+//                       6M    Yb
+//                       YM.   d9
+//                        YMMMM9
+//
+// PackageDev
         {
             "name": "sublime-color-scheme name",
             "scope": "meta.rule.sublime-color-scheme meta.mapping.value.json string.quoted.double.json -punctuation",
@@ -2582,20 +2656,35 @@
             "foreground": "#E10C68",
             "font_style": "italic"
         },
-//  __________              ____         ,M'__________                    ___       __________
-//  MMMMMMMMMM             6MMMMb/       dP MMMMMMMMMM                    `MM       MMMMMMMMMM
-//  /   MM   \            8P    YM      ,M' /   MM   \                     MM       /   MM   \
-//      MM       _____   6M      Y      dP      MM        ___      ____    MM   __      MM        ___      __
-//      MM      6MMMMMb  MM            ,M'      MM      6MMMMb    6MMMMb\  MM   d'      MM      6MMMMb    6MMbMMM
-//      MM     6M'   `Mb MM            dP       MM     8M'  `Mb  MM'    `  MM  d'       MM     8M'  `Mb  6M'`Mb
-//      MM     MM     MM MM           ,M'       MM         ,oMM  YM.       MM d'        MM         ,oMM  MM  MM
-//      MM     MM     MM MM           dP        MM     ,6MM9'MM   YMMMMb   MMdM.        MM     ,6MM9'MM  YM.,M9
-//      MM     MM     MM YM      6   ,M'        MM     MM'   MM       `Mb  MMPYM.       MM     MM'   MM   YMM9
-//      MM     YM.   ,M9  8b    d9   dP         MM     MM.  ,MM  L    ,MM  MM  YM.      MM     MM.  ,MM  (M
-//     _MM_     YMMMMM9    YMMMM9   ,M'        _MM_    `YMMM9'Yb.MYMMMM9  _MM_  YM._   _MM_    `YMMM9'Yb. YMMMMb.
-//                                  dP                                                                   6M    Yb
-//                                 ,M'                                                                   YM.   d9
-//                                 dP                                                                     YMMMM9
+//  __________              ____         ,M'
+//  MMMMMMMMMM             6MMMMb/       dP
+//  /   MM   \            8P    YM      ,M'
+//      MM       _____   6M      Y      dP
+//      MM      6MMMMMb  MM            ,M'
+//      MM     6M'   `Mb MM            dP
+//      MM     MM     MM MM           ,M'
+//      MM     MM     MM MM           dP
+//      MM     MM     MM YM      6   ,M'
+//      MM     YM.   ,M9  8b    d9   dP
+//     _MM_     YMMMMM9    YMMMM9   ,M'
+//                                  dP
+//                                 ,M'
+//                                 dP
+//
+//  __________                    ___       __________
+//  MMMMMMMMMM                    `MM       MMMMMMMMMM
+//  /   MM   \                     MM       /   MM   \
+//      MM        ___      ____    MM   __      MM        ___      __
+//      MM      6MMMMb    6MMMMb\  MM   d'      MM      6MMMMb    6MMbMMM
+//      MM     8M'  `Mb  MM'    `  MM  d'       MM     8M'  `Mb  6M'`Mb
+//      MM         ,oMM  YM.       MM d'        MM         ,oMM  MM  MM
+//      MM     ,6MM9'MM   YMMMMb   MMdM.        MM     ,6MM9'MM  YM.,M9
+//      MM     MM'   MM       `Mb  MMPYM.       MM     MM'   MM   YMM9
+//      MM     MM.  ,MM  L    ,MM  MM  YM.      MM     MM.  ,MM  (M
+//     _MM_    `YMMM9'Yb.MYMMMM9  _MM_  YM._   _MM_    `YMMM9'Yb. YMMMMb.
+//                                                               6M    Yb
+//                                                               YM.   d9
+//                                                                YMMMM9
         {
             "name": "Table-of-Contents",
             "scope": "meta.toc-list",
@@ -2676,19 +2765,33 @@
             "font_style": "",
         },
 //  __________
-//  MMMMMMMMMM                                                          68b
-//  /   MM   \                                                          Y89             /
-//      MM     ____    ___ __ ____     ____     ____     ____   ___  __ ___ __ ____    /M
-//      MM     `MM(    )M' `M6MMMMb   6MMMMb   6MMMMb\  6MMMMb. `MM 6MM `MM `M6MMMMb  /MMMMM
-//      MM      `Mb    d'   MM'  `Mb 6M'  `Mb MM'    ` 6M'   Mb  MM69 "  MM  MM'  `Mb  MM
-//      MM       YM.  ,P    MM    MM MM    MM YM.      MM    `'  MM'     MM  MM    MM  MM
-//      MM        MM  M     MM    MM MMMMMMMM  YMMMMb  MM        MM      MM  MM    MM  MM
-//      MM        `Mbd'     MM    MM MM            `Mb MM        MM      MM  MM    MM  MM
-//      MM         YMP      MM.  ,M9 YM    d9 L    ,MM YM.   d9  MM      MM  MM.  ,M9  YM.  ,
-//     _MM_         M       MMYMMM9   YMMMM9  MYMMMM9   YMMMM9  _MM_    _MM_ MMYMMM9    YMMM9
-//                 d'       MM                                               MM
-//             (8),P        MM                                               MM
-//              YMM        _MM_                                             _MM_
+//  MMMMMMMMMM
+//  /   MM   \
+//      MM     ____    ___ __ ____     ____
+//      MM     `MM(    )M' `M6MMMMb   6MMMMb
+//      MM      `Mb    d'   MM'  `Mb 6M'  `Mb
+//      MM       YM.  ,P    MM    MM MM    MM
+//      MM        MM  M     MM    MM MMMMMMMM
+//      MM        `Mbd'     MM    MM MM
+//      MM         YMP      MM.  ,M9 YM    d9
+//     _MM_         M       MMYMMM9   YMMMM9
+//                 d'       MM
+//             (8),P        MM
+//              YMM        _MM_
+//
+//                            68b
+//                            Y89             /
+//    ____     ____   ___  __ ___ __ ____    /M
+//   6MMMMb\  6MMMMb. `MM 6MM `MM `M6MMMMb  /MMMMM
+//  MM'    ` 6M'   Mb  MM69 "  MM  MM'  `Mb  MM
+//  YM.      MM    `'  MM'     MM  MM    MM  MM
+//   YMMMMb  MM        MM      MM  MM    MM  MM
+//       `Mb MM        MM      MM  MM    MM  MM
+//  L    ,MM YM.   d9  MM      MM  MM.  ,M9  YM.  ,
+//  MYMMMM9   YMMMM9  _MM_    _MM_ MMYMMM9    YMMM9
+//                                 MM
+//                                 MM
+//                                _MM_
         {
             "name": "Builtin type",
             "scope": "support.type.builtin",
@@ -2716,20 +2819,32 @@
             "background": "#07019AC3",
             "font_style": "bold italic"
         },
-//  ____     ___        _         ____      ____         ,M'________
-//  `MM(     )M'       dM.       6MMMMb/   6MMMMb/       dP `MMMMMMMb. 68b
-//   `MM.    d'       ,MMb      8P    YM  8P    YM      ,M'  MM    `Mb Y89
-//    `MM.  d'        d'YM.    6M      Y 6M      Y      dP   MM     MM ___   ____     _____   ___  __
-//     `MM d'        ,P `Mb    MM        MM            ,M'   MM    .M9 `MM  6MMMMb\  6MMMMMb  `MM 6MMb
-//      `MM'         d'  YM.   MM        MM            dP    MMMMMMM(   MM MM'    ` 6M'   `Mb  MMM9 `Mb
-//       MM         ,P   `Mb   MM        MM           ,M'    MM    `Mb  MM YM.      MM     MM  MM'   MM
-//       MM         d'    YM.  MM        MM           dP     MM     MM  MM  YMMMMb  MM     MM  MM    MM
-//       MM        ,MMMMMMMMb  YM      6 YM      6   ,M'     MM     MM  MM      `Mb MM     MM  MM    MM
-//       MM        d'      YM.  8b    d9  8b    d9   dP      MM    .M9  MM L    ,MM YM.   ,M9  MM    MM
-//      _MM_     _dM_     _dMM_  YMMMM9    YMMMM9   ,M'     _MMMMMMM9' _MM_MYMMMM9   YMMMMM9  _MM_  _MM_
+//  ____     ___        _         ____      ____         ,M'
+//  `MM(     )M'       dM.       6MMMMb/   6MMMMb/       dP
+//   `MM.    d'       ,MMb      8P    YM  8P    YM      ,M'
+//    `MM.  d'        d'YM.    6M      Y 6M      Y      dP
+//     `MM d'        ,P `Mb    MM        MM            ,M'
+//      `MM'         d'  YM.   MM        MM            dP
+//       MM         ,P   `Mb   MM        MM           ,M'
+//       MM         d'    YM.  MM        MM           dP
+//       MM        ,MMMMMMMMb  YM      6 YM      6   ,M'
+//       MM        d'      YM.  8b    d9  8b    d9   dP
+//      _MM_     _dM_     _dMM_  YMMMM9    YMMMM9   ,M'
 //                                                  dP
 //                                                 ,M'
 //                                                 dP
+//  ________
+//  `MMMMMMMb. 68b
+//   MM    `Mb Y89
+//   MM     MM ___   ____     _____   ___  __
+//   MM    .M9 `MM  6MMMMb\  6MMMMMb  `MM 6MMb
+//   MMMMMMM(   MM MM'    ` 6M'   `Mb  MMM9 `Mb
+//   MM    `Mb  MM YM.      MM     MM  MM'   MM
+//   MM     MM  MM  YMMMMb  MM     MM  MM    MM
+//   MM     MM  MM      `Mb MM     MM  MM    MM
+//   MM    .M9  MM L    ,MM YM.   ,M9  MM    MM
+//  _MMMMMMM9' _MM_MYMMMM9   YMMMMM9  _MM_  _MM_
+
         {
             "name": "class accessor notation",
             "scope": "punctuation.accessor",
