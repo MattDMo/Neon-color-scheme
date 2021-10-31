@@ -18,6 +18,7 @@ Just for clarity's sake: **Neon** is an original work and wasn't based on any ot
 Neon's main goal is to make as many languages as possible look as good as possible. That being said, there are some language/markup/framework-specific scopes and sections that you might be interested in:
 
 * [Android Debug Bridge](https://packagecontrol.io/packages/ADBView)/[logcat](https://github.com/leesei/logcat.tmLanguage)
+* [AutoHotKey](https://packagecontrol.io/packages/AutoHotKey)
 * Bison/YACC
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 * C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
