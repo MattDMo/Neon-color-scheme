@@ -135,7 +135,7 @@
         },
         {
             "name": "Numbers",
-            "scope": "constant.numeric",
+            "scope": "constant.numeric, punctuation.separator.decimal",
             "foreground": "#FF0604"
         },
         {
@@ -210,6 +210,12 @@
             "scope": "variable.language, variable.parameter.function.language",
             "foreground": "#0AEDFF",
             "font_style": "italic"
+        },
+        {
+            "name": "Label Variable",
+            "scope": "variable.label, variable.label punctuation.definition.variable",
+            "background": "#FF45003F",
+            "foreground": "#0801FE"
         },
         {
             "name": "Entity-Other",
@@ -480,20 +486,20 @@
             "scope": "brackethighlighter.bash",
             "foreground": "#0B93FF"
         },
-//     ____         ,M'   ____
-//    6MMMMb/       dP   6MMMMb/
-//   8P    YM      ,M'  8P    YM
-//  6M      Y      dP  6M      Y
-//  MM            ,M'  MM           M       M
-//  MM            dP   MM           M       M
-//  MM           ,M'   MM           M       M
-//  MM           dP    MM        MMMMMMM MMMMMMM
-//  YM      6   ,M'    YM      6    M       M
-//   8b    d9   dP      8b    d9    M       M
-//    YMMMM9   ,M'       YMMMM9     M       M
-//             dP
-//            ,M'
-//            dP
+//     ____         ,M'   ____                         ,M'   ____
+//    6MMMMb/       dP   6MMMMb/                       dP   6MMMMb/
+//   8P    YM      ,M'  8P    YM                      ,M'  8P    YM      dP dP
+//  6M      Y      dP  6M      Y                      dP  6M      Y     ,M',M'
+//  MM            ,M'  MM           M       M        ,M'  MM            dP dP
+//  MM            dP   MM           M       M        dP   MM           ,M',M'
+//  MM           ,M'   MM           M       M       ,M'   MM         MMMMMMMM
+//  MM           dP    MM        MMMMMMM MMMMMMM    dP    MM          ,M',M'
+//  YM      6   ,M'    YM      6    M       M      ,M'    YM      6  MMMMMMMM
+//   8b    d9   dP      8b    d9    M       M      dP      8b    d9  ,M',M'
+//    YMMMM9   ,M'       YMMMM9     M       M     ,M'       YMMMM9   dP dP
+//             dP                                 dP                ,M',M'
+//            ,M'                                ,M'                dP dP
+//            dP                                 dP
         {
             "name": "C/C++ struct, union",
             "scope": "entity.name.struct, entity.name.union",
@@ -537,6 +543,42 @@
             "scope": "keyword.other.preprocessor.include",
             "background": "#070583",
             "font_style": "bold"
+        },
+        {
+            "name": "C# Nullable Type",
+            "scope": "storage.type.nullable",
+            "background": "#070583",
+            "font_style": "bold"
+        },
+        {
+            "name": "C# Reflection",
+            "scope": "keyword.operator.reflection",
+            "foreground": "#0D09F6",
+            "font_style": "bold"
+        },
+        {
+            "name": "C# Method Definition",
+            "scope": "meta.method entity.name.function",
+            "foreground": "#0AFF04",
+            "background": "#07019A",
+            "font_style": "bold"
+        },
+        {
+            "name": "C# Inline Documentation",
+            "scope": "comment.line.documentation",
+            "background": "#7F817E2A",
+        },
+        {
+            "name": "C# Inline Documentation Comment Symbol",
+            "scope": "punctuation.definition.comment.documentation",
+            "foreground": "#DE7468",
+            "font_style": ""
+        },
+        {
+            "name": "C# Inline Documentation Text",
+            "scope": "comment.line.documentation text.documentation",
+            "foreground": "#218B97",
+            "font_style": "italic"
         },
 //     ____   ___
 //    6MMMMb/ `MM               68b
@@ -710,7 +752,13 @@
             "name": "CSS: Flag",
             "scope": "keyword.other.important.css",
             "foreground": "#FF0000",
-            "font_style": "bold italic"
+            "font_style": "glow"
+        },
+        {
+            "name": "CSS: Numeric Suffix",
+            "scope": "constant.numeric.suffix",
+            "background": "#FF060433",
+            "font_style": ""
         },
         {
             "name": "SASS: Block comment",
@@ -1011,6 +1059,12 @@
             "name": "Tag",
             "scope": "meta.tag entity.name, entity.name.tag",
             "foreground": "#FF6803",
+            "font_style": "bold"
+        },
+        {
+            "name": "Namespace",
+            "scope": "entity.name.tag.namespace",
+            "foreground": "#FF03C4",
             "font_style": "bold"
         },
         {
@@ -1942,7 +1996,7 @@
         },
         {
             "name": "Format spec string",
-            "scope": "constant.other.placeholder constant.other.format-spec.python",
+            "scope": "constant.other.placeholder.python, constant.other.placeholder constant.other.format-spec.python",
             "foreground": "#CC0099",
             "font_style": "italic",
         },
@@ -2818,6 +2872,13 @@
             "foreground": "#BD0F66",
             "background": "#07019AC3",
             "font_style": "bold italic"
+        },
+        {
+            "name": "JSDoc link",
+            "scope": "variable.other.link.underline.jsdoc",
+            "foreground": "#3920FF",
+            // "background": "#07019AC3",
+            "font_style": "underline"
         },
 //  ____     ___        _         ____      ____         ,M'
 //  `MM(     )M'       dM.       6MMMMb/   6MMMMb/       dP
