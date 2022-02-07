@@ -30,6 +30,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * `Find In Files`
 * [Fortran](https://packagecontrol.io/packages/Fortran)
 * [Git Gutter](https://packagecontrol.io/packages/GitGutter)
+* [Handlebars](https://packagecontrol.io/packages/Handlebars)
 * Haskell
 * HTML/XML
 * Java
@@ -38,10 +39,13 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * JSON
 * JSX/[Babel/React](https://packagecontrol.io/packages/Babel)
 * LaTeX
+* Lua
+* Makefile
 * Markdown/reStructuredText
 * Matlab
 * [Mediawiker](https://packagecontrol.io/packages/Mediawiker) wiki markup
 * [PackageDev](https://packagecontrol.io/packages/PackageDev) `.sublime-settings`, `.sublime-keymap`, `.sublime-mousemap`, `.sublime-macro`, `.YAML-tmLanguage`, etc.
+* Perl
 * PHP/[Laravel Blade](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
 * Python
     - [IPython](http://ipython.org)/[Jupyter](http://jupyter.org) within [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL)
@@ -65,7 +69,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * [Vue](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight)
 * YAML
 
-For major changes, I'll test most if not all of the above languages, as well as Makefile, Lua, and Perl, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
+For major changes, I'll test most if not all of the above languages, with maybe some others thrown in for fun. When I say "as many languages as possible" I mean it!
 
 ![Regex Find/Replace with Neon Color Scheme](https://mattdmo.com/img/regex_widget_win.png)
 
@@ -102,6 +106,14 @@ The easiest method is through [Package Control](https://packagecontrol.io/), whi
 ```
 
 If you were using the old pre-3.0 version of **Neon**, the file name was `Neon.tmTheme`. I switched to the `.sublime-color-scheme` format both because JSON is far easier to work with than XML, and there are some cool new features in Sublime Text 4 that don't work with `.tmTheme` files.
+
+## Can you make a version for Visual Studio Code?
+
+The short answer is no.
+
+This is because, in all of their Microsofty wisdom, the VSCode developers decided to use a JSON-based translation of TextMate's `.tmTheme` format, *but they decided to not support the `"background"` property*, because... I don't know, reasons. Something about it interfering with the editor's capability to highlight code on its own. See [this 2016 issue](https://github.com/microsoft/vscode/issues/3429) for an exhausting discussion of why. My 2&cent; are down near the bottom. There seems to be overwhelming support for this feature, so make your voice heard!
+
+So what does this have with Neon? Well, of the over 400 named scopes I have (not counting [global settings](https://www.sublimetext.com/docs/color_schemes.html#global_settings) like `"highlight_color"`), about 100 of them have a `"background"` color. Some scopes would look okay without a background color, although they wouldn't be able to be differentiated from other scopes with just that foreground color, but some would look terrible, and others might only be barely visible on the black background. The time it would take me to pick through all those scopes and redesign them so they still look good in the context of the language(s), all for an editor that I don't even like that much, is just too much. I'm not going to sacrifice quality just because they decided to not implement background colors.
 
 ## TextMate Installation:
 
