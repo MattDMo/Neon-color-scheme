@@ -261,12 +261,12 @@
         },
         {
             "name": "Function call",
-            "scope": "meta.function-call, support.function.name, meta.function-call punctuation.definition.parameters, meta.function-call variable.function, meta.function-call entity.name.function.js, support.function.source.rust, meta.function-call meta.function-call.generic, support.function.any-method",
+            "scope": "meta.function-call, support.function.name, meta.function-call punctuation.definition.parameters, meta.function-call variable.function, meta.function-call entity.name.function.js, support.function.source.rust, meta.function-call meta.function-call.generic, support.function.any-method, meta.function.inline.other variable.parameter",
             "foreground": "#10FF02"
         },
         {
             "name": "Function arguments",
-            "scope": "meta.function-call.arguments, meta.function-call.parameters variable.parameter",
+            "scope": "meta.function-call.arguments, meta.function-call.parameters variable.parameter, support.function.any-method, meta.function.inline.other entity.other.attribute-value variable.parameter",
             "foreground": "#2BB71D",
             "font_style": "italic"
         },
@@ -1071,6 +1071,16 @@
             "name": "Tag Punctuation",
             "scope": "punctuation.definition.tag, meta.tag.validhtml",
             "foreground": "#02AEFF"
+        },
+        {
+            "name": "Inline tag strings",
+            "scope": "meta.tag.inline.any string",
+            "font_style": ""
+        },
+        {
+            "name": "Template braces",
+            "scope": "meta.function.inline.other support.constant",
+            "font_style": "bold italic glow"
         },
 //  _______      _______
 //  `MM'`MM\     `M'`MM'
