@@ -1,0 +1,28 @@
+Neon Color Scheme v3.2.1
+========================
+
+It's been a little while and I've made some changes and tweaks, so I figured it's
+time for a new release!
+
+Changes since 3.2.0:
+
+- Specific support for new languages:
+  - AutoHotKey
+  - C#
+  - Lisp
+
+- Added/modified existing scopes
+  - generic scopes
+  - CSS
+  - Find in Files
+  - HTML/XML
+  - Markup
+  - Python
+
+Enjoy the new version, and please send me feedback, good and bad!
+
+
+--Matt
+
+@MattDMo
+https://github.com/MattDMo/Neon-color-scheme/issues
