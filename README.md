@@ -22,6 +22,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * Bison/YACC
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 * C/C++/[C Improved](https://packagecontrol.io/packages/C%20Improved)
+* C#
 * Clojure/EDN
 * Coffeescript
 * CSS/SASS/SCSS - specifically, the [`Syntax Highlighting for SASS`](https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass) package
@@ -39,6 +40,7 @@ Neon's main goal is to make as many languages as possible look as good as possib
 * JSON
 * JSX/[Babel/React](https://packagecontrol.io/packages/Babel)
 * LaTeX
+* Lisp
 * Lua
 * Makefile
 * Markdown/reStructuredText
