@@ -2,7 +2,7 @@
 [![GitHub release](https://img.shields.io/github/release/mattdmo/neon-color-scheme.svg)](https://github.com/MattDMo/Neon-color-scheme/releases/latest)
 ![License](https://img.shields.io/github/license/mattdmo/neon-color-scheme)
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-3fabd1?logo=paypal)](https://paypal.me/MattMorrison966)
-![Stars](https://img.shields.io/github/stars/mattdmo/neon-color-scheme)
+![Stars](https://img.shields.io/github/stars/mattdmo/neon-color-scheme?style=social)
 
 
 # Neon Color Scheme
