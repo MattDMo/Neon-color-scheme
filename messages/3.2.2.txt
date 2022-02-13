@@ -1,0 +1,30 @@
+Neon Color Scheme v3.2.2
+========================
+
+Brightened up the string interpolation due to feedback. Also prettified Java a
+bit.
+
+Changes since 3.2.0:
+
+- Specific support for new languages:
+  - AutoHotKey
+  - C#
+  - Lisp
+
+- Added/modified existing scopes
+  - generic scopes
+  - CSS
+  - Find in Files
+  - HTML/XML
+  - Java
+  - LaTeX
+  - Markup
+  - Python
+
+Enjoy the new version, and please send me feedback, good and bad!
+
+
+--Matt
+
+@MattDMo
+https://github.com/MattDMo/Neon-color-scheme/issues
