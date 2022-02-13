@@ -102,7 +102,7 @@ I discovered [`Cousine`](https://www.google.com/fonts/specimen/Cousine) while br
 
 It was one of the first things I installed when setting up a new workstation or VM, and it used to be my go-to monospace font for web design and programming.
 
-For a while now, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the open-source [Liberation](https://fedorahosted.org/liberation-fonts/) font family, also designed by Matteson. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
+For a while now, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the open-source [Liberation](https://github.com/liberationfonts/liberation-fonts) font family, also initially designed by Matteson. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
 
 ![Rust with Neon Color Scheme](https://mattdmo.com/img/Rust_linux.png)
 
