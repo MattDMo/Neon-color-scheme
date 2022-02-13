@@ -112,7 +112,7 @@
         {
             "name": "Invalid Deprecated",
             "scope": "invalid.deprecated",
-            "foreground": "#FFFFFF",
+            "foreground": "#808080",
             "background": "#920808",
             "font_style": "bold italic"
         },
@@ -210,12 +210,6 @@
             "scope": "variable.language, variable.parameter.function.language",
             "foreground": "#0AEDFF",
             "font_style": "italic"
-        },
-        {
-            "name": "Label Variable",
-            "scope": "variable.label, variable.label punctuation.definition.variable",
-            "background": "#FF45003F",
-            "foreground": "#0801FE"
         },
         {
             "name": "Entity-Other",
@@ -1138,7 +1132,7 @@
         },
         {
             "name": "Java generic",
-            "scope": "storage.type.generic",
+            "scope": "meta.generic storage.type",
             "foreground": "#EAFF00",
             "background": "#343446"
         },
@@ -1154,6 +1148,13 @@
             "foreground": "#FFFF00",
             "background": "#57017C",
             "font_style": "italic"
+        },
+        {
+            "name": "Java primitive type",
+            "scope": "storage.type.primitive",
+            "foreground": "#23BCBB",
+            // "background": "#FFFF0080",
+            // "font_style": "italic"
         },
         {
             "name": "Java exception keywords",
@@ -1260,7 +1261,12 @@
         {
             "name": "String interpolation delimiters",
             "scope": "punctuation.section.interpolation",
-            "foreground": "#0D0DFF"
+            "foreground": "#4040FF",
+        },
+        {
+            "name": "String interpolation",
+            "scope": "meta.interpolation",
+            "background": "#FFBF0028",
         },
         {
             "name": "Vue - $",
@@ -1509,9 +1515,12 @@
         },
         {
             "name": "LaTeX label name",
-            "scope": "entity.name.label",
-            "foreground": "#FF4500",
-            "background": "#0701E29F"
+            "scope": "entity.name.label, variable.label, variable.label punctuation.definition.variable",
+            // "foreground": "#FF4500",
+            // "background": "#0701E29F",
+            "background": "#FF4500",
+            "foreground": "#0801FE",
+            "font_style": "bold"
         },
         {
             "name": "LaTeX ampersand",
@@ -1867,7 +1876,7 @@
         },
         {
             "name": "sublime-syntax meta.variable background",
-            "scope": "meta.variable",
+            "scope": "meta.variable.sublime-syntax",
             "background": "#2D7A3388"
         },
 //  ________   ____    ____________
