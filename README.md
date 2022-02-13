@@ -84,15 +84,25 @@ There are a bunch of scopes in here that are only found in my [`Python Improved`
 ![LaTeX with Neon Color Scheme](https://mattdmo.com/img/LaTeX_win.png)
 
 
+## Development Tools
+There are several plugins and other resources I use that are absolutely invaluable to my development efforts. First and foremost, I'm always using the latest [development version](https://www.sublimetext.com/dev) of Sublime Text 4, [registered](https://www.sublimetext.com/buy) of course. Some features of **Neon** are specific to ST4, so make sure you're up to date! It will still work in ST3 3.1 and above, just the experience won't be quite as good.
+
+There are two plugins that I couldn't do this without: [`ScopeAlways`](https://packagecontrol.io/packages/ScopeAlways) displays the scope of the current cursor position in the status bar, which is immensely helpful. The other is [@facelessuser's](https://packagecontrol.io/browse/authors/facelessuser) [`ColorHelper`](https://packagecontrol.io/packages/ColorHelper). Do you write CSS or any of its relatives? Do you do anything with color at all, in hex, RGB(A), HSL, LAB, or any one of a million other formats? If you're using one of those *other* color plugins, with difficult configuration and unreliable performance, dump it and install `ColorHelper`. It's simple to configure, yet incredibly powerful for all sorts of use cases. It provides configurable inline color previews, including with/without alpha. The color picker is custom-made and very easy to use, with palette and slider modes, the latter of which allows for very minute adjustments of each channel that you're working with. Seriously, this thing is awesome. Throw this guy [some love](https://facelessuser.github.io/ColorHelper/about/contributing/#contributing--support) while you're at it - he deserves it! He also maintains [`BracketHighlighter`](https://packagecontrol.io/packages/BracketHighlighter), [`ApplySyntax`](https://packagecontrol.io/packages/ApplySyntax), [`ExportHTML`](https://packagecontrol.io/packages/ExportHTML), and a bunch of other stuff.
+
+I want to thank the authors of all the language-specific plugins I listed above, as I have them installed, and couldn't make **Neon** what it is without them. If you've written a language syntax, or even just know of one that's not listed and you'd like Neon to support it better, just [drop me a line](https://github.com/MattDMo/Neon-color-scheme/issues/new).
+
+The last resource I make use of somewhat often is this fantastic website: [colortools.net](https://www.colortools.net/). It complements `ColorHelper` very well, with options like opposite colors (very useful for finding good foreground/background pairs), close colors and color similarity, a text on background preview, and a whole lot more. Many of the tools also have a "web-safe" option if your work requires that.
+
+
 ## What Font is That?
 
 I discovered [`Cousine`](https://www.google.com/fonts/specimen/Cousine) while browsing Google Fonts one day and absolutely love it.
 
-> Cousine was designed by [Steve Matteson](https://profiles.google.com/107777320916704234605/about) as an innovative, refreshing sans serif design that is metrically compatible with Courier New™. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms.
+> Cousine was designed by [Steve Matteson](https://en.wikipedia.org/wiki/Steve_Matteson) as an innovative, refreshing sans serif design that is metrically compatible with Courier New™. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms.
 
-It's one of the first things I install when setting up a new workstation or VM, and it used to be my go-to monospace font for web design and programming.
+It was one of the first things I installed when setting up a new workstation or VM, and it used to be my go-to monospace font for web design and programming.
 
-For a while now, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the [Liberation](https://fedorahosted.org/liberation-fonts/) font family. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
+For a while now, I've been using [`Liberation Mono`](http://www.fontsquirrel.com/fonts/Liberation-Mono), part of the open-source [Liberation](https://fedorahosted.org/liberation-fonts/) font family, also designed by Matteson. It's almost an exact duplicate of Cousine (with a few minor differences), and has the advantage of being available for Fedora (out of the box) and RHEL/CentOS as `liberation-fonts`, and as `ttf-liberation` for Debian and Ubuntu (my current distro of choice).
 
 ![Rust with Neon Color Scheme](https://mattdmo.com/img/Rust_linux.png)
 
