@@ -1,6 +1,9 @@
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Neon%20Color%20Scheme.svg)](https://packagecontrol.io/packages/Neon%20Color%20Scheme)
 [![GitHub release](https://img.shields.io/github/release/mattdmo/neon-color-scheme.svg)](https://github.com/MattDMo/Neon-color-scheme/releases/latest)
+![License](https://img.shields.io/github/license/mattdmo/neon-color-scheme)
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-3fabd1?logo=paypal)](https://paypal.me/MattMorrison966)
+![Stars](https://img.shields.io/github/stars/mattdmo/neon-color-scheme)
+
 
 # Neon Color Scheme
 
@@ -12,6 +15,7 @@ Just for clarity's sake: **Neon** is an original work and wasn't based on any ot
 ![Python with Neon Color Scheme](https://mattdmo.com/img/Python_win.png)
 
 ![Ruby with Neon Color Scheme](https://mattdmo.com/img/Ruby_macOS.png)
+
 
 ## Languages/Plugins Supported
 
@@ -85,11 +89,12 @@ There are a bunch of scopes in here that are only found in my [`Python Improved`
 
 
 ## Development Tools
+
 There are several plugins and other resources I use that are absolutely invaluable to my development efforts. First and foremost, I'm always using the latest [development version](https://www.sublimetext.com/dev) of Sublime Text 4, [registered](https://www.sublimetext.com/buy) of course. Some features of **Neon** are specific to ST4, so make sure you're up to date! It will still work in ST3 3.1 and above, just the experience won't be quite as good.
 
 There are two plugins that I couldn't do this without: [`ScopeAlways`](https://packagecontrol.io/packages/ScopeAlways) displays the scope of the current cursor position in the status bar, which is immensely helpful. The other is [@facelessuser's](https://packagecontrol.io/browse/authors/facelessuser) [`ColorHelper`](https://packagecontrol.io/packages/ColorHelper). Do you write CSS or any of its relatives? Do you do anything with color at all, in hex, RGB(A), HSL, LAB, or any one of a million other formats? If you're using one of those *other* color plugins, with difficult configuration and unreliable performance, dump it and install `ColorHelper`. It's simple to configure, yet incredibly powerful for all sorts of use cases. It provides configurable inline color previews, including with/without alpha. The color picker is custom-made and very easy to use, with palette and slider modes, the latter of which allows for very minute adjustments of each channel that you're working with. Seriously, this thing is awesome. Throw this guy [some love](https://facelessuser.github.io/ColorHelper/about/contributing/#contributing--support) while you're at it - he deserves it! He also maintains [`BracketHighlighter`](https://packagecontrol.io/packages/BracketHighlighter), [`ApplySyntax`](https://packagecontrol.io/packages/ApplySyntax), [`ExportHTML`](https://packagecontrol.io/packages/ExportHTML), and a bunch of other stuff.
 
-I want to thank the authors of all the language-specific plugins I listed above, as I have them installed, and couldn't make **Neon** what it is without them. If you've written a language syntax, or even just know of one that's not listed and you'd like Neon to support it better, just [drop me a line](https://github.com/MattDMo/Neon-color-scheme/issues/new).
+I want to thank the authors of all the language-specific plugins I listed above, as I have them installed, and couldn't make **Neon** what it is without them. Included in that bunch is the group working on the [default Sublime packages](https://github.com/sublimehq/Packages). If you've written a language syntax, or even just know of one that's not listed and you'd like Neon to support it better, just [drop me a line](https://github.com/MattDMo/Neon-color-scheme/issues/new).
 
 The last resource I make use of somewhat often is this fantastic website: [colortools.net](https://www.colortools.net/). It complements `ColorHelper` very well, with options like opposite colors (very useful for finding good foreground/background pairs), close colors and color similarity, a text on background preview, and a whole lot more. Many of the tools also have a "web-safe" option if your work requires that.
 
@@ -113,19 +118,12 @@ For a while now, I've been using [`Liberation Mono`](http://www.fontsquirrel.com
 
 The easiest method is through [Package Control](https://packagecontrol.io/), which now comes with Sublime Text. Open the Command Palette with <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> (Windows/Linux) or <kbd>⌘</kbd><kbd>Shift</kbd><kbd>P</kbd> (macOS) and type ***`pci`*** to bring up `Package Control: Install`. Hit <kbd>Enter</kbd>, type in `neon`, and `Neon Color Scheme` should show up. Select it, then activate the theme by choosing the `Preferences -> Select Color Scheme… -> Neon` menu option. Alternatively, paste the following line in `Packages/User/Preferences.sublime-settings` (`Preferences -> Settings`, right-side pane):
 
-```js
+```
 "color_scheme": "Packages/Neon Color Scheme/Neon.sublime-color-scheme"
 ```
 
-If you were using the old pre-3.0 version of **Neon**, the file name was `Neon.tmTheme`. I switched to the `.sublime-color-scheme` format both because JSON is far easier to work with than XML, and there are some cool new features in Sublime Text 4 that don't work with `.tmTheme` files.
+If you were using the old pre-3.0 version of **Neon**, the file name was `Neon.tmTheme`. I switched to the `.sublime-color-scheme` format both because JSON is far easier to work with than XML, and there are some [cool new features](https://www.sublimetext.com/docs/color_schemes.html) in Sublime Text 4 that don't work with `.tmTheme` files.
 
-## Can you make a version for Visual Studio Code?
-
-The short answer is no.
-
-This is because, in all of their Microsofty wisdom, the VSCode developers decided to use a JSON-based translation of TextMate's `.tmTheme` format, *but they decided to not support the `"background"` property*, because... I don't know, reasons. Something about it interfering with the editor's capability to highlight code on its own. See [this 2016 issue](https://github.com/microsoft/vscode/issues/3429) for an exhausting discussion of why. My 2&cent; are down near the bottom. There seems to be overwhelming support for this feature, so make your voice heard!
-
-So what does this have with Neon? Well, of the over 400 named scopes I have (not counting [global settings](https://www.sublimetext.com/docs/color_schemes.html#global_settings) like `"highlight_color"`), about 100 of them have a `"background"` color. Some scopes would look okay without a background color, although they wouldn't be able to be differentiated from other scopes with just that foreground color, but some would look terrible, and others might only be barely visible on the black background. The time it would take me to pick through all those scopes and redesign them so they still look good in the context of the language(s), all for an editor that I don't even like that much, is just too much. I'm not going to sacrifice quality just because they decided to not implement background colors.
 
 ## TextMate Installation:
 
@@ -135,11 +133,22 @@ Due to the switch to the `.sublime-color-scheme` format, TextMate is no longer s
 
 ![C with Neon Color Scheme](https://mattdmo.com/img/C_macOS.png)
 
+
+## Can you make a version for Visual Studio Code?
+
+The short answer is no.
+
+This is because, in all of their Microsofty wisdom, the VSCode developers decided to use a JSON-based translation of TextMate's `.tmTheme` format, *but they decided to not support the `"background"` property*, because... I don't know, reasons. Something about it interfering with the editor's capability to highlight code on its own. See [this 2016 issue](https://github.com/microsoft/vscode/issues/3429) for an exhausting discussion of why. My 2&cent; are down near the bottom. There seems to be overwhelming support for this feature, so make your voice heard!
+
+So what does this have to do with **Neon**? Well, of the over 400 named scopes I have (not counting [global settings](https://www.sublimetext.com/docs/color_schemes.html#global_settings) like `"highlight_color"`), about 100 of them have a `"background"` color. Some scopes would look okay without a background color, although they wouldn't be able to be differentiated from other scopes with just that foreground color, but some would look terrible, and others might only be barely visible on the default black background. The time it would take me to pick through all those scopes and redesign them so they still look good in the context of the language(s), all for an editor that I don't even like that much, is just too much. I'm not going to sacrifice quality just because they decided to not implement background colors. If you want to fork and do it yourself, go for it!
+
+
 ## Issues
 
 If you have questions, concerns, or suggested improvements, I'd love to hear from you! Feel free to [open an issue](https://github.com/MattDMo/Neon-sublime-theme/issues/new) or send a [pull request](https://github.com/MattDMo/Neon-sublime-theme/compare/) and I'll get back to you as soon as I can. You can also ping me on the Twitters [@MattDMo](https://twitter.com/MattDMo), or catch me on the [Sublime Discord server](https://discord.com/channels/280102180189634562/280102180189634562).
 
 ![JSON with Neon Color Scheme](https://mattdmo.com/img/JSON_macOS.png)
+
 
 ## License
 
