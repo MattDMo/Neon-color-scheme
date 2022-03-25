@@ -998,6 +998,30 @@
             "foreground": "#FDA7FF",
             "background": "#43215B"
         },
+        {
+            "name": "Preprocessor punctuation",
+            "scope": "punctuation.section.preprocessor",
+            "foreground": "#FB60FF",
+            "background": "#43215B"
+        },
+        {
+            "name": "Imports",
+            "scope": "entity.name.import",
+            "foreground": "#79E6E5",
+            "background": "#070040"
+        },
+        {
+            "name": "Exports",
+            "scope": "entity.name.export",
+            "background": "#79E6E5",
+            "foreground": "#070040"
+        },
+        {
+            "name": "support.function.prelude",
+            "scope": "support.function.prelude",
+            "foreground": "#75FF60",
+            // "background": "#070040"
+        },
 //  ____    ______________ ___       _______           ,M'
 //  `MM'    `MM'MMMMMMMMMM `MMb     dMM'`MM'           dP
 //   MM      MM /   MM   \  MMM.   ,PMM  MM           ,M'
@@ -2479,6 +2503,65 @@
             "name": "Rust function",
             "scope": "support.function.rust",
             "foreground": "#10FF02"
+        },
+//    ____      ____          _      ________
+//   6MMMMb\   6MMMMb/       dM.     `MMMMMMMb.
+//  6M'    `  8P    YM      ,MMb      MM    `Mb
+//  MM       6M      Y      d'YM.     MM     MM
+//  YM.      MM            ,P `Mb     MM     MM
+//   YMMMMb  MM            d'  YM.    MM     MM
+//       `Mb MM           ,P   `Mb    MM     MM
+//        MM MM           d'    YM.   MM     MM
+//        MM YM      6   ,MMMMMMMMb   MM     MM
+//  L    ,M9  8b    d9   d'      YM.  MM    .M9
+//  MYMMMM9    YMMMM9  _dM_     _dMM__MMMMMMM9'
+        {
+            "name": "SCAD function",
+            "scope": "entity.name.function.scad",
+            "foreground": "#E2FF09",
+            "background": "#000B76"
+        },
+        {
+            "name": "SCAD module parameters",
+            "scope": "variable.parameter.module",
+            "foreground": "#FFF57F",
+            "font_style": "italic"
+        },
+        {
+            "name": "SCAD special variable",
+            "scope": "variable.parameter.special",
+            "foreground": "#0042FF",
+            "font_style": "italic"
+        },
+        {
+            "name": "SCAD transformation function",
+            "scope": "support.function.transformations",
+            "foreground": "#81FF00",
+            "font_style": "italic"
+        },
+        {
+            "name": "SCAD primitives function",
+            "scope": "support.function.primitives",
+            "foreground": "#FFBF00",
+            "font_style": "italic"
+        },
+        {
+            "name": "SCAD CSG function",
+            "scope": "support.function.csg",
+            "foreground": "#E0FF00",
+            "font_style": "italic"
+        },
+        {
+            "name": "SCAD math function",
+            "scope": "support.function.math",
+            "foreground": "#FF5F00",
+            "font_style": "italic"
+        },
+        {
+            "name": "SCAD trig function",
+            "scope": "support.function.trigonometric",
+            "foreground": "#00FF9E",
+            "font_style": "italic"
         },
 //    ____                      ___
 //   6MMMMb\                    `MM
