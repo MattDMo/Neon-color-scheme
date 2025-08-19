@@ -1,0 +1,31 @@
+Neon Color Scheme v3.3.0
+========================
+
+Added Graphviz (DOT) highlighting. Improved/added some C/C++, Python, shell
+script, and other scopes.
+
+Changes since 3.2.2:
+
+- Specific support for new languages:
+  - Graphviz (DOT)
+
+- Added/modified existing scopes
+  - generic scopes:
+    - dict/mapping values
+    - namespace names
+  - C/C++:
+    - #include
+    - #define
+  - Python:
+    - decorator arguments (from vaultah/Neon-color-scheme)
+    - dict variable keys and values
+  - Shell:
+    - added highlighting for the shebang line
+
+Enjoy the new version, and please send me feedback, good and bad!
+
+
+--Matt
+
+@MattDMo
+https://github.com/MattDMo/Neon-color-scheme/issues
