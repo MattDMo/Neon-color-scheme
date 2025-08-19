@@ -2085,7 +2085,7 @@
         },
         {
             "name": "Python docstring",
-            "scope": "comment.block.documentation.python",
+            "scope": "comment.block.documentation.python, comment.block.documentation.summary.python",
             "foreground": "#218B97",
             "font_style": "italic"
         },
