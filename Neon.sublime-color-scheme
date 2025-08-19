@@ -1353,6 +1353,14 @@
             "foreground": "#FF0D6C",
             "font_style": "bold italic"
         },
+        // disable function argument italics in JS/TS, as nested upon nested
+        // functions are the norm. Overrides earlier generic rule.
+        {
+            "name": "JS/TS Function arguments",
+            "scope": "meta.function-call.arguments.js",
+            "foreground": "#2BB71D",
+            "font_style": "normal"
+        },
 //       ____  ____      ____    ___      ___
 //       `MM' 6MMMMb\   6MMMMb   `MM\     `M'
 //        MM 6M'    `  8P    Y8   MMM\     M
