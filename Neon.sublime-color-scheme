@@ -234,7 +234,7 @@
         },
         {
             "name": "Dict Value",
-            "scope": "meta.structure.dictionary.value",
+            "scope": "meta.structure.dictionary.value, meta.mapping.value",
             "foreground": "#7DC5F9"
         },
         {
@@ -523,7 +523,7 @@
         },
         {
             "name": "C/C++ \"include\"",
-            "scope": "string.quoted.double.include",
+            "scope": "string.quoted.double.include",// keyword.control.import.include",
             "foreground": "#FF65BE"
         },
         {
@@ -533,9 +533,9 @@
             "font_style": "bold"
         },
         {
-            "name": "C Improved preprocessor #define",
-            "scope": "keyword.other.preprocessor.include",
-            "background": "#070583",
+            "name": "C preprocessor #define",
+            "scope": "keyword.other.preprocessor.define, keyword.control.import.define",
+            "foreground": "#31AE4F",
             "font_style": "bold"
         },
         {
@@ -607,7 +607,7 @@
         },
         {
             "name": "Namespace",
-            "scope": "entity.name.namespace",
+            "scope": "entity.name.namespace, variable.namespace",
             "foreground": "#CFFF01",
             "background": "#070E48",
             "font_style": "bold"
@@ -969,6 +969,56 @@
             "name": "GitGutter changed",
             "scope": "markup.changed.git_gutter",
             "foreground": "#FFFF00"
+        },
+//     ____                               ___
+//    6MMMMb/                             `MM                   68b
+//   8P    YM                              MM                   Y89
+//  6M      Y ___  __    ___    __ ____    MM  __   ____    ___ ___ _________
+//  MM        `MM 6MM  6MMMMb   `M6MMMMb   MM 6MMb  `MM(    )M' `MM MMMMMMMMP
+//  MM         MM69 " 8M'  `Mb   MM'  `Mb  MMM9 `Mb  `Mb    d'   MM /    dMP
+//  MM     ___ MM'        ,oMM   MM    MM  MM'   MM   YM.  ,P    MM     dMP
+//  MM     `M' MM     ,6MM9'MM   MM    MM  MM    MM    MM  M     MM    dMP
+//  YM      M  MM     MM'   MM   MM    MM  MM    MM    `Mbd'     MM   dMP
+//   8b    d9  MM     MM.  ,MM   MM.  ,M9  MM    MM     YMP      MM  dMP    /
+//    YMMMM9  _MM_    `YMMM9'Yb. MMYMMM9  _MM_  _MM_     M      _MM_dMMMMMMMM
+//                               MM
+//                               MM
+//                              _MM_
+        {
+            "name": "Graph name",
+            "scope": "entity.name.graph",
+            "foreground": "#E2FF09",
+            "background": "#000B76"
+        },
+        {
+            "name": "Component name",
+            "scope": "meta.group.dot storage.type.dot ",
+            "foreground": "#06FF05",
+            "background": "#000B76"
+        },
+        {
+            "name": "sub-component name",
+            "scope": "meta.group meta.group storage.type.dot ",
+            "foreground": "#DC05FF",
+            // "background": "#000B76"
+        },
+        {
+            "name": "Graph/Node/Edge Attribute",
+            "scope": "support.constant.attribute.graph, support.constant.attribute.node, support.constant.attribute.edge",
+            "foreground": "#008EDF",
+            "font_style": "italic"
+        },
+        {
+            "name": "Attributes",
+            "scope": "meta.attributes.dot",
+            "foreground": "#DB1E44",
+            // "background": "#000B76"
+        },
+        {
+            "name": "Relationship operator",
+            "scope": "keyword.operator.relationship.dot",
+            "foreground": "#A7A3FF",
+            "background": "#020040"
         },
 //  ____    ____                   ___                ___ ___
 //  `MM'    `MM'                   `MM                `MM `MM
@@ -2106,6 +2156,13 @@
             "background": "#07019A",
             "font_style": "bold"
         },
+        // from vaultah/Neon-color-scheme
+        {
+            "name": "Decorator argument",
+            "scope": "meta.annotation.arguments meta.qualified-name",
+            "background": "",
+            // "font_style": "bold"
+        },
         {
             "name": "Django models",
             "scope": "support.type.django.model",
@@ -2178,6 +2235,19 @@
             "scope": "support.function.magic",
             "foreground": "#E3A0FF",
             "font_style": "bold italic"
+        },
+        {
+            "name": "Python dict variable key",
+            "scope": "meta.mapping.key.python meta.qualified-name",
+            "foreground": "#A9FF98",
+            "background": "#FFDF0233",
+            "font_style": "bold"
+        },
+        {
+            "name": "Python dict variable value",
+            "scope": "meta.mapping.value.python meta.qualified-name",
+            "foreground": "#7DC5F9",
+            "background": "#FFDF0233",
         },
 //  ________          ,M'________            ________
 //  `MMMMMMMb.        dP `MMMMMMMb.          `MMMMMMMb.
@@ -2609,6 +2679,13 @@
 //        MM  MM    MM MM        MM  MM
 //  L    ,M9  MM    MM YM    d9  MM  MM
 //  MYMMMM9  _MM_  _MM_ YMMMM9  _MM__MM_
+        {
+            "name": "Shebang",
+            "scope": "comment.line.shebang",
+            "foreground": "#CF3030",
+            "background": "#3B308FB3",
+            "font_style": "bold"
+        },
         {
             "name": "External function",
             "scope": "support.function.external.shell",
